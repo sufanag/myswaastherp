@@ -1,7 +1,7 @@
 var signUpDetails =require('../SignUp/signup.js');
 
-var page = new signUpDetails();
-
+var page = new signUpDetails.var1();
+var page2 = new signUpDetails.var2();
 
 describe('First Test For Page Visit', ()=> {
 
@@ -20,7 +20,7 @@ describe("second test for page maximization",()=>{
     });
 });
 
-
+    
 describe('Third Test For Setting the Name', ()=> {
 
     
@@ -30,6 +30,24 @@ describe('Third Test For Setting the Name', ()=> {
            
 });
 
+describe('Blank Email ', ()=> {
+    
+    it('sending a blank email and checking for error', ()=> {
+        page2.setBlankEmail()
+    });
+        
+});
+
+
+  
+describe('Incorrect email entered', ()=> {
+    
+    it('should check if error message is displayed', ()=> {
+        
+        page2.setIncorrectEmail('rahul.1');
+    });
+        
+});
 
 describe('Fourth Test for setting the email', ()=> {
     
@@ -42,6 +60,23 @@ describe('Fourth Test for setting the email', ()=> {
 
 
 
+describe('Blank Mobile', ()=> {
+
+    it('should check if the error message is displayed if blank mobile is sent', ()=> {        
+        page2.setblankMobile();
+    });
+        
+});
+
+
+describe('Incorrect Mobile', ()=> {
+    
+    it('should check if the error message is displayed if incorect password is sent', function() {
+        page2.setIncorrectMobile(78345);
+    });
+            
+});
+
 describe('Fifth test for setting the mobile', ()=> {
     
     
@@ -49,7 +84,15 @@ describe('Fifth test for setting the mobile', ()=> {
         page.setMobileNumber(7836885839);
     });
         
-});
+});    
+    
+
+/*
+
+
+
+
+
 
 
 
@@ -62,7 +105,7 @@ describe('Sixth test for setting the password', ()=> {
         
 });
    
-    
+ */   
     
     
     

@@ -1,0 +1,114 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 8,
+      "passed" : 8,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "dc589e4b877cd52f",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 8,
+        "passed" : 8,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "42971759a99a21b7",
+        "name" : "should go to the ERP Sign Up Page",
+        "title" : "should go to the ERP Sign Up Page",
+        "time" : {
+          "start" : 1492803159750,
+          "stop" : 1492803164357,
+          "duration" : 4607
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a0ddbe096dad792a",
+        "name" : "sending a blank email and checking for error",
+        "title" : "sending a blank email and checking for error",
+        "time" : {
+          "start" : 1492803168172,
+          "stop" : 1492803171521,
+          "duration" : 3349
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2c168b51d465400c",
+        "name" : "should check if the error message is displayed if blank mobile is sent",
+        "title" : "should check if the error message is displayed if blank mobile is sent",
+        "time" : {
+          "start" : 1492803178103,
+          "stop" : 1492803180553,
+          "duration" : 2450
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a365677e50fb4430",
+        "name" : "should check if error message is displayed",
+        "title" : "should check if error message is displayed",
+        "time" : {
+          "start" : 1492803171523,
+          "stop" : 1492803174859,
+          "duration" : 3336
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a07df22b4377e84a",
+        "name" : "should maximize window",
+        "title" : "should maximize window",
+        "time" : {
+          "start" : 1492803164367,
+          "stop" : 1492803164692,
+          "duration" : 325
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fe1af734ba716745",
+        "name" : "should set the username",
+        "title" : "should set the username",
+        "time" : {
+          "start" : 1492803164693,
+          "stop" : 1492803168171,
+          "duration" : 3478
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5a52e1c20c56d426",
+        "name" : "should check if the error message is displayed if incorect password is sent",
+        "title" : "should check if the error message is displayed if incorect password is sent",
+        "time" : {
+          "start" : 1492803180554,
+          "stop" : 1492803183844,
+          "duration" : 3290
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "35bdfaa050f90d06",
+        "name" : "should set the email",
+        "title" : "should set the email",
+        "time" : {
+          "start" : 1492803174860,
+          "stop" : 1492803178102,
+          "duration" : 3242
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

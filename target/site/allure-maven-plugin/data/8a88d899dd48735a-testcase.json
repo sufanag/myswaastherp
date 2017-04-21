@@ -1,0 +1,38 @@
+{
+  "uid" : "8a88d899dd48735a",
+  "name" : "should go to the ERP Sign Up Page",
+  "title" : "should go to the ERP Sign Up Page",
+  "time" : {
+    "start" : 1492719070888,
+    "stop" : 1492719074927,
+    "duration" : 4039
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3e44112ddc5c524e",
+    "name" : "First Test For Page Visit",
+    "title" : "First Test For Page Visit"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "First Test For Page Visit"
+  }, {
+    "name" : "suite-title",
+    "value" : "First Test For Page Visit"
+  } ],
+  "parameters" : [ ]
+}

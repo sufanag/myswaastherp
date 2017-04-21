@@ -1,0 +1,38 @@
+{
+  "uid" : "a07df22b4377e84a",
+  "name" : "should maximize window",
+  "title" : "should maximize window",
+  "time" : {
+    "start" : 1492803164367,
+    "stop" : 1492803164692,
+    "duration" : 325
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "8073b030376bffe9",
+    "name" : "second test for page maximization",
+    "title" : "second test for page maximization"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "second test for page maximization"
+  }, {
+    "name" : "suite-title",
+    "value" : "second test for page maximization"
+  } ],
+  "parameters" : [ ]
+}
