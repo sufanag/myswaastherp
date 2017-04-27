@@ -1,0 +1,56 @@
+var signUpOthersHeaders =require('../SignUp/signup-other.js');
+
+var page = new signUpOthersHeaders.var1();
+var page2 = new signUpOthersHeaders.var2();
+
+
+
+describe('Open the page', ()=> {
+     browser.ignoreSynchronization = true;
+    
+    it('should open the browser', ()=> {
+        page.visit();
+    });        
+});
+
+
+describe("second test for page maximization",()=>{
+    it('should maximize window',()=>{
+        browser.driver.manage().window().maximize();
+    });
+});
+
+
+describe('Third Test For Setting the Name', ()=> {
+    it('should set the username', ()=> {
+        page.logoDisplayed();
+    });         
+});
+
+
+describe('Header bar is displayed', ()=> {
+    it('should highlight the header bar', ()=> {
+        page.headerBar();
+    });       
+});
+
+
+describe('Login Link is displayed and clicked', ()=> {
+    
+    it('should check if Login is displayed and if it goes to Login route', ()=> {
+        page.loginLink();
+    });        
+});
+
+
+
+describe('Paragraph text is displayed', ()=> {
+    
+    it('should check if paragraph heading is displayed and print to console', ()=> {
+        page2.leftHeadingDisplayed();
+    });
+        
+});
+    
+    
+    

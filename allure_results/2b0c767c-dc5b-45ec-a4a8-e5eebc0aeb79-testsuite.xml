@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1493227488129" stop="1493227492441">
+	<name>Login Link is displayed and clicked</name>
+	<title>Login Link is displayed and clicked</title>
+	<test-cases>
+		<test-case start="1493227488129" stop="1493227492441" status="passed">
+			<name>should check if Login is displayed and if it goes to Login route</name>
+			<title>should check if Login is displayed and if it goes to Login route</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

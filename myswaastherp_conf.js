@@ -14,7 +14,7 @@ exports.config={
         print: function () {
         }
     },
-    specs:["Specs/signup-success.spec.js"],
+    specs:["Specs/signup-other.spec.js"],
     useAllAngular2AppRoots:true,
     capabilities: {
     browserName: 'chrome',

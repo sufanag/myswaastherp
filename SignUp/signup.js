@@ -143,7 +143,6 @@ var signUpError = function(){
 };
 
 
-
 module.exports={
     var1: signUpDetails,
     var2: signUpError
