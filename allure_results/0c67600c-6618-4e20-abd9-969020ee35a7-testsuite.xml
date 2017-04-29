@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1493502103988" stop="1493502107245">
+	<name>Incorrect Mobile</name>
+	<title>Incorrect Mobile</title>
+	<test-cases>
+		<test-case start="1493502103988" stop="1493502107245" status="passed">
+			<name>should check if the error message is displayed if incorect password is sent</name>
+			<title>should check if the error message is displayed if incorect password is sent</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -1,7 +1,11 @@
 var signUpDetails =require('../SignUp/signup.js');
+var Chance = require('chance');
 
 var page = new signUpDetails.var1();
 var page2 = new signUpDetails.var2();
+
+//instantize chance for generating a random email or phone number
+var chance = new Chance();
 
 describe('First Test For Page Visit', ()=> {
 
@@ -53,7 +57,8 @@ describe('Fourth Test for setting the email', ()=> {
     
     
     it('should set the email', ()=> {
-        page.setemail('ydv.rahul10@gmail.com');
+        console.log(chance.email({domain: 'gmail.com'}))
+        page.setemail(chance.email({domain: 'gmail.com'}));
     });
         
 });
@@ -81,7 +86,8 @@ describe('Fifth test for setting the mobile', ()=> {
     
     
     it('should set the mobile number', ()=> {
-        page.setMobileNumber(7836885839);
+        console.log(chance.phone({ formatted: false }));
+        page.setMobileNumber(chance.phone({ formatted: false }));
     });
         
 });    

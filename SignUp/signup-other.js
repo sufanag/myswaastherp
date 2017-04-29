@@ -1,6 +1,9 @@
 const highlightElement =require('../BaseFunctionsPage/highlightelement.js');
 
+
 console.log("Start of the Sign Up Other============>");
+
+
 
 var signUpOthersHeaders = function(){
     this.logo = element(by.tagName('img'));
@@ -46,22 +49,24 @@ var signUpOthersPara = function(){
         expect(this.para_header.isDisplayed()).toBe(true);
         //console.log(this.para_header.getAttribute("text"));
 
-        function writeScreenShot(data, filename) {
-            var stream = fs.createWriteStream(filename);
-            stream.write(new Buffer(data, 'base64'));
-            stream.end();
-        }
-        var foo = element(by.css('p.left-heading'));
-            foo.takeScreenshot().then((png) => {
-                writeScreenShot(png, 'foo.png');
-            });
     };
 
+    this.leftBelowHeadingDisplayed = function(){
+        highlightElement.highlightElement(this.para_para2);
+        expect(this.para_para2.isDisplayed()).toBe(true); 
+    };
 };
 
 
 var signUpOthersTour = function(){
-    this.tourbtn = element(by.buttonText('View Tour'));
+    this.tourbtn = element(by.buttonText('VIEW TOUR'));
+
+    //this section to be used when the functionality will be implemented
+
+    this.tourBtnDisplayed =function(){
+         highlightElement.highlightElement(this.tourbtn);
+         expect(this.tourbtn.isDisplayed()).toBe(true);
+    };
 };
 
 var signUpOthersHeading = function(){
@@ -77,5 +82,6 @@ var signUpPrivacy = function(){
 
 module.exports= {
     var1: signUpOthersHeaders,
-    var2: signUpOthersPara
+    var2: signUpOthersPara,
+    var3: signUpOthersTour
 };

@@ -2,6 +2,7 @@ var signUpOthersHeaders =require('../SignUp/signup-other.js');
 
 var page = new signUpOthersHeaders.var1();
 var page2 = new signUpOthersHeaders.var2();
+var page3 = new signUpOthersHeaders.var3();
 
 
 
@@ -51,6 +52,28 @@ describe('Paragraph text is displayed', ()=> {
     });
         
 });
+
+
+
+describe('Paragraph 2 is displayed', ()=> {
+    
+    it('should check if paragraph heading part 2 is displayed ', function() {
+        page2.leftBelowHeadingDisplayed();
+        
+    });
+        
+});
+
+
+describe('Tour Button ', ()=> {
+    
+    it('should check if tour button is displayed', ()=> {
+        page3.tourBtnDisplayed();
+    });
+        
+});
+    
+    
     
     
     
