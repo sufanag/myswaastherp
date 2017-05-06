@@ -72,16 +72,38 @@ var signUpOthersTour = function(){
 var signUpOthersHeading = function(){
     this.heading_top = element(by.css('p.heading-top'));
     this.content_first =element(by.xpath("//div[@class='ui-g-12 heading-container']/p[1]"));
-    this.content_first =element(by.xpath("//div[@class='ui-g-12 heading-container']/p[2]"));
+    this.content_second =element(by.xpath("//div[@class='ui-g-12 heading-container']/p[2]"));
+
+    this.headingTopDisplayed = function(){
+        highlightElement.highlightElement(this.heading_top);
+        expect(this.heading_top.isDisplayed()).toBe(true);
+    };
+
+    this.contentDisplayed1 = function(){
+        highlightElement.highlightElement(this.content_first);
+        expect(this.content_first.isDisplayed()).toBe(true);
+    };
+
+    this.contentDisplayed2 = function(){
+        highlightElement.highlightElement(this.content_second);
+        expect(this.content_second.isDisplayed()).toBe(true);
+    }
 };
 
 var signUpPrivacy = function(){
     this.privacy = element(by.css("p.privacy-terms"));
+
+    this.privacyDisplayed = function(){
+        highlightElement.highlightElement(this.privacy);
+        expect(this.privacy.isDisplayed()).toBe(true);
+    };
 };
 
 
 module.exports= {
     var1: signUpOthersHeaders,
     var2: signUpOthersPara,
-    var3: signUpOthersTour
+    var3: signUpOthersTour,
+    var4: signUpOthersHeading,
+    var5: signUpPrivacy
 };

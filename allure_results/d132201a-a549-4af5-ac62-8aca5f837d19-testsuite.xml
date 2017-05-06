@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1494009324819" stop="1494009325515">
+	<name>second test for page maximization</name>
+	<title>second test for page maximization</title>
+	<test-cases>
+		<test-case start="1494009324819" stop="1494009325515" status="passed">
+			<name>should maximize window</name>
+			<title>should maximize window</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1bf41199-7916-4010-a4d0-11cd9b4470f8-attachment.png" type="image/png" size="97317"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

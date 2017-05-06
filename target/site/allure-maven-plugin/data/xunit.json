@@ -1,21 +1,21 @@
 {
   "time" : {
-    "start" : 1492803159750,
-    "stop" : 1492803183844,
-    "duration" : 24094
+    "start" : 1493545697807,
+    "stop" : 1493562889428,
+    "duration" : 17191621
   },
   "testSuites" : [ {
-    "uid" : "2fc4f6ff41eedb18",
-    "name" : "First Test For Page Visit",
-    "title" : "First Test For Page Visit",
+    "uid" : "eb2bc5adf61b02ff",
+    "name" : "Fifth test for setting the mobile",
+    "title" : "Fifth test for setting the mobile",
     "time" : {
-      "start" : 1492803159750,
-      "stop" : 1492803164357,
-      "duration" : 4607
+      "start" : 1493547308839,
+      "stop" : 1493562876718,
+      "duration" : 15567879
     },
     "statistic" : {
-      "total" : 1,
-      "passed" : 1,
+      "total" : 8,
+      "passed" : 8,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
@@ -23,29 +23,106 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "42971759a99a21b7",
-      "name" : "should go to the ERP Sign Up Page",
-      "title" : "should go to the ERP Sign Up Page",
+      "uid" : "6821cf101b189f92",
+      "name" : "should set the mobile number",
+      "title" : "should set the mobile number",
       "time" : {
-        "start" : 1492803159750,
-        "stop" : 1492803164357,
-        "duration" : 4607
+        "start" : 1493549381050,
+        "stop" : 1493549384431,
+        "duration" : 3381
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "acdbba019176380c",
+      "name" : "should set the mobile number",
+      "title" : "should set the mobile number",
+      "time" : {
+        "start" : 1493549281441,
+        "stop" : 1493549284816,
+        "duration" : 3375
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "92dbc810f2c6bc2",
+      "name" : "should set the mobile number",
+      "title" : "should set the mobile number",
+      "time" : {
+        "start" : 1493562385096,
+        "stop" : 1493562388477,
+        "duration" : 3381
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a4bf651c6da0a0fb",
+      "name" : "should set the mobile number",
+      "title" : "should set the mobile number",
+      "time" : {
+        "start" : 1493547308839,
+        "stop" : 1493547312269,
+        "duration" : 3430
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "80b002741a700c31",
+      "name" : "should set the mobile number",
+      "title" : "should set the mobile number",
+      "time" : {
+        "start" : 1493548890923,
+        "stop" : 1493548894329,
+        "duration" : 3406
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "8f51cb71782314e6",
+      "name" : "should set the mobile number",
+      "title" : "should set the mobile number",
+      "time" : {
+        "start" : 1493549844611,
+        "stop" : 1493549847993,
+        "duration" : 3382
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5e04e43819e70852",
+      "name" : "should set the mobile number",
+      "title" : "should set the mobile number",
+      "time" : {
+        "start" : 1493561878736,
+        "stop" : 1493561882122,
+        "duration" : 3386
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "1a174daffb4a33b4",
+      "name" : "should set the mobile number",
+      "title" : "should set the mobile number",
+      "time" : {
+        "start" : 1493562873336,
+        "stop" : 1493562876718,
+        "duration" : 3382
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "7a315f2286aaa6a",
+    "uid" : "c2a2023a061dd1ab",
     "name" : "Blank Email ",
     "title" : "Blank Email ",
     "time" : {
-      "start" : 1492803168172,
-      "stop" : 1492803171521,
-      "duration" : 3349
+      "start" : 1493547292291,
+      "stop" : 1493562860383,
+      "duration" : 15568092
     },
     "statistic" : {
-      "total" : 1,
-      "passed" : 1,
+      "total" : 8,
+      "passed" : 8,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
@@ -53,29 +130,106 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "a0ddbe096dad792a",
+      "uid" : "81116cc4a8ce3008",
       "name" : "sending a blank email and checking for error",
       "title" : "sending a blank email and checking for error",
       "time" : {
-        "start" : 1492803168172,
-        "stop" : 1492803171521,
-        "duration" : 3349
+        "start" : 1493549264969,
+        "stop" : 1493549268518,
+        "duration" : 3549
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "aa1bdbcb281318f8",
+      "name" : "sending a blank email and checking for error",
+      "title" : "sending a blank email and checking for error",
+      "time" : {
+        "start" : 1493549828053,
+        "stop" : 1493549831612,
+        "duration" : 3559
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "bb65bdb675116c62",
+      "name" : "sending a blank email and checking for error",
+      "title" : "sending a blank email and checking for error",
+      "time" : {
+        "start" : 1493548874327,
+        "stop" : 1493548877911,
+        "duration" : 3584
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "dc57b084879b820a",
+      "name" : "sending a blank email and checking for error",
+      "title" : "sending a blank email and checking for error",
+      "time" : {
+        "start" : 1493562368578,
+        "stop" : 1493562372136,
+        "duration" : 3558
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "c4b1da190b71549c",
+      "name" : "sending a blank email and checking for error",
+      "title" : "sending a blank email and checking for error",
+      "time" : {
+        "start" : 1493547292291,
+        "stop" : 1493547295852,
+        "duration" : 3561
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ed83d7e5e6947165",
+      "name" : "sending a blank email and checking for error",
+      "title" : "sending a blank email and checking for error",
+      "time" : {
+        "start" : 1493549364496,
+        "stop" : 1493549368092,
+        "duration" : 3596
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "61f7b21b7d42b837",
+      "name" : "sending a blank email and checking for error",
+      "title" : "sending a blank email and checking for error",
+      "time" : {
+        "start" : 1493562856802,
+        "stop" : 1493562860383,
+        "duration" : 3581
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "54e6eb01d259e716",
+      "name" : "sending a blank email and checking for error",
+      "title" : "sending a blank email and checking for error",
+      "time" : {
+        "start" : 1493561861948,
+        "stop" : 1493561865635,
+        "duration" : 3687
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "30c8432e381b3f2a",
-    "name" : "Blank Mobile",
-    "title" : "Blank Mobile",
+    "uid" : "1f45b076e20a873e",
+    "name" : "Paragraph 2 is displayed",
+    "title" : "Paragraph 2 is displayed",
     "time" : {
-      "start" : 1492803178103,
-      "stop" : 1492803180553,
-      "duration" : 2450
+      "start" : 1493545711486,
+      "stop" : 1493546182429,
+      "duration" : 470943
     },
     "statistic" : {
-      "total" : 1,
-      "passed" : 1,
+      "total" : 3,
+      "passed" : 3,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
@@ -83,59 +237,51 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "2c168b51d465400c",
-      "name" : "should check if the error message is displayed if blank mobile is sent",
-      "title" : "should check if the error message is displayed if blank mobile is sent",
+      "uid" : "59196db4c29afa2e",
+      "name" : "should check if paragraph heading part 2 is displayed ",
+      "title" : "should check if paragraph heading part 2 is displayed ",
       "time" : {
-        "start" : 1492803178103,
-        "stop" : 1492803180553,
-        "duration" : 2450
+        "start" : 1493545816919,
+        "stop" : 1493545819268,
+        "duration" : 2349
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7f664e5baf86f49",
+      "name" : "should check if paragraph heading part 2 is displayed ",
+      "title" : "should check if paragraph heading part 2 is displayed ",
+      "time" : {
+        "start" : 1493546180091,
+        "stop" : 1493546182429,
+        "duration" : 2338
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "88b6216e7f868759",
+      "name" : "should check if paragraph heading part 2 is displayed ",
+      "title" : "should check if paragraph heading part 2 is displayed ",
+      "time" : {
+        "start" : 1493545711486,
+        "stop" : 1493545713846,
+        "duration" : 2360
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "d308a98fd0c3cd24",
-    "name" : "Incorrect email entered",
-    "title" : "Incorrect email entered",
-    "time" : {
-      "start" : 1492803171523,
-      "stop" : 1492803174859,
-      "duration" : 3336
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "a365677e50fb4430",
-      "name" : "should check if error message is displayed",
-      "title" : "should check if error message is displayed",
-      "time" : {
-        "start" : 1492803171523,
-        "stop" : 1492803174859,
-        "duration" : 3336
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "8073b030376bffe9",
+    "uid" : "508f1a193f598396",
     "name" : "second test for page maximization",
     "title" : "second test for page maximization",
     "time" : {
-      "start" : 1492803164367,
-      "stop" : 1492803164692,
-      "duration" : 325
+      "start" : 1493545703878,
+      "stop" : 1493562853120,
+      "duration" : 17149242
     },
     "statistic" : {
-      "total" : 1,
-      "passed" : 1,
+      "total" : 11,
+      "passed" : 11,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
@@ -143,29 +289,246 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "a07df22b4377e84a",
+      "uid" : "d317ee660c871ae0",
       "name" : "should maximize window",
       "title" : "should maximize window",
       "time" : {
-        "start" : 1492803164367,
-        "stop" : 1492803164692,
-        "duration" : 325
+        "start" : 1493562364025,
+        "stop" : 1493562364583,
+        "duration" : 558
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "22ff5a8c0d75665",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1493549823848,
+        "stop" : 1493549824367,
+        "duration" : 519
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e8bdccfa6aa78b7c",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1493545809316,
+        "stop" : 1493545809828,
+        "duration" : 512
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "be042b25706c60af",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1493548870031,
+        "stop" : 1493548870586,
+        "duration" : 555
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "fe3f78bbacd0090f",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1493545703878,
+        "stop" : 1493545704406,
+        "duration" : 528
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "4f929b66d3300375",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1493562852606,
+        "stop" : 1493562853120,
+        "duration" : 514
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "963305e22c39412e",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1493546172493,
+        "stop" : 1493546173025,
+        "duration" : 532
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "de11537295a6f90b",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1493561857643,
+        "stop" : 1493561858174,
+        "duration" : 531
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a65705d8929a1723",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1493547288006,
+        "stop" : 1493547288626,
+        "duration" : 620
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "6e00db51d2fed2f5",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1493549260706,
+        "stop" : 1493549261276,
+        "duration" : 570
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7c6beff85a650f9f",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1493549360189,
+        "stop" : 1493549360760,
+        "duration" : 571
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "25c7b67883ed0767",
-    "name" : "Third Test For Setting the Name",
-    "title" : "Third Test For Setting the Name",
+    "uid" : "2b1354b0bfcf133d",
+    "name" : "Register Button",
+    "title" : "Register Button",
     "time" : {
-      "start" : 1492803164693,
-      "stop" : 1492803168171,
-      "duration" : 3478
+      "start" : 1493547312270,
+      "stop" : 1493562889428,
+      "duration" : 15577158
     },
     "statistic" : {
-      "total" : 1,
-      "passed" : 1,
+      "total" : 8,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 6,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "222c6eb31e3a20be",
+      "name" : "checks if Register Button is Displayed and Enabled",
+      "title" : "checks if Register Button is Displayed and Enabled",
+      "time" : {
+        "start" : 1493548894575,
+        "stop" : 1493548896894,
+        "duration" : 2319
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "e0914cb13a6d960",
+      "name" : "checks if Register Button is Displayed and Enabled",
+      "title" : "checks if Register Button is Displayed and Enabled",
+      "time" : {
+        "start" : 1493562398818,
+        "stop" : 1493562399053,
+        "duration" : 235
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "621a6f7df5e5542",
+      "name" : "checks if Register Button is Displayed and Enabled",
+      "title" : "checks if Register Button is Displayed and Enabled",
+      "time" : {
+        "start" : 1493562886971,
+        "stop" : 1493562889428,
+        "duration" : 2457
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "905684e39c6dd286",
+      "name" : "checks if Register Button is Displayed and Enabled",
+      "title" : "checks if Register Button is Displayed and Enabled",
+      "time" : {
+        "start" : 1493549851515,
+        "stop" : 1493549853834,
+        "duration" : 2319
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "c6033d2976f556f9",
+      "name" : "checks if Register Button is Displayed and Enabled",
+      "title" : "checks if Register Button is Displayed and Enabled",
+      "time" : {
+        "start" : 1493561892432,
+        "stop" : 1493561894774,
+        "duration" : 2342
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "8414d3a7136b024d",
+      "name" : "checks if Register Button is Displayed and Enabled",
+      "title" : "checks if Register Button is Displayed and Enabled",
+      "time" : {
+        "start" : 1493547312270,
+        "stop" : 1493547314588,
+        "duration" : 2318
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "d5a7d1e02a095ff7",
+      "name" : "checks if Register Button is Displayed and Enabled",
+      "title" : "checks if Register Button is Displayed and Enabled",
+      "time" : {
+        "start" : 1493549285037,
+        "stop" : 1493549287372,
+        "duration" : 2335
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "1e04352a36549576",
+      "name" : "checks if Register Button is Displayed and Enabled",
+      "title" : "checks if Register Button is Displayed and Enabled",
+      "time" : {
+        "start" : 1493549387909,
+        "stop" : 1493549390216,
+        "duration" : 2307
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "3dbe953dc2dae44c",
+    "name" : "Blank Mobile",
+    "title" : "Blank Mobile",
+    "time" : {
+      "start" : 1493547302791,
+      "stop" : 1493562869877,
+      "duration" : 15567086
+    },
+    "statistic" : {
+      "total" : 8,
+      "passed" : 8,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
@@ -173,55 +536,1248 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "fe1af734ba716745",
-      "name" : "should set the username",
-      "title" : "should set the username",
+      "uid" : "e5ee5c72b86aeac",
+      "name" : "should check if the error message is displayed if blank mobile is sent",
+      "title" : "should check if the error message is displayed if blank mobile is sent",
       "time" : {
-        "start" : 1492803164693,
-        "stop" : 1492803168171,
+        "start" : 1493549275423,
+        "stop" : 1493549277989,
+        "duration" : 2566
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "785b6385870d33d7",
+      "name" : "should check if the error message is displayed if blank mobile is sent",
+      "title" : "should check if the error message is displayed if blank mobile is sent",
+      "time" : {
+        "start" : 1493562867343,
+        "stop" : 1493562869877,
+        "duration" : 2534
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "dd1020999f7f14fc",
+      "name" : "should check if the error message is displayed if blank mobile is sent",
+      "title" : "should check if the error message is displayed if blank mobile is sent",
+      "time" : {
+        "start" : 1493561872641,
+        "stop" : 1493561875252,
+        "duration" : 2611
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ffeff8be5ffe122c",
+      "name" : "should check if the error message is displayed if blank mobile is sent",
+      "title" : "should check if the error message is displayed if blank mobile is sent",
+      "time" : {
+        "start" : 1493547302791,
+        "stop" : 1493547305387,
+        "duration" : 2596
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e7cc3f616ff3b249",
+      "name" : "should check if the error message is displayed if blank mobile is sent",
+      "title" : "should check if the error message is displayed if blank mobile is sent",
+      "time" : {
+        "start" : 1493549838535,
+        "stop" : 1493549841121,
+        "duration" : 2586
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "70cbf3a2388d929e",
+      "name" : "should check if the error message is displayed if blank mobile is sent",
+      "title" : "should check if the error message is displayed if blank mobile is sent",
+      "time" : {
+        "start" : 1493548884895,
+        "stop" : 1493548887470,
+        "duration" : 2575
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "314b00a7a663d825",
+      "name" : "should check if the error message is displayed if blank mobile is sent",
+      "title" : "should check if the error message is displayed if blank mobile is sent",
+      "time" : {
+        "start" : 1493562379069,
+        "stop" : 1493562381649,
+        "duration" : 2580
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "4c952ea07d76c07a",
+      "name" : "should check if the error message is displayed if blank mobile is sent",
+      "title" : "should check if the error message is displayed if blank mobile is sent",
+      "time" : {
+        "start" : 1493549375017,
+        "stop" : 1493549377570,
+        "duration" : 2553
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "b7159013ae0f6523",
+    "name" : "Login Link is displayed and clicked",
+    "title" : "Login Link is displayed and clicked",
+    "time" : {
+      "start" : 1493545723161,
+      "stop" : 1493546198571,
+      "duration" : 475410
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "f7ef6e7c63f3dfe2",
+      "name" : "should check if Login is displayed and if it goes to Login route",
+      "title" : "should check if Login is displayed and if it goes to Login route",
+      "time" : {
+        "start" : 1493545723161,
+        "stop" : 1493545727707,
+        "duration" : 4546
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "fda3b996da247e5",
+      "name" : "should check if Login is displayed and if it goes to Login route",
+      "title" : "should check if Login is displayed and if it goes to Login route",
+      "time" : {
+        "start" : 1493546194076,
+        "stop" : 1493546198571,
+        "duration" : 4495
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "4224c13a29eea2cf",
+      "name" : "should check if Login is displayed and if it goes to Login route",
+      "title" : "should check if Login is displayed and if it goes to Login route",
+      "time" : {
+        "start" : 1493545828609,
+        "stop" : 1493545833099,
+        "duration" : 4490
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "460fdfe5271d8a05",
+    "name" : "First Test For Page Visit",
+    "title" : "First Test For Page Visit",
+    "time" : {
+      "start" : 1493547281557,
+      "stop" : 1493562852598,
+      "duration" : 15571041
+    },
+    "statistic" : {
+      "total" : 8,
+      "passed" : 8,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "1a73da292f94bbf1",
+      "name" : "should go to the ERP Sign Up Page",
+      "title" : "should go to the ERP Sign Up Page",
+      "time" : {
+        "start" : 1493547281557,
+        "stop" : 1493547288003,
+        "duration" : 6446
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "298f5c9817ac3803",
+      "name" : "should go to the ERP Sign Up Page",
+      "title" : "should go to the ERP Sign Up Page",
+      "time" : {
+        "start" : 1493549353099,
+        "stop" : 1493549360182,
+        "duration" : 7083
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "3e0c79e8ca294335",
+      "name" : "should go to the ERP Sign Up Page",
+      "title" : "should go to the ERP Sign Up Page",
+      "time" : {
+        "start" : 1493548864031,
+        "stop" : 1493548870028,
+        "duration" : 5997
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "be40e38fdf3bbcf",
+      "name" : "should go to the ERP Sign Up Page",
+      "title" : "should go to the ERP Sign Up Page",
+      "time" : {
+        "start" : 1493549254419,
+        "stop" : 1493549260702,
+        "duration" : 6283
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "829091defd19be65",
+      "name" : "should go to the ERP Sign Up Page",
+      "title" : "should go to the ERP Sign Up Page",
+      "time" : {
+        "start" : 1493562846048,
+        "stop" : 1493562852598,
+        "duration" : 6550
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "c8087d2b882844cf",
+      "name" : "should go to the ERP Sign Up Page",
+      "title" : "should go to the ERP Sign Up Page",
+      "time" : {
+        "start" : 1493562357579,
+        "stop" : 1493562364019,
+        "duration" : 6440
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "2c20e145749e96e8",
+      "name" : "should go to the ERP Sign Up Page",
+      "title" : "should go to the ERP Sign Up Page",
+      "time" : {
+        "start" : 1493561847438,
+        "stop" : 1493561857637,
+        "duration" : 10199
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "8a73963a05ffd4b7",
+      "name" : "should go to the ERP Sign Up Page",
+      "title" : "should go to the ERP Sign Up Page",
+      "time" : {
+        "start" : 1493549818143,
+        "stop" : 1493549823842,
+        "duration" : 5699
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "f3776687aef08d46",
+    "name" : "Fourth Test for setting the email",
+    "title" : "Fourth Test for setting the email",
+    "time" : {
+      "start" : 1493547299349,
+      "stop" : 1493562867342,
+      "duration" : 15567993
+    },
+    "statistic" : {
+      "total" : 8,
+      "passed" : 8,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "5530dac480a1d3f",
+      "name" : "should set the email",
+      "title" : "should set the email",
+      "time" : {
+        "start" : 1493549371604,
+        "stop" : 1493549375016,
+        "duration" : 3412
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5d44c321d659aed5",
+      "name" : "should set the email",
+      "title" : "should set the email",
+      "time" : {
+        "start" : 1493561869208,
+        "stop" : 1493561872640,
+        "duration" : 3432
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "17c1074366b0b4cc",
+      "name" : "should set the email",
+      "title" : "should set the email",
+      "time" : {
+        "start" : 1493549272003,
+        "stop" : 1493549275422,
+        "duration" : 3419
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f8ea04406da3a892",
+      "name" : "should set the email",
+      "title" : "should set the email",
+      "time" : {
+        "start" : 1493549835094,
+        "stop" : 1493549838534,
+        "duration" : 3440
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ff95c53d134e343b",
+      "name" : "should set the email",
+      "title" : "should set the email",
+      "time" : {
+        "start" : 1493562863877,
+        "stop" : 1493562867342,
+        "duration" : 3465
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d7388423d1828773",
+      "name" : "should set the email",
+      "title" : "should set the email",
+      "time" : {
+        "start" : 1493562375653,
+        "stop" : 1493562379068,
+        "duration" : 3415
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b3b7b2e342622f51",
+      "name" : "should set the email",
+      "title" : "should set the email",
+      "time" : {
+        "start" : 1493547299349,
+        "stop" : 1493547302790,
+        "duration" : 3441
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "3924c59e2451af18",
+      "name" : "should set the email",
+      "title" : "should set the email",
+      "time" : {
+        "start" : 1493548881434,
+        "stop" : 1493548884894,
+        "duration" : 3460
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "af6aba0063cb521d",
+    "name" : "Incorrect email entered",
+    "title" : "Incorrect email entered",
+    "time" : {
+      "start" : 1493547295853,
+      "stop" : 1493562863876,
+      "duration" : 15568023
+    },
+    "statistic" : {
+      "total" : 8,
+      "passed" : 8,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "218713c940dc13b8",
+      "name" : "should check if error message is displayed",
+      "title" : "should check if error message is displayed",
+      "time" : {
+        "start" : 1493549368093,
+        "stop" : 1493549371603,
+        "duration" : 3510
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "27921069ebfd6526",
+      "name" : "should check if error message is displayed",
+      "title" : "should check if error message is displayed",
+      "time" : {
+        "start" : 1493549831613,
+        "stop" : 1493549835093,
+        "duration" : 3480
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "1ef088ac9bed547b",
+      "name" : "should check if error message is displayed",
+      "title" : "should check if error message is displayed",
+      "time" : {
+        "start" : 1493548877913,
+        "stop" : 1493548881432,
+        "duration" : 3519
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "2b6c5156203fad66",
+      "name" : "should check if error message is displayed",
+      "title" : "should check if error message is displayed",
+      "time" : {
+        "start" : 1493562372140,
+        "stop" : 1493562375652,
+        "duration" : 3512
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5020ab471d4179d4",
+      "name" : "should check if error message is displayed",
+      "title" : "should check if error message is displayed",
+      "time" : {
+        "start" : 1493549268519,
+        "stop" : 1493549272003,
+        "duration" : 3484
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "723c6cc9d4a64992",
+      "name" : "should check if error message is displayed",
+      "title" : "should check if error message is displayed",
+      "time" : {
+        "start" : 1493562860384,
+        "stop" : 1493562863876,
+        "duration" : 3492
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "1b3410a8050739f7",
+      "name" : "should check if error message is displayed",
+      "title" : "should check if error message is displayed",
+      "time" : {
+        "start" : 1493561865637,
+        "stop" : 1493561869207,
+        "duration" : 3570
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "18233af270a2f8f8",
+      "name" : "should check if error message is displayed",
+      "title" : "should check if error message is displayed",
+      "time" : {
+        "start" : 1493547295853,
+        "stop" : 1493547299347,
+        "duration" : 3494
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "d37f127b44e4697a",
+    "name" : "Incorrect Mobile",
+    "title" : "Incorrect Mobile",
+    "time" : {
+      "start" : 1493547305388,
+      "stop" : 1493562873336,
+      "duration" : 15567948
+    },
+    "statistic" : {
+      "total" : 8,
+      "passed" : 8,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "1d333b4a59d7b1db",
+      "name" : "should check if the error message is displayed if incorect password is sent",
+      "title" : "should check if the error message is displayed if incorect password is sent",
+      "time" : {
+        "start" : 1493548887471,
+        "stop" : 1493548890921,
+        "duration" : 3450
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ce01ad64e68d4d93",
+      "name" : "should check if the error message is displayed if incorect password is sent",
+      "title" : "should check if the error message is displayed if incorect password is sent",
+      "time" : {
+        "start" : 1493549377571,
+        "stop" : 1493549381049,
         "duration" : 3478
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "fc6d3de8c1dc7127",
-    "name" : "Incorrect Mobile",
-    "title" : "Incorrect Mobile",
-    "time" : {
-      "start" : 1492803180554,
-      "stop" : 1492803183844,
-      "duration" : 3290
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "5a52e1c20c56d426",
+    }, {
+      "uid" : "cb1756daf17a666f",
       "name" : "should check if the error message is displayed if incorect password is sent",
       "title" : "should check if the error message is displayed if incorect password is sent",
       "time" : {
-        "start" : 1492803180554,
-        "stop" : 1492803183844,
-        "duration" : 3290
+        "start" : 1493561875253,
+        "stop" : 1493561878735,
+        "duration" : 3482
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "922986be3919693f",
+      "name" : "should check if the error message is displayed if incorect password is sent",
+      "title" : "should check if the error message is displayed if incorect password is sent",
+      "time" : {
+        "start" : 1493549277991,
+        "stop" : 1493549281440,
+        "duration" : 3449
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5a1b341c40c424fd",
+      "name" : "should check if the error message is displayed if incorect password is sent",
+      "title" : "should check if the error message is displayed if incorect password is sent",
+      "time" : {
+        "start" : 1493562381650,
+        "stop" : 1493562385095,
+        "duration" : 3445
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "80327c5e443b9e46",
+      "name" : "should check if the error message is displayed if incorect password is sent",
+      "title" : "should check if the error message is displayed if incorect password is sent",
+      "time" : {
+        "start" : 1493562869878,
+        "stop" : 1493562873336,
+        "duration" : 3458
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9b6869973c695db9",
+      "name" : "should check if the error message is displayed if incorect password is sent",
+      "title" : "should check if the error message is displayed if incorect password is sent",
+      "time" : {
+        "start" : 1493547305388,
+        "stop" : 1493547308838,
+        "duration" : 3450
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d88cb7b0dd1c08e1",
+      "name" : "should check if the error message is displayed if incorect password is sent",
+      "title" : "should check if the error message is displayed if incorect password is sent",
+      "time" : {
+        "start" : 1493549841122,
+        "stop" : 1493549844610,
+        "duration" : 3488
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "c196e9bc0ea557e0",
-    "name" : "Fourth Test for setting the email",
-    "title" : "Fourth Test for setting the email",
+    "uid" : "873e57b4cba4e5f5",
+    "name" : "Blank Password",
+    "title" : "Blank Password",
     "time" : {
-      "start" : 1492803174860,
-      "stop" : 1492803178102,
-      "duration" : 3242
+      "start" : 1493548894330,
+      "stop" : 1493562880200,
+      "duration" : 13985870
+    },
+    "statistic" : {
+      "total" : 7,
+      "passed" : 4,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 3,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "bc39b42d36f86ca1",
+      "name" : "setting blank password",
+      "title" : "setting blank password",
+      "time" : {
+        "start" : 1493562876719,
+        "stop" : 1493562880200,
+        "duration" : 3481
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "dba77fedb437accf",
+      "name" : "setting blank password",
+      "title" : "setting blank password",
+      "time" : {
+        "start" : 1493549284817,
+        "stop" : 1493549285034,
+        "duration" : 217
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "bb7272325f6f5ce2",
+      "name" : "setting blank password",
+      "title" : "setting blank password",
+      "time" : {
+        "start" : 1493562388477,
+        "stop" : 1493562391996,
+        "duration" : 3519
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "aea163bb342b3a49",
+      "name" : "setting blank password",
+      "title" : "setting blank password",
+      "time" : {
+        "start" : 1493549847993,
+        "stop" : 1493549851513,
+        "duration" : 3520
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9a9a910d7a945049",
+      "name" : "setting blank password",
+      "title" : "setting blank password",
+      "time" : {
+        "start" : 1493549384432,
+        "stop" : 1493549387905,
+        "duration" : 3473
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "219d9ce6ed9c1110",
+      "name" : "setting blank password",
+      "title" : "setting blank password",
+      "time" : {
+        "start" : 1493561882122,
+        "stop" : 1493561885590,
+        "duration" : 3468
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ef8b3969d9b38c14",
+      "name" : "setting blank password",
+      "title" : "setting blank password",
+      "time" : {
+        "start" : 1493548894330,
+        "stop" : 1493548894571,
+        "duration" : 241
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "8491b05fe3968a12",
+    "name" : "Content Heading",
+    "title" : "Content Heading",
+    "time" : {
+      "start" : 1493545716173,
+      "stop" : 1493546191749,
+      "duration" : 475576
+    },
+    "statistic" : {
+      "total" : 9,
+      "passed" : 9,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "e59a9e11507f8223",
+      "name" : "checks if content header is displayed",
+      "title" : "checks if content header is displayed",
+      "time" : {
+        "start" : 1493546184770,
+        "stop" : 1493546187093,
+        "duration" : 2323
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b5c88ec9e04946bd",
+      "name" : "checks if the content header part 1 is displayed",
+      "title" : "checks if the content header part 1 is displayed",
+      "time" : {
+        "start" : 1493546187093,
+        "stop" : 1493546189420,
+        "duration" : 2327
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9c249c08d25863d7",
+      "name" : "checks if the content header part 2 is displayed",
+      "title" : "checks if the content header part 2 is displayed",
+      "time" : {
+        "start" : 1493546189420,
+        "stop" : 1493546191749,
+        "duration" : 2329
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "840eae5a3ae0cc35",
+      "name" : "checks if content header is displayed",
+      "title" : "checks if content header is displayed",
+      "time" : {
+        "start" : 1493545716173,
+        "stop" : 1493545718526,
+        "duration" : 2353
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "aa9bb176dee39905",
+      "name" : "checks if the content header part 2 is displayed",
+      "title" : "checks if the content header part 2 is displayed",
+      "time" : {
+        "start" : 1493545718526,
+        "stop" : 1493545720836,
+        "duration" : 2310
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "5934862ff82194af",
+      "name" : "checks if the content header part 2 is displayed",
+      "title" : "checks if the content header part 2 is displayed",
+      "time" : {
+        "start" : 1493545720836,
+        "stop" : 1493545723160,
+        "duration" : 2324
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "78ca39a476b7e896",
+      "name" : "checks if content header is displayed",
+      "title" : "checks if content header is displayed",
+      "time" : {
+        "start" : 1493545821636,
+        "stop" : 1493545823978,
+        "duration" : 2342
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "c493820902d37e45",
+      "name" : "checks if the content header part 1 is displayed",
+      "title" : "checks if the content header part 1 is displayed",
+      "time" : {
+        "start" : 1493545823978,
+        "stop" : 1493545826283,
+        "duration" : 2305
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a425c7be9be1481d",
+      "name" : "checks if the content header part 2 is displayed",
+      "title" : "checks if the content header part 2 is displayed",
+      "time" : {
+        "start" : 1493545826283,
+        "stop" : 1493545828608,
+        "duration" : 2325
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "45862d6b308dd981",
+    "name" : "Third Test For Setting the Name",
+    "title" : "Third Test For Setting the Name",
+    "time" : {
+      "start" : 1493545704408,
+      "stop" : 1493562856801,
+      "duration" : 17152393
+    },
+    "statistic" : {
+      "total" : 11,
+      "passed" : 11,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "44205e2a1d84763c",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1493549824369,
+        "stop" : 1493549828052,
+        "duration" : 3683
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "49396389f6ca486b",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1493562364585,
+        "stop" : 1493562368577,
+        "duration" : 3992
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f6eb62a1fc212a3b",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1493549360762,
+        "stop" : 1493549364494,
+        "duration" : 3732
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "28024e0161391887",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1493547288627,
+        "stop" : 1493547292290,
+        "duration" : 3663
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b90b293c40afd23f",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1493561858176,
+        "stop" : 1493561861946,
+        "duration" : 3770
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "567a96b87ff3daf3",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1493548870588,
+        "stop" : 1493548874326,
+        "duration" : 3738
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "95aede9eca56ad0b",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1493545809829,
+        "stop" : 1493545812199,
+        "duration" : 2370
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a12956eb3bd8d2d9",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1493545704408,
+        "stop" : 1493545706788,
+        "duration" : 2380
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "dcdcb493f7b66865",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1493562853122,
+        "stop" : 1493562856801,
+        "duration" : 3679
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "264bd4f1df99fce7",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1493549261277,
+        "stop" : 1493549264968,
+        "duration" : 3691
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7e8cd16d851bbcb8",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1493546173026,
+        "stop" : 1493546175389,
+        "duration" : 2363
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "51e125cb156754da",
+    "name" : "Open the page",
+    "title" : "Open the page",
+    "time" : {
+      "start" : 1493545697807,
+      "stop" : 1493546172489,
+      "duration" : 474682
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "fefa99e2982643b",
+      "name" : "should open the browser",
+      "title" : "should open the browser",
+      "time" : {
+        "start" : 1493545803840,
+        "stop" : 1493545809313,
+        "duration" : 5473
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d809fa660d6b1a45",
+      "name" : "should open the browser",
+      "title" : "should open the browser",
+      "time" : {
+        "start" : 1493546165534,
+        "stop" : 1493546172489,
+        "duration" : 6955
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7e027c0c32d64756",
+      "name" : "should open the browser",
+      "title" : "should open the browser",
+      "time" : {
+        "start" : 1493545697807,
+        "stop" : 1493545703875,
+        "duration" : 6068
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "6f72b5e3bc36b4b3",
+    "name" : "Header bar is displayed",
+    "title" : "Header bar is displayed",
+    "time" : {
+      "start" : 1493545706789,
+      "stop" : 1493546177734,
+      "duration" : 470945
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "633d68318623848",
+      "name" : "should highlight the header bar",
+      "title" : "should highlight the header bar",
+      "time" : {
+        "start" : 1493545706789,
+        "stop" : 1493545709122,
+        "duration" : 2333
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a205ef18a9649305",
+      "name" : "should highlight the header bar",
+      "title" : "should highlight the header bar",
+      "time" : {
+        "start" : 1493545812200,
+        "stop" : 1493545814542,
+        "duration" : 2342
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "98b8a26f3292983d",
+      "name" : "should highlight the header bar",
+      "title" : "should highlight the header bar",
+      "time" : {
+        "start" : 1493546175389,
+        "stop" : 1493546177734,
+        "duration" : 2345
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "6943f7230fabe303",
+    "name" : "Paragraph text is displayed",
+    "title" : "Paragraph text is displayed",
+    "time" : {
+      "start" : 1493545709124,
+      "stop" : 1493546180089,
+      "duration" : 470965
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "f4565c98a7078467",
+      "name" : "should check if paragraph heading is displayed and print to console",
+      "title" : "should check if paragraph heading is displayed and print to console",
+      "time" : {
+        "start" : 1493545814544,
+        "stop" : 1493545816917,
+        "duration" : 2373
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a541ba3a3697a61f",
+      "name" : "should check if paragraph heading is displayed and print to console",
+      "title" : "should check if paragraph heading is displayed and print to console",
+      "time" : {
+        "start" : 1493545709124,
+        "stop" : 1493545711485,
+        "duration" : 2361
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f619718f722bffa2",
+      "name" : "should check if paragraph heading is displayed and print to console",
+      "title" : "should check if paragraph heading is displayed and print to console",
+      "time" : {
+        "start" : 1493546177736,
+        "stop" : 1493546180089,
+        "duration" : 2353
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "77823914b7dc8742",
+    "name" : "Correct Password",
+    "title" : "Correct Password",
+    "time" : {
+      "start" : 1493561889004,
+      "stop" : 1493562886970,
+      "duration" : 997966
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "aa8eae40accd1c5a",
+      "name" : "should be setting the password",
+      "title" : "should be setting the password",
+      "time" : {
+        "start" : 1493561889004,
+        "stop" : 1493561892431,
+        "duration" : 3427
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "15820353cb76916b",
+      "name" : "should be setting the password",
+      "title" : "should be setting the password",
+      "time" : {
+        "start" : 1493562883604,
+        "stop" : 1493562886970,
+        "duration" : 3366
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f914082f556d8d79",
+      "name" : "should be setting the password",
+      "title" : "should be setting the password",
+      "time" : {
+        "start" : 1493562395448,
+        "stop" : 1493562398818,
+        "duration" : 3370
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "e99a92ee55e8f675",
+    "name" : "Tour Button ",
+    "title" : "Tour Button ",
+    "time" : {
+      "start" : 1493545713847,
+      "stop" : 1493546184769,
+      "duration" : 470922
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "5957a56ed5a49874",
+      "name" : "should check if tour button is displayed",
+      "title" : "should check if tour button is displayed",
+      "time" : {
+        "start" : 1493546182430,
+        "stop" : 1493546184769,
+        "duration" : 2339
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "30ead71e7b847d84",
+      "name" : "should check if tour button is displayed",
+      "title" : "should check if tour button is displayed",
+      "time" : {
+        "start" : 1493545819268,
+        "stop" : 1493545821635,
+        "duration" : 2367
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "59e40bca2fdec4b6",
+      "name" : "should check if tour button is displayed",
+      "title" : "should check if tour button is displayed",
+      "time" : {
+        "start" : 1493545713847,
+        "stop" : 1493545716172,
+        "duration" : 2325
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "9cb1b5fcbf176c3d",
+    "name" : "Short Password",
+    "title" : "Short Password",
+    "time" : {
+      "start" : 1493561885593,
+      "stop" : 1493562883603,
+      "duration" : 998010
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "2b8759cb875b3ce4",
+      "name" : "setting short password",
+      "title" : "setting short password",
+      "time" : {
+        "start" : 1493561885593,
+        "stop" : 1493561889003,
+        "duration" : 3410
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "1739b071115f8435",
+      "name" : "setting short password",
+      "title" : "setting short password",
+      "time" : {
+        "start" : 1493562391998,
+        "stop" : 1493562395447,
+        "duration" : 3449
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "f175e39e2afa2230",
+      "name" : "setting short password",
+      "title" : "setting short password",
+      "time" : {
+        "start" : 1493562880202,
+        "stop" : 1493562883603,
+        "duration" : 3401
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "287ece7e7ff12f59",
+    "name" : "Privacy Section",
+    "title" : "Privacy Section",
+    "time" : {
+      "start" : 1493546191750,
+      "stop" : 1493546194073,
+      "duration" : 2323
     },
     "statistic" : {
       "total" : 1,
@@ -233,13 +1789,13 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "35bdfaa050f90d06",
-      "name" : "should set the email",
-      "title" : "should set the email",
+      "uid" : "210f771c261793ba",
+      "name" : "Privacy section is displayed",
+      "title" : "Privacy section is displayed",
       "time" : {
-        "start" : 1492803174860,
-        "stop" : 1492803178102,
-        "duration" : 3242
+        "start" : 1493546191750,
+        "stop" : 1493546194073,
+        "duration" : 2323
       },
       "severity" : "NORMAL",
       "status" : "PASSED"

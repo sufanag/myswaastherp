@@ -1,0 +1,44 @@
+{
+  "uid" : "f7ef6e7c63f3dfe2",
+  "name" : "should check if Login is displayed and if it goes to Login route",
+  "title" : "should check if Login is displayed and if it goes to Login route",
+  "time" : {
+    "start" : 1493545723161,
+    "stop" : 1493545727707,
+    "duration" : 4546
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b7159013ae0f6523",
+    "name" : "Login Link is displayed and clicked",
+    "title" : "Login Link is displayed and clicked"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "3a2ef688-5dc1-4e0f-8b50-b37763a7987c-attachment.png",
+    "type" : "image/png",
+    "size" : 90455,
+    "uid" : "fa9bfa6ea06e15e3"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Login Link is displayed and clicked"
+  }, {
+    "name" : "suite-title",
+    "value" : "Login Link is displayed and clicked"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,44 @@
+{
+  "uid" : "78ca39a476b7e896",
+  "name" : "checks if content header is displayed",
+  "title" : "checks if content header is displayed",
+  "time" : {
+    "start" : 1493545821636,
+    "stop" : 1493545823978,
+    "duration" : 2342
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "8491b05fe3968a12",
+    "name" : "Content Heading",
+    "title" : "Content Heading"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "b31cfb40-5d1b-4507-8fb7-23705773d64d-attachment.png",
+    "type" : "image/png",
+    "size" : 96526,
+    "uid" : "d2cdef5186a16e1"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Content Heading"
+  }, {
+    "name" : "suite-title",
+    "value" : "Content Heading"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,44 @@
+{
+  "uid" : "6e00db51d2fed2f5",
+  "name" : "should maximize window",
+  "title" : "should maximize window",
+  "time" : {
+    "start" : 1493549260706,
+    "stop" : 1493549261276,
+    "duration" : 570
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "508f1a193f598396",
+    "name" : "second test for page maximization",
+    "title" : "second test for page maximization"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "716d647f-c522-4911-bb70-4d46c49dfc75-attachment.png",
+    "type" : "image/png",
+    "size" : 97514,
+    "uid" : "eefb764cf6682950"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "second test for page maximization"
+  }, {
+    "name" : "suite-title",
+    "value" : "second test for page maximization"
+  } ],
+  "parameters" : [ ]
+}

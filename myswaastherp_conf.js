@@ -14,7 +14,7 @@ exports.config={
         print: function () {
         }
     },
-    specs:["Specs/signup-other.spec.js"],
+    specs:["Specs/signup-success.spec.js"],
     useAllAngular2AppRoots:true,
     capabilities: {
     browserName: 'chrome',
@@ -36,6 +36,14 @@ exports.config={
       jasmine.getEnv().addReporter(new AllureReporter({
           resultsDir:'allure_results'
       }));
+     jasmine.getEnv().afterEach(function(done){
+      browser.takeScreenshot().then(function (png) {
+        allure.createAttachment('Screenshot', function () {
+          return new Buffer(png, 'base64')
+        }, 'image/png')();
+        done();
+      })
+    });
   }
 
 };

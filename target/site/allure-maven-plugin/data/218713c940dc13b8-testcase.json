@@ -1,0 +1,44 @@
+{
+  "uid" : "218713c940dc13b8",
+  "name" : "should check if error message is displayed",
+  "title" : "should check if error message is displayed",
+  "time" : {
+    "start" : 1493549368093,
+    "stop" : 1493549371603,
+    "duration" : 3510
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "af6aba0063cb521d",
+    "name" : "Incorrect email entered",
+    "title" : "Incorrect email entered"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "7c4beb69-49c9-43f5-a8b2-cedc4b85fb01-attachment.png",
+    "type" : "image/png",
+    "size" : 98275,
+    "uid" : "f4458db21cf6116b"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Incorrect email entered"
+  }, {
+    "name" : "suite-title",
+    "value" : "Incorrect email entered"
+  } ],
+  "parameters" : [ ]
+}

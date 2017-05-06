@@ -1,0 +1,44 @@
+{
+  "uid" : "81116cc4a8ce3008",
+  "name" : "sending a blank email and checking for error",
+  "title" : "sending a blank email and checking for error",
+  "time" : {
+    "start" : 1493549264969,
+    "stop" : 1493549268518,
+    "duration" : 3549
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c2a2023a061dd1ab",
+    "name" : "Blank Email ",
+    "title" : "Blank Email "
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "6cd49309-0571-44b6-b627-ca840ece02e2-attachment.png",
+    "type" : "image/png",
+    "size" : 98751,
+    "uid" : "44848a48bdbc791"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Blank Email "
+  }, {
+    "name" : "suite-title",
+    "value" : "Blank Email "
+  } ],
+  "parameters" : [ ]
+}

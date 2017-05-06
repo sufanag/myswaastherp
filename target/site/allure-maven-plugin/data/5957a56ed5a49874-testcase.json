@@ -1,0 +1,44 @@
+{
+  "uid" : "5957a56ed5a49874",
+  "name" : "should check if tour button is displayed",
+  "title" : "should check if tour button is displayed",
+  "time" : {
+    "start" : 1493546182430,
+    "stop" : 1493546184769,
+    "duration" : 2339
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e99a92ee55e8f675",
+    "name" : "Tour Button ",
+    "title" : "Tour Button "
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "3077507d-cb5b-4df6-b5a0-3bb32bb31245-attachment.png",
+    "type" : "image/png",
+    "size" : 97755,
+    "uid" : "e64dc3ce0e33450b"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Tour Button "
+  }, {
+    "name" : "suite-title",
+    "value" : "Tour Button "
+  } ],
+  "parameters" : [ ]
+}

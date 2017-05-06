@@ -1,0 +1,44 @@
+{
+  "uid" : "cb1756daf17a666f",
+  "name" : "should check if the error message is displayed if incorect password is sent",
+  "title" : "should check if the error message is displayed if incorect password is sent",
+  "time" : {
+    "start" : 1493561875253,
+    "stop" : 1493561878735,
+    "duration" : 3482
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d37f127b44e4697a",
+    "name" : "Incorrect Mobile",
+    "title" : "Incorrect Mobile"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "6af4ec96-9fc5-4ba8-9042-3786cb37f792-attachment.png",
+    "type" : "image/png",
+    "size" : 98813,
+    "uid" : "a5051e7df33f51fd"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Incorrect Mobile"
+  }, {
+    "name" : "suite-title",
+    "value" : "Incorrect Mobile"
+  } ],
+  "parameters" : [ ]
+}

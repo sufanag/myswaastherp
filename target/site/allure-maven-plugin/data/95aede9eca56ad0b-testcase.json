@@ -1,0 +1,44 @@
+{
+  "uid" : "95aede9eca56ad0b",
+  "name" : "should set the username",
+  "title" : "should set the username",
+  "time" : {
+    "start" : 1493545809829,
+    "stop" : 1493545812199,
+    "duration" : 2370
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "45862d6b308dd981",
+    "name" : "Third Test For Setting the Name",
+    "title" : "Third Test For Setting the Name"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "ac74b750-2bf0-4f56-ab43-058440deef21-attachment.png",
+    "type" : "image/png",
+    "size" : 97562,
+    "uid" : "ae45d225a0fe9857"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Third Test For Setting the Name"
+  }, {
+    "name" : "suite-title",
+    "value" : "Third Test For Setting the Name"
+  } ],
+  "parameters" : [ ]
+}
