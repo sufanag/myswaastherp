@@ -1,5 +1,6 @@
 const highlightElement =require('../BaseFunctionsPage/highlightelement.js');
 
+
 console.log("Start of the Sign Up============>");
 
 var signUpDetails = function(){

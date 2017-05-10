@@ -2,6 +2,7 @@ const highlightElement =require('../BaseFunctionsPage/highlightelement.js');
 var signUpDetails =require('../SignUp/signup.js');
 var signUpOthersHeaders =require('../SignUp/signup-other.js');
 var otp = require('../OTP/otp.js');
+var CompleteProfile = require('../Complete_Profile/complete-profile.js');
 var Chance = require('chance');
 
 
@@ -16,13 +17,17 @@ var pageOthers5 = new signUpOthersHeaders.var5();
 
 var otp1 = new otp.var2();
 var otp2 = new otp.var3();
+
+var completeProfileUpdate = new CompleteProfile.export1();
 var chance = new Chance();
 
 var email = (chance.email({domain:'gmail.com'}));
 console.log(email);
+exports.userEmail = email;
 
 var mobile = (chance.phone({formatted:false}));
 console.log(mobile);
+exports.phoneNumber = mobile;
 
 var otpNumber;
 
@@ -109,6 +114,8 @@ describe('Privacy Section', ()=> {
     });        
 });
 
+//this section starts with input parameters
+
 describe('Third Test For Setting the Name', ()=> {
 
     
@@ -180,10 +187,10 @@ describe('Open a new window', ()=> {
                 element(by.css('input#searchbar')).sendKeys(email);
                 element(by.xpath('//input[@value="Search"]')).click();
                 browser.sleep(2000);
-                //element(by.css('th.field-email')).click();
+                
                 element(by.xpath('//th[@class="field-email"]/a')).click();
                 browser.sleep(2000);
-                //otpNumber = element(by.css('input#id_random.vIntegerField')).getAttribute('value');
+                
               element(by.css('input#id_random.vIntegerField')).getAttribute('value').then(function(text){
                     otpNumber = text;
                     console.log(otpNumber);
@@ -214,6 +221,22 @@ describe('Finish Entering OTP', ()=> {
     });
         
 });
+
+
+/*
+describe('Verify User Email', ()=> {
+    
+    it('checking user email is same', ()=> {
+        completeProfileUpdate.verifyUserEmail();
+    });
+        
+});
+*/
+
+
+ 
+
+ 
     
     
     
