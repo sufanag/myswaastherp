@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1494424435068" stop="1494424439523">
+	<name>Entering the OTP</name>
+	<title>Entering the OTP</title>
+	<test-cases>
+		<test-case start="1494424435068" stop="1494424439521" status="passed">
+			<name>Entering the OTP</name>
+			<title>Entering the OTP</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d0214458-3c44-438b-884e-436684dd09a8-attachment.png" type="image/png" size="89611"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

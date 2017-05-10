@@ -44,7 +44,13 @@ var OTPInputBox = function(){
         highlightElement.highlightElement(this.otpinput);
         expect(this.otpinput.isDisplayed()).toBe(true);
         browser.sleep(2000);
+    };
 
+    this.otpEnter = function(otpNumber){
+        this.otpinput.click();
+        highlightElement.highlightElement(this.otpinput);
+        this.otpinput.sendKeys(otpNumber);
+        browser.sleep(2000);
     };
 };
 
@@ -59,10 +65,17 @@ var resendOTP = function(){
 
 var verifyBtn = function(){
     this.registerBtn = element(by.buttonText("VERIFY"));
+
+    this.clickVerify = function(){
+         highlightElement.highlightElement(this.registerBtn);
+         this.registerBtn.click();
+         browser.sleep(2000);
+    };
 };
 
 
 module.exports={
     var1: OTPHeader,
-    var2: OTPInputBox
+    var2: OTPInputBox,
+    var3: verifyBtn
 };

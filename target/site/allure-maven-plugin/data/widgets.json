@@ -4,40 +4,40 @@
     "name" : "defects",
     "type" : "DEFECTS",
     "data" : [ {
-      "count" : 5,
-      "message" : "Expected false to be true.",
-      "status" : "FAILED"
-    }, {
-      "count" : 2,
-      "message" : "Failed: password is not defined",
+      "count" : 1,
+      "message" : "Failed: unknown error: cannot get automation extension\nfrom unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html\n  (Session info: headless chrome=60.0.3088.3)\n  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.4 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 10.06 seconds\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Rahuls-Air', ip: 'fe80:0:0:0:1b:1f40:42b1:2112%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.4', java.version: '1.8.0_111'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b), userDataDir=/var/folders/cw/484mdg194s3_bs9d0hsxbgcm0000gn/T/.org.chromium.Chromium.9iepGY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3088.3, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: bd599131384a738c8ff3c8f6fda4da00",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: this.registerbtn.clickRegisterBtn is not a function",
+      "message" : "Failed: pageOthers2.logoDisplayed is not a function",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: No element found using locator: By(xpath, //p[contains(text(),'Minimum 6-character')])",
+      "message" : "Failed: No element found using locator: By(css selector, [formcontrolname=\"otp\"])",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: unknown error: Element <button _ngcontent-c4=\"\" class=\"login-button ui-button-blue ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only\" label=\"REGISTER\" pbutton=\"\" type=\"submit\" ng-reflect-label=\"REGISTER\" style=\"color: Red; border: 2px solid red;\">...</button> is not clickable at point (551, 582). Other element would receive the click: <p _ngcontent-c3=\"\">...</p>\n  (Session info: headless chrome=60.0.3088.3)\n  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.4 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 84 milliseconds\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Rahuls-Air', ip: 'fe80:0:0:0:1b:1f40:42b1:2112%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.4', java.version: '1.8.0_111'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b), userDataDir=/var/folders/cw/484mdg194s3_bs9d0hsxbgcm0000gn/T/.org.chromium.Chromium.9iepGY}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3088.3, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: bd599131384a738c8ff3c8f6fda4da00",
       "status" : "FAILED"
     } ]
   }, {
     "name" : "xunit",
     "type" : "TITLE_STATISTICS",
     "data" : [ {
-      "title" : "Blank Email ",
+      "title" : "Content Heading",
       "statistic" : {
-        "total" : 8,
-        "passed" : 8,
+        "total" : 3,
+        "passed" : 3,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "Blank Mobile",
+      "title" : "Correct Password",
       "statistic" : {
-        "total" : 8,
-        "passed" : 8,
+        "total" : 1,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
@@ -46,81 +46,81 @@
     }, {
       "title" : "Fifth test for setting the mobile",
       "statistic" : {
-        "total" : 8,
-        "passed" : 8,
+        "total" : 1,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "First Test For Page Visit",
+      "title" : "Header bar is displayed",
       "statistic" : {
-        "total" : 8,
-        "passed" : 8,
+        "total" : 1,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "Fourth Test for setting the email",
+      "title" : "Logo of MySwaasth is displayed",
       "statistic" : {
-        "total" : 8,
-        "passed" : 8,
+        "total" : 1,
+        "passed" : 0,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0
       }
     }, {
-      "title" : "Incorrect email entered",
+      "title" : "OTP Input Box",
       "statistic" : {
-        "total" : 8,
-        "passed" : 8,
+        "total" : 1,
+        "passed" : 0,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Login Link is displayed and clicked",
-      "statistic" : {
-        "total" : 3,
-        "passed" : 3,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0
       }
     }, {
       "title" : "Paragraph 2 is displayed",
       "statistic" : {
-        "total" : 3,
-        "passed" : 3,
+        "total" : 1,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "Register Button",
+      "title" : "Third Test For Setting the Name",
       "statistic" : {
-        "total" : 8,
-        "passed" : 2,
+        "total" : 1,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 6,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Tour Button ",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
         "broken" : 0
       }
     }, {
       "title" : "second test for page maximization",
       "statistic" : {
-        "total" : 11,
-        "passed" : 11,
+        "total" : 1,
+        "passed" : 0,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0
       }
     } ]
@@ -130,11 +130,11 @@
     "data" : [ {
       "title" : "Without feature",
       "statistic" : {
-        "total" : 127,
-        "passed" : 118,
+        "total" : 17,
+        "passed" : 13,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 9,
+        "failed" : 4,
         "broken" : 0
       }
     } ]
