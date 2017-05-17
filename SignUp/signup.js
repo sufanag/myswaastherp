@@ -10,7 +10,7 @@ var signUpDetails = function(){
     this.password = element(by.css('[ng-reflect-name="password"]')); 
 
     this.visit= function(){
-    browser.get('http://myswaastherp.sia.co.in/#/');
+    browser.get('http://myswaastherp.sia.co.in/#/signup');
     };
 
     console.log("Start of Sign up fields ===========>");

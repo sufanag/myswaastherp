@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1495041145951" stop="1495041148284">
+	<name>Tour Button </name>
+	<title>Tour Button </title>
+	<test-cases>
+		<test-case start="1495041145951" stop="1495041148284" status="passed">
+			<name>should check if tour button is displayed</name>
+			<title>should check if tour button is displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e17df34a-1ab3-4435-93ce-8bbe8c247bb5-attachment.png" type="image/png" size="97476"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

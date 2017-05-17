@@ -31,11 +31,18 @@ var animationsInformation = function(){
 
 
 var continueAhead = function(){
-    this.continueBtn = element(by.buttonText('CONTINUE'));
+    this.continueBtn = element(by.buttonText('continue'));
+
+    this.clickContinueBtn = function(){
+        highlightElement.highlightElement(this.continueBtn);
+        this.continueBtn.click();
+        browser.sleep(2000);
+    };
 };
 
 
 
 module.exports={
-    export1: CompleteProfile
+    export1: CompleteProfile,
+    export3: continueAhead
 }

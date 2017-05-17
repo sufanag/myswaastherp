@@ -1,21 +1,21 @@
 {
   "time" : {
-    "start" : 1494394038729,
-    "stop" : 1494394096835,
-    "duration" : 58106
+    "start" : 1495037002218,
+    "stop" : 1495037464288,
+    "duration" : 462070
   },
   "testSuites" : [ {
-    "uid" : "a98d92a6a581027",
-    "name" : "Content Heading",
-    "title" : "Content Heading",
+    "uid" : "db4ed685a85b1f76",
+    "name" : "Correct Password",
+    "title" : "Correct Password",
     "time" : {
-      "start" : 1494394063835,
-      "stop" : 1494394070783,
-      "duration" : 6948
+      "start" : 1495037041363,
+      "stop" : 1495037420364,
+      "duration" : 379001
     },
     "statistic" : {
-      "total" : 3,
-      "passed" : 3,
+      "total" : 2,
+      "passed" : 2,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
@@ -23,111 +23,573 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "286542a8aa053656",
-      "name" : "checks if content header is displayed",
-      "title" : "checks if content header is displayed",
+      "uid" : "9e7903847f511c59",
+      "name" : "should be setting the password",
+      "title" : "should be setting the password",
       "time" : {
-        "start" : 1494394063835,
-        "stop" : 1494394066198,
+        "start" : 1495037041363,
+        "stop" : 1495037044823,
+        "duration" : 3460
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "bf1c973807baa180",
+      "name" : "should be setting the password",
+      "title" : "should be setting the password",
+      "time" : {
+        "start" : 1495037416951,
+        "stop" : 1495037420364,
+        "duration" : 3413
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "2e5c78ccad390d2f",
+    "name" : "Privacy Section",
+    "title" : "Privacy Section",
+    "time" : {
+      "start" : 1495037028326,
+      "stop" : 1495037406218,
+      "duration" : 377892
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "b54abbe9892c37d1",
+      "name" : "Privacy section is displayed",
+      "title" : "Privacy section is displayed",
+      "time" : {
+        "start" : 1495037403900,
+        "stop" : 1495037406218,
+        "duration" : 2318
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d90e402ee4f9e0e7",
+      "name" : "Privacy section is displayed",
+      "title" : "Privacy section is displayed",
+      "time" : {
+        "start" : 1495037028326,
+        "stop" : 1495037030639,
+        "duration" : 2313
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "b03f2980e488f50f",
+    "name" : "Paragraph text is displayed",
+    "title" : "Paragraph text is displayed",
+    "time" : {
+      "start" : 1495037014274,
+      "stop" : 1495037392245,
+      "duration" : 377971
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "84c4a4f44ecadb64",
+      "name" : "should check if paragraph heading is displayed and print to console",
+      "title" : "should check if paragraph heading is displayed and print to console",
+      "time" : {
+        "start" : 1495037389903,
+        "stop" : 1495037392245,
+        "duration" : 2342
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "89a70f2bfb27d8a4",
+      "name" : "should check if paragraph heading is displayed and print to console",
+      "title" : "should check if paragraph heading is displayed and print to console",
+      "time" : {
+        "start" : 1495037014274,
+        "stop" : 1495037016630,
+        "duration" : 2356
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "ecb6c5101a85300d",
+    "name" : "Adhoc",
+    "title" : "Adhoc",
+    "time" : {
+      "start" : 1495037030641,
+      "stop" : 1495037406485,
+      "duration" : 375844
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 2,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9ca1a386838e5034",
+      "name" : "adhoc",
+      "title" : "adhoc",
+      "time" : {
+        "start" : 1495037406219,
+        "stop" : 1495037406485,
+        "duration" : 266
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "faa6db9eadda0407",
+      "name" : "adhoc",
+      "title" : "adhoc",
+      "time" : {
+        "start" : 1495037030641,
+        "stop" : 1495037030904,
+        "duration" : 263
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "d92404c6e7d5ee4e",
+    "name" : "OTP Input Box",
+    "title" : "OTP Input Box",
+    "time" : {
+      "start" : 1495037047229,
+      "stop" : 1495037434213,
+      "duration" : 386984
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "d74959a3a3b19fff",
+      "name" : "should check if register button is displayed",
+      "title" : "should check if register button is displayed",
+      "time" : {
+        "start" : 1495037422778,
+        "stop" : 1495037434213,
+        "duration" : 11435
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "75c77ae6a84ffab1",
+      "name" : "should check if register button is displayed",
+      "title" : "should check if register button is displayed",
+      "time" : {
+        "start" : 1495037047229,
+        "stop" : 1495037058650,
+        "duration" : 11421
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "46b6d0cd4519263b",
+    "name" : "Set Address",
+    "title" : "Set Address",
+    "time" : {
+      "start" : 1495037086502,
+      "stop" : 1495037464288,
+      "duration" : 377786
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 2,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "35075639197041c",
+      "name" : "enters an address",
+      "title" : "enters an address",
+      "time" : {
+        "start" : 1495037086502,
+        "stop" : 1495037089220,
+        "duration" : 2718
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "59b3b109c3f44e03",
+      "name" : "enters an address",
+      "title" : "enters an address",
+      "time" : {
+        "start" : 1495037461532,
+        "stop" : 1495037464288,
+        "duration" : 2756
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "359b4d5f3771ffc3",
+    "name" : "Fourth Test for setting the email",
+    "title" : "Fourth Test for setting the email",
+    "time" : {
+      "start" : 1495037034435,
+      "stop" : 1495037413515,
+      "duration" : 379080
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "aa8beed8fb23b227",
+      "name" : "should set the email",
+      "title" : "should set the email",
+      "time" : {
+        "start" : 1495037410031,
+        "stop" : 1495037413515,
+        "duration" : 3484
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "62172e0c2fbf3698",
+      "name" : "should set the email",
+      "title" : "should set the email",
+      "time" : {
+        "start" : 1495037034435,
+        "stop" : 1495037037920,
+        "duration" : 3485
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "41a0b80749243ec",
+    "name" : "First Test For Page Visit",
+    "title" : "First Test For Page Visit",
+    "time" : {
+      "start" : 1495037002218,
+      "stop" : 1495037384477,
+      "duration" : 382259
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "8e1661d189e35eb2",
+      "name" : "should go to the ERP Sign Up Page",
+      "title" : "should go to the ERP Sign Up Page",
+      "time" : {
+        "start" : 1495037002218,
+        "stop" : 1495037008858,
+        "duration" : 6640
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "785e1013c6b15f53",
+      "name" : "should go to the ERP Sign Up Page",
+      "title" : "should go to the ERP Sign Up Page",
+      "time" : {
+        "start" : 1495037377833,
+        "stop" : 1495037384477,
+        "duration" : 6644
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "16546f315ad355b0",
+    "name" : "Header bar is displayed",
+    "title" : "Header bar is displayed",
+    "time" : {
+      "start" : 1495037011922,
+      "stop" : 1495037389901,
+      "duration" : 377979
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9a19a79294651ba",
+      "name" : "should highlight the header bar",
+      "title" : "should highlight the header bar",
+      "time" : {
+        "start" : 1495037387565,
+        "stop" : 1495037389901,
+        "duration" : 2336
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "31dff8fcf14f71f6",
+      "name" : "should highlight the header bar",
+      "title" : "should highlight the header bar",
+      "time" : {
+        "start" : 1495037011922,
+        "stop" : 1495037014273,
+        "duration" : 2351
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "a6c0b84430953526",
+    "name" : "Continue signing in",
+    "title" : "Continue signing in",
+    "time" : {
+      "start" : 1495037081865,
+      "stop" : 1495037461305,
+      "duration" : 379440
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "e374d440a7a0f7d2",
+      "name" : "should click on continue button",
+      "title" : "should click on continue button",
+      "time" : {
+        "start" : 1495037456895,
+        "stop" : 1495037461305,
+        "duration" : 4410
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d8c1b2f540ab9fa1",
+      "name" : "should click on continue button",
+      "title" : "should click on continue button",
+      "time" : {
+        "start" : 1495037081865,
+        "stop" : 1495037086273,
+        "duration" : 4408
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "25058322541b71c1",
+    "name" : "Register Button",
+    "title" : "Register Button",
+    "time" : {
+      "start" : 1495037044824,
+      "stop" : 1495037422777,
+      "duration" : 377953
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "4fe5ada9a34dea7d",
+      "name" : "checks if Register Button is Displayed and Enabled",
+      "title" : "checks if Register Button is Displayed and Enabled",
+      "time" : {
+        "start" : 1495037044824,
+        "stop" : 1495037047229,
+        "duration" : 2405
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "742de8bc9bb323a0",
+      "name" : "checks if Register Button is Displayed and Enabled",
+      "title" : "checks if Register Button is Displayed and Enabled",
+      "time" : {
+        "start" : 1495037420365,
+        "stop" : 1495037422777,
+        "duration" : 2412
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "c23f2e5d68a8833a",
+    "name" : "Third Test For Setting the Name",
+    "title" : "Third Test For Setting the Name",
+    "time" : {
+      "start" : 1495037030906,
+      "stop" : 1495037410030,
+      "duration" : 379124
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "e3de7a30af54c171",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1495037406486,
+        "stop" : 1495037410030,
+        "duration" : 3544
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ad3f202329e80f3a",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1495037030906,
+        "stop" : 1495037034434,
+        "duration" : 3528
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "9cd7fc8524f594af",
+    "name" : "Logo of MySwaasth is displayed",
+    "title" : "Logo of MySwaasth is displayed",
+    "time" : {
+      "start" : 1495037009559,
+      "stop" : 1495037387564,
+      "duration" : 378005
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "7fa88d3b8a2a0937",
+      "name" : "MySwaasth Logo is displayed",
+      "title" : "MySwaasth Logo is displayed",
+      "time" : {
+        "start" : 1495037009559,
+        "stop" : 1495037011922,
         "duration" : 2363
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "481a7ddbae8de899",
-      "name" : "checks if the content header part 1 is displayed",
-      "title" : "checks if the content header part 1 is displayed",
+      "uid" : "fda2ac3be46cde8f",
+      "name" : "MySwaasth Logo is displayed",
+      "title" : "MySwaasth Logo is displayed",
       "time" : {
-        "start" : 1494394066198,
-        "stop" : 1494394068484,
-        "duration" : 2286
+        "start" : 1495037385185,
+        "stop" : 1495037387564,
+        "duration" : 2379
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "16de5605d9481eb4",
+    "name" : "Fifth test for setting the mobile",
+    "title" : "Fifth test for setting the mobile",
+    "time" : {
+      "start" : 1495037037920,
+      "stop" : 1495037416950,
+      "duration" : 379030
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "96d9dda35e87ad06",
+      "name" : "should set the mobile number",
+      "title" : "should set the mobile number",
+      "time" : {
+        "start" : 1495037413517,
+        "stop" : 1495037416950,
+        "duration" : 3433
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "b1eb555edee71913",
-      "name" : "checks if the content header part 2 is displayed",
-      "title" : "checks if the content header part 2 is displayed",
-      "time" : {
-        "start" : 1494394068484,
-        "stop" : 1494394070783,
-        "duration" : 2299
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "a189c9ac69195a6a",
-    "name" : "Tour Button ",
-    "title" : "Tour Button ",
-    "time" : {
-      "start" : 1494394061468,
-      "stop" : 1494394063833,
-      "duration" : 2365
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "c43c8276d3367aaa",
-      "name" : "should check if tour button is displayed",
-      "title" : "should check if tour button is displayed",
-      "time" : {
-        "start" : 1494394061468,
-        "stop" : 1494394063833,
-        "duration" : 2365
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "6ef45d367dda54e5",
-    "name" : "Fifth test for setting the mobile",
-    "title" : "Fifth test for setting the mobile",
-    "time" : {
-      "start" : 1494394080371,
-      "stop" : 1494394083794,
-      "duration" : 3423
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "3e87e1e7283e0dbd",
+      "uid" : "5ef80b4361bf6f8a",
       "name" : "should set the mobile number",
       "title" : "should set the mobile number",
       "time" : {
-        "start" : 1494394080371,
-        "stop" : 1494394083794,
-        "duration" : 3423
+        "start" : 1495037037920,
+        "stop" : 1495037041363,
+        "duration" : 3443
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "84d50e7889f8c197",
-    "name" : "Paragraph 2 is displayed",
-    "title" : "Paragraph 2 is displayed",
+    "uid" : "c021711d9fe04f3f",
+    "name" : "Entering the OTP",
+    "title" : "Entering the OTP",
     "time" : {
-      "start" : 1494394059138,
-      "stop" : 1494394061468,
-      "duration" : 2330
+      "start" : 1495037072985,
+      "stop" : 1495037452532,
+      "duration" : 379547
     },
     "statistic" : {
-      "total" : 1,
-      "passed" : 1,
+      "total" : 2,
+      "passed" : 2,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
@@ -135,29 +597,289 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "3257e5055db5bec0",
-      "name" : "should check if paragraph heading part 2 is displayed ",
-      "title" : "should check if paragraph heading part 2 is displayed ",
+      "uid" : "e1f3678e74c77501",
+      "name" : "Entering the OTP",
+      "title" : "Entering the OTP",
       "time" : {
-        "start" : 1494394059138,
-        "stop" : 1494394061468,
+        "start" : 1495037072985,
+        "stop" : 1495037077471,
+        "duration" : 4486
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "9d501e72d7a41fff",
+      "name" : "Entering the OTP",
+      "title" : "Entering the OTP",
+      "time" : {
+        "start" : 1495037448062,
+        "stop" : 1495037452532,
+        "duration" : 4470
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "4e20a54a5834d04a",
+    "name" : "Tour Button ",
+    "title" : "Tour Button ",
+    "time" : {
+      "start" : 1495037018986,
+      "stop" : 1495037396951,
+      "duration" : 377965
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "1d238a7d15cb18bf",
+      "name" : "should check if tour button is displayed",
+      "title" : "should check if tour button is displayed",
+      "time" : {
+        "start" : 1495037018986,
+        "stop" : 1495037021319,
+        "duration" : 2333
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "7623e422fb23ce35",
+      "name" : "should check if tour button is displayed",
+      "title" : "should check if tour button is displayed",
+      "time" : {
+        "start" : 1495037394634,
+        "stop" : 1495037396951,
+        "duration" : 2317
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "76e11292be67af1c",
+    "name" : "Open a new window",
+    "title" : "Open a new window",
+    "time" : {
+      "start" : 1495037058651,
+      "stop" : 1495037448061,
+      "duration" : 389410
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "99ed69180c8aa5ed",
+      "name" : "opening a new window",
+      "title" : "opening a new window",
+      "time" : {
+        "start" : 1495037434214,
+        "stop" : 1495037448061,
+        "duration" : 13847
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b2a5d6685d6a0472",
+      "name" : "opening a new window",
+      "title" : "opening a new window",
+      "time" : {
+        "start" : 1495037058651,
+        "stop" : 1495037072982,
+        "duration" : 14331
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "cc88c4a4d432f558",
+    "name" : "second test for page maximization",
+    "title" : "second test for page maximization",
+    "time" : {
+      "start" : 1495037008862,
+      "stop" : 1495037385183,
+      "duration" : 376321
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "e2f4091dba7d54b4",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1495037384481,
+        "stop" : 1495037385183,
+        "duration" : 702
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "da017d3943177866",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1495037008862,
+        "stop" : 1495037009558,
+        "duration" : 696
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "5223e9a8e747de80",
+    "name" : "Clinic Name",
+    "title" : "Clinic Name",
+    "time" : {
+      "start" : 1495037086275,
+      "stop" : 1495037461531,
+      "duration" : 375256
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 2,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "cd966ff31e807ebd",
+      "name" : "enters the clinic name",
+      "title" : "enters the clinic name",
+      "time" : {
+        "start" : 1495037086275,
+        "stop" : 1495037086501,
+        "duration" : 226
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "dae231cb647e9064",
+      "name" : "enters the clinic name",
+      "title" : "enters the clinic name",
+      "time" : {
+        "start" : 1495037461307,
+        "stop" : 1495037461531,
+        "duration" : 224
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "b910112370dc5cc1",
+    "name" : "Content Heading",
+    "title" : "Content Heading",
+    "time" : {
+      "start" : 1495037021319,
+      "stop" : 1495037403899,
+      "duration" : 382580
+    },
+    "statistic" : {
+      "total" : 6,
+      "passed" : 6,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "83d1d23fed912a43",
+      "name" : "checks if content header is displayed",
+      "title" : "checks if content header is displayed",
+      "time" : {
+        "start" : 1495037396951,
+        "stop" : 1495037399271,
+        "duration" : 2320
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "644df4e0dc3e3892",
+      "name" : "checks if the content header part 1 is displayed",
+      "title" : "checks if the content header part 1 is displayed",
+      "time" : {
+        "start" : 1495037399271,
+        "stop" : 1495037401576,
+        "duration" : 2305
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b76214f734a1523c",
+      "name" : "checks if the content header part 2 is displayed",
+      "title" : "checks if the content header part 2 is displayed",
+      "time" : {
+        "start" : 1495037401576,
+        "stop" : 1495037403899,
+        "duration" : 2323
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a54704f9f452f8ba",
+      "name" : "checks if content header is displayed",
+      "title" : "checks if content header is displayed",
+      "time" : {
+        "start" : 1495037021319,
+        "stop" : 1495037023671,
+        "duration" : 2352
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "eb3d32706e9b8d9b",
+      "name" : "checks if the content header part 1 is displayed",
+      "title" : "checks if the content header part 1 is displayed",
+      "time" : {
+        "start" : 1495037023671,
+        "stop" : 1495037025995,
+        "duration" : 2324
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "91b25c5614402aed",
+      "name" : "checks if the content header part 2 is displayed",
+      "title" : "checks if the content header part 2 is displayed",
+      "time" : {
+        "start" : 1495037025995,
+        "stop" : 1495037028325,
         "duration" : 2330
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "1b65dac1aca7ba2b",
-    "name" : "Third Test For Setting the Name",
-    "title" : "Third Test For Setting the Name",
+    "uid" : "8a7389273dfabda",
+    "name" : "Finish Entering OTP",
+    "title" : "Finish Entering OTP",
     "time" : {
-      "start" : 1494394073103,
-      "stop" : 1494394076754,
-      "duration" : 3651
+      "start" : 1495037077472,
+      "stop" : 1495037456893,
+      "duration" : 379421
     },
     "statistic" : {
-      "total" : 1,
-      "passed" : 1,
+      "total" : 2,
+      "passed" : 2,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
@@ -165,59 +887,40 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "a82e82ae6c527508",
-      "name" : "should set the username",
-      "title" : "should set the username",
+      "uid" : "5388de9da36618e5",
+      "name" : "finishing entering the OTP",
+      "title" : "finishing entering the OTP",
       "time" : {
-        "start" : 1494394073103,
-        "stop" : 1494394076754,
-        "duration" : 3651
+        "start" : 1495037452533,
+        "stop" : 1495037456893,
+        "duration" : 4360
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a94db498b947c582",
+      "name" : "finishing entering the OTP",
+      "title" : "finishing entering the OTP",
+      "time" : {
+        "start" : 1495037077472,
+        "stop" : 1495037081864,
+        "duration" : 4392
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "c7adbd66c1144e44",
-    "name" : "second test for page maximization",
-    "title" : "second test for page maximization",
+    "uid" : "3e08cf9bdd6c8f1a",
+    "name" : "Paragraph 2 is displayed",
+    "title" : "Paragraph 2 is displayed",
     "time" : {
-      "start" : 1494394044043,
-      "stop" : 1494394054311,
-      "duration" : 10268
+      "start" : 1495037016631,
+      "stop" : 1495037394633,
+      "duration" : 378002
     },
     "statistic" : {
-      "total" : 1,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 1,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "3e9e4a37d88347f",
-      "name" : "should maximize window",
-      "title" : "should maximize window",
-      "time" : {
-        "start" : 1494394044043,
-        "stop" : 1494394054311,
-        "duration" : 10268
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "be2ddae7d16b55c4",
-    "name" : "Header bar is displayed",
-    "title" : "Header bar is displayed",
-    "time" : {
-      "start" : 1494394054504,
-      "stop" : 1494394056829,
-      "duration" : 2325
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
+      "total" : 2,
+      "passed" : 2,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
@@ -225,253 +928,24 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "a0659669cd177bcb",
-      "name" : "should highlight the header bar",
-      "title" : "should highlight the header bar",
+      "uid" : "61445c640da3610d",
+      "name" : "should check if paragraph heading part 2 is displayed ",
+      "title" : "should check if paragraph heading part 2 is displayed ",
       "time" : {
-        "start" : 1494394054504,
-        "stop" : 1494394056829,
-        "duration" : 2325
+        "start" : 1495037016631,
+        "stop" : 1495037018986,
+        "duration" : 2355
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "a26cb5528595f56b",
-    "name" : "Logo of MySwaasth is displayed",
-    "title" : "Logo of MySwaasth is displayed",
-    "time" : {
-      "start" : 1494394054313,
-      "stop" : 1494394054503,
-      "duration" : 190
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 1,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "31db35033246598f",
-      "name" : "MySwaasth Logo is displayed",
-      "title" : "MySwaasth Logo is displayed",
+    }, {
+      "uid" : "7f08a11c9473ef93",
+      "name" : "should check if paragraph heading part 2 is displayed ",
+      "title" : "should check if paragraph heading part 2 is displayed ",
       "time" : {
-        "start" : 1494394054313,
-        "stop" : 1494394054503,
-        "duration" : 190
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "9ef3779b6adf4ce1",
-    "name" : "OTP Input Box",
-    "title" : "OTP Input Box",
-    "time" : {
-      "start" : 1494394089607,
-      "stop" : 1494394096835,
-      "duration" : 7228
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 1,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "1c8ef04e32f03655",
-      "name" : "should check if register button is displayed",
-      "title" : "should check if register button is displayed",
-      "time" : {
-        "start" : 1494394089607,
-        "stop" : 1494394096835,
-        "duration" : 7228
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "b4e9c32ca0bf71d1",
-    "name" : "Correct Password",
-    "title" : "Correct Password",
-    "time" : {
-      "start" : 1494394083795,
-      "stop" : 1494394087211,
-      "duration" : 3416
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "4557f02e7d521aa5",
-      "name" : "should be setting the password",
-      "title" : "should be setting the password",
-      "time" : {
-        "start" : 1494394083795,
-        "stop" : 1494394087211,
-        "duration" : 3416
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "9e7e440e8b37f96b",
-    "name" : "Register Button",
-    "title" : "Register Button",
-    "time" : {
-      "start" : 1494394087212,
-      "stop" : 1494394089604,
-      "duration" : 2392
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 1,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "b512dab4a73d8b5c",
-      "name" : "checks if Register Button is Displayed and Enabled",
-      "title" : "checks if Register Button is Displayed and Enabled",
-      "time" : {
-        "start" : 1494394087212,
-        "stop" : 1494394089604,
-        "duration" : 2392
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "a2ea0c71524628ef",
-    "name" : "First Test For Page Visit",
-    "title" : "First Test For Page Visit",
-    "time" : {
-      "start" : 1494394038729,
-      "stop" : 1494394044040,
-      "duration" : 5311
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "af21ec4aa8a0a552",
-      "name" : "should go to the ERP Sign Up Page",
-      "title" : "should go to the ERP Sign Up Page",
-      "time" : {
-        "start" : 1494394038729,
-        "stop" : 1494394044040,
-        "duration" : 5311
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "c727087c3399bc3f",
-    "name" : "Fourth Test for setting the email",
-    "title" : "Fourth Test for setting the email",
-    "time" : {
-      "start" : 1494394076755,
-      "stop" : 1494394080370,
-      "duration" : 3615
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "9427a2677a3e623b",
-      "name" : "should set the email",
-      "title" : "should set the email",
-      "time" : {
-        "start" : 1494394076755,
-        "stop" : 1494394080370,
-        "duration" : 3615
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "2fbeacab4468c55a",
-    "name" : "Paragraph text is displayed",
-    "title" : "Paragraph text is displayed",
-    "time" : {
-      "start" : 1494394056830,
-      "stop" : 1494394059137,
-      "duration" : 2307
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "3035917889803f66",
-      "name" : "should check if paragraph heading is displayed and print to console",
-      "title" : "should check if paragraph heading is displayed and print to console",
-      "time" : {
-        "start" : 1494394056830,
-        "stop" : 1494394059137,
-        "duration" : 2307
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "6baf207b1b3fccc",
-    "name" : "Privacy Section",
-    "title" : "Privacy Section",
-    "time" : {
-      "start" : 1494394070785,
-      "stop" : 1494394073099,
-      "duration" : 2314
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "a565ad71af33246b",
-      "name" : "Privacy section is displayed",
-      "title" : "Privacy section is displayed",
-      "time" : {
-        "start" : 1494394070785,
-        "stop" : 1494394073099,
-        "duration" : 2314
+        "start" : 1495037392246,
+        "stop" : 1495037394633,
+        "duration" : 2387
       },
       "severity" : "NORMAL",
       "status" : "PASSED"

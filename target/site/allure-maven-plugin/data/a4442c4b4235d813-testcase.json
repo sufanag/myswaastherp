@@ -1,0 +1,47 @@
+{
+  "uid" : "a4442c4b4235d813",
+  "name" : "checking user email is same",
+  "title" : "checking user email is same",
+  "time" : {
+    "start" : 1494441470420,
+    "stop" : 1494441472733,
+    "duration" : 2313
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Expected 'umukka@gmail.com' to equal undefined.",
+    "stackTrace" : "Error: Failed expectation\n    at /Users/zac01/Documents/protractor/myswaastherp/Complete_Profile/complete-profile.js:21:26\n    at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/lib/element.ts:840:22)\n    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)\n    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)"
+  },
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b143e832de8a725",
+    "name" : "Verify User Email",
+    "title" : "Verify User Email"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "ec14988c-b431-46e8-aa54-ca0bdf3f52d2-attachment.png",
+    "type" : "image/png",
+    "size" : 76509,
+    "uid" : "16fd1e0050a931cf"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Verify User Email"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verify User Email"
+  } ],
+  "parameters" : [ ]
+}

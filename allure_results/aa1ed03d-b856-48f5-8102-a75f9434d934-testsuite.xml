@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1495042426516" stop="1495042437942">
+	<name>OTP Input Box</name>
+	<title>OTP Input Box</title>
+	<test-cases>
+		<test-case start="1495042426516" stop="1495042437942" status="passed">
+			<name>should check if register button is displayed</name>
+			<title>should check if register button is displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1878a6c7-d069-454e-9057-eba86b016854-attachment.png" type="image/png" size="89933"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

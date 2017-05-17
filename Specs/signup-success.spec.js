@@ -3,6 +3,7 @@ var signUpDetails =require('../SignUp/signup.js');
 var signUpOthersHeaders =require('../SignUp/signup-other.js');
 var otp = require('../OTP/otp.js');
 var CompleteProfile = require('../Complete_Profile/complete-profile.js');
+var ClinicDetails = require('../Clinic_details/clinicdetails.js');
 var Chance = require('chance');
 
 
@@ -19,6 +20,12 @@ var otp1 = new otp.var2();
 var otp2 = new otp.var3();
 
 var completeProfileUpdate = new CompleteProfile.export1();
+var continueBtn = new CompleteProfile.export3();
+
+var EnterClinicDetails = new ClinicDetails.clinic_details1();
+
+
+//================Chance Details==========================
 var chance = new Chance();
 
 var email = (chance.email({domain:'gmail.com'}));
@@ -28,6 +35,15 @@ exports.userEmail = email;
 var mobile = (chance.phone({formatted:false}));
 console.log(mobile);
 exports.phoneNumber = mobile;
+
+var specialisation = chance.string({length: 1, pool: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'});
+console.log(specialisation);
+
+var indexSearch = chance.integer({min: 1, max: 3});
+console.log(indexSearch);
+
+var addr_key = chance.string({length: 1, pool: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'});
+console.log(addr_key);
 
 var otpNumber;
 
@@ -49,7 +65,6 @@ describe("second test for page maximization",()=>{
         browser.driver.manage().window().maximize();
     });
 });
-
 
 //this section checks for the other UI parameters
 console.log("Start of the other UI tests============>");
@@ -222,7 +237,6 @@ describe('Finish Entering OTP', ()=> {
         
 });
 
-
 /*
 describe('Verify User Email', ()=> {
     
@@ -231,10 +245,45 @@ describe('Verify User Email', ()=> {
     });
         
 });
-*/
+ */
+
+describe('Continue signing in', ()=> {  
+    it('should click on continue button', ()=> {
+       continueBtn.clickContinueBtn(); 
+    });
+});
 
 
- 
+describe('Clinic Name', ()=> {
+        
+    it('enters the clinic name', ()=> {
+        EnterClinicDetails.setclinicName();
+    });
+       
+});
+
+
+describe('Enter specialisation', ()=> {
+    
+    it('enter the specialisation', function() {
+        EnterClinicDetails.enterSpecialisation(specialisation,indexSearch);
+    });
+        
+});
+    
+
+
+describe('Set Address', ()=> { 
+    it('enters an address', ()=> {
+        EnterClinicDetails.enterAddress(addr_key,indexSearch);
+    });
+        
+});
+    
+    
+
+
+
 
  
     

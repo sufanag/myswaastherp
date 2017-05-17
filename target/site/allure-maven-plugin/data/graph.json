@@ -1,188 +1,529 @@
 {
   "testCases" : [ {
-    "uid" : "286542a8aa053656",
-    "name" : "checks if content header is displayed",
-    "title" : "checks if content header is displayed",
+    "uid" : "9e7903847f511c59",
+    "name" : "should be setting the password",
+    "title" : "should be setting the password",
     "time" : {
-      "start" : 1494394063835,
-      "stop" : 1494394066198,
+      "start" : 1495037041363,
+      "stop" : 1495037044823,
+      "duration" : 3460
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b54abbe9892c37d1",
+    "name" : "Privacy section is displayed",
+    "title" : "Privacy section is displayed",
+    "time" : {
+      "start" : 1495037403900,
+      "stop" : 1495037406218,
+      "duration" : 2318
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "84c4a4f44ecadb64",
+    "name" : "should check if paragraph heading is displayed and print to console",
+    "title" : "should check if paragraph heading is displayed and print to console",
+    "time" : {
+      "start" : 1495037389903,
+      "stop" : 1495037392245,
+      "duration" : 2342
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "9ca1a386838e5034",
+    "name" : "adhoc",
+    "title" : "adhoc",
+    "time" : {
+      "start" : 1495037406219,
+      "stop" : 1495037406485,
+      "duration" : 266
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "d74959a3a3b19fff",
+    "name" : "should check if register button is displayed",
+    "title" : "should check if register button is displayed",
+    "time" : {
+      "start" : 1495037422778,
+      "stop" : 1495037434213,
+      "duration" : 11435
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "35075639197041c",
+    "name" : "enters an address",
+    "title" : "enters an address",
+    "time" : {
+      "start" : 1495037086502,
+      "stop" : 1495037089220,
+      "duration" : 2718
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "89a70f2bfb27d8a4",
+    "name" : "should check if paragraph heading is displayed and print to console",
+    "title" : "should check if paragraph heading is displayed and print to console",
+    "time" : {
+      "start" : 1495037014274,
+      "stop" : 1495037016630,
+      "duration" : 2356
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "aa8beed8fb23b227",
+    "name" : "should set the email",
+    "title" : "should set the email",
+    "time" : {
+      "start" : 1495037410031,
+      "stop" : 1495037413515,
+      "duration" : 3484
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "59b3b109c3f44e03",
+    "name" : "enters an address",
+    "title" : "enters an address",
+    "time" : {
+      "start" : 1495037461532,
+      "stop" : 1495037464288,
+      "duration" : 2756
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "8e1661d189e35eb2",
+    "name" : "should go to the ERP Sign Up Page",
+    "title" : "should go to the ERP Sign Up Page",
+    "time" : {
+      "start" : 1495037002218,
+      "stop" : 1495037008858,
+      "duration" : 6640
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "9a19a79294651ba",
+    "name" : "should highlight the header bar",
+    "title" : "should highlight the header bar",
+    "time" : {
+      "start" : 1495037387565,
+      "stop" : 1495037389901,
+      "duration" : 2336
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e374d440a7a0f7d2",
+    "name" : "should click on continue button",
+    "title" : "should click on continue button",
+    "time" : {
+      "start" : 1495037456895,
+      "stop" : 1495037461305,
+      "duration" : 4410
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "4fe5ada9a34dea7d",
+    "name" : "checks if Register Button is Displayed and Enabled",
+    "title" : "checks if Register Button is Displayed and Enabled",
+    "time" : {
+      "start" : 1495037044824,
+      "stop" : 1495037047229,
+      "duration" : 2405
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e3de7a30af54c171",
+    "name" : "should set the username",
+    "title" : "should set the username",
+    "time" : {
+      "start" : 1495037406486,
+      "stop" : 1495037410030,
+      "duration" : 3544
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "bf1c973807baa180",
+    "name" : "should be setting the password",
+    "title" : "should be setting the password",
+    "time" : {
+      "start" : 1495037416951,
+      "stop" : 1495037420364,
+      "duration" : 3413
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7fa88d3b8a2a0937",
+    "name" : "MySwaasth Logo is displayed",
+    "title" : "MySwaasth Logo is displayed",
+    "time" : {
+      "start" : 1495037009559,
+      "stop" : 1495037011922,
       "duration" : 2363
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "481a7ddbae8de899",
-    "name" : "checks if the content header part 1 is displayed",
-    "title" : "checks if the content header part 1 is displayed",
-    "time" : {
-      "start" : 1494394066198,
-      "stop" : 1494394068484,
-      "duration" : 2286
-    },
-    "severity" : "NORMAL",
-    "status" : "PASSED"
-  }, {
-    "uid" : "b1eb555edee71913",
-    "name" : "checks if the content header part 2 is displayed",
-    "title" : "checks if the content header part 2 is displayed",
-    "time" : {
-      "start" : 1494394068484,
-      "stop" : 1494394070783,
-      "duration" : 2299
-    },
-    "severity" : "NORMAL",
-    "status" : "PASSED"
-  }, {
-    "uid" : "c43c8276d3367aaa",
-    "name" : "should check if tour button is displayed",
-    "title" : "should check if tour button is displayed",
-    "time" : {
-      "start" : 1494394061468,
-      "stop" : 1494394063833,
-      "duration" : 2365
-    },
-    "severity" : "NORMAL",
-    "status" : "PASSED"
-  }, {
-    "uid" : "3e87e1e7283e0dbd",
+    "uid" : "96d9dda35e87ad06",
     "name" : "should set the mobile number",
     "title" : "should set the mobile number",
     "time" : {
-      "start" : 1494394080371,
-      "stop" : 1494394083794,
-      "duration" : 3423
+      "start" : 1495037413517,
+      "stop" : 1495037416950,
+      "duration" : 3433
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "3257e5055db5bec0",
-    "name" : "should check if paragraph heading part 2 is displayed ",
-    "title" : "should check if paragraph heading part 2 is displayed ",
+    "uid" : "ad3f202329e80f3a",
+    "name" : "should set the username",
+    "title" : "should set the username",
     "time" : {
-      "start" : 1494394059138,
-      "stop" : 1494394061468,
+      "start" : 1495037030906,
+      "stop" : 1495037034434,
+      "duration" : 3528
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e1f3678e74c77501",
+    "name" : "Entering the OTP",
+    "title" : "Entering the OTP",
+    "time" : {
+      "start" : 1495037072985,
+      "stop" : 1495037077471,
+      "duration" : 4486
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "1d238a7d15cb18bf",
+    "name" : "should check if tour button is displayed",
+    "title" : "should check if tour button is displayed",
+    "time" : {
+      "start" : 1495037018986,
+      "stop" : 1495037021319,
+      "duration" : 2333
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "75c77ae6a84ffab1",
+    "name" : "should check if register button is displayed",
+    "title" : "should check if register button is displayed",
+    "time" : {
+      "start" : 1495037047229,
+      "stop" : 1495037058650,
+      "duration" : 11421
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "99ed69180c8aa5ed",
+    "name" : "opening a new window",
+    "title" : "opening a new window",
+    "time" : {
+      "start" : 1495037434214,
+      "stop" : 1495037448061,
+      "duration" : 13847
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e2f4091dba7d54b4",
+    "name" : "should maximize window",
+    "title" : "should maximize window",
+    "time" : {
+      "start" : 1495037384481,
+      "stop" : 1495037385183,
+      "duration" : 702
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "742de8bc9bb323a0",
+    "name" : "checks if Register Button is Displayed and Enabled",
+    "title" : "checks if Register Button is Displayed and Enabled",
+    "time" : {
+      "start" : 1495037420365,
+      "stop" : 1495037422777,
+      "duration" : 2412
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "cd966ff31e807ebd",
+    "name" : "enters the clinic name",
+    "title" : "enters the clinic name",
+    "time" : {
+      "start" : 1495037086275,
+      "stop" : 1495037086501,
+      "duration" : 226
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "83d1d23fed912a43",
+    "name" : "checks if content header is displayed",
+    "title" : "checks if content header is displayed",
+    "time" : {
+      "start" : 1495037396951,
+      "stop" : 1495037399271,
+      "duration" : 2320
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "644df4e0dc3e3892",
+    "name" : "checks if the content header part 1 is displayed",
+    "title" : "checks if the content header part 1 is displayed",
+    "time" : {
+      "start" : 1495037399271,
+      "stop" : 1495037401576,
+      "duration" : 2305
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b76214f734a1523c",
+    "name" : "checks if the content header part 2 is displayed",
+    "title" : "checks if the content header part 2 is displayed",
+    "time" : {
+      "start" : 1495037401576,
+      "stop" : 1495037403899,
+      "duration" : 2323
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "785e1013c6b15f53",
+    "name" : "should go to the ERP Sign Up Page",
+    "title" : "should go to the ERP Sign Up Page",
+    "time" : {
+      "start" : 1495037377833,
+      "stop" : 1495037384477,
+      "duration" : 6644
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7623e422fb23ce35",
+    "name" : "should check if tour button is displayed",
+    "title" : "should check if tour button is displayed",
+    "time" : {
+      "start" : 1495037394634,
+      "stop" : 1495037396951,
+      "duration" : 2317
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5388de9da36618e5",
+    "name" : "finishing entering the OTP",
+    "title" : "finishing entering the OTP",
+    "time" : {
+      "start" : 1495037452533,
+      "stop" : 1495037456893,
+      "duration" : 4360
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "a54704f9f452f8ba",
+    "name" : "checks if content header is displayed",
+    "title" : "checks if content header is displayed",
+    "time" : {
+      "start" : 1495037021319,
+      "stop" : 1495037023671,
+      "duration" : 2352
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "eb3d32706e9b8d9b",
+    "name" : "checks if the content header part 1 is displayed",
+    "title" : "checks if the content header part 1 is displayed",
+    "time" : {
+      "start" : 1495037023671,
+      "stop" : 1495037025995,
+      "duration" : 2324
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "91b25c5614402aed",
+    "name" : "checks if the content header part 2 is displayed",
+    "title" : "checks if the content header part 2 is displayed",
+    "time" : {
+      "start" : 1495037025995,
+      "stop" : 1495037028325,
       "duration" : 2330
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "a82e82ae6c527508",
-    "name" : "should set the username",
-    "title" : "should set the username",
+    "uid" : "9d501e72d7a41fff",
+    "name" : "Entering the OTP",
+    "title" : "Entering the OTP",
     "time" : {
-      "start" : 1494394073103,
-      "stop" : 1494394076754,
-      "duration" : 3651
+      "start" : 1495037448062,
+      "stop" : 1495037452532,
+      "duration" : 4470
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "3e9e4a37d88347f",
-    "name" : "should maximize window",
-    "title" : "should maximize window",
-    "time" : {
-      "start" : 1494394044043,
-      "stop" : 1494394054311,
-      "duration" : 10268
-    },
-    "severity" : "NORMAL",
-    "status" : "FAILED"
-  }, {
-    "uid" : "a0659669cd177bcb",
+    "uid" : "31dff8fcf14f71f6",
     "name" : "should highlight the header bar",
     "title" : "should highlight the header bar",
     "time" : {
-      "start" : 1494394054504,
-      "stop" : 1494394056829,
-      "duration" : 2325
+      "start" : 1495037011922,
+      "stop" : 1495037014273,
+      "duration" : 2351
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "31db35033246598f",
-    "name" : "MySwaasth Logo is displayed",
-    "title" : "MySwaasth Logo is displayed",
+    "uid" : "faa6db9eadda0407",
+    "name" : "adhoc",
+    "title" : "adhoc",
     "time" : {
-      "start" : 1494394054313,
-      "stop" : 1494394054503,
-      "duration" : 190
+      "start" : 1495037030641,
+      "stop" : 1495037030904,
+      "duration" : 263
     },
     "severity" : "NORMAL",
     "status" : "FAILED"
   }, {
-    "uid" : "1c8ef04e32f03655",
-    "name" : "should check if register button is displayed",
-    "title" : "should check if register button is displayed",
+    "uid" : "d8c1b2f540ab9fa1",
+    "name" : "should click on continue button",
+    "title" : "should click on continue button",
     "time" : {
-      "start" : 1494394089607,
-      "stop" : 1494394096835,
-      "duration" : 7228
-    },
-    "severity" : "NORMAL",
-    "status" : "FAILED"
-  }, {
-    "uid" : "4557f02e7d521aa5",
-    "name" : "should be setting the password",
-    "title" : "should be setting the password",
-    "time" : {
-      "start" : 1494394083795,
-      "stop" : 1494394087211,
-      "duration" : 3416
+      "start" : 1495037081865,
+      "stop" : 1495037086273,
+      "duration" : 4408
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "b512dab4a73d8b5c",
-    "name" : "checks if Register Button is Displayed and Enabled",
-    "title" : "checks if Register Button is Displayed and Enabled",
+    "uid" : "a94db498b947c582",
+    "name" : "finishing entering the OTP",
+    "title" : "finishing entering the OTP",
     "time" : {
-      "start" : 1494394087212,
-      "stop" : 1494394089604,
-      "duration" : 2392
-    },
-    "severity" : "NORMAL",
-    "status" : "FAILED"
-  }, {
-    "uid" : "af21ec4aa8a0a552",
-    "name" : "should go to the ERP Sign Up Page",
-    "title" : "should go to the ERP Sign Up Page",
-    "time" : {
-      "start" : 1494394038729,
-      "stop" : 1494394044040,
-      "duration" : 5311
+      "start" : 1495037077472,
+      "stop" : 1495037081864,
+      "duration" : 4392
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "9427a2677a3e623b",
+    "uid" : "da017d3943177866",
+    "name" : "should maximize window",
+    "title" : "should maximize window",
+    "time" : {
+      "start" : 1495037008862,
+      "stop" : 1495037009558,
+      "duration" : 696
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5ef80b4361bf6f8a",
+    "name" : "should set the mobile number",
+    "title" : "should set the mobile number",
+    "time" : {
+      "start" : 1495037037920,
+      "stop" : 1495037041363,
+      "duration" : 3443
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "62172e0c2fbf3698",
     "name" : "should set the email",
     "title" : "should set the email",
     "time" : {
-      "start" : 1494394076755,
-      "stop" : 1494394080370,
-      "duration" : 3615
+      "start" : 1495037034435,
+      "stop" : 1495037037920,
+      "duration" : 3485
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "3035917889803f66",
-    "name" : "should check if paragraph heading is displayed and print to console",
-    "title" : "should check if paragraph heading is displayed and print to console",
-    "time" : {
-      "start" : 1494394056830,
-      "stop" : 1494394059137,
-      "duration" : 2307
-    },
-    "severity" : "NORMAL",
-    "status" : "PASSED"
-  }, {
-    "uid" : "a565ad71af33246b",
+    "uid" : "d90e402ee4f9e0e7",
     "name" : "Privacy section is displayed",
     "title" : "Privacy section is displayed",
     "time" : {
-      "start" : 1494394070785,
-      "stop" : 1494394073099,
-      "duration" : 2314
+      "start" : 1495037028326,
+      "stop" : 1495037030639,
+      "duration" : 2313
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "61445c640da3610d",
+    "name" : "should check if paragraph heading part 2 is displayed ",
+    "title" : "should check if paragraph heading part 2 is displayed ",
+    "time" : {
+      "start" : 1495037016631,
+      "stop" : 1495037018986,
+      "duration" : 2355
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "fda2ac3be46cde8f",
+    "name" : "MySwaasth Logo is displayed",
+    "title" : "MySwaasth Logo is displayed",
+    "time" : {
+      "start" : 1495037385185,
+      "stop" : 1495037387564,
+      "duration" : 2379
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "7f08a11c9473ef93",
+    "name" : "should check if paragraph heading part 2 is displayed ",
+    "title" : "should check if paragraph heading part 2 is displayed ",
+    "time" : {
+      "start" : 1495037392246,
+      "stop" : 1495037394633,
+      "duration" : 2387
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "dae231cb647e9064",
+    "name" : "enters the clinic name",
+    "title" : "enters the clinic name",
+    "time" : {
+      "start" : 1495037461307,
+      "stop" : 1495037461531,
+      "duration" : 224
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "b2a5d6685d6a0472",
+    "name" : "opening a new window",
+    "title" : "opening a new window",
+    "time" : {
+      "start" : 1495037058651,
+      "stop" : 1495037072982,
+      "duration" : 14331
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
