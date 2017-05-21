@@ -1,0 +1,44 @@
+{
+  "uid" : "1b5151dede623fd4",
+  "name" : "MySwaasth Logo is displayed",
+  "title" : "MySwaasth Logo is displayed",
+  "time" : {
+    "start" : 1495185982811,
+    "stop" : 1495185985164,
+    "duration" : 2353
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "f5a3c6015e047359",
+    "name" : "Logo of MySwaasth is displayed",
+    "title" : "Logo of MySwaasth is displayed"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "1481c5b7-e335-4dd7-ab09-73687a943a6e-attachment.png",
+    "type" : "image/png",
+    "size" : 97419,
+    "uid" : "35b4bb510af8d392"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Logo of MySwaasth is displayed"
+  }, {
+    "name" : "suite-title",
+    "value" : "Logo of MySwaasth is displayed"
+  } ],
+  "parameters" : [ ]
+}

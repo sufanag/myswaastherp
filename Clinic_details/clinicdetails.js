@@ -19,17 +19,15 @@ var ClinicDetails = function(){
         browser.sleep(1000);
     };
 
-    this.enterSpecialisation = function(specialisation,indexOfSearch){
+    this.enterSpecialisation = function(specialisation){
         highlightElement.highlightElement(this.specialisation);
         //this.specialisation.sendKeys(specialisation);  
         
         browser.actions()
         .mouseMove(this.specialisation.sendKeys(specialisation)).perform().then(function(){
-            browser.sleep(500);
-            for(i=0;i<indexOfSearch;i++){
+            browser.sleep(4000);
                 browser.actions().sendKeys(protractor.Key.DOWN).perform();
-            }
-            browser.sleep(500);
+                browser.sleep(500);              
             browser.actions().sendKeys(protractor.Key.ENTER).perform();          
         });
     };
@@ -39,16 +37,36 @@ var ClinicDetails = function(){
         highlightElement.highlightElement(this.address);
         browser.actions()
         .mouseMove(this.address.sendKeys(addr)).perform().then(function(){
-            browser.sleep(500);
+            browser.sleep(8000);
             for(i=0;i<indexOfSearch;i++){
                 browser.actions().sendKeys(protractor.Key.DOWN).perform();
-            }
-            browser.sleep(500);
+                browser.sleep(500);
+            } 
             browser.actions().sendKeys(protractor.Key.ENTER).perform();
         });
+    };
+
+
+    this.setClinicPhone = function(clinicNumber){
+        highlightElement.highlightElement(this.clinicPhone);
+        this.clinicPhone.sendKeys(clinicNumber);
+        browser.sleep(2000);
+    };
+};
+
+
+var ContinueBtn = function(){
+    this.continueBtn = element(by.buttonText('continue'));
+
+
+    this.clickContinueBtn = function(){
+        highlightElement.highlightElement(this.continueBtn);
+        this.continueBtn.click();
+        browser.sleep(2000);
     };
 };
 
 module.exports={
-    clinic_details1: ClinicDetails  
+    clinic_details1: ClinicDetails,
+    clinic_details2: ContinueBtn 
 }

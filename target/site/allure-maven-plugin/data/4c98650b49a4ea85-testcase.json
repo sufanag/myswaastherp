@@ -1,0 +1,44 @@
+{
+  "uid" : "4c98650b49a4ea85",
+  "name" : "opening a new window",
+  "title" : "opening a new window",
+  "time" : {
+    "start" : 1495177539706,
+    "stop" : 1495177553124,
+    "duration" : 13418
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "41cb6e7684a4997d",
+    "name" : "Open a new window",
+    "title" : "Open a new window"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "8d8f4db8-14ea-47a9-b777-06844f654900-attachment.png",
+    "type" : "image/png",
+    "size" : 98091,
+    "uid" : "39639ecebdc3722c"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Open a new window"
+  }, {
+    "name" : "suite-title",
+    "value" : "Open a new window"
+  } ],
+  "parameters" : [ ]
+}

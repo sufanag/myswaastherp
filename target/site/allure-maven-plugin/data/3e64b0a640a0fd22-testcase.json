@@ -1,0 +1,44 @@
+{
+  "uid" : "3e64b0a640a0fd22",
+  "name" : "should check if paragraph heading is displayed and print to console",
+  "title" : "should check if paragraph heading is displayed and print to console",
+  "time" : {
+    "start" : 1495184389918,
+    "stop" : 1495184392264,
+    "duration" : 2346
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3d87438c75048f06",
+    "name" : "Paragraph text is displayed",
+    "title" : "Paragraph text is displayed"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "86e760eb-cea3-4b55-87dd-6ad8ac3aa113-attachment.png",
+    "type" : "image/png",
+    "size" : 97585,
+    "uid" : "b5583c606d5c507b"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Paragraph text is displayed"
+  }, {
+    "name" : "suite-title",
+    "value" : "Paragraph text is displayed"
+  } ],
+  "parameters" : [ ]
+}

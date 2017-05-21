@@ -1,0 +1,44 @@
+{
+  "uid" : "5fd55ee5e18daf3a",
+  "name" : "should click on continue button",
+  "title" : "should click on continue button",
+  "time" : {
+    "start" : 1495186056270,
+    "stop" : 1495186060681,
+    "duration" : 4411
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "1aac5b2779386f1f",
+    "name" : "Continue signing in",
+    "title" : "Continue signing in"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "f9992fc9-a4b3-420f-b7f2-e4be1ee79168-attachment.png",
+    "type" : "image/png",
+    "size" : 53642,
+    "uid" : "207be30cf78cc112"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Continue signing in"
+  }, {
+    "name" : "suite-title",
+    "value" : "Continue signing in"
+  } ],
+  "parameters" : [ ]
+}

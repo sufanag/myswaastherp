@@ -4,6 +4,8 @@ var signUpOthersHeaders =require('../SignUp/signup-other.js');
 var otp = require('../OTP/otp.js');
 var CompleteProfile = require('../Complete_Profile/complete-profile.js');
 var ClinicDetails = require('../Clinic_details/clinicdetails.js');
+var FileUpload = require('../FileUpload/fileupload.js');
+var Verification = require('../VerificationPage/verificationpage.js')
 var Chance = require('chance');
 
 
@@ -23,7 +25,15 @@ var completeProfileUpdate = new CompleteProfile.export1();
 var continueBtn = new CompleteProfile.export3();
 
 var EnterClinicDetails = new ClinicDetails.clinic_details1();
+var EnterClinicDetails2 = new ClinicDetails.clinic_details2();
 
+var FileUp1 = new FileUpload.fileUpload1();
+var FileUp2 = new FileUpload.fileUpload2();
+var FileUp3 = new FileUpload.fileUpload3();
+var FileCont = new FileUpload.fileUploadContinue();
+
+var Verification_Page = new Verification.verificationURL();
+var Logged_out = new Verification.loggingOut();
 
 //================Chance Details==========================
 var chance = new Chance();
@@ -36,7 +46,7 @@ var mobile = (chance.phone({formatted:false}));
 console.log(mobile);
 exports.phoneNumber = mobile;
 
-var specialisation = chance.string({length: 1, pool: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'});
+var specialisation = chance.string({length: 1, pool: 'ACDEFGHIJMNOPRSTUV'});
 console.log(specialisation);
 
 var indexSearch = chance.integer({min: 1, max: 3});
@@ -183,9 +193,9 @@ describe('OTP Input Box', ()=> {
 
 
 
-describe('Open a new window', ()=> {
+describe('Go to Mahaflox', ()=> {
     
-    it('opening a new window', function() {      
+    it('opening a new window and get OTP', function() {      
        
         browser.executeScript('window.open()').then(function () {
         browser.getAllWindowHandles().then(function (handles) {
@@ -263,22 +273,136 @@ describe('Clinic Name', ()=> {
 });
 
 
-describe('Enter specialisation', ()=> {
-    
+describe('Enter specialisation', ()=> {    
     it('enter the specialisation', function() {
-        EnterClinicDetails.enterSpecialisation(specialisation,indexSearch);
-    });
-        
+        EnterClinicDetails.enterSpecialisation(specialisation);
+    });       
 });
-    
-
 
 describe('Set Address', ()=> { 
     it('enters an address', ()=> {
         EnterClinicDetails.enterAddress(addr_key,indexSearch);
+    });        
+});
+
+
+describe('Clinic Phone', ()=> {
+    it('set clinic phone number', ()=> {
+        EnterClinicDetails.setClinicPhone(mobile);
+    });      
+});
+
+describe('Continue', ()=> {
+    
+    it('clicking on continue button', ()=> {
+        EnterClinicDetails2.clickContinueBtn();
     });
         
 });
+
+
+describe('File Upload 1', ()=> {    
+    it('first file upload', ()=> {
+        FileUp1.fileUploadFirst();
+    });        
+});
+
+
+describe('File Upload 2', ()=> {   
+    it('second file upload', ()=> {
+        FileUp2.fileUploadSecond();
+    });       
+});
+
+
+describe('File Upload 3', ()=> {
+    
+    it('uploads third document', ()=> {
+        FileUp3.fileUploadThird();
+    });
+        
+});
+
+
+describe('Continue to next step', ()=> {
+    
+    it('by clicking on continue button', ()=> {
+        FileCont.clickOnContinue();
+    });
+        
+});
+
+
+describe('Verification URL', ()=> {
+    
+    it('will verify the URL of verification page', ()=> {
+        Verification_Page.verifyURL();
+    });
+        
+});
+
+
+describe('Verification Heading', ()=> { 
+    it('should match the verification heading text', ()=> {
+        Verification_Page.verificationHeadingVerify();
+    });        
+});
+
+describe('Verification Content', ()=> {
+    it('should print some stuff', ()=> {
+        Verification_Page.verificationOfContent();
+    });       
+});
+
+
+describe('Logout Button', ()=> {
+    
+    it('clicks on Logout Button', ()=> {
+        Logged_out.clickLogoutBtn();
+    });
+
+    
+    it('is logged out', ()=> {
+        Logged_out.verifyLoggedOut();
+    });
+        
+        
+});
+
+
+describe('Go to Mahaflox again', ()=> {
+    
+    it('should go to mahaflox again', ()=> {
+        browser.executeScript('window.open').then(function(){
+             browser.getAllWindowHandles().then(function(handles){
+                 var secondWindow = handles[1];
+                 browser.switchTo().window(secondWindow).then(function(){
+                      browser.get('http://apiv4.sia.co.in/mahaflox');
+                      console.log('confirmation');
+                 });
+             });
+        });
+    });
+        
+});
+    
+    
+    
+    
+
+
+
+    
+    
+
+    
+    
+
+
+    
+
+    
+
     
     
 

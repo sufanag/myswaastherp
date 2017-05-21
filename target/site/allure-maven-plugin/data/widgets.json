@@ -4,127 +4,147 @@
     "name" : "defects",
     "type" : "DEFECTS",
     "data" : [ {
+      "count" : 3,
+      "message" : "Failed: No element found using locator: by.buttonText(\"continue\")",
+      "status" : "FAILED"
+    }, {
       "count" : 2,
-      "message" : "Failed: No element found using locator: By(css selector, [href=\"#/signup\"])",
+      "message" : "Failed: No element found using locator: By(css selector, [formcontrolname=\"otp\"])",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: unknown error: cannot focus element\n  (Session info: chrome=60.0.3100.0)\n  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.4 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 40 milliseconds\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Rahuls-Air', ip: 'fe80:0:0:0:da:954c:ebcb:3e9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.4', java.version: '1.8.0_111'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b), userDataDir=/var/folders/cw/484mdg194s3_bs9d0hsxbgcm0000gn/T/.org.chromium.Chromium.G2i0JX}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3100.0, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 3b3e94fb7c794ba9cd5ae29570ea49f1",
+      "message" : "Failed: No element found using locator: by.buttonText(\"VERIFY\")",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: unknown error: cannot focus element\n  (Session info: chrome=60.0.3100.0)\n  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b),platform=Mac OS X 10.12.4 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 66 milliseconds\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'Rahuls-Air', ip: 'fe80:0:0:0:da:954c:ebcb:3e9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.4', java.version: '1.8.0_111'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b), userDataDir=/var/folders/cw/484mdg194s3_bs9d0hsxbgcm0000gn/T/.org.chromium.Chromium.LcKDYb}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3100.0, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: d26af9554301f830d0f22aa828d74190",
+      "message" : "Failed: No element found using locator: By(css selector, [ng-reflect-ng-class=\"ui-inputtext ui-widget ui-stat\"])",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: Cannot read property 'click' of undefined",
+      "message" : "Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, div#image1_container.card_img_container)",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: Cannot read property 'sendKeys' of undefined",
+      "message" : "Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, div#image3_container.card_img_container)",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: By(css selector, [ng-reflect-name=\"mobile\"])",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: By(css selector, [placeholder=\"Enter your address\"])",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: By(xpath, //tr[@class=\"model-account\"]/th/a)",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: By(css selector, [formcontrolname=\"c_name\"])",
       "status" : "FAILED"
     } ]
   }, {
     "name" : "xunit",
     "type" : "TITLE_STATISTICS",
     "data" : [ {
-      "title" : "Adhoc",
+      "title" : "Continue to next step",
       "statistic" : {
-        "total" : 2,
-        "passed" : 0,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 2,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Continue signing in",
-      "statistic" : {
-        "total" : 2,
+        "total" : 3,
         "passed" : 2,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0
       }
     }, {
       "title" : "Correct Password",
       "statistic" : {
-        "total" : 2,
-        "passed" : 2,
+        "total" : 3,
+        "passed" : 3,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "First Test For Page Visit",
+      "title" : "Enter specialisation",
       "statistic" : {
-        "total" : 2,
+        "total" : 3,
         "passed" : 2,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    }, {
+      "title" : "File Upload 1",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    }, {
+      "title" : "File Upload 3",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Finish Entering OTP",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
         "broken" : 0
       }
     }, {
       "title" : "Fourth Test for setting the email",
       "statistic" : {
-        "total" : 2,
-        "passed" : 2,
+        "total" : 3,
+        "passed" : 3,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "Header bar is displayed",
+      "title" : "Logo of MySwaasth is displayed",
       "statistic" : {
-        "total" : 2,
-        "passed" : 2,
+        "total" : 3,
+        "passed" : 3,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "OTP Input Box",
+      "title" : "Tour Button ",
       "statistic" : {
-        "total" : 2,
-        "passed" : 2,
+        "total" : 3,
+        "passed" : 3,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "Paragraph text is displayed",
+      "title" : "second test for page maximization",
       "statistic" : {
-        "total" : 2,
-        "passed" : 2,
+        "total" : 3,
+        "passed" : 3,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Privacy Section",
-      "statistic" : {
-        "total" : 2,
-        "passed" : 2,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Set Address",
-      "statistic" : {
-        "total" : 2,
-        "passed" : 0,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 2,
         "broken" : 0
       }
     } ]
@@ -134,11 +154,11 @@
     "data" : [ {
       "title" : "Without feature",
       "statistic" : {
-        "total" : 48,
-        "passed" : 42,
+        "total" : 90,
+        "passed" : 76,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 6,
+        "failed" : 14,
         "broken" : 0
       }
     } ]

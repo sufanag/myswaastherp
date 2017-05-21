@@ -1,0 +1,44 @@
+{
+  "uid" : "3147d05a670f98f9",
+  "name" : "first file upload",
+  "title" : "first file upload",
+  "time" : {
+    "start" : 1495184492847,
+    "stop" : 1495184499270,
+    "duration" : 6423
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "98d557ea2df61801",
+    "name" : "File Upload 1",
+    "title" : "File Upload 1"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "581c94c5-04fa-4621-9d9c-3698287f9a8c-attachment.png",
+    "type" : "image/png",
+    "size" : 78797,
+    "uid" : "b18cb9ad210e6ec6"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "File Upload 1"
+  }, {
+    "name" : "suite-title",
+    "value" : "File Upload 1"
+  } ],
+  "parameters" : [ ]
+}
