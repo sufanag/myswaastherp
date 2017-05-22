@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1495391290003" stop="1495391295649">
+	<name>Logout Button</name>
+	<title>Logout Button</title>
+	<test-cases>
+		<test-case start="1495391290004" stop="1495391294403" status="passed">
+			<name>clicks on Logout Button</name>
+			<title>clicks on Logout Button</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="03168dac-8677-40b9-be58-65889bd7b41d-attachment.png" type="image/png" size="84639"/>
+			</attachments>
+		</test-case>
+		<test-case start="1495391294403" stop="1495391295648" status="passed">
+			<name>is logged out</name>
+			<title>is logged out</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a8d3aada-a4f9-4570-b19d-f3a9c71b0e73-attachment.png" type="image/png" size="84639"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
