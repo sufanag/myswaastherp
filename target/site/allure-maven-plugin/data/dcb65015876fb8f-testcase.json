@@ -1,0 +1,44 @@
+{
+  "uid" : "dcb65015876fb8f",
+  "name" : "setting short password",
+  "title" : "setting short password",
+  "time" : {
+    "start" : 1495697208750,
+    "stop" : 1495697212076,
+    "duration" : 3326
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "fb10d75b89306d89",
+    "name" : "Short Password",
+    "title" : "Short Password"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "fa177e7a-bca0-4181-87a5-72842a20b054-attachment.png",
+    "type" : "image/png",
+    "size" : 96337,
+    "uid" : "a05e4a8b12942c51"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Short Password"
+  }, {
+    "name" : "suite-title",
+    "value" : "Short Password"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1495710021903" stop="1495710027523">
+	<name>Password test -1</name>
+	<title>Password test -1</title>
+	<test-cases>
+		<test-case start="1495710021903" stop="1495710027523" status="passed">
+			<name>setting blank password and expect that error is displayed</name>
+			<title>setting blank password and expect that error is displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="30d8ba8f-9e6a-4c6d-9562-612447c0f118-attachment.png" type="image/png" size="100739"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

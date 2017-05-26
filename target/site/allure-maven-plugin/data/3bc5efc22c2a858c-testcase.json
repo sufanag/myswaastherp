@@ -1,0 +1,44 @@
+{
+  "uid" : "3bc5efc22c2a858c",
+  "name" : "checks if Register Button is Displayed and Enabled",
+  "title" : "checks if Register Button is Displayed and Enabled",
+  "time" : {
+    "start" : 1495705160610,
+    "stop" : 1495705163008,
+    "duration" : 2398
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "13c1bec6df70b94c",
+    "name" : "Register Button",
+    "title" : "Register Button"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "e80a7363-c3a7-4515-9618-f97d92349215-attachment.png",
+    "type" : "image/png",
+    "size" : 96605,
+    "uid" : "e0769fc0c0ec2635"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Register Button"
+  }, {
+    "name" : "suite-title",
+    "value" : "Register Button"
+  } ],
+  "parameters" : [ ]
+}

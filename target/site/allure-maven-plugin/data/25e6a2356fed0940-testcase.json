@@ -1,0 +1,47 @@
+{
+  "uid" : "25e6a2356fed0940",
+  "name" : "is logged out",
+  "title" : "is logged out",
+  "time" : {
+    "start" : 1495710181414,
+    "stop" : 1495710182656,
+    "duration" : 1242
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Expected 'https://myswaastherp.sia.co.in/#/upload-documents' to equal 'https://myswaastherp.sia.co.in/#/login'.",
+    "stackTrace" : "Error: Failed expectation\n    at LogoutVerify.verifyLoggedOut (/Users/zac01/Documents/protractor/myswaastherp/VerificationPage/verificationpage.js:46:41)\n    at Object.it (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:368:20)\n    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25\n    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1067:7)\n    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2396:12)\n    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2860:25)"
+  },
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "1ea8e70670e8ab25",
+    "name" : "Logout Button",
+    "title" : "Logout Button"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "76cbe345-b9f0-440c-a90d-2a18b4bffc28-attachment.png",
+    "type" : "image/png",
+    "size" : 80792,
+    "uid" : "c0e8e9825269216c"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Logout Button"
+  }, {
+    "name" : "suite-title",
+    "value" : "Logout Button"
+  } ],
+  "parameters" : [ ]
+}

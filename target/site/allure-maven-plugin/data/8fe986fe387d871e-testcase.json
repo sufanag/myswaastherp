@@ -1,0 +1,44 @@
+{
+  "uid" : "8fe986fe387d871e",
+  "name" : "set short password and expect error to be displayed",
+  "title" : "set short password and expect error to be displayed",
+  "time" : {
+    "start" : 1495709805942,
+    "stop" : 1495709811530,
+    "duration" : 5588
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "9e3a6574be3d9215",
+    "name" : "Password test -2",
+    "title" : "Password test -2"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "e05c3102-3231-4e58-a0a1-d35d6237d977-attachment.png",
+    "type" : "image/png",
+    "size" : 99292,
+    "uid" : "588d0e8636fa2aeb"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Password test -2"
+  }, {
+    "name" : "suite-title",
+    "value" : "Password test -2"
+  } ],
+  "parameters" : [ ]
+}

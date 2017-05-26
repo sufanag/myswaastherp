@@ -1,0 +1,44 @@
+{
+  "uid" : "3d52593f51b2ad32",
+  "name" : "setting blank password",
+  "title" : "setting blank password",
+  "time" : {
+    "start" : 1495704714700,
+    "stop" : 1495704718098,
+    "duration" : 3398
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c557d507f002f7f",
+    "name" : "Blank Password",
+    "title" : "Blank Password"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "3c084459-0ac0-4e90-aa28-abed66edf74a-attachment.png",
+    "type" : "image/png",
+    "size" : 98477,
+    "uid" : "dede2d3d2ad08965"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Blank Password"
+  }, {
+    "name" : "suite-title",
+    "value" : "Blank Password"
+  } ],
+  "parameters" : [ ]
+}

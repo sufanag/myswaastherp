@@ -4,6 +4,7 @@ var Chance = require('chance');
 console.log("This is start of the clinic details =================>");
 var chance = new Chance();
 
+
 var ClinicDetails = function(){
     this.clinicName  = element(by.css('[formcontrolname="c_name"]'));
     this.specialisation = element(by.css('[ng-reflect-ng-class="ui-inputtext ui-widget ui-stat"]'));
@@ -11,11 +12,10 @@ var ClinicDetails = function(){
     this.clinicPhone = element(by.css('[ng-reflect-name="mobile"]'));
 
 
-    this.setclinicName = function(){
+    this.setclinicName = function(clinic_name){
         highlightElement.highlightElement(this.clinicName);
-        var generate_clinic_name = chance.string({length: 8, pool: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'});
-        console.log(generate_clinic_name);
-        this.clinicName.sendKeys(generate_clinic_name);
+        console.log(clinic_name);
+        this.clinicName.sendKeys(clinic_name);
         browser.sleep(1000);
     };
 
@@ -68,5 +68,7 @@ var ContinueBtn = function(){
 
 module.exports={
     clinic_details1: ClinicDetails,
-    clinic_details2: ContinueBtn 
+    clinic_details2: ContinueBtn,
+    
 }
+

@@ -1,0 +1,44 @@
+{
+  "uid" : "81ab13565b695961",
+  "name" : "should check if the error message is displayed if blank mobile is sent",
+  "title" : "should check if the error message is displayed if blank mobile is sent",
+  "time" : {
+    "start" : 1495703888034,
+    "stop" : 1495703890480,
+    "duration" : 2446
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "33fd1521511118f9",
+    "name" : "Blank Mobile",
+    "title" : "Blank Mobile"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "ed34311e-0b93-4d80-945d-991c52dc1019-attachment.png",
+    "type" : "image/png",
+    "size" : 99850,
+    "uid" : "82bd7478e1e48263"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Blank Mobile"
+  }, {
+    "name" : "suite-title",
+    "value" : "Blank Mobile"
+  } ],
+  "parameters" : [ ]
+}

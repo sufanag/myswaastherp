@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1495697443432" stop="1495697445794">
+	<name>Register Button</name>
+	<title>Register Button</title>
+	<test-cases>
+		<test-case start="1495697443432" stop="1495697445794" status="passed">
+			<name>checks if Register Button is Displayed and Enabled</name>
+			<title>checks if Register Button is Displayed and Enabled</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f58631d3-3000-42bc-98a6-21ac45b4bcf2-attachment.png" type="image/png" size="96709"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

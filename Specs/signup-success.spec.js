@@ -9,6 +9,7 @@ var Verification = require('../VerificationPage/verificationpage.js')
 var Chance = require('chance');
 
 
+
 var page = new signUpDetails.var1();
 var page3 = new signUpDetails.var3();
 
@@ -26,6 +27,7 @@ var continueBtn = new CompleteProfile.export3();
 
 var EnterClinicDetails = new ClinicDetails.clinic_details1();
 var EnterClinicDetails2 = new ClinicDetails.clinic_details2();
+var _clinic_name =  ClinicDetails.clinic_name;
 
 var FileUp1 = new FileUpload.fileUpload1();
 var FileUp2 = new FileUpload.fileUpload2();
@@ -46,7 +48,7 @@ var mobile = (chance.phone({formatted:false}));
 console.log(mobile);
 exports.phoneNumber = mobile;
 
-var specialisation = chance.string({length: 1, pool: 'ACDEFGHIJMNOPRSTUV'});
+var specialisation = chance.string({length: 1, pool: 'ACDEFGHIMNOPRSTUV'});
 console.log(specialisation);
 
 var indexSearch = chance.integer({min: 1, max: 3});
@@ -54,6 +56,9 @@ console.log(indexSearch);
 
 var addr_key = chance.string({length: 1, pool: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'});
 console.log(addr_key);
+
+var generate_clinic_name = chance.string({length: 8, pool: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'});
+console.log(generate_clinic_name);
 
 var otpNumber;
 
@@ -205,7 +210,7 @@ describe('Go to Mahaflox', ()=> {
                 browser.get('http://apiv4.sia.co.in/mahaflox');
                 browser.sleep(2000);
                 element(by.css('input#id_username')).sendKeys('admin@innotical.com');
-                element(by.css('input#id_password')).sendKeys('admin_inno123');
+                element(by.css('input#id_password')).sendKeys('admin_inno111');
                 element(by.xpath('//input[@value="Log in"]')).click();
                 browser.sleep(2000);
                 element(by.xpath('//tr[@class="model-account"]/th/a')).click();
@@ -267,7 +272,7 @@ describe('Continue signing in', ()=> {
 describe('Clinic Name', ()=> {
         
     it('enters the clinic name', ()=> {
-        EnterClinicDetails.setclinicName();
+        EnterClinicDetails.setclinicName(generate_clinic_name);
     });
        
 });
@@ -378,7 +383,13 @@ describe('Go to Mahaflox again', ()=> {
                  var secondWindow = handles[1];
                  browser.switchTo().window(secondWindow).then(function(){
                       browser.get('http://apiv4.sia.co.in/mahaflox');
-                      console.log('confirmation');
+                      browser.sleep(1000);
+                      element(by.xpath('//tr[@class="model-main_facilities"]/th/a')).click();
+                      console.log(generate_clinic_name);
+                      var elem =element(by.xpath("//a[contains(text(),generate_clinic_name)]"));
+                      elem.click();
+                      browser.sleep(1000);
+
                  });
              });
         });

@@ -1,0 +1,44 @@
+{
+  "uid" : "9742042159f62ca4",
+  "name" : "should be setting the password and checking no error is displayed",
+  "title" : "should be setting the password and checking no error is displayed",
+  "time" : {
+    "start" : 1495709811532,
+    "stop" : 1495709817112,
+    "duration" : 5580
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "247d45e35a3d62c9",
+    "name" : "Correct Password",
+    "title" : "Correct Password"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "260675fa-f64c-4031-ac1b-d21a77ac481b-attachment.png",
+    "type" : "image/png",
+    "size" : 96546,
+    "uid" : "196c205ff8931978"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Correct Password"
+  }, {
+    "name" : "suite-title",
+    "value" : "Correct Password"
+  } ],
+  "parameters" : [ ]
+}

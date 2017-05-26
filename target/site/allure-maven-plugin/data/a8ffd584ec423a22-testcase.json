@@ -1,0 +1,44 @@
+{
+  "uid" : "a8ffd584ec423a22",
+  "name" : "should check if the error message is displayed if mobile with incorrect length is set",
+  "title" : "should check if the error message is displayed if mobile with incorrect length is set",
+  "time" : {
+    "start" : 1495710010805,
+    "stop" : 1495710016363,
+    "duration" : 5558
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d878af2047a5428a",
+    "name" : "Setting Mobile test -2",
+    "title" : "Setting Mobile test -2"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "214e74b2-2292-47a5-b505-20f38a93681f-attachment.png",
+    "type" : "image/png",
+    "size" : 103474,
+    "uid" : "bebd41e325aca1a9"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Setting Mobile test -2"
+  }, {
+    "name" : "suite-title",
+    "value" : "Setting Mobile test -2"
+  } ],
+  "parameters" : [ ]
+}

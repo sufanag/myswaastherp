@@ -1,0 +1,44 @@
+{
+  "uid" : "4ffc53a1554cfb11",
+  "name" : "should set the email",
+  "title" : "should set the email",
+  "time" : {
+    "start" : 1495710070365,
+    "stop" : 1495710073811,
+    "duration" : 3446
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e9a743b7cd090ce0",
+    "name" : "Fourth Test for setting the email",
+    "title" : "Fourth Test for setting the email"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "6b9edb49-1414-41e6-a1a6-ae1332458d7e-attachment.png",
+    "type" : "image/png",
+    "size" : 97932,
+    "uid" : "34ce56386d741f56"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Fourth Test for setting the email"
+  }, {
+    "name" : "suite-title",
+    "value" : "Fourth Test for setting the email"
+  } ],
+  "parameters" : [ ]
+}

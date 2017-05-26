@@ -1,0 +1,44 @@
+{
+  "uid" : "8a333dc7c6eb7118",
+  "name" : "should go to mahaflox again",
+  "title" : "should go to mahaflox again",
+  "time" : {
+    "start" : 1495710182657,
+    "stop" : 1495710185850,
+    "duration" : 3193
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c206e8b8f54217fd",
+    "name" : "Go to Mahaflox again",
+    "title" : "Go to Mahaflox again"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "20998f89-b1c3-4dca-a76c-5adfd69a72dd-attachment.png",
+    "type" : "image/png",
+    "size" : 90522,
+    "uid" : "47aafbc26b9a603f"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Go to Mahaflox again"
+  }, {
+    "name" : "suite-title",
+    "value" : "Go to Mahaflox again"
+  } ],
+  "parameters" : [ ]
+}

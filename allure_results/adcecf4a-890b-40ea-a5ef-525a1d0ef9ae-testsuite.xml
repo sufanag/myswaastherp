@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1495697415115" stop="1495697420702">
+	<name>Incorrect email entered</name>
+	<title>Incorrect email entered</title>
+	<test-cases>
+		<test-case start="1495697415116" stop="1495697420702" status="passed">
+			<name>should check if error message is displayed</name>
+			<title>should check if error message is displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="97c69882-b52e-40f3-9261-3234c1cb8bf5-attachment.png" type="image/png" size="103676"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

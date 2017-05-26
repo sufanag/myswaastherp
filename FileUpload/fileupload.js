@@ -14,7 +14,7 @@ var uploadFileFirst = function(){
         console.log(absolutePath);
         this.fileUploadOne.sendKeys(absolutePath);
         browser.actions().sendKeys(protractor.Key.ENTER).perform();
-        browser.sleep(4000);
+        browser.sleep(6000);
 
     };
     
@@ -32,7 +32,7 @@ var uploadFileSecond = function(){
         console.log(absolutePath);
         this.file_Upload2.sendKeys(absolutePath);
         browser.actions().sendKeys(protractor.Key.ENTER).perform();
-        browser.sleep(4000);
+        browser.sleep(6000);
     };
 };
 
@@ -49,7 +49,7 @@ var uploadFileThird = function(){
         console.log(absolutePath);
         this.file_Upload3.sendKeys(absolutePath);
         browser.actions().sendKeys(protractor.Key.ENTER).perform();
-        browser.sleep(4000);
+        browser.sleep(6000);
     };
 };
 

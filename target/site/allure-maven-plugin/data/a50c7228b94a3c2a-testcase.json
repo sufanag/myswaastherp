@@ -1,0 +1,44 @@
+{
+  "uid" : "a50c7228b94a3c2a",
+  "name" : "should check if error message is displayed when entering email with wrong format",
+  "title" : "should check if error message is displayed when entering email with wrong format",
+  "time" : {
+    "start" : 1495709994953,
+    "stop" : 1495710000550,
+    "duration" : 5597
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "babf2f7ee0da05fa",
+    "name" : "Setting Email test -2",
+    "title" : "Setting Email test -2"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "e81d1267-301d-4a47-96ff-2ef3430801b8-attachment.png",
+    "type" : "image/png",
+    "size" : 103722,
+    "uid" : "892db560e1efa0d1"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Setting Email test -2"
+  }, {
+    "name" : "suite-title",
+    "value" : "Setting Email test -2"
+  } ],
+  "parameters" : [ ]
+}

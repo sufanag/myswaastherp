@@ -1,0 +1,44 @@
+{
+  "uid" : "6a89367429f7a4a0",
+  "name" : "should set correct mobile number",
+  "title" : "should set correct mobile number",
+  "time" : {
+    "start" : 1495704711282,
+    "stop" : 1495704714699,
+    "duration" : 3417
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "18dac50005642155",
+    "name" : "Setting Mobile test -3",
+    "title" : "Setting Mobile test -3"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "dfdf2519-a532-4ace-b5bd-392d5986d0ca-attachment.png",
+    "type" : "image/png",
+    "size" : 100550,
+    "uid" : "41305c25e1162bfe"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Setting Mobile test -3"
+  }, {
+    "name" : "suite-title",
+    "value" : "Setting Mobile test -3"
+  } ],
+  "parameters" : [ ]
+}

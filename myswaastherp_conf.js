@@ -16,16 +16,16 @@ exports.config={
     },
     specs:["Specs/signup-success.spec.js"],
     useAllAngular2AppRoots:true,
-   /*capabilities: {
+   capabilities: {
     browserName: 'chrome',
     'chromeOptions': {
       args: ['--test-type']
     }
-},*/
+},/*
    capabilities: {
     browserName: 'firefox',
     marionette: true,
-  },
+  },*/
   onPrepare:function(){
      //browser.manage().window().setSize(1280,1024);
       jasmine.getEnv().addReporter(new SpecReporter({

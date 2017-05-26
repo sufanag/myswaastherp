@@ -1,0 +1,44 @@
+{
+  "uid" : "7b9b6e1ee70e6d92",
+  "name" : "setting blank password and expect that error is displayed",
+  "title" : "setting blank password and expect that error is displayed",
+  "time" : {
+    "start" : 1495710021903,
+    "stop" : 1495710027523,
+    "duration" : 5620
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d0cbf8e62eb3b845",
+    "name" : "Password test -1",
+    "title" : "Password test -1"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "30d8ba8f-9e6a-4c6d-9562-612447c0f118-attachment.png",
+    "type" : "image/png",
+    "size" : 100739,
+    "uid" : "5f15256cc44af8b6"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Password test -1"
+  }, {
+    "name" : "suite-title",
+    "value" : "Password test -1"
+  } ],
+  "parameters" : [ ]
+}

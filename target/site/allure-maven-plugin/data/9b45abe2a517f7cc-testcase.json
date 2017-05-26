@@ -1,0 +1,44 @@
+{
+  "uid" : "9b45abe2a517f7cc",
+  "name" : "enter the specialisation",
+  "title" : "enter the specialisation",
+  "time" : {
+    "start" : 1495710125134,
+    "stop" : 1495710132081,
+    "duration" : 6947
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "977be9c41dd7fa37",
+    "name" : "Enter specialisation",
+    "title" : "Enter specialisation"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "7fc3c44e-e9f3-4b3d-800a-3db94b5619dc-attachment.png",
+    "type" : "image/png",
+    "size" : 53029,
+    "uid" : "acd7d8c5348af19c"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Enter specialisation"
+  }, {
+    "name" : "suite-title",
+    "value" : "Enter specialisation"
+  } ],
+  "parameters" : [ ]
+}

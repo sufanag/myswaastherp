@@ -4,134 +4,122 @@
     "name" : "defects",
     "type" : "DEFECTS",
     "data" : [ {
-      "count" : 3,
-      "message" : "Failed: No element found using locator: by.buttonText(\"continue\")",
+      "count" : 5,
+      "message" : "Failed: No element found using locator: By(xpath, //p[contains(text(),'Enter a valid email address.')])",
       "status" : "FAILED"
     }, {
       "count" : 2,
-      "message" : "Failed: No element found using locator: By(css selector, [formcontrolname=\"otp\"])",
+      "message" : "Expected false to be true.",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: No element found using locator: by.buttonText(\"VERIFY\")",
+      "message" : "Failed: No element found using locator: by.buttonText(\"Logout\")",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: No element found using locator: By(css selector, [ng-reflect-ng-class=\"ui-inputtext ui-widget ui-stat\"])",
+      "message" : "Expected 'https://myswaastherp.sia.co.in/#/upload-documents' to equal 'https://myswaastherp.sia.co.in/#/login'.",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, div#image1_container.card_img_container)",
+      "message" : "Failed: No element found using locator: By(xpath, //p[contains(text(),'Mobile no. must contain at least 10 digits.')])",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, div#image3_container.card_img_container)",
+      "message" : "Expected 'https://myswaastherp.sia.co.in/#/upload-documents' to equal 'https://myswaastherp.sia.co.in/#/verification'.",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: No element found using locator: By(css selector, [ng-reflect-name=\"mobile\"])",
-      "status" : "FAILED"
-    }, {
-      "count" : 1,
-      "message" : "Failed: No element found using locator: By(css selector, [placeholder=\"Enter your address\"])",
-      "status" : "FAILED"
-    }, {
-      "count" : 1,
-      "message" : "Failed: No element found using locator: By(xpath, //tr[@class=\"model-account\"]/th/a)",
-      "status" : "FAILED"
-    }, {
-      "count" : 1,
-      "message" : "Failed: No element found using locator: By(css selector, [formcontrolname=\"c_name\"])",
+      "message" : "Expected 'Upload Documents' to equal 'Verification Pending'.",
       "status" : "FAILED"
     } ]
   }, {
     "name" : "xunit",
     "type" : "TITLE_STATISTICS",
     "data" : [ {
-      "title" : "Continue to next step",
-      "statistic" : {
-        "total" : 3,
-        "passed" : 2,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 1,
-        "broken" : 0
-      }
-    }, {
       "title" : "Correct Password",
       "statistic" : {
-        "total" : 3,
-        "passed" : 3,
+        "total" : 10,
+        "passed" : 10,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Enter specialisation",
-      "statistic" : {
-        "total" : 3,
-        "passed" : 2,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 1,
-        "broken" : 0
-      }
-    }, {
-      "title" : "File Upload 1",
-      "statistic" : {
-        "total" : 3,
-        "passed" : 2,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 1,
-        "broken" : 0
-      }
-    }, {
-      "title" : "File Upload 3",
-      "statistic" : {
-        "total" : 3,
-        "passed" : 2,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 1,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Finish Entering OTP",
-      "statistic" : {
-        "total" : 3,
-        "passed" : 2,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 1,
         "broken" : 0
       }
     }, {
       "title" : "Fourth Test for setting the email",
       "statistic" : {
-        "total" : 3,
-        "passed" : 3,
+        "total" : 5,
+        "passed" : 5,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "Logo of MySwaasth is displayed",
+      "title" : "Header bar is displayed",
       "statistic" : {
-        "total" : 3,
-        "passed" : 3,
+        "total" : 1,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "Tour Button ",
+      "title" : "Incorrect email entered",
       "statistic" : {
-        "total" : 3,
-        "passed" : 3,
+        "total" : 4,
+        "passed" : 4,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Password test -1",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Register Button",
+      "statistic" : {
+        "total" : 10,
+        "passed" : 10,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Setting Mobile test -2",
+      "statistic" : {
+        "total" : 5,
+        "passed" : 5,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Short Password",
+      "statistic" : {
+        "total" : 7,
+        "passed" : 7,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Third Test For Setting the Name",
+      "statistic" : {
+        "total" : 10,
+        "passed" : 10,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
@@ -140,8 +128,8 @@
     }, {
       "title" : "second test for page maximization",
       "statistic" : {
-        "total" : 3,
-        "passed" : 3,
+        "total" : 10,
+        "passed" : 10,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
@@ -154,11 +142,11 @@
     "data" : [ {
       "title" : "Without feature",
       "statistic" : {
-        "total" : 90,
-        "passed" : 76,
+        "total" : 153,
+        "passed" : 141,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 14,
+        "failed" : 12,
         "broken" : 0
       }
     } ]

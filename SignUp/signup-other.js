@@ -1,6 +1,5 @@
 const highlightElement =require('../BaseFunctionsPage/highlightelement.js');
 
-
 console.log("Start of the Sign Up Other============>");
 
 
@@ -21,6 +20,7 @@ var signUpOthersHeaders = function(){
     this.logoDisplayed = function(){
         highlightElement.highlightElement(this.logo );
         expect(this.logo.isDisplayed()).toBe(true);
+        
     };
 
     this.headerBar = function(){

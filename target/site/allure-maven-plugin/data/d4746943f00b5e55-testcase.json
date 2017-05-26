@@ -1,0 +1,47 @@
+{
+  "uid" : "d4746943f00b5e55",
+  "name" : "should match the verification heading text",
+  "title" : "should match the verification heading text",
+  "time" : {
+    "start" : 1495710176540,
+    "stop" : 1495710178863,
+    "duration" : 2323
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Expected 'Upload Documents' to equal 'Verification Pending'.",
+    "stackTrace" : "Error: Failed expectation\n    at /Users/zac01/Documents/protractor/myswaastherp/VerificationPage/verificationpage.js:20:26\n    at elementArrayFinder_.then (/usr/local/lib/node_modules/protractor/lib/element.ts:840:22)\n    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)\n    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)"
+  },
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "dd3451139edb795f",
+    "name" : "Verification Heading",
+    "title" : "Verification Heading"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "dc6e7564-4167-4a62-9556-88bc2987ebbf-attachment.png",
+    "type" : "image/png",
+    "size" : 80588,
+    "uid" : "8e53870012957d8"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Verification Heading"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verification Heading"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1495807391516" stop="1495807392754">
+	<name>Verification URL</name>
+	<title>Verification URL</title>
+	<test-cases>
+		<test-case start="1495807391516" stop="1495807392754" status="passed">
+			<name>will verify the URL of verification page</name>
+			<title>will verify the URL of verification page</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6c5416f0-5a40-4d48-9ca9-fcd977cc92df-attachment.png" type="image/png" size="70586"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

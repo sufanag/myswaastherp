@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1495705127780" stop="1495705133403">
+	<name>Setting Email test -2</name>
+	<title>Setting Email test -2</title>
+	<test-cases>
+		<test-case start="1495705127780" stop="1495705133403" status="passed">
+			<name>should check if error message is displayed when entering email with wrong format</name>
+			<title>should check if error message is displayed when entering email with wrong format</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1a5716ad-aa6e-40cf-8b3e-5a88bf05eaeb-attachment.png" type="image/png" size="103612"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

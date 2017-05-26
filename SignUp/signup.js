@@ -65,13 +65,7 @@ var signUpError = function(){
     this.mobileNumber = element(by.css('[ng-reflect-name="mobile"]'));
     this.password = element(by.css('[ng-reflect-name="password"]'));
 
-    this.email_error = element(by.xpath("//p[contains(text(),'Invalid email')]"));
-    this.mobile_error = element(by.xpath("//p[contains(text(),'Invalid number')]"));
-    this.password_error = element(by.xpath("//p[contains(text(),'Minimum 6-character')]"));
-
-    this.blank_email_error = element(by.xpath("//p[contains(text(),'Email is required. ')]"));
-    this.blank_mobile_error = element(by.xpath("//p[contains(text(),'Mobile No. is required. ')]"));
-    this.blank_password_error = element(by.xpath("//p[contains(text(),'Password is required. ')]"));
+    
 
 /*This is the section that sets blank and incorrect emails */
     this.setIncorrectEmail = function(email){
@@ -79,7 +73,6 @@ var signUpError = function(){
         highlightElement.highlightElement(this.email);
         this.email.sendKeys(email);
         browser.sleep(1000);
-        expect(this.email_error.isDisplayed()).toBe(true);
         this.email.clear();
     };
 
@@ -88,7 +81,6 @@ var signUpError = function(){
         highlightElement.highlightElement(this.email);
         this.email.sendKeys("r");
         this.email.sendKeys("\b");
-        expect(this.blank_email_error.isDisplayed()).toBe(true);
         browser.sleep(1000);
           
     };
@@ -100,7 +92,6 @@ var signUpError = function(){
         highlightElement.highlightElement(this.mobileNumber);
         this.mobileNumber.sendKeys(mobileNumber);
         browser.sleep(1000);
-        expect(this.mobile_error.isDisplayed()).toBe(true);
         this.mobileNumber.clear();
         
     };
@@ -111,7 +102,6 @@ var signUpError = function(){
         highlightElement.highlightElement(this.mobileNumber);
         this.mobileNumber.sendKeys(7);
         this.mobileNumber.sendKeys("\b");
-        expect(this.blank_mobile_error.isDisplayed()).toBe(true);
         this.mobileNumber.clear();
     };
 
@@ -122,15 +112,13 @@ var signUpError = function(){
         this.password.sendKeys('a');
         this.password.sendKeys("\b");
         browser.sleep(1000);
-        expect(this.blank_password_error.isDisplayed()).toBe(true);
     };
 
     this.setShortPassword = function(){
         console.log('Start of Password=========>');
         highlightElement.highlightElement(this.password);
         this.password.sendKeys('abcd');
-        browser.sleep(1000);
-        expect(this.password_error.isDisplayed()).toBe(true);       
+        browser.sleep(1000);    
     };
 
 };
