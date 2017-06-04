@@ -5,9 +5,11 @@ var otp = require('../OTP/otp.js');
 var CompleteProfile = require('../Complete_Profile/complete-profile.js');
 var ClinicDetails = require('../Clinic_details/clinicdetails.js');
 var FileUpload = require('../FileUpload/fileupload.js');
-var Verification = require('../VerificationPage/verificationpage.js')
+var Verification = require('../VerificationPage/verificationpage.js');
+var Login = require('../Login/login.js');
+var TimeSet = require('../TimeSet/timeset.js')
+var AddStaff = require('../AddStaff/addStaff.js');
 var Chance = require('chance');
-
 
 
 var page = new signUpDetails.var1();
@@ -37,7 +39,15 @@ var FileCont = new FileUpload.fileUploadContinue();
 var Verification_Page = new Verification.verificationURL();
 var Logged_out = new Verification.loggingOut();
 
-//================Chance Details==========================
+var LoginModule1 = new Login.LoginVer1();
+
+var SettingTime = new TimeSet.HeadingText1();
+
+var SettingStaff = new AddStaff.addStaff1();
+var SettingStaff2 = new AddStaff.addStaff2();
+var SettingStaff3 = new AddStaff.addStaff3();
+
+//==========================================Chance Details================================================
 var chance = new Chance();
 
 var email = (chance.email({domain:'gmail.com'}));
@@ -62,6 +72,7 @@ console.log(generate_clinic_name);
 
 var otpNumber;
 
+//===============================================Start of Specs=============================================
 
 console.log('This is for a successful sign up ==================>');
 
@@ -84,19 +95,19 @@ describe("second test for page maximization",()=>{
 //this section checks for the other UI parameters
 console.log("Start of the other UI tests============>");
 
-describe('Logo of MySwaasth is displayed', ()=> {
+describe('Logo', ()=> {
     it('MySwaasth Logo is displayed', ()=> {
         pageOthers1.logoDisplayed();
     });         
 });
 
-describe('Header bar is displayed', ()=> {
+describe('Header Bar', ()=> {
     it('should highlight the header bar', ()=> {
         pageOthers1.headerBar();
     });       
 });
 
-describe('Paragraph text is displayed', ()=> {
+describe('Paragraph text', ()=> {
     
     it('should check if paragraph heading is displayed and print to console', ()=> {
         pageOthers2.leftHeadingDisplayed();
@@ -104,7 +115,7 @@ describe('Paragraph text is displayed', ()=> {
         
 });
 
-describe('Paragraph 2 is displayed', ()=> {
+describe('Paragraph 2', ()=> {
     
     it('should check if paragraph heading part 2 is displayed ', ()=> {
         pageOthers2.leftBelowHeadingDisplayed();
@@ -113,7 +124,7 @@ describe('Paragraph 2 is displayed', ()=> {
         
 });
 
-describe('Tour Button ', ()=> {
+describe('Tour Button', ()=> {
     
     it('should check if tour button is displayed', ()=> {
         pageOthers3.tourBtnDisplayed();
@@ -146,7 +157,7 @@ describe('Privacy Section', ()=> {
 
 //this section starts with input parameters
 
-describe('Third Test For Setting the Name', ()=> {
+describe('Setting the Name', ()=> {
 
     
     it('should set the username', ()=> {
@@ -155,7 +166,7 @@ describe('Third Test For Setting the Name', ()=> {
            
 });
 
-describe('Fourth Test for setting the email', ()=> {
+describe('Setting the email', ()=> {
     
     
     it('should set the email', ()=> {
@@ -163,7 +174,7 @@ describe('Fourth Test for setting the email', ()=> {
     });        
 });
 
-describe('Fifth test for setting the mobile', ()=> {
+describe('Setting the mobile', ()=> {
     
     it('should set the mobile number', ()=> {
         page.setMobileNumber(mobile);
@@ -198,10 +209,8 @@ describe('OTP Input Box', ()=> {
 
 
 
-describe('Go to Mahaflox', ()=> {
-    
-    it('opening a new window and get OTP', function() {      
-       
+describe('Go to Mahaflox', ()=> {  
+    it('opening a new window and get OTP', function() {            
         browser.executeScript('window.open()').then(function () {
         browser.getAllWindowHandles().then(function (handles) {
             var secondWindow = handles[1];
@@ -236,7 +245,7 @@ describe('Go to Mahaflox', ()=> {
 });
 
 
-describe('Entering the OTP', ()=> {
+describe('OTP', ()=> {
     
     it('Entering the OTP', function() {
         otp1.otpEnter(otpNumber);
@@ -262,7 +271,7 @@ describe('Verify User Email', ()=> {
 });
  */
 
-describe('Continue signing in', ()=> {  
+describe('Sign Back In', ()=> {  
     it('should click on continue button', ()=> {
        continueBtn.clickContinueBtn(); 
     });
@@ -278,13 +287,13 @@ describe('Clinic Name', ()=> {
 });
 
 
-describe('Enter specialisation', ()=> {    
+describe('Specialisation', ()=> {    
     it('enter the specialisation', function() {
         EnterClinicDetails.enterSpecialisation(specialisation);
     });       
 });
 
-describe('Set Address', ()=> { 
+describe('Address', ()=> { 
     it('enters an address', ()=> {
         EnterClinicDetails.enterAddress(addr_key,indexSearch);
     });        
@@ -329,7 +338,7 @@ describe('File Upload 3', ()=> {
 });
 
 
-describe('Continue to next step', ()=> {
+describe('Next Step', ()=> {
     
     it('by clicking on continue button', ()=> {
         FileCont.clickOnContinue();
@@ -375,9 +384,8 @@ describe('Logout Button', ()=> {
 });
 
 
-describe('Go to Mahaflox again', ()=> {
-    
-    it('should go to mahaflox again', ()=> {
+describe('Document Verification', ()=> { 
+    it('should go to mahaflox again, and click on Document Verified for the clinic created', ()=> {
         browser.executeScript('window.open').then(function(){
              browser.getAllWindowHandles().then(function(handles){
                  var secondWindow = handles[1];
@@ -386,16 +394,103 @@ describe('Go to Mahaflox again', ()=> {
                       browser.sleep(1000);
                       element(by.xpath('//tr[@class="model-main_facilities"]/th/a')).click();
                       console.log(generate_clinic_name);
-                      var elem =element(by.xpath("//a[contains(text(),generate_clinic_name)]"));
-                      elem.click();
-                      browser.sleep(1000);
-
+                      //var elem =element(by.xpath("//a[contains(text(),generate_clinic_name)]"));
+                      var ele = element(by.cssContainingText('a',generate_clinic_name));
+                      ele.click();
+                      browser.sleep(2000);
+                      var elem_chkbox = element(by.css('input#id_doc_verifieds')).click();
+                      var save_btn = element(by.name('_save'));
+                      save_btn.click();
+                      browser.sleep(2000);
+                      var firstWindow = handles[0];
+                      browser.switchTo().window(firstWindow).then(function(url){
+                          url = browser.getCurrentUrl();
+                          console.log(url);
+                      });
+                      browser.sleep(2000);
                  });
              });
         });
     });
         
 });
+
+
+describe('Login back', ()=> {
+   
+   it('verify user is on the Login page', ()=> {
+       LoginModule1.verifyLoginUrl();
+   });
+
+   
+   it('sets the username for login', ()=> {
+       LoginModule1.getLoginEmail(email);
+   });
+
+   
+   it('sets the password for login', ()=> {
+       LoginModule1.sendPassword("rahulyadav");
+   });
+
+   
+   it('clicks on Sign In Button', ()=> {
+       LoginModule1.clickButton();
+   });
+       
+                  
+});
+    
+
+describe('Setting Time', ()=> {    
+    it('should check the heading text on Time Page', ()=> {
+        SettingTime.checkHeadingText();
+    });       
+});
+
+
+describe('Next', ()=> {
+    
+    it('should click on Next Button', ()=> {
+        SettingTime.clickNextBtn();
+    });
+        
+});
+
+
+describe('Add Staff Heading', ()=> {
+    
+    it('should verify the Add Staff heading text', ()=> {
+        SettingStaff.verifyHeadingText();
+    });
+        
+});
+
+
+describe('Set Doctors', ()=> {
+    
+    it('should select whether owner is a doctor or not and then add doctors based on that', ()=> {
+        SettingStaff2.setUpDoctors();
+    });
+        
+});
+
+
+describe('Set Staff', ()=> {
+    
+    it('setting staff details with name and other details', ()=> {
+        SettingStaff3.setStaffName();
+        SettingStaff3.setStaffEmail();
+        SettingStaff3.setStaffMobile();
+
+    });
+        
+});
+    
+    
+    
+
+    
+    
     
     
     

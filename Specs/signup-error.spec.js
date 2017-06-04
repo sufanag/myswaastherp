@@ -111,15 +111,14 @@ describe('Password test -2', ()=> {
     });        
 });
 
-describe('Correct Password', ()=> {    
+describe('Password test -3', ()=> {    
     it('should be setting the password and checking no error is displayed', ()=> {       
         page.setPassword("rahulyadav");
         page3.clickRegisterBtn();
     });        
 });
     
-describe('Register Button', ()=> {
-    
+describe('Register Button', ()=> {    
     it('checks if Register Button is Displayed and Enabled', ()=> {
         page3.clickRegisterBtn();
     });        

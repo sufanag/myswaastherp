@@ -9,12 +9,14 @@ var uploadFileFirst = function(){
     
     this.fileUploadFirst = function(){
         highlightElement.highlightElement(this.fileUploadDiv);
+        //change this file path for the linux or windows upload
         var fileUpload = '/Users/zac01/Downloads/Images/Screenshot 2017-02-04 21.52.15.png';
+
         absolutePath = path.resolve(__dirname,fileUpload);
         console.log(absolutePath);
         this.fileUploadOne.sendKeys(absolutePath);
         browser.actions().sendKeys(protractor.Key.ENTER).perform();
-        browser.sleep(6000);
+        browser.sleep(20000);
 
     };
     
@@ -27,12 +29,13 @@ var uploadFileSecond = function(){
 
     this.fileUploadSecond = function(){
         highlightElement.highlightElement(this.fileUploadDiv2);
+        //change this file path for the linux or windows upload
         var fileUpload = '/Users/zac01/Downloads/Images/rahul.png';
         absolutePath = path.resolve(__dirname,fileUpload);
         console.log(absolutePath);
         this.file_Upload2.sendKeys(absolutePath);
         browser.actions().sendKeys(protractor.Key.ENTER).perform();
-        browser.sleep(6000);
+        browser.sleep(20000);
     };
 };
 
@@ -44,12 +47,13 @@ var uploadFileThird = function(){
 
     this.fileUploadThird = function(){
         highlightElement.highlightElement(this.fileUploadDiv3);
+        //change this file path for the linux or windows upload
         var fileUpload = '/Users/zac01/Downloads/Images/IMG_19052017_145656_0.png';
         absolutePath = path.resolve(__dirname,fileUpload);
         console.log(absolutePath);
         this.file_Upload3.sendKeys(absolutePath);
         browser.actions().sendKeys(protractor.Key.ENTER).perform();
-        browser.sleep(6000);
+        browser.sleep(20000);
     };
 };
 
