@@ -20,7 +20,7 @@ var RegistrationSetUp = function(){
 
     this.setUpDoctors = function(){
         //get a boolean to check if the check box has to be checked
-        var _bool = chance.bool();
+        var _bool = chance.bool({likelihood:60});
         console.log(_bool);
         var registrationNumber = chance.integer({min:1000,max:1000000});
         
@@ -58,9 +58,9 @@ var RegistrationSetUp = function(){
 };
 
 var setStaff = function(){
-    this.firstStaffName = element(by.css('[ng-relfect-name="0"]')).get(0).element(by.css('[ng-reflect-name="name"]'));
-    this.firstStaffEmail = element(by.css('[ng-reflect-name="0"]')).get(0).element(by.css('[ng-reflect-name="email"]'));
-    this.firstStaffMobile = element(by.css('[ng-reflect-name="0"]')).get(0).element(by.css('[ng-reflect-name="mobile"]'));
+    this.firstStaffName = element.all(by.css('div.ui-g-3.ui-md-2.ui-lg-3.ui-sm-10')).first().element(by.css('[ng-reflect-name="name"]'));
+    this.firstStaffEmail = element.all(by.css('div.ui-g-3.ui-sm-10')).first().element(by.css('[formcontrolname="email"]'));
+    this.firstStaffMobile = element.all(by.css('div.ui-g-3.ui-sm-10')).first().element(by.css('[formcontrolname="mobile"]'));
 
     this.setStaffName = function(){
         highlightElement.highlightElement(this.firstStaffName);
@@ -81,8 +81,20 @@ var setStaff = function(){
     };
 };
 
+
+var acceptStaff = function(){
+    this.clickBtn = element(by.buttonText('NEXT'));
+
+    this.acceptStaff = function(){
+        highlightElement.highlightElement(this.clickBtn);
+        this.clickBtn.click();
+        browser.sleep(2000);
+    };
+};
+
 module.exports={
     addStaff1: CheckHeading,
     addStaff2: RegistrationSetUp,
-    addStaff3: setStaff
+    addStaff3: setStaff,
+    addStaff4: acceptStaff
 }

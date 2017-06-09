@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1496936384296" stop="1496936386712">
+	<name>Header Bar</name>
+	<title>Header Bar</title>
+	<test-cases>
+		<test-case start="1496936384296" stop="1496936386711" status="passed">
+			<name>should highlight the header bar</name>
+			<title>should highlight the header bar</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="14dbc253-7dc7-4c63-b93a-ce2e71045404-attachment.png" type="image/png" size="91765"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

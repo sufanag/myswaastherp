@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1496936566641" stop="1496936569017">
+	<name>Verification Heading</name>
+	<title>Verification Heading</title>
+	<test-cases>
+		<test-case start="1496936566641" stop="1496936569017" status="passed">
+			<name>should match the verification heading text</name>
+			<title>should match the verification heading text</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4621534e-5fd5-4bc0-af57-c124e6e38dc4-attachment.png" type="image/png" size="54119"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

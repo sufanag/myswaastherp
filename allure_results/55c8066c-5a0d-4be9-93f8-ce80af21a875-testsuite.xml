@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1496941008141" stop="1496941010576">
+	<name>Paragraph text</name>
+	<title>Paragraph text</title>
+	<test-cases>
+		<test-case start="1496941008141" stop="1496941010575" status="passed">
+			<name>should check if paragraph heading is displayed and print to console</name>
+			<title>should check if paragraph heading is displayed and print to console</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="7d0b2182-0056-41bc-990b-d8abde53b179-attachment.png" type="image/png" size="87929"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

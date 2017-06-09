@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1496839541615" stop="1496839548725">
+	<name>Content Heading</name>
+	<title>Content Heading</title>
+	<test-cases>
+		<test-case start="1496839541615" stop="1496839543977" status="passed">
+			<name>checks if content header is displayed</name>
+			<title>checks if content header is displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="ffec1d10-f740-4dad-86b9-830b444012e2-attachment.png" type="image/png" size="82219"/>
+			</attachments>
+		</test-case>
+		<test-case start="1496839543977" stop="1496839546339" status="passed">
+			<name>checks if the content header part 1 is displayed</name>
+			<title>checks if the content header part 1 is displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e55eb2e3-e24a-43e8-9bcf-c91c7386efc4-attachment.png" type="image/png" size="82219"/>
+			</attachments>
+		</test-case>
+		<test-case start="1496839546339" stop="1496839548725" status="passed">
+			<name>checks if the content header part 2 is displayed</name>
+			<title>checks if the content header part 2 is displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3937d3bd-530b-4e25-acdb-3b05c899b7e9-attachment.png" type="image/png" size="80978"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

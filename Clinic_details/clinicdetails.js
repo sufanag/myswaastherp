@@ -8,7 +8,7 @@ var chance = new Chance();
 var ClinicDetails = function(){
     this.clinicName  = element(by.css('[formcontrolname="c_name"]'));
     this.specialisation = element(by.css('[ng-reflect-ng-class="ui-inputtext ui-widget ui-stat"]'));
-    this.address = element(by.css('[placeholder="Enter your address"]'));
+    this.address = element(by.css('[placeholder="Your Address"]'));
     this.clinicPhone = element(by.css('[ng-reflect-name="mobile"]'));
 
 

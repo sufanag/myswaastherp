@@ -46,6 +46,7 @@ var SettingTime = new TimeSet.HeadingText1();
 var SettingStaff = new AddStaff.addStaff1();
 var SettingStaff2 = new AddStaff.addStaff2();
 var SettingStaff3 = new AddStaff.addStaff3();
+var SettingStaff4 = new AddStaff.addStaff4();
 
 //==========================================Chance Details================================================
 var chance = new Chance();
@@ -475,16 +476,20 @@ describe('Set Doctors', ()=> {
 });
 
 
-describe('Set Staff', ()=> {
-    
+describe('Set Staff', ()=> {   
     it('setting staff details with name and other details', ()=> {
         SettingStaff3.setStaffName();
         SettingStaff3.setStaffEmail();
         SettingStaff3.setStaffMobile();
 
     });
-        
+ 
+    it('should click on NEXT button', ()=> {
+        SettingStaff4.acceptStaff();
+    });
+               
 });
+
     
     
     

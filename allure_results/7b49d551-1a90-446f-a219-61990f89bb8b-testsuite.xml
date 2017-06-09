@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1496937150998" stop="1496937153381">
+	<name>Logo</name>
+	<title>Logo</title>
+	<test-cases>
+		<test-case start="1496937150999" stop="1496937153381" status="passed">
+			<name>MySwaasth Logo is displayed</name>
+			<title>MySwaasth Logo is displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="7c4bdc82-1d79-4e70-aa66-11f5992e58aa-attachment.png" type="image/png" size="91683"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
