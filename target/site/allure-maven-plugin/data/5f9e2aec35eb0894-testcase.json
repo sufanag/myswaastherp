@@ -1,0 +1,44 @@
+{
+  "uid" : "5f9e2aec35eb0894",
+  "name" : "should check if paragraph heading part 2 is displayed ",
+  "title" : "should check if paragraph heading part 2 is displayed ",
+  "time" : {
+    "start" : 1497358109378,
+    "stop" : 1497358111824,
+    "duration" : 2446
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "4dd5d36dcb61f72c",
+    "name" : "Paragraph 2",
+    "title" : "Paragraph 2"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "936fa696-f263-4293-8c9f-8c314b534f26-attachment.png",
+    "type" : "image/png",
+    "size" : 82596,
+    "uid" : "866c2e4745cb63d7"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Paragraph 2"
+  }, {
+    "name" : "suite-title",
+    "value" : "Paragraph 2"
+  } ],
+  "parameters" : [ ]
+}

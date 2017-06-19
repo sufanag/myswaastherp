@@ -1,0 +1,44 @@
+{
+  "uid" : "b3cdd7049186ed9b",
+  "name" : "should print some stuff",
+  "title" : "should print some stuff",
+  "time" : {
+    "start" : 1497292353895,
+    "stop" : 1497292356287,
+    "duration" : 2392
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "8246c66af3463d81",
+    "name" : "Verification Content",
+    "title" : "Verification Content"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "4c5f68e3-b86e-45b0-a08b-122079af356c-attachment.png",
+    "type" : "image/png",
+    "size" : 51732,
+    "uid" : "6ca359a5f85a6ba2"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Verification Content"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verification Content"
+  } ],
+  "parameters" : [ ]
+}

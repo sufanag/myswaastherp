@@ -1,0 +1,44 @@
+{
+  "uid" : "42fcb16ae09edd90",
+  "name" : "should select whether owner is a doctor or not and then add doctors based on that",
+  "title" : "should select whether owner is a doctor or not and then add doctors based on that",
+  "time" : {
+    "start" : 1497349844098,
+    "stop" : 1497349848886,
+    "duration" : 4788
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "36d4b5c442c34fe5",
+    "name" : "Set Doctors",
+    "title" : "Set Doctors"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "c55aad99-71c1-4380-873f-f166aa652768-attachment.png",
+    "type" : "image/png",
+    "size" : 48816,
+    "uid" : "69409038a776b699"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Set Doctors"
+  }, {
+    "name" : "suite-title",
+    "value" : "Set Doctors"
+  } ],
+  "parameters" : [ ]
+}

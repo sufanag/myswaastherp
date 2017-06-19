@@ -1,0 +1,44 @@
+{
+  "uid" : "4b4fa6f73cfadb8e",
+  "name" : "verify user is on the Login page",
+  "title" : "verify user is on the Login page",
+  "time" : {
+    "start" : 1497350705571,
+    "stop" : 1497350705857,
+    "duration" : 286
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d8fa46e80fd76722",
+    "name" : "Login back",
+    "title" : "Login back"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "a8b07188-d1b9-4e55-a1cb-9bed46d4ef3c-attachment.png",
+    "type" : "image/png",
+    "size" : 77396,
+    "uid" : "a430fcf52bf085b8"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Login back"
+  }, {
+    "name" : "suite-title",
+    "value" : "Login back"
+  } ],
+  "parameters" : [ ]
+}

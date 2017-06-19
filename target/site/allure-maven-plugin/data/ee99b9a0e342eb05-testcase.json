@@ -1,0 +1,44 @@
+{
+  "uid" : "ee99b9a0e342eb05",
+  "name" : "clicks on Sign In Button",
+  "title" : "clicks on Sign In Button",
+  "time" : {
+    "start" : 1497349071954,
+    "stop" : 1497349076366,
+    "duration" : 4412
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d8fa46e80fd76722",
+    "name" : "Login back",
+    "title" : "Login back"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "4577c038-d685-459b-907a-f55dac5d1bba-attachment.png",
+    "type" : "image/png",
+    "size" : 51330,
+    "uid" : "1cbc95cec1738e3b"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Login back"
+  }, {
+    "name" : "suite-title",
+    "value" : "Login back"
+  } ],
+  "parameters" : [ ]
+}

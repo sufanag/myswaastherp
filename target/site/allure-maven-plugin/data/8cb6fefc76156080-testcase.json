@@ -1,0 +1,44 @@
+{
+  "uid" : "8cb6fefc76156080",
+  "name" : "enters an address",
+  "title" : "enters an address",
+  "time" : {
+    "start" : 1497330468370,
+    "stop" : 1497330479379,
+    "duration" : 11009
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "932b1a9dbb10ebcf",
+    "name" : "Address",
+    "title" : "Address"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "af4fb4a5-c308-486c-806d-34be1ec5227c-attachment.png",
+    "type" : "image/png",
+    "size" : 37735,
+    "uid" : "c164cbcacc8a2b78"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Address"
+  }, {
+    "name" : "suite-title",
+    "value" : "Address"
+  } ],
+  "parameters" : [ ]
+}

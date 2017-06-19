@@ -4,59 +4,39 @@
     "name" : "defects",
     "type" : "DEFECTS",
     "data" : [ {
-      "count" : 5,
-      "message" : "Failed: No element found using locator: By(xpath, //p[contains(text(),'Enter a valid email address.')])",
-      "status" : "FAILED"
-    }, {
-      "count" : 2,
-      "message" : "Expected false to be true.",
+      "count" : 1,
+      "message" : "Failed: Got http.get error: connect ECONNREFUSED 127.0.0.1:80",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: No element found using locator: by.buttonText(\"Logout\")",
-      "status" : "FAILED"
-    }, {
-      "count" : 1,
-      "message" : "Expected 'https://myswaastherp.sia.co.in/#/upload-documents' to equal 'https://myswaastherp.sia.co.in/#/login'.",
-      "status" : "FAILED"
-    }, {
-      "count" : 1,
-      "message" : "Failed: No element found using locator: By(xpath, //p[contains(text(),'Mobile no. must contain at least 10 digits.')])",
-      "status" : "FAILED"
-    }, {
-      "count" : 1,
-      "message" : "Expected 'https://myswaastherp.sia.co.in/#/upload-documents' to equal 'https://myswaastherp.sia.co.in/#/verification'.",
-      "status" : "FAILED"
-    }, {
-      "count" : 1,
-      "message" : "Expected 'Upload Documents' to equal 'Verification Pending'.",
+      "message" : "Failed: No element found using locator: By(css selector, [ng-reflect-name=\"email\"])",
       "status" : "FAILED"
     } ]
   }, {
     "name" : "xunit",
     "type" : "TITLE_STATISTICS",
     "data" : [ {
-      "title" : "Correct Password",
+      "title" : "Add Procedure",
       "statistic" : {
-        "total" : 10,
-        "passed" : 10,
+        "total" : 3,
+        "passed" : 3,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "Fourth Test for setting the email",
+      "title" : "Content Heading",
       "statistic" : {
-        "total" : 5,
-        "passed" : 5,
+        "total" : 3,
+        "passed" : 3,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "Header bar is displayed",
+      "title" : "Continue",
       "statistic" : {
         "total" : 1,
         "passed" : 1,
@@ -66,17 +46,7 @@
         "broken" : 0
       }
     }, {
-      "title" : "Incorrect email entered",
-      "statistic" : {
-        "total" : 4,
-        "passed" : 4,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Password test -1",
+      "title" : "Logout Button",
       "statistic" : {
         "total" : 2,
         "passed" : 2,
@@ -86,50 +56,60 @@
         "broken" : 0
       }
     }, {
+      "title" : "Next Step",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      }
+    }, {
       "title" : "Register Button",
       "statistic" : {
-        "total" : 10,
-        "passed" : 10,
+        "total" : 1,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "Setting Mobile test -2",
+      "title" : "Setting the Name",
       "statistic" : {
-        "total" : 5,
-        "passed" : 5,
+        "total" : 1,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "Short Password",
+      "title" : "Sign Back In",
       "statistic" : {
-        "total" : 7,
-        "passed" : 7,
+        "total" : 1,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "Third Test For Setting the Name",
+      "title" : "Specialisation",
       "statistic" : {
-        "total" : 10,
-        "passed" : 10,
+        "total" : 1,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
         "broken" : 0
       }
     }, {
-      "title" : "second test for page maximization",
+      "title" : "Tour Button",
       "statistic" : {
-        "total" : 10,
-        "passed" : 10,
+        "total" : 1,
+        "passed" : 1,
         "pending" : 0,
         "canceled" : 0,
         "failed" : 0,
@@ -142,11 +122,11 @@
     "data" : [ {
       "title" : "Without feature",
       "statistic" : {
-        "total" : 153,
-        "passed" : 141,
+        "total" : 58,
+        "passed" : 56,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 12,
+        "failed" : 2,
         "broken" : 0
       }
     } ]

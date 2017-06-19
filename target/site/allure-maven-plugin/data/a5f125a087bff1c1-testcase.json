@@ -1,0 +1,44 @@
+{
+  "uid" : "a5f125a087bff1c1",
+  "name" : "opening a new window and get OTP",
+  "title" : "opening a new window and get OTP",
+  "time" : {
+    "start" : 1497350545711,
+    "stop" : 1497350565162,
+    "duration" : 19451
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d8a87a69d3699fe6",
+    "name" : "Go to Mahaflox",
+    "title" : "Go to Mahaflox"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "05c0da00-debe-4b65-adb4-dd375f5bd5ce-attachment.png",
+    "type" : "image/png",
+    "size" : 73910,
+    "uid" : "a21a67ed9600d5a8"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Go to Mahaflox"
+  }, {
+    "name" : "suite-title",
+    "value" : "Go to Mahaflox"
+  } ],
+  "parameters" : [ ]
+}

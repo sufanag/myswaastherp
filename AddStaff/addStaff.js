@@ -20,7 +20,7 @@ var RegistrationSetUp = function(){
 
     this.setUpDoctors = function(){
         //get a boolean to check if the check box has to be checked
-        var _bool = chance.bool({likelihood:60});
+        var _bool = chance.bool({likelihood:100});
         console.log(_bool);
         var registrationNumber = chance.integer({min:1000,max:1000000});
         
@@ -34,7 +34,8 @@ var RegistrationSetUp = function(){
         } else {
             var setMoreThanOneDoctor = chance.bool();
             element(by.css('[ng-reflect-name="registration_no"]')).sendKeys(chance.integer({min:1000,max:100120}));
-            element(by.buttonText('verify'));
+            //element(by.buttonText('verify'));
+            element(by.css('div.add-staff-save-button'));
             browser.sleep(2000);
             element(by.css('[ng-reflect-name="name"]')).sendKeys(chance.name());
             element(by.css('[ng-reflect-name="email"]')).sendKeys(chance.email({domain: 'gmail.com'}));
@@ -59,9 +60,11 @@ var RegistrationSetUp = function(){
 
 var setStaff = function(){
     this.firstStaffName = element.all(by.css('div.ui-g-3.ui-md-2.ui-lg-3.ui-sm-10')).first().element(by.css('[ng-reflect-name="name"]'));
-    this.firstStaffEmail = element.all(by.css('div.ui-g-3.ui-sm-10')).first().element(by.css('[formcontrolname="email"]'));
-    this.firstStaffMobile = element.all(by.css('div.ui-g-3.ui-sm-10')).first().element(by.css('[formcontrolname="mobile"]'));
+    var parent_div = element(by.css('div.ui-g-3.ui-sm-10'));
+    var firstStaffEmail = element(by.css('[ng-reflect-name="email"]'));
+    var firstStaffMobile = element(by.css('[ng-reflect-name="mobile"]'));
 
+    
     this.setStaffName = function(){
         highlightElement.highlightElement(this.firstStaffName);
         this.firstStaffName.sendKeys(chance.name());
@@ -69,14 +72,14 @@ var setStaff = function(){
     };
 
     this.setStaffEmail = function(){
-        highlightElement.highlightElement(this.firstStaffEmail);
-        this.firstStaffEmail.sendKeys(chance.email({domain: 'gmail.com'}));
+        highlightElement.highlightElement(parent_div.element(firstStaffEmail.locator()));
+        parent_div.element(firstStaffEmail.locator()).sendKeys(chance.email({domain: 'gmail.com'}));
         browser.sleep(1000);
     };
 
     this.setStaffMobile = function(){
-        highlightElement.highlightElement(this.firstStaffMobile);
-        this.firstStaffEmail.sendKeys(chance.phone({ formatted: false }));
+        highlightElement.highlightElement(parent_div.element(firstStaffMobile.locator()));
+        parent_div.element(firstStaffMobile.locator()).sendKeys(chance.phone({ formatted: false }));
         browser.sleep(1000);
     };
 };
@@ -88,7 +91,7 @@ var acceptStaff = function(){
     this.acceptStaff = function(){
         highlightElement.highlightElement(this.clickBtn);
         this.clickBtn.click();
-        browser.sleep(2000);
+        browser.sleep(5000);
     };
 };
 

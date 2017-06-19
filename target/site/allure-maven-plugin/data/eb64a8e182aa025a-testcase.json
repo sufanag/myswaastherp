@@ -1,0 +1,44 @@
+{
+  "uid" : "eb64a8e182aa025a",
+  "name" : "finishing entering the OTP",
+  "title" : "finishing entering the OTP",
+  "time" : {
+    "start" : 1497380364046,
+    "stop" : 1497380368479,
+    "duration" : 4433
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "be1734c4b1ffb36",
+    "name" : "Finish Entering OTP",
+    "title" : "Finish Entering OTP"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "f731ceed-6b38-4194-9fdc-fd257b0add23-attachment.png",
+    "type" : "image/png",
+    "size" : 65331,
+    "uid" : "766906bbf4e4e3b1"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Finish Entering OTP"
+  }, {
+    "name" : "suite-title",
+    "value" : "Finish Entering OTP"
+  } ],
+  "parameters" : [ ]
+}

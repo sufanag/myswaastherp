@@ -1,0 +1,44 @@
+{
+  "uid" : "b4db5ebcb598696e",
+  "name" : "should click on continue button",
+  "title" : "should click on continue button",
+  "time" : {
+    "start" : 1497358177125,
+    "stop" : 1497358181610,
+    "duration" : 4485
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "adac8cce99e98571",
+    "name" : "Sign Back In",
+    "title" : "Sign Back In"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "fa4984db-fcbf-47c8-98a0-5d9b3a495fdc-attachment.png",
+    "type" : "image/png",
+    "size" : 37652,
+    "uid" : "67e59f801198bd5c"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Sign Back In"
+  }, {
+    "name" : "suite-title",
+    "value" : "Sign Back In"
+  } ],
+  "parameters" : [ ]
+}

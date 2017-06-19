@@ -1,0 +1,44 @@
+{
+  "uid" : "ac0440bbd8fb2af6",
+  "name" : "should click on NEXT button",
+  "title" : "should click on NEXT button",
+  "time" : {
+    "start" : 1497349100108,
+    "stop" : 1497349104528,
+    "duration" : 4420
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7c2cdb810c337f21",
+    "name" : "Set Staff",
+    "title" : "Set Staff"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "1338cd2c-c00c-4827-9101-a5a133ff7a91-attachment.png",
+    "type" : "image/png",
+    "size" : 37472,
+    "uid" : "ede129ec8a62b70c"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Set Staff"
+  }, {
+    "name" : "suite-title",
+    "value" : "Set Staff"
+  } ],
+  "parameters" : [ ]
+}

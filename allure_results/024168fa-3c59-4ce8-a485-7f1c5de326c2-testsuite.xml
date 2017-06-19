@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1497719632394" stop="1497719633041">
+	<name>Profile Smoke Tests</name>
+	<title>Profile Smoke Tests</title>
+	<test-cases>
+		<test-case start="1497719632394" stop="1497719632718" status="passed">
+			<name>checks the page url</name>
+			<title>checks the page url</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="741d7e65-960a-4be9-b0be-4b150406238b-attachment.png" type="image/png" size="82344"/>
+			</attachments>
+		</test-case>
+		<test-case start="1497719632718" stop="1497719633041" status="passed">
+			<name>checks the Image loaded</name>
+			<title>checks the Image loaded</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="27795857-99fc-4c09-a511-401549f36c77-attachment.png" type="image/png" size="82302"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -1,0 +1,44 @@
+{
+  "uid" : "ca8cadba4bb4dc82",
+  "name" : "sets the username for login",
+  "title" : "sets the username for login",
+  "time" : {
+    "start" : 1497358306609,
+    "stop" : 1497358311106,
+    "duration" : 4497
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d8fa46e80fd76722",
+    "name" : "Login back",
+    "title" : "Login back"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "baa9eb7f-e73a-4ef0-8c31-ffec3dcf9df9-attachment.png",
+    "type" : "image/png",
+    "size" : 76895,
+    "uid" : "69f9184e999c014c"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Login back"
+  }, {
+    "name" : "suite-title",
+    "value" : "Login back"
+  } ],
+  "parameters" : [ ]
+}

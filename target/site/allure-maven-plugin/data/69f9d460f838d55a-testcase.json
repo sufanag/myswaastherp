@@ -1,0 +1,44 @@
+{
+  "uid" : "69f9d460f838d55a",
+  "name" : "clicking on continue button",
+  "title" : "clicking on continue button",
+  "time" : {
+    "start" : 1497292273998,
+    "stop" : 1497292278419,
+    "duration" : 4421
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "f47a9606da9db03b",
+    "name" : "Continue",
+    "title" : "Continue"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "8dd420e5-ac9b-43a1-94f2-80bad6a37c90-attachment.png",
+    "type" : "image/png",
+    "size" : 61773,
+    "uid" : "8612105d7641050a"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Continue"
+  }, {
+    "name" : "suite-title",
+    "value" : "Continue"
+  } ],
+  "parameters" : [ ]
+}

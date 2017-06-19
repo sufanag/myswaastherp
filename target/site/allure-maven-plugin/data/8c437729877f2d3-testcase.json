@@ -1,0 +1,44 @@
+{
+  "uid" : "8c437729877f2d3",
+  "name" : "checks body container",
+  "title" : "checks body container",
+  "time" : {
+    "start" : 1497380566230,
+    "stop" : 1497380568606,
+    "duration" : 2376
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c8119941d510be9a",
+    "name" : "Profile UI Tests",
+    "title" : "Profile UI Tests"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "bb7a3bb2-4aaf-4b5e-bae9-f9ce55b6a447-attachment.png",
+    "type" : "image/png",
+    "size" : 79054,
+    "uid" : "8b9cc8c3c7e975c6"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Profile UI Tests"
+  }, {
+    "name" : "suite-title",
+    "value" : "Profile UI Tests"
+  } ],
+  "parameters" : [ ]
+}

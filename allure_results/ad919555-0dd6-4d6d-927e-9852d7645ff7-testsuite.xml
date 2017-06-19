@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1497721195323" stop="1497721211286">
+	<name>Add Procedure</name>
+	<title>Add Procedure</title>
+	<test-cases>
+		<test-case start="1497721195323" stop="1497721202373" status="passed">
+			<name>search a procedure by key</name>
+			<title>search a procedure by key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="562f0859-1888-46d0-a02a-dca4dc93f0a0-attachment.png" type="image/png" size="37203"/>
+			</attachments>
+		</test-case>
+		<test-case start="1497721202373" stop="1497721206826" status="passed">
+			<name>enter a price for procedure</name>
+			<title>enter a price for procedure</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a8e3eb23-c518-4f40-b2b5-621f11cc1947-attachment.png" type="image/png" size="37682"/>
+			</attachments>
+		</test-case>
+		<test-case start="1497721206826" stop="1497721211285" status="passed">
+			<name>click on Done button</name>
+			<title>click on Done button</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="96e05a6b-4a6d-482d-b92d-404891e34d4f-attachment.png" type="image/png" size="83182"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

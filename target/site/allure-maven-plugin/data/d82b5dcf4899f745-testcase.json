@@ -1,0 +1,44 @@
+{
+  "uid" : "d82b5dcf4899f745",
+  "name" : "should set the email",
+  "title" : "should set the email",
+  "time" : {
+    "start" : 1497358127448,
+    "stop" : 1497358131056,
+    "duration" : 3608
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2c1336b91eb9702e",
+    "name" : "Setting the email",
+    "title" : "Setting the email"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "081b134e-b519-4076-9d35-96c033c3c57d-attachment.png",
+    "type" : "image/png",
+    "size" : 79769,
+    "uid" : "a2a7891471f9bf5f"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Setting the email"
+  }, {
+    "name" : "suite-title",
+    "value" : "Setting the email"
+  } ],
+  "parameters" : [ ]
+}

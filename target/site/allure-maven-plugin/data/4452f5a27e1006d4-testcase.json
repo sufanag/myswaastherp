@@ -1,0 +1,44 @@
+{
+  "uid" : "4452f5a27e1006d4",
+  "name" : "enters the clinic name",
+  "title" : "enters the clinic name",
+  "time" : {
+    "start" : 1497338691316,
+    "stop" : 1497338694824,
+    "duration" : 3508
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "f35d5d6412603b34",
+    "name" : "Clinic Name",
+    "title" : "Clinic Name"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "6678df72-d067-42ae-b3c5-af81aa42693c-attachment.png",
+    "type" : "image/png",
+    "size" : 37574,
+    "uid" : "e5ffea78e5c39ea6"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Clinic Name"
+  }, {
+    "name" : "suite-title",
+    "value" : "Clinic Name"
+  } ],
+  "parameters" : [ ]
+}

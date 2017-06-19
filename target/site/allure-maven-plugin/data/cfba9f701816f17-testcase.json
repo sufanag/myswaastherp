@@ -1,0 +1,47 @@
+{
+  "uid" : "cfba9f701816f17",
+  "name" : "checks the HTTP Code returned",
+  "title" : "checks the HTTP Code returned",
+  "time" : {
+    "start" : 1497380558123,
+    "stop" : 1497380558461,
+    "duration" : 338
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Failed: Got http.get error: connect ECONNREFUSED 127.0.0.1:80",
+    "stackTrace" : "Error: Failed: Got http.get error: connect ECONNREFUSED 127.0.0.1:80\n    at stack (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2155:17)\n    at buildExpectationResult (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:2125:14)\n    at Spec.expectationResultFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:766:18)\n    at Spec.addExpectationResult (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:444:34)\n    at Env.fail (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1172:25)\n    at Function.next.fail (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3899:19)\n    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:64:48\n    at ControlFlow.emit (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/events.js:62:21)\n    at ControlFlow.shutdown_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2565:10)\n    at shutdownTask_.MicroTask (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2490:53)"
+  },
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7758d50fc89cdb7b",
+    "name" : "Profile Smoke Tests",
+    "title" : "Profile Smoke Tests"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "448bb0ec-bfe4-49e2-8ec9-54943affaff0-attachment.png",
+    "type" : "image/png",
+    "size" : 82467,
+    "uid" : "f638ab169f2296cf"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Profile Smoke Tests"
+  }, {
+    "name" : "suite-title",
+    "value" : "Profile Smoke Tests"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,44 @@
+{
+  "uid" : "1f2de32fc7f6a4a0",
+  "name" : "checks the Image loaded",
+  "title" : "checks the Image loaded",
+  "time" : {
+    "start" : 1497380558748,
+    "stop" : 1497380559041,
+    "duration" : 293
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7758d50fc89cdb7b",
+    "name" : "Profile Smoke Tests",
+    "title" : "Profile Smoke Tests"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "d4479dc5-6205-4569-82fe-b2917c8cfd4c-attachment.png",
+    "type" : "image/png",
+    "size" : 82437,
+    "uid" : "c34a01f1291eb9ae"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Profile Smoke Tests"
+  }, {
+    "name" : "suite-title",
+    "value" : "Profile Smoke Tests"
+  } ],
+  "parameters" : [ ]
+}

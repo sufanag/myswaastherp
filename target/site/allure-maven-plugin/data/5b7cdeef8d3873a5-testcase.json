@@ -1,0 +1,44 @@
+{
+  "uid" : "5b7cdeef8d3873a5",
+  "name" : "checks that clinic name is in page source",
+  "title" : "checks that clinic name is in page source",
+  "time" : {
+    "start" : 1497380569024,
+    "stop" : 1497380569458,
+    "duration" : 434
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c8119941d510be9a",
+    "name" : "Profile UI Tests",
+    "title" : "Profile UI Tests"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "fdda0b53-66fa-41e2-a0dd-1aa55ad0062b-attachment.png",
+    "type" : "image/png",
+    "size" : 79054,
+    "uid" : "75997ad1812d7da3"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Profile UI Tests"
+  }, {
+    "name" : "suite-title",
+    "value" : "Profile UI Tests"
+  } ],
+  "parameters" : [ ]
+}

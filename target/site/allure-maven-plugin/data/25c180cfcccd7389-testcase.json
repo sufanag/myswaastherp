@@ -1,0 +1,44 @@
+{
+  "uid" : "25c180cfcccd7389",
+  "name" : "should match the verification heading text",
+  "title" : "should match the verification heading text",
+  "time" : {
+    "start" : 1497350683298,
+    "stop" : 1497350685686,
+    "duration" : 2388
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "9b7806f7e8315023",
+    "name" : "Verification Heading",
+    "title" : "Verification Heading"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "47a7c463-71b7-4549-8428-572676fbc04a-attachment.png",
+    "type" : "image/png",
+    "size" : 54113,
+    "uid" : "801c25a40a7276ad"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Verification Heading"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verification Heading"
+  } ],
+  "parameters" : [ ]
+}

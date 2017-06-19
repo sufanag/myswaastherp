@@ -1,0 +1,44 @@
+{
+  "uid" : "26109c116e839143",
+  "name" : "will verify the URL of verification page",
+  "title" : "will verify the URL of verification page",
+  "time" : {
+    "start" : 1497345479817,
+    "stop" : 1497345481137,
+    "duration" : 1320
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "dbc86bd2139b44eb",
+    "name" : "Verification URL",
+    "title" : "Verification URL"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "14df9949-f58a-4a90-a586-4f62dc6f996d-attachment.png",
+    "type" : "image/png",
+    "size" : 55432,
+    "uid" : "2df256c67ea92ccb"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Verification URL"
+  }, {
+    "name" : "suite-title",
+    "value" : "Verification URL"
+  } ],
+  "parameters" : [ ]
+}

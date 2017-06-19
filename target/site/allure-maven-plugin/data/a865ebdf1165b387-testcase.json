@@ -1,0 +1,44 @@
+{
+  "uid" : "a865ebdf1165b387",
+  "name" : "set clinic phone number",
+  "title" : "set clinic phone number",
+  "time" : {
+    "start" : 1497291338351,
+    "stop" : 1497291342856,
+    "duration" : 4505
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "be90fe52e22b63dd",
+    "name" : "Clinic Phone",
+    "title" : "Clinic Phone"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "86bedc4c-c12d-45a7-a2c9-e50dd8f08b5b-attachment.png",
+    "type" : "image/png",
+    "size" : 37627,
+    "uid" : "15ed9045bbac6b47"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Clinic Phone"
+  }, {
+    "name" : "suite-title",
+    "value" : "Clinic Phone"
+  } ],
+  "parameters" : [ ]
+}

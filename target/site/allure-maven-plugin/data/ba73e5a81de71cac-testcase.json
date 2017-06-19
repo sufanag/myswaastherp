@@ -1,0 +1,44 @@
+{
+  "uid" : "ba73e5a81de71cac",
+  "name" : "should verify the Add Staff heading text",
+  "title" : "should verify the Add Staff heading text",
+  "time" : {
+    "start" : 1497349839718,
+    "stop" : 1497349844097,
+    "duration" : 4379
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c8bf3d79c8b72256",
+    "name" : "Add Staff Heading",
+    "title" : "Add Staff Heading"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "2471f823-2090-45cc-94e7-e340b91af9be-attachment.png",
+    "type" : "image/png",
+    "size" : 49327,
+    "uid" : "8010abe5f9006426"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Add Staff Heading"
+  }, {
+    "name" : "suite-title",
+    "value" : "Add Staff Heading"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,44 @@
+{
+  "uid" : "903a675de21d16e9",
+  "name" : "sets the password for login",
+  "title" : "sets the password for login",
+  "time" : {
+    "start" : 1497329312387,
+    "stop" : 1497329316842,
+    "duration" : 4455
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "d8fa46e80fd76722",
+    "name" : "Login back",
+    "title" : "Login back"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "cab2eff1-00ac-46ce-bbbe-1ecb7e1214f3-attachment.png",
+    "type" : "image/png",
+    "size" : 76575,
+    "uid" : "ac613547e2b8eded"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Login back"
+  }, {
+    "name" : "suite-title",
+    "value" : "Login back"
+  } ],
+  "parameters" : [ ]
+}

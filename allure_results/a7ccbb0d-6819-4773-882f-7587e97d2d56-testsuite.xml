@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1497719585387" stop="1497719589793">
+	<name>Setting Time</name>
+	<title>Setting Time</title>
+	<test-cases>
+		<test-case start="1497719585387" stop="1497719589793" status="passed">
+			<name>should check the heading text on Time Page</name>
+			<title>should check the heading text on Time Page</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="95e61a89-e49b-4cd5-aa6a-4537a259e73d-attachment.png" type="image/png" size="50453"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

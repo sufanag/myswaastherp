@@ -9,6 +9,8 @@ var Verification = require('../VerificationPage/verificationpage.js');
 var Login = require('../Login/login.js');
 var TimeSet = require('../TimeSet/timeset.js')
 var AddStaff = require('../AddStaff/addStaff.js');
+var AddProcedure = require('../AddProcedure/add_procedure.js');
+var ProfileDetails = require('../Profile/verifyProfileDetails.js');
 var Chance = require('chance');
 
 
@@ -48,6 +50,14 @@ var SettingStaff2 = new AddStaff.addStaff2();
 var SettingStaff3 = new AddStaff.addStaff3();
 var SettingStaff4 = new AddStaff.addStaff4();
 
+var AddPro = new AddProcedure.addProcedure1();
+
+var Profile1 = new ProfileDetails.verfiProfilePage1();
+var Profile2 = new ProfileDetails.verifyProfilePage2();
+var Profile3 = new ProfileDetails.verifyProfilePage3();
+var Profile4 = new ProfileDetails.verifyProfilePage4();
+
+
 //==========================================Chance Details================================================
 var chance = new Chance();
 
@@ -59,7 +69,7 @@ var mobile = (chance.phone({formatted:false}));
 console.log(mobile);
 exports.phoneNumber = mobile;
 
-var specialisation = chance.string({length: 1, pool: 'ACDEFGHIMNOPRSTUV'});
+var specialisation = chance.string({length: 1, pool:'ACDEGHIMNOPRSTUV'});
 console.log(specialisation);
 
 var indexSearch = chance.integer({min: 1, max: 3});
@@ -71,6 +81,10 @@ console.log(addr_key);
 var generate_clinic_name = chance.string({length: 8, pool: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'});
 console.log(generate_clinic_name);
 
+var generate_procedure_key = chance.string({length:1, pool:'ABCDEFGHIJKLMNOPQRSTUVWXYZ'});
+console.log(generate_procedure_key);
+
+var generate_amount = chance.integer({min:10,max:10000});
 var otpNumber;
 
 //===============================================Start of Specs=============================================
@@ -479,7 +493,9 @@ describe('Set Doctors', ()=> {
 describe('Set Staff', ()=> {   
     it('setting staff details with name and other details', ()=> {
         SettingStaff3.setStaffName();
+        browser.sleep(2000);
         SettingStaff3.setStaffEmail();
+        browser.sleep(2000);
         SettingStaff3.setStaffMobile();
 
     });
@@ -489,6 +505,83 @@ describe('Set Staff', ()=> {
     });
                
 });
+
+
+describe('Add Procedure', ()=> {
+    
+    it('search a procedure by key', ()=> {
+        AddPro.addProcedureKey(generate_procedure_key);
+    });
+    
+    it('enter a price for procedure', ()=> {
+        AddPro.addAmountForProcedure(generate_amount);
+    });
+
+    it('click on Done button', ()=> {
+        AddPro.submitDone();
+    });
+                  
+});
+
+
+describe('Profile Smoke Tests', ()=> {
+       
+    it('checks the page url', ()=> {
+        Profile1.checkPageURL();
+    });
+            
+    it('checks the Image loaded', ()=> {
+        Profile1.checkImageLoading();
+    });
+        
+        
+});
+
+
+describe('Profile UI Tests', ()=> {
+    
+    it('checks navbar displayed', ()=> {
+        Profile2.checkNavbarDisplayed();
+    });
+
+    it('checks sidebar displayed', ()=> {
+        Profile2.checkSidebarDisplayed();
+    });
+        
+    it('checks Profile Section', ()=> {
+        Profile2.profileSectionDisplayed();
+    });
+    
+    it('checks body container', ()=> {
+        Profile2.bodySectionDisplayed();
+    });
+ 
+    it('checks that doctor name is in page source', ()=> {
+        Profile3.checkForAdmin('Rahul Yadav');
+    });
+ 
+    it('checks that clinic name is in page source', ()=> {
+        Profile3.checkForClinic(generate_clinic_name);
+    });       
+               
+});
+
+
+describe('Progress bar ',()=> {
+    
+    it('gets clinic progress bar percentage', ()=> {
+        Profile4.clinicProgressPercentage();
+    });
+
+    it('gets admin progress bar percentage', ()=> {
+        Profile4.doctorProgressPercentage();
+    });
+               
+});
+    
+    
+    
+    
 
     
     

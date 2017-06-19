@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1497719643345" stop="1497719644030">
+	<name>Progress bar </name>
+	<title>Progress bar </title>
+	<test-cases>
+		<test-case start="1497719643345" stop="1497719643695" status="passed">
+			<name>gets clinic progress bar percentage</name>
+			<title>gets clinic progress bar percentage</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="8e236d74-579f-4be4-97ea-3ef533d58e5c-attachment.png" type="image/png" size="78907"/>
+			</attachments>
+		</test-case>
+		<test-case start="1497719643695" stop="1497719644030" status="passed">
+			<name>gets admin progress bar percentage</name>
+			<title>gets admin progress bar percentage</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="27a238b4-97e5-4bb5-b778-89d506dac059-attachment.png" type="image/png" size="78907"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
