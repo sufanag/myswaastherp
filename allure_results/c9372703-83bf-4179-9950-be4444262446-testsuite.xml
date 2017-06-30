@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1498672736477" stop="1498672741062">
+	<name>Next Step</name>
+	<title>Next Step</title>
+	<test-cases>
+		<test-case start="1498672736477" stop="1498672741061" status="passed">
+			<name>by clicking on continue button</name>
+			<title>by clicking on continue button</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a0c5c0fa-df07-48ac-a459-f96ec8b03f68-attachment.png" type="image/png" size="262305"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -1,0 +1,2131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1498672504336" stop="1498672506456">
+	<name>Profile UI Tests</name>
+	<title>Profile UI Tests</title>
+	<test-cases>
+		<test-case start="1498672504336" stop="1498672504684" status="failed">
+			<name>checks navbar displayed</name>
+			<title>checks navbar displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="cb9610f9-6b98-4a34-85ea-e406b1b64986-attachment.png" type="image/png" size="137463"/>
+			</attachments>
+			<failure>
+				<message>Failed: No element found using locator: By(css selector, div.navbar)</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(css selector, div.navbar)
+    at elementArrayFinder.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:851:17)
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)Error
+    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)
+    at CheckDivsInPage.checkNavbarDisplayed (/Users/zac01/Documents/protractor/myswaastherp/Profile/verifyProfileDetails.js:31:29)
+    at Object.it (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:545:18)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+From: Task: Run it(&quot;checks navbar displayed&quot;) in control flow
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3872:10)
+    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:816:35)
+    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:473:10)
+    at Object.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4975:37)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3872:10)
+From asynchronous test: 
+Error
+    at Suite.describe (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:544:5)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:994:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:961:7)
+    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4031:18)
+    at Object.&lt;anonymous&gt; (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:542:1)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1498672504684" stop="1498672505076" status="failed">
+			<name>checks sidebar displayed</name>
+			<title>checks sidebar displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="bd01ff68-da58-4e42-9d48-77034a5ae30f-attachment.png" type="image/png" size="137463"/>
+			</attachments>
+			<failure>
+				<message>Failed: No element found using locator: By(css selector, nav.cd-side-nav.is-fixed)</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(css selector, nav.cd-side-nav.is-fixed)
+    at elementArrayFinder.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:851:17)
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)Error
+    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)
+    at CheckDivsInPage.checkSidebarDisplayed (/Users/zac01/Documents/protractor/myswaastherp/Profile/verifyProfileDetails.js:36:29)
+    at Object.it (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:549:18)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+From: Task: Run it(&quot;checks sidebar displayed&quot;) in control flow
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3872:10)
+    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:816:35)
+    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:473:10)
+    at Object.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4975:37)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3924:18
+From asynchronous test: 
+Error
+    at Suite.describe (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:548:5)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:994:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:961:7)
+    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4031:18)
+    at Object.&lt;anonymous&gt; (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:542:1)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1498672505076" stop="1498672505438" status="failed">
+			<name>checks Profile Section</name>
+			<title>checks Profile Section</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="12a547ee-6ce8-435b-88b9-7277e7323aee-attachment.png" type="image/png" size="137463"/>
+			</attachments>
+			<failure>
+				<message>Failed: No element found using locator: By(css selector, div.ui-g-12.ui-md-12.ui-lg-12.heading)</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(css selector, div.ui-g-12.ui-md-12.ui-lg-12.heading)
+    at elementArrayFinder.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:851:17)
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)Error
+    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)
+    at CheckDivsInPage.profileSectionDisplayed (/Users/zac01/Documents/protractor/myswaastherp/Profile/verifyProfileDetails.js:41:36)
+    at Object.it (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:553:18)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+From: Task: Run it(&quot;checks Profile Section&quot;) in control flow
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3872:10)
+    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:816:35)
+    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:473:10)
+    at Object.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4975:37)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3924:18
+From asynchronous test: 
+Error
+    at Suite.describe (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:552:5)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:994:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:961:7)
+    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4031:18)
+    at Object.&lt;anonymous&gt; (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:542:1)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1498672505438" stop="1498672505782" status="failed">
+			<name>checks body container</name>
+			<title>checks body container</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="8572c977-f66c-40e5-8557-049925651834-attachment.png" type="image/png" size="137463"/>
+			</attachments>
+			<failure>
+				<message>Failed: No element found using locator: By(css selector, div.ui-g-12.body_container)</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(css selector, div.ui-g-12.body_container)
+    at elementArrayFinder.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:851:17)
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)Error
+    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)
+    at CheckDivsInPage.bodySectionDisplayed (/Users/zac01/Documents/protractor/myswaastherp/Profile/verifyProfileDetails.js:46:35)
+    at Object.it (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:557:18)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+From: Task: Run it(&quot;checks body container&quot;) in control flow
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3872:10)
+    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:816:35)
+    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:473:10)
+    at Object.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4975:37)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3924:18
+From asynchronous test: 
+Error
+    at Suite.describe (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:556:5)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:994:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:961:7)
+    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4031:18)
+    at Object.&lt;anonymous&gt; (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:542:1)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1498672505782" stop="1498672506110" status="failed">
+			<name>checks that doctor name is in page source</name>
+			<title>checks that doctor name is in page source</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3112d5a8-6e04-4bb4-8e26-4d5e85efbfc3-attachment.png" type="image/png" size="137463"/>
+			</attachments>
+			<failure>
+				<message>Expected &apos;&lt;!DOCTYPE html&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-us&quot;&gt;&lt;head&gt;
+&lt;title&gt;Site administration | MySwaasth Administration (Development Server)&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/static/admin/css/base.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/static/admin/css/dashboard.css&quot; /&gt;
+&lt;meta name=&quot;robots&quot; content=&quot;NONE,NOARCHIVE&quot; /&gt;
+&lt;/head&gt;
+&lt;body class=&quot; dashboard&quot; data-admin-utc-offset=&quot;19800&quot;&gt;
+ 
+&lt;div id=&quot;container&quot;&gt;
+ 
+&lt;div id=&quot;header&quot;&gt;
+&lt;div id=&quot;branding&quot;&gt;
+&lt;h1 id=&quot;site-name&quot;&gt;&lt;a href=&quot;/mahaflox/&quot;&gt;MySwaasth Administration (Development Server)&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&quot;user-tools&quot;&gt;
+Welcome,
+&lt;strong&gt;admin@innotical.com&lt;/strong&gt;.
+&lt;a href=&quot;/&quot;&gt;View site&lt;/a&gt; /
+&lt;a href=&quot;/mahaflox/password_change/&quot;&gt;Change password&lt;/a&gt; /
+&lt;a href=&quot;/mahaflox/logout/&quot;&gt;Log out&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+ 
+ 
+&lt;div id=&quot;content&quot; class=&quot;colMS&quot;&gt;
+&lt;h1&gt;Site administration&lt;/h1&gt;
+&lt;div id=&quot;content-main&quot;&gt;
+&lt;div class=&quot;app-advertisement module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/advertisement/&quot; class=&quot;section&quot; title=&quot;Models in the Advertisement application&quot;&gt;Advertisement&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-carrer_form&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/carrer_form/&quot;&gt;Carrer_forms&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/carrer_form/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/carrer_form/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-contact_us&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/contact_us/&quot;&gt;Contact_uss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/contact_us/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/contact_us/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-enterprise_form&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/enterprise_form/&quot;&gt;Enterprise_forms&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/enterprise_form/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/enterprise_form/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-faq_form&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/faq_form/&quot;&gt;Fa q_forms&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/faq_form/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/faq_form/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-feedback_form&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/feedback_form/&quot;&gt;Feedback_forms&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/feedback_form/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/feedback_form/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-imageforpush&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/imageforpush/&quot;&gt;Image for pushs&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/imageforpush/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/imageforpush/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-report_bug&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/report_bug/&quot;&gt;Report_bugs&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/report_bug/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/report_bug/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-support_system&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/support_system/&quot;&gt;Support_systems&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/support_system/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/support_system/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-asynctask module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/asynctask/&quot; class=&quot;section&quot; title=&quot;Models in the Asynctask application&quot;&gt;Asynctask&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-unsubscribe&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/asynctask/unsubscribe/&quot;&gt;Unsubscribes&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/asynctask/unsubscribe/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/asynctask/unsubscribe/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-authentication module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/authentication/&quot; class=&quot;section&quot; title=&quot;Models in the Authentication application&quot;&gt;Authentication&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-account&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/authentication/account/&quot;&gt;Accounts&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/authentication/account/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/authentication/account/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-auth module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/auth/&quot; class=&quot;section&quot; title=&quot;Models in the Authentication and Authorization application&quot;&gt;Authentication and Authorization&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-group&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/auth/group/&quot;&gt;Groups&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/auth/group/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/auth/group/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-chatApp module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/chatApp/&quot; class=&quot;section&quot; title=&quot;Models in the Chatapp application&quot;&gt;Chatapp&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-chatgroup&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/chatApp/chatgroup/&quot;&gt;Chat groups&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/chatApp/chatgroup/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/chatApp/chatgroup/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-erp_notification&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/chatApp/erp_notification/&quot;&gt;Er p_ notifications&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/chatApp/erp_notification/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/chatApp/erp_notification/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-client module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/client/&quot; class=&quot;section&quot; title=&quot;Models in the Client application&quot;&gt;Client&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-allergy&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/allergy/&quot;&gt;Allergys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/allergy/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/allergy/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-app_medicine_reminder&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/app_medicine_reminder/&quot;&gt;App_ medicine_ reminders&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/app_medicine_reminder/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/app_medicine_reminder/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-app_reminder_timing&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/app_reminder_timing/&quot;&gt;App_ reminder_ timings&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/app_reminder_timing/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/app_reminder_timing/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-chronicillness&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/chronicillness/&quot;&gt;Chronic illnesss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/chronicillness/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/chronicillness/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-days&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/days/&quot;&gt;Dayss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/days/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/days/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-disease&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/disease/&quot;&gt;Diseases&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/disease/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/disease/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-document&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/document/&quot;&gt;Documents&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/document/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/document/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-family&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/family/&quot;&gt;Familys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/family/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/family/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-fitness_dashboard&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/fitness_dashboard/&quot;&gt;Fitness_ dashboards&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/fitness_dashboard/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/fitness_dashboard/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-method&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/method/&quot;&gt;Methods&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/method/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/method/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-myprofile&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/myprofile/&quot;&gt;My profiles&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/myprofile/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/myprofile/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientallergy&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientallergy/&quot;&gt;Patient allergys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientallergy/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientallergy/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientcondition&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientcondition/&quot;&gt;Patient conditions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientcondition/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientcondition/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientillness&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientillness/&quot;&gt;Patient illnesss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientillness/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientillness/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientmedication&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientmedication/&quot;&gt;Patient medications&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientmedication/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientmedication/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientprocedure&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientprocedure/&quot;&gt;Patient procedures&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientprocedure/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientprocedure/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientsearch&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientsearch/&quot;&gt;Patient searchs&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientsearch/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientsearch/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientsurgery&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientsurgery/&quot;&gt;Patient surgerys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientsurgery/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientsurgery/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientsymptom&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientsymptom/&quot;&gt;Patient symptoms&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientsymptom/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientsymptom/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-reminder&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/reminder/&quot;&gt;Reminders&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/reminder/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/reminder/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-surgery&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/surgery/&quot;&gt;Surgerys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/surgery/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/surgery/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-unit&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/unit/&quot;&gt;Units&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/unit/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/unit/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-condition module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/condition/&quot; class=&quot;section&quot; title=&quot;Models in the Condition application&quot;&gt;Condition&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-commonfirstaid&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/commonfirstaid/&quot;&gt;Common first aids&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/commonfirstaid/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/commonfirstaid/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-condition_doineedthistest&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/condition_doineedthistest/&quot;&gt;Condition_ do i need this tests&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/condition_doineedthistest/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/condition_doineedthistest/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-condition_article&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/condition_article/&quot;&gt;Condition_articles&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/condition_article/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/condition_article/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-condition_overview&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/condition_overview/&quot;&gt;Condition_overviews&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/condition_overview/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/condition_overview/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-conditions_medical_test_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/conditions_medical_test_map/&quot;&gt;Conditions_ medical_ test_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/conditions_medical_test_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/conditions_medical_test_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-conditions_speciality_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/conditions_speciality_map/&quot;&gt;Conditions_ speciality_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/conditions_speciality_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/conditions_speciality_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-firstaiddetail&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/firstaiddetail/&quot;&gt;First aid details&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/firstaiddetail/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/firstaiddetail/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-firstaid&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/firstaid/&quot;&gt;First aids&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/firstaid/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/firstaid/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-images&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/images/&quot;&gt;Imagess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/images/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/images/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-msp_symptoms&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/msp_symptoms/&quot;&gt;Msp_symptomss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/msp_symptoms/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/msp_symptoms/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-symptoms_with_condition&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/symptoms_with_condition/&quot;&gt;Symptoms_with_conditions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/symptoms_with_condition/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/symptoms_with_condition/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-videos&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/videos/&quot;&gt;Videoss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/videos/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/videos/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-oauth2_provider module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/oauth2_provider/&quot; class=&quot;section&quot; title=&quot;Models in the Django OAuth Toolkit application&quot;&gt;Django OAuth Toolkit&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-accesstoken&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/accesstoken/&quot;&gt;Access tokens&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/accesstoken/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/accesstoken/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-application&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/application/&quot;&gt;Applications&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/application/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/application/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-grant&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/grant/&quot;&gt;Grants&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/grant/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/grant/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-refreshtoken&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/refreshtoken/&quot;&gt;Refresh tokens&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/refreshtoken/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/refreshtoken/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-djcelery module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/djcelery/&quot; class=&quot;section&quot; title=&quot;Models in the Djcelery application&quot;&gt;Djcelery&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-crontabschedule&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/djcelery/crontabschedule/&quot;&gt;Crontabs&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/crontabschedule/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/crontabschedule/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-intervalschedule&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/djcelery/intervalschedule/&quot;&gt;Intervals&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/intervalschedule/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/intervalschedule/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-periodictask&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/djcelery/periodictask/&quot;&gt;Periodic tasks&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/periodictask/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/periodictask/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-taskstate&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/djcelery/taskstate/&quot;&gt;Tasks&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/taskstate/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-workerstate&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/djcelery/workerstate/&quot;&gt;Workers&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/workerstate/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/workerstate/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-doctors module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/doctors/&quot; class=&quot;section&quot; title=&quot;Models in the Doctors application&quot;&gt;Doctors&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-clinic_doctor_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/clinic_doctor_map/&quot;&gt;Clinic_ doctor_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/clinic_doctor_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/clinic_doctor_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-clinic_doctor_timing_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/clinic_doctor_timing_map/&quot;&gt;Clinic_ doctor_ timing_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/clinic_doctor_timing_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/clinic_doctor_timing_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-degree&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/degree/&quot;&gt;Degrees&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/degree/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/degree/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctorbookmark&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/doctorbookmark/&quot;&gt;Doctor bookmarks&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctorbookmark/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctorbookmark/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctorcertificate&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/doctorcertificate/&quot;&gt;Doctor certificates&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctorcertificate/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctorcertificate/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctorexperience&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/doctorexperience/&quot;&gt;Doctor experiences&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctorexperience/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctorexperience/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctor_specialities_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_specialities_map/&quot;&gt;Doctor_ specialities_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_specialities_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_specialities_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctor_brakes&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_brakes/&quot;&gt;Doctor_brakess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_brakes/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_brakes/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctor_detail&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_detail/&quot;&gt;Doctor_details&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_detail/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_detail/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-education&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/education/&quot;&gt;Educations&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/education/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/education/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patient_specialities_history&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/patient_specialities_history/&quot;&gt;Patient_ specialities_ historys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/patient_specialities_history/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/patient_specialities_history/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-registeration&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/registeration/&quot;&gt;Registerations&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/registeration/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/registeration/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-role&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/role/&quot;&gt;Roles&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/role/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/role/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-specialities&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/specialities/&quot;&gt;Specialitiess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/specialities/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/specialities/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-speciality&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/speciality/&quot;&gt;Specialitys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/speciality/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/speciality/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-visit_timimgs&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/visit_timimgs/&quot;&gt;Visit_timimgss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/visit_timimgs/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/visit_timimgs/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-extraapp module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/extraapp/&quot; class=&quot;section&quot; title=&quot;Models in the Extraapp application&quot;&gt;Extraapp&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-reviews&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/extraapp/reviews/&quot;&gt;Reviewss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/extraapp/reviews/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/extraapp/reviews/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-facilities module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/facilities/&quot; class=&quot;section&quot; title=&quot;Models in the Facilities application&quot;&gt;Facilities&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-all_facility_categories&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/all_facility_categories/&quot;&gt;All_ facility_ categoriess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/all_facility_categories/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/all_facility_categories/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-availibility&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/availibility/&quot;&gt;Availibilitys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/availibility/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/availibility/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-child_permission&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/child_permission/&quot;&gt;Child_ permissions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/child_permission/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/child_permission/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-clinic_admin&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_admin/&quot;&gt;Clinic_admins&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_admin/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_admin/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-clinic_staff&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_staff/&quot;&gt;Clinic_staffs&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_staff/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_staff/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-clinic_user&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_user/&quot;&gt;Clinic_users&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_user/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_user/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-customtimeslots&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/customtimeslots/&quot;&gt;Custom time slotss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/customtimeslots/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/customtimeslots/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-emergency_number&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/emergency_number/&quot;&gt;Emergency_numbers&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/emergency_number/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/emergency_number/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-fac_visit_timimgs&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/fac_visit_timimgs/&quot;&gt;Fac_ visit_timimgss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/fac_visit_timimgs/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/fac_visit_timimgs/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-facility_type&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/facility_type/&quot;&gt;Facility_types&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/facility_type/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/facility_type/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-images&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/images/&quot;&gt;Imagess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/images/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/images/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-main_facilities&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/main_facilities/&quot;&gt;Main_facilitiess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/main_facilities/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/main_facilities/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-medical_test&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/medical_test/&quot;&gt;Medical_tests&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/medical_test/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/medical_test/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-root_permission&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/root_permission/&quot;&gt;Root_ permissions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/root_permission/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/root_permission/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-settings&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/settings/&quot;&gt;Settingss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/settings/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/settings/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-staff_brakes&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/staff_brakes/&quot;&gt;Staff_ brakess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/staff_brakes/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/staff_brakes/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-staff_timings&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/staff_timings/&quot;&gt;Staff_ timingss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/staff_timings/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/staff_timings/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-sub_child_permission&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/sub_child_permission/&quot;&gt;Sub_ child_ permissions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/sub_child_permission/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/sub_child_permission/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-user_child_permission&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/user_child_permission/&quot;&gt;User_ child_ permissions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/user_child_permission/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/user_child_permission/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-user_root_permission&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/user_root_permission/&quot;&gt;User_ root_ permissions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/user_root_permission/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/user_root_permission/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-user_sub_child_permission&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/user_sub_child_permission/&quot;&gt;User_ sub_ child_ permissions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/user_sub_child_permission/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/user_sub_child_permission/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-visit_timimgs_time&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/visit_timimgs_time/&quot;&gt;Visit_timimgs_ times&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/visit_timimgs_time/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/visit_timimgs_time/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-location module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/location/&quot; class=&quot;section&quot; title=&quot;Models in the Location application&quot;&gt;Location&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-address&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/address/&quot;&gt;Addresss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/address/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/address/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-city&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/city/&quot;&gt;Citys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/city/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/city/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-country&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/country/&quot;&gt;Countrys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/country/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/country/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-images&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/images/&quot;&gt;Imagess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/images/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/images/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-locality&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/locality/&quot;&gt;Localitys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/locality/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/locality/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-postal_code&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/postal_code/&quot;&gt;Postal_codes&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/postal_code/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/postal_code/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-state&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/state/&quot;&gt;States&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/state/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/state/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-medications module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/medications/&quot; class=&quot;section&quot; title=&quot;Models in the Medications application&quot;&gt;Medications&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-medicationbrand&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/medications/medicationbrand/&quot;&gt;Medication brands&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/medicationbrand/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/medicationbrand/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-medicationsalt_medicationbrand_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/medications/medicationsalt_medicationbrand_map/&quot;&gt;Medication salt_ medication brand_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/medicationsalt_medicationbrand_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/medicationsalt_medicationbrand_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-medicationsalt&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/medications/medicationsalt/&quot;&gt;Medication salts&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/medicationsalt/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/medicationsalt/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-usermedicationhistory&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/medications/usermedicationhistory/&quot;&gt;User medication historys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/usermedicationhistory/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/usermedicationhistory/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-procedures module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/procedures/&quot; class=&quot;section&quot; title=&quot;Models in the Procedures application&quot;&gt;Procedures&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-doineedthistest&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/doineedthistest/&quot;&gt;Do i need this tests&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/doineedthistest/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/doineedthistest/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-main_procedure&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/main_procedure/&quot;&gt;Main_procedures&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/main_procedure/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/main_procedure/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-procedureimage&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/procedureimage/&quot;&gt;Procedure images&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedureimage/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedureimage/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-procedurevideo&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/procedurevideo/&quot;&gt;Procedure videos&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedurevideo/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedurevideo/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-procedure_doctor_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_doctor_map/&quot;&gt;Procedure_ doctor_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_doctor_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_doctor_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-procedure_facility_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_facility_map/&quot;&gt;Procedure_ facility_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_facility_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_facility_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-procedure_sub_speciality_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_sub_speciality_map/&quot;&gt;Procedure_ sub_ speciality_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_sub_speciality_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_sub_speciality_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-subscription module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/subscription/&quot; class=&quot;section&quot; title=&quot;Models in the Subscription application&quot;&gt;Subscription&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-appoinmentfiles&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/appoinmentfiles/&quot;&gt;Appoinment filess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appoinmentfiles/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appoinmentfiles/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-appointmentprescriptions&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/appointmentprescriptions/&quot;&gt;Appointment prescriptionss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointmentprescriptions/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointmentprescriptions/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-appointmentprocedure&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/appointmentprocedure/&quot;&gt;Appointment procedures&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointmentprocedure/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointmentprocedure/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-appointment_details&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_details/&quot;&gt;Appointment_ detailss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_details/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_details/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-appointment_request_result&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_request_result/&quot;&gt;Appointment_ request_ results&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_request_result/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_request_result/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-appointment_requests&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_requests/&quot;&gt;Appointment_ requestss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_requests/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_requests/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-availabletimeslots&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/availabletimeslots/&quot;&gt;Available time slotss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/availabletimeslots/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/availabletimeslots/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-booked_appointments&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/booked_appointments/&quot;&gt;Booked_ appointmentss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/booked_appointments/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/booked_appointments/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-booked_time&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/booked_time/&quot;&gt;Booked_ times&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/booked_time/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/booked_time/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-call_details&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/call_details/&quot;&gt;Call_ detailss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/call_details/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/call_details/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-clinicalnotes&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/clinicalnotes/&quot;&gt;Clinical notess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/clinicalnotes/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/clinicalnotes/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-consultationpack&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/consultationpack/&quot;&gt;Consultation packs&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/consultationpack/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/consultationpack/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctorconsultation&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/doctorconsultation/&quot;&gt;Doctor consultations&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/doctorconsultation/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/doctorconsultation/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-feedback&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/feedback/&quot;&gt;Feedbacks&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/feedback/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/feedback/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-followup&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/followup/&quot;&gt;Follow ups&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/followup/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/followup/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-online_consult_request&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/online_consult_request/&quot;&gt;Online_ consult_ requests&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/online_consult_request/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/online_consult_request/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-payment&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/payment/&quot;&gt;Payments&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/payment/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/payment/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-prescription&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/prescription/&quot;&gt;Prescriptions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/prescription/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/prescription/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-saved_prescription&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/saved_prescription/&quot;&gt;Saved_ prescriptions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/saved_prescription/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/saved_prescription/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-subscription&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/subscription/&quot;&gt;Subscriptions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/subscription/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/subscription/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-time_slots&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/time_slots/&quot;&gt;Time_ slotss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/time_slots/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/time_slots/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-transaction&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/transaction/&quot;&gt;Transactions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/transaction/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/transaction/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-vitalsigns&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/vitalsigns/&quot;&gt;Vital signss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/vitalsigns/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/vitalsigns/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-symptoms module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/symptoms/&quot; class=&quot;section&quot; title=&quot;Models in the Symptoms application&quot;&gt;Symptoms&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-body_part&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/symptoms/body_part/&quot;&gt;Body_parts&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/body_part/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/body_part/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-common_combo&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/symptoms/common_combo/&quot;&gt;Common_ combos&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/common_combo/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/common_combo/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-gender&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/symptoms/gender/&quot;&gt;Genders&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/gender/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/gender/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-main_symptom&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/symptoms/main_symptom/&quot;&gt;Main_symptoms&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/main_symptom/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/main_symptom/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-symptoms_combo&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/symptoms/symptoms_combo/&quot;&gt;Symptoms_ combos&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/symptoms_combo/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/symptoms_combo/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-synonyms&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/symptoms/synonyms/&quot;&gt;Synonymss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/synonyms/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/synonyms/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;content-related&quot;&gt;
+&lt;div class=&quot;module&quot; id=&quot;recent-actions-module&quot;&gt;
+&lt;h2&gt;Recent actions&lt;/h2&gt;
+&lt;h3&gt;My actions&lt;/h3&gt;
+&lt;ul class=&quot;actionlist&quot;&gt;
+&lt;li class=&quot;addlink&quot;&gt;
+&lt;a href=&quot;/mahaflox/chatApp/erp_notification/2/change/&quot;&gt;welcome in this clinic&lt;/a&gt;
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Er p_ notification&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;changelink&quot;&gt;
+&lt;a href=&quot;/mahaflox/chatApp/erp_notification/1/change/&quot;&gt;Hi&lt;/a&gt;
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Er p_ notification&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;changelink&quot;&gt;
+&lt;a href=&quot;/mahaflox/chatApp/erp_notification/1/change/&quot;&gt;Hi&lt;/a&gt;
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Er p_ notification&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;changelink&quot;&gt;
+&lt;a href=&quot;/mahaflox/chatApp/erp_notification/1/change/&quot;&gt;Hi&lt;/a&gt;
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Er p_ notification&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;deletelink&quot;&gt;
+Salpingectomy (remove fallopian tubes)
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Procedure_ facility_ map&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;deletelink&quot;&gt;
+Allergy testing
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Procedure_ facility_ map&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;deletelink&quot;&gt;
+Air contrast enema (x-ray study of the colon)
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Procedure_ facility_ map&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;deletelink&quot;&gt;
+Adenoidectomy (removal of adenoids)
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Procedure_ facility_ map&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;deletelink&quot;&gt;
+Activated partial thromboplastin (PTT)
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Procedure_ facility_ map&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;deletelink&quot;&gt;
+ACTH stimulation test (evaluate adrenal glands)
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Procedure_ facility_ map&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br class=&quot;clear&quot; /&gt;
+&lt;/div&gt;
+ 
+&lt;div id=&quot;footer&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+ 
+
+
+&lt;/body&gt;&lt;/html&gt;&apos; to contain &apos;Rahul Yadav&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at /Users/zac01/Documents/protractor/myswaastherp/Profile/verifyProfileDetails.js:55:28
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1498672506110" stop="1498672506456" status="failed">
+			<name>checks that clinic name is in page source</name>
+			<title>checks that clinic name is in page source</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c3122630-738b-4a4f-a5d7-1ef0db363c24-attachment.png" type="image/png" size="137463"/>
+			</attachments>
+			<failure>
+				<message>Expected &apos;&lt;!DOCTYPE html&gt;&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-us&quot;&gt;&lt;head&gt;
+&lt;title&gt;Site administration | MySwaasth Administration (Development Server)&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/static/admin/css/base.css&quot; /&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/static/admin/css/dashboard.css&quot; /&gt;
+&lt;meta name=&quot;robots&quot; content=&quot;NONE,NOARCHIVE&quot; /&gt;
+&lt;/head&gt;
+&lt;body class=&quot; dashboard&quot; data-admin-utc-offset=&quot;19800&quot;&gt;
+ 
+&lt;div id=&quot;container&quot;&gt;
+ 
+&lt;div id=&quot;header&quot;&gt;
+&lt;div id=&quot;branding&quot;&gt;
+&lt;h1 id=&quot;site-name&quot;&gt;&lt;a href=&quot;/mahaflox/&quot;&gt;MySwaasth Administration (Development Server)&lt;/a&gt;&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&quot;user-tools&quot;&gt;
+Welcome,
+&lt;strong&gt;admin@innotical.com&lt;/strong&gt;.
+&lt;a href=&quot;/&quot;&gt;View site&lt;/a&gt; /
+&lt;a href=&quot;/mahaflox/password_change/&quot;&gt;Change password&lt;/a&gt; /
+&lt;a href=&quot;/mahaflox/logout/&quot;&gt;Log out&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+ 
+ 
+&lt;div id=&quot;content&quot; class=&quot;colMS&quot;&gt;
+&lt;h1&gt;Site administration&lt;/h1&gt;
+&lt;div id=&quot;content-main&quot;&gt;
+&lt;div class=&quot;app-advertisement module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/advertisement/&quot; class=&quot;section&quot; title=&quot;Models in the Advertisement application&quot;&gt;Advertisement&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-carrer_form&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/carrer_form/&quot;&gt;Carrer_forms&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/carrer_form/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/carrer_form/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-contact_us&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/contact_us/&quot;&gt;Contact_uss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/contact_us/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/contact_us/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-enterprise_form&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/enterprise_form/&quot;&gt;Enterprise_forms&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/enterprise_form/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/enterprise_form/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-faq_form&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/faq_form/&quot;&gt;Fa q_forms&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/faq_form/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/faq_form/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-feedback_form&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/feedback_form/&quot;&gt;Feedback_forms&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/feedback_form/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/feedback_form/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-imageforpush&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/imageforpush/&quot;&gt;Image for pushs&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/imageforpush/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/imageforpush/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-report_bug&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/report_bug/&quot;&gt;Report_bugs&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/report_bug/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/report_bug/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-support_system&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/advertisement/support_system/&quot;&gt;Support_systems&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/support_system/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/advertisement/support_system/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-asynctask module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/asynctask/&quot; class=&quot;section&quot; title=&quot;Models in the Asynctask application&quot;&gt;Asynctask&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-unsubscribe&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/asynctask/unsubscribe/&quot;&gt;Unsubscribes&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/asynctask/unsubscribe/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/asynctask/unsubscribe/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-authentication module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/authentication/&quot; class=&quot;section&quot; title=&quot;Models in the Authentication application&quot;&gt;Authentication&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-account&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/authentication/account/&quot;&gt;Accounts&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/authentication/account/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/authentication/account/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-auth module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/auth/&quot; class=&quot;section&quot; title=&quot;Models in the Authentication and Authorization application&quot;&gt;Authentication and Authorization&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-group&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/auth/group/&quot;&gt;Groups&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/auth/group/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/auth/group/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-chatApp module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/chatApp/&quot; class=&quot;section&quot; title=&quot;Models in the Chatapp application&quot;&gt;Chatapp&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-chatgroup&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/chatApp/chatgroup/&quot;&gt;Chat groups&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/chatApp/chatgroup/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/chatApp/chatgroup/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-erp_notification&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/chatApp/erp_notification/&quot;&gt;Er p_ notifications&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/chatApp/erp_notification/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/chatApp/erp_notification/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-client module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/client/&quot; class=&quot;section&quot; title=&quot;Models in the Client application&quot;&gt;Client&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-allergy&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/allergy/&quot;&gt;Allergys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/allergy/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/allergy/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-app_medicine_reminder&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/app_medicine_reminder/&quot;&gt;App_ medicine_ reminders&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/app_medicine_reminder/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/app_medicine_reminder/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-app_reminder_timing&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/app_reminder_timing/&quot;&gt;App_ reminder_ timings&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/app_reminder_timing/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/app_reminder_timing/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-chronicillness&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/chronicillness/&quot;&gt;Chronic illnesss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/chronicillness/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/chronicillness/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-days&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/days/&quot;&gt;Dayss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/days/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/days/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-disease&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/disease/&quot;&gt;Diseases&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/disease/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/disease/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-document&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/document/&quot;&gt;Documents&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/document/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/document/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-family&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/family/&quot;&gt;Familys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/family/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/family/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-fitness_dashboard&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/fitness_dashboard/&quot;&gt;Fitness_ dashboards&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/fitness_dashboard/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/fitness_dashboard/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-method&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/method/&quot;&gt;Methods&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/method/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/method/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-myprofile&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/myprofile/&quot;&gt;My profiles&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/myprofile/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/myprofile/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientallergy&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientallergy/&quot;&gt;Patient allergys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientallergy/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientallergy/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientcondition&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientcondition/&quot;&gt;Patient conditions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientcondition/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientcondition/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientillness&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientillness/&quot;&gt;Patient illnesss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientillness/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientillness/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientmedication&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientmedication/&quot;&gt;Patient medications&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientmedication/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientmedication/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientprocedure&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientprocedure/&quot;&gt;Patient procedures&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientprocedure/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientprocedure/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientsearch&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientsearch/&quot;&gt;Patient searchs&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientsearch/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientsearch/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientsurgery&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientsurgery/&quot;&gt;Patient surgerys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientsurgery/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientsurgery/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patientsymptom&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/patientsymptom/&quot;&gt;Patient symptoms&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientsymptom/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/patientsymptom/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-reminder&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/reminder/&quot;&gt;Reminders&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/reminder/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/reminder/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-surgery&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/surgery/&quot;&gt;Surgerys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/surgery/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/surgery/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-unit&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/client/unit/&quot;&gt;Units&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/unit/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/client/unit/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-condition module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/condition/&quot; class=&quot;section&quot; title=&quot;Models in the Condition application&quot;&gt;Condition&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-commonfirstaid&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/commonfirstaid/&quot;&gt;Common first aids&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/commonfirstaid/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/commonfirstaid/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-condition_doineedthistest&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/condition_doineedthistest/&quot;&gt;Condition_ do i need this tests&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/condition_doineedthistest/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/condition_doineedthistest/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-condition_article&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/condition_article/&quot;&gt;Condition_articles&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/condition_article/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/condition_article/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-condition_overview&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/condition_overview/&quot;&gt;Condition_overviews&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/condition_overview/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/condition_overview/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-conditions_medical_test_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/conditions_medical_test_map/&quot;&gt;Conditions_ medical_ test_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/conditions_medical_test_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/conditions_medical_test_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-conditions_speciality_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/conditions_speciality_map/&quot;&gt;Conditions_ speciality_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/conditions_speciality_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/conditions_speciality_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-firstaiddetail&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/firstaiddetail/&quot;&gt;First aid details&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/firstaiddetail/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/firstaiddetail/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-firstaid&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/firstaid/&quot;&gt;First aids&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/firstaid/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/firstaid/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-images&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/images/&quot;&gt;Imagess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/images/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/images/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-msp_symptoms&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/msp_symptoms/&quot;&gt;Msp_symptomss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/msp_symptoms/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/msp_symptoms/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-symptoms_with_condition&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/symptoms_with_condition/&quot;&gt;Symptoms_with_conditions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/symptoms_with_condition/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/symptoms_with_condition/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-videos&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/condition/videos/&quot;&gt;Videoss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/videos/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/condition/videos/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-oauth2_provider module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/oauth2_provider/&quot; class=&quot;section&quot; title=&quot;Models in the Django OAuth Toolkit application&quot;&gt;Django OAuth Toolkit&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-accesstoken&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/accesstoken/&quot;&gt;Access tokens&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/accesstoken/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/accesstoken/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-application&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/application/&quot;&gt;Applications&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/application/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/application/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-grant&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/grant/&quot;&gt;Grants&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/grant/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/grant/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-refreshtoken&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/refreshtoken/&quot;&gt;Refresh tokens&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/refreshtoken/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/oauth2_provider/refreshtoken/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-djcelery module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/djcelery/&quot; class=&quot;section&quot; title=&quot;Models in the Djcelery application&quot;&gt;Djcelery&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-crontabschedule&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/djcelery/crontabschedule/&quot;&gt;Crontabs&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/crontabschedule/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/crontabschedule/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-intervalschedule&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/djcelery/intervalschedule/&quot;&gt;Intervals&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/intervalschedule/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/intervalschedule/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-periodictask&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/djcelery/periodictask/&quot;&gt;Periodic tasks&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/periodictask/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/periodictask/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-taskstate&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/djcelery/taskstate/&quot;&gt;Tasks&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/taskstate/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-workerstate&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/djcelery/workerstate/&quot;&gt;Workers&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/workerstate/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/djcelery/workerstate/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-doctors module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/doctors/&quot; class=&quot;section&quot; title=&quot;Models in the Doctors application&quot;&gt;Doctors&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-clinic_doctor_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/clinic_doctor_map/&quot;&gt;Clinic_ doctor_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/clinic_doctor_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/clinic_doctor_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-clinic_doctor_timing_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/clinic_doctor_timing_map/&quot;&gt;Clinic_ doctor_ timing_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/clinic_doctor_timing_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/clinic_doctor_timing_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-degree&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/degree/&quot;&gt;Degrees&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/degree/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/degree/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctorbookmark&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/doctorbookmark/&quot;&gt;Doctor bookmarks&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctorbookmark/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctorbookmark/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctorcertificate&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/doctorcertificate/&quot;&gt;Doctor certificates&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctorcertificate/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctorcertificate/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctorexperience&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/doctorexperience/&quot;&gt;Doctor experiences&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctorexperience/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctorexperience/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctor_specialities_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_specialities_map/&quot;&gt;Doctor_ specialities_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_specialities_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_specialities_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctor_brakes&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_brakes/&quot;&gt;Doctor_brakess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_brakes/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_brakes/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctor_detail&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_detail/&quot;&gt;Doctor_details&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_detail/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/doctor_detail/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-education&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/education/&quot;&gt;Educations&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/education/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/education/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-patient_specialities_history&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/patient_specialities_history/&quot;&gt;Patient_ specialities_ historys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/patient_specialities_history/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/patient_specialities_history/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-registeration&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/registeration/&quot;&gt;Registerations&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/registeration/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/registeration/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-role&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/role/&quot;&gt;Roles&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/role/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/role/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-specialities&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/specialities/&quot;&gt;Specialitiess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/specialities/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/specialities/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-speciality&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/speciality/&quot;&gt;Specialitys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/speciality/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/speciality/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-visit_timimgs&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/doctors/visit_timimgs/&quot;&gt;Visit_timimgss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/visit_timimgs/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/doctors/visit_timimgs/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-extraapp module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/extraapp/&quot; class=&quot;section&quot; title=&quot;Models in the Extraapp application&quot;&gt;Extraapp&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-reviews&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/extraapp/reviews/&quot;&gt;Reviewss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/extraapp/reviews/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/extraapp/reviews/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-facilities module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/facilities/&quot; class=&quot;section&quot; title=&quot;Models in the Facilities application&quot;&gt;Facilities&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-all_facility_categories&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/all_facility_categories/&quot;&gt;All_ facility_ categoriess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/all_facility_categories/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/all_facility_categories/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-availibility&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/availibility/&quot;&gt;Availibilitys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/availibility/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/availibility/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-child_permission&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/child_permission/&quot;&gt;Child_ permissions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/child_permission/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/child_permission/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-clinic_admin&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_admin/&quot;&gt;Clinic_admins&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_admin/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_admin/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-clinic_staff&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_staff/&quot;&gt;Clinic_staffs&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_staff/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_staff/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-clinic_user&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_user/&quot;&gt;Clinic_users&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_user/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/clinic_user/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-customtimeslots&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/customtimeslots/&quot;&gt;Custom time slotss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/customtimeslots/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/customtimeslots/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-emergency_number&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/emergency_number/&quot;&gt;Emergency_numbers&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/emergency_number/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/emergency_number/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-fac_visit_timimgs&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/fac_visit_timimgs/&quot;&gt;Fac_ visit_timimgss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/fac_visit_timimgs/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/fac_visit_timimgs/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-facility_type&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/facility_type/&quot;&gt;Facility_types&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/facility_type/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/facility_type/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-images&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/images/&quot;&gt;Imagess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/images/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/images/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-main_facilities&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/main_facilities/&quot;&gt;Main_facilitiess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/main_facilities/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/main_facilities/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-medical_test&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/medical_test/&quot;&gt;Medical_tests&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/medical_test/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/medical_test/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-root_permission&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/root_permission/&quot;&gt;Root_ permissions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/root_permission/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/root_permission/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-settings&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/settings/&quot;&gt;Settingss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/settings/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/settings/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-staff_brakes&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/staff_brakes/&quot;&gt;Staff_ brakess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/staff_brakes/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/staff_brakes/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-staff_timings&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/staff_timings/&quot;&gt;Staff_ timingss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/staff_timings/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/staff_timings/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-sub_child_permission&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/sub_child_permission/&quot;&gt;Sub_ child_ permissions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/sub_child_permission/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/sub_child_permission/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-user_child_permission&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/user_child_permission/&quot;&gt;User_ child_ permissions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/user_child_permission/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/user_child_permission/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-user_root_permission&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/user_root_permission/&quot;&gt;User_ root_ permissions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/user_root_permission/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/user_root_permission/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-user_sub_child_permission&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/user_sub_child_permission/&quot;&gt;User_ sub_ child_ permissions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/user_sub_child_permission/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/user_sub_child_permission/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-visit_timimgs_time&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/facilities/visit_timimgs_time/&quot;&gt;Visit_timimgs_ times&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/visit_timimgs_time/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/facilities/visit_timimgs_time/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-location module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/location/&quot; class=&quot;section&quot; title=&quot;Models in the Location application&quot;&gt;Location&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-address&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/address/&quot;&gt;Addresss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/address/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/address/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-city&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/city/&quot;&gt;Citys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/city/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/city/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-country&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/country/&quot;&gt;Countrys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/country/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/country/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-images&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/images/&quot;&gt;Imagess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/images/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/images/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-locality&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/locality/&quot;&gt;Localitys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/locality/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/locality/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-postal_code&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/postal_code/&quot;&gt;Postal_codes&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/postal_code/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/postal_code/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-state&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/location/state/&quot;&gt;States&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/state/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/location/state/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-medications module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/medications/&quot; class=&quot;section&quot; title=&quot;Models in the Medications application&quot;&gt;Medications&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-medicationbrand&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/medications/medicationbrand/&quot;&gt;Medication brands&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/medicationbrand/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/medicationbrand/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-medicationsalt_medicationbrand_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/medications/medicationsalt_medicationbrand_map/&quot;&gt;Medication salt_ medication brand_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/medicationsalt_medicationbrand_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/medicationsalt_medicationbrand_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-medicationsalt&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/medications/medicationsalt/&quot;&gt;Medication salts&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/medicationsalt/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/medicationsalt/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-usermedicationhistory&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/medications/usermedicationhistory/&quot;&gt;User medication historys&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/usermedicationhistory/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/medications/usermedicationhistory/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-procedures module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/procedures/&quot; class=&quot;section&quot; title=&quot;Models in the Procedures application&quot;&gt;Procedures&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-doineedthistest&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/doineedthistest/&quot;&gt;Do i need this tests&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/doineedthistest/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/doineedthistest/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-main_procedure&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/main_procedure/&quot;&gt;Main_procedures&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/main_procedure/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/main_procedure/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-procedureimage&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/procedureimage/&quot;&gt;Procedure images&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedureimage/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedureimage/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-procedurevideo&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/procedurevideo/&quot;&gt;Procedure videos&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedurevideo/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedurevideo/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-procedure_doctor_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_doctor_map/&quot;&gt;Procedure_ doctor_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_doctor_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_doctor_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-procedure_facility_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_facility_map/&quot;&gt;Procedure_ facility_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_facility_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_facility_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-procedure_sub_speciality_map&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_sub_speciality_map/&quot;&gt;Procedure_ sub_ speciality_ maps&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_sub_speciality_map/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/procedures/procedure_sub_speciality_map/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-subscription module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/subscription/&quot; class=&quot;section&quot; title=&quot;Models in the Subscription application&quot;&gt;Subscription&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-appoinmentfiles&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/appoinmentfiles/&quot;&gt;Appoinment filess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appoinmentfiles/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appoinmentfiles/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-appointmentprescriptions&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/appointmentprescriptions/&quot;&gt;Appointment prescriptionss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointmentprescriptions/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointmentprescriptions/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-appointmentprocedure&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/appointmentprocedure/&quot;&gt;Appointment procedures&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointmentprocedure/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointmentprocedure/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-appointment_details&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_details/&quot;&gt;Appointment_ detailss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_details/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_details/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-appointment_request_result&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_request_result/&quot;&gt;Appointment_ request_ results&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_request_result/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_request_result/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-appointment_requests&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_requests/&quot;&gt;Appointment_ requestss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_requests/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/appointment_requests/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-availabletimeslots&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/availabletimeslots/&quot;&gt;Available time slotss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/availabletimeslots/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/availabletimeslots/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-booked_appointments&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/booked_appointments/&quot;&gt;Booked_ appointmentss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/booked_appointments/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/booked_appointments/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-booked_time&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/booked_time/&quot;&gt;Booked_ times&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/booked_time/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/booked_time/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-call_details&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/call_details/&quot;&gt;Call_ detailss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/call_details/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/call_details/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-clinicalnotes&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/clinicalnotes/&quot;&gt;Clinical notess&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/clinicalnotes/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/clinicalnotes/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-consultationpack&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/consultationpack/&quot;&gt;Consultation packs&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/consultationpack/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/consultationpack/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-doctorconsultation&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/doctorconsultation/&quot;&gt;Doctor consultations&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/doctorconsultation/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/doctorconsultation/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-feedback&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/feedback/&quot;&gt;Feedbacks&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/feedback/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/feedback/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-followup&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/followup/&quot;&gt;Follow ups&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/followup/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/followup/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-online_consult_request&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/online_consult_request/&quot;&gt;Online_ consult_ requests&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/online_consult_request/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/online_consult_request/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-payment&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/payment/&quot;&gt;Payments&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/payment/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/payment/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-prescription&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/prescription/&quot;&gt;Prescriptions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/prescription/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/prescription/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-saved_prescription&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/saved_prescription/&quot;&gt;Saved_ prescriptions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/saved_prescription/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/saved_prescription/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-subscription&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/subscription/&quot;&gt;Subscriptions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/subscription/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/subscription/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-time_slots&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/time_slots/&quot;&gt;Time_ slotss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/time_slots/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/time_slots/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-transaction&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/transaction/&quot;&gt;Transactions&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/transaction/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/transaction/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-vitalsigns&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/subscription/vitalsigns/&quot;&gt;Vital signss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/vitalsigns/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/subscription/vitalsigns/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;app-symptoms module&quot;&gt;
+&lt;table&gt;
+&lt;caption&gt;
+&lt;a href=&quot;/mahaflox/symptoms/&quot; class=&quot;section&quot; title=&quot;Models in the Symptoms application&quot;&gt;Symptoms&lt;/a&gt;
+&lt;/caption&gt;
+&lt;tbody&gt;&lt;tr class=&quot;model-body_part&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/symptoms/body_part/&quot;&gt;Body_parts&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/body_part/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/body_part/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-common_combo&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/symptoms/common_combo/&quot;&gt;Common_ combos&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/common_combo/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/common_combo/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-gender&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/symptoms/gender/&quot;&gt;Genders&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/gender/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/gender/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-main_symptom&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/symptoms/main_symptom/&quot;&gt;Main_symptoms&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/main_symptom/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/main_symptom/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-symptoms_combo&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/symptoms/symptoms_combo/&quot;&gt;Symptoms_ combos&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/symptoms_combo/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/symptoms_combo/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&quot;model-synonyms&quot;&gt;
+&lt;th scope=&quot;row&quot;&gt;&lt;a href=&quot;/mahaflox/symptoms/synonyms/&quot;&gt;Synonymss&lt;/a&gt;&lt;/th&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/synonyms/add/&quot; class=&quot;addlink&quot;&gt;Add&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;/mahaflox/symptoms/synonyms/&quot; class=&quot;changelink&quot;&gt;Change&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;content-related&quot;&gt;
+&lt;div class=&quot;module&quot; id=&quot;recent-actions-module&quot;&gt;
+&lt;h2&gt;Recent actions&lt;/h2&gt;
+&lt;h3&gt;My actions&lt;/h3&gt;
+&lt;ul class=&quot;actionlist&quot;&gt;
+&lt;li class=&quot;addlink&quot;&gt;
+&lt;a href=&quot;/mahaflox/chatApp/erp_notification/2/change/&quot;&gt;welcome in this clinic&lt;/a&gt;
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Er p_ notification&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;changelink&quot;&gt;
+&lt;a href=&quot;/mahaflox/chatApp/erp_notification/1/change/&quot;&gt;Hi&lt;/a&gt;
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Er p_ notification&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;changelink&quot;&gt;
+&lt;a href=&quot;/mahaflox/chatApp/erp_notification/1/change/&quot;&gt;Hi&lt;/a&gt;
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Er p_ notification&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;changelink&quot;&gt;
+&lt;a href=&quot;/mahaflox/chatApp/erp_notification/1/change/&quot;&gt;Hi&lt;/a&gt;
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Er p_ notification&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;deletelink&quot;&gt;
+Salpingectomy (remove fallopian tubes)
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Procedure_ facility_ map&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;deletelink&quot;&gt;
+Allergy testing
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Procedure_ facility_ map&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;deletelink&quot;&gt;
+Air contrast enema (x-ray study of the colon)
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Procedure_ facility_ map&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;deletelink&quot;&gt;
+Adenoidectomy (removal of adenoids)
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Procedure_ facility_ map&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;deletelink&quot;&gt;
+Activated partial thromboplastin (PTT)
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Procedure_ facility_ map&lt;/span&gt;
+&lt;/li&gt;
+&lt;li class=&quot;deletelink&quot;&gt;
+ACTH stimulation test (evaluate adrenal glands)
+&lt;br /&gt;
+&lt;span class=&quot;mini quiet&quot;&gt;Procedure_ facility_ map&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br class=&quot;clear&quot; /&gt;
+&lt;/div&gt;
+ 
+&lt;div id=&quot;footer&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+ 
+
+
+&lt;/body&gt;&lt;/html&gt;&apos; to contain &apos;BdtiwhBj&apos;.</message>
+				<stack-trace>Error: Failed expectation
+    at /Users/zac01/Documents/protractor/myswaastherp/Profile/verifyProfileDetails.js:61:28
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

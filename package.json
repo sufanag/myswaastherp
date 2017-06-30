@@ -1,0 +1,25 @@
+{
+  "name": "myswaastherp",
+  "version": "1.0.0",
+  "description": "Test Framework for MySwaasthERP for Innotical",
+  "main": "myswaastherp_conf.js",
+  "scripts": {
+    "test": "protractor myswaastherp_conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zac11/myswaastherp.git"
+  },
+  "keywords": [
+    "MySwaasthERP",
+    "Testing",
+    "E2E",
+    "Testing-Framework"
+  ],
+  "author": "Rahul Yadav <ydv.rahul09@gmail.com> (https://seleniumwithjavapython.wordpress.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zac11/myswaastherp/issues"
+  },
+  "homepage": "https://github.com/zac11/myswaastherp#readme"
+}

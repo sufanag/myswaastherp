@@ -56,6 +56,8 @@ var Profile1 = new ProfileDetails.verfiProfilePage1();
 var Profile2 = new ProfileDetails.verifyProfilePage2();
 var Profile3 = new ProfileDetails.verifyProfilePage3();
 var Profile4 = new ProfileDetails.verifyProfilePage4();
+var Profile5 = new ProfileDetails.updateClinic();
+var Profile6 = new ProfileDetails.updateClinicDocs();
 
 
 //==========================================Chance Details================================================
@@ -405,17 +407,21 @@ describe('Document Verification', ()=> {
              browser.getAllWindowHandles().then(function(handles){
                  var secondWindow = handles[1];
                  browser.switchTo().window(secondWindow).then(function(){
-                      browser.get('http://apiv4.sia.co.in/mahaflox');
+                      browser.get('http://apiv4.sia.co.in/mahaflox/facilities/main_facilities/');
                       browser.sleep(1000);
-                      element(by.xpath('//tr[@class="model-main_facilities"]/th/a')).click();
+                      /*Commented this code due to Selenium code errors for Chrome 61+
+                      //element(by.xpath('//tr[@class="model-main_facilities"]/th/a')).click();
+                      */
                       console.log(generate_clinic_name);
-                      //var elem =element(by.xpath("//a[contains(text(),generate_clinic_name)]"));
                       var ele = element(by.cssContainingText('a',generate_clinic_name));
                       ele.click();
                       browser.sleep(2000);
                       var elem_chkbox = element(by.css('input#id_doc_verifieds')).click();
-                      var save_btn = element(by.name('_save'));
-                      save_btn.click();
+                      browser.executeScript('window.scrollTo(0,10000);').then(function(){
+                          var save_btn = element(by.name('_save'));
+                          save_btn.click();
+                      });
+                           
                       browser.sleep(2000);
                       var firstWindow = handles[0];
                       browser.switchTo().window(firstWindow).then(function(url){
@@ -567,7 +573,7 @@ describe('Profile UI Tests', ()=> {
 });
 
 
-describe('Progress bar ',()=> {
+describe('Clinic Tests ',()=> {
     
     it('gets clinic progress bar percentage', ()=> {
         Profile4.clinicProgressPercentage();
@@ -576,10 +582,49 @@ describe('Progress bar ',()=> {
     it('gets admin progress bar percentage', ()=> {
         Profile4.doctorProgressPercentage();
     });
-               
+
+    it('clicks on Continue Btn', ()=> {
+        Profile5.clickContinueBtn();
+    });
+    
+    it('gets all the sections to be filled', ()=> {
+        Profile5.getSettingsOptionsForClinic();
+    });
+
+    
+    it('gets the src for Clinic Image', ()=> {
+        Profile5.clinicPhotoUpload();
+    });
+
+    
+    it('sets clinic description', ()=> {
+        Profile5.clinicAbout();
+    });
+
+        
+    it('sets clinic email', ()=> {
+        Profile5.setClinicEmail(generate_clinic_name);
+    });
+
+    
+    it('clicks update button', ()=> {
+        Profile5.updateClinicContact();
+    });
+             
+                    
+});
+
+
+describe('Clinic Documents', ()=> {  
+    
+    it('clicks on Documents', ()=> {
+        Profile6.navigateLink();
+    });
+        
 });
     
     
+
     
     
 

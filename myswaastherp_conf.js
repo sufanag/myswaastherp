@@ -27,7 +27,7 @@ exports.config={
     marionette: true,
   },*/
   onPrepare:function(){
-     //browser.manage().window().setSize(1280,1024);
+      browser.manage().window().setSize(1280,1024);
       jasmine.getEnv().addReporter(new SpecReporter({
           spec:{
               displayStacktrace:true

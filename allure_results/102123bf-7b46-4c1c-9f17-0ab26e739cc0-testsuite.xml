@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1498823567610" stop="1498823572286">
+	<name>Clinic Phone</name>
+	<title>Clinic Phone</title>
+	<test-cases>
+		<test-case start="1498823567610" stop="1498823572286" status="passed">
+			<name>set clinic phone number</name>
+			<title>set clinic phone number</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e6ff81d9-4b62-4d9f-af07-735b5b49bacb-attachment.png" type="image/png" size="239182"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

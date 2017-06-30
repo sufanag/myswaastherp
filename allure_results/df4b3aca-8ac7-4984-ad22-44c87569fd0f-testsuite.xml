@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1498728897310" stop="1498728907710">
+	<name>Profile UI Tests</name>
+	<title>Profile UI Tests</title>
+	<test-cases>
+		<test-case start="1498728897310" stop="1498728899725" status="passed">
+			<name>checks navbar displayed</name>
+			<title>checks navbar displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="64f1289d-29f9-4da9-b9ad-2e145c9e1714-attachment.png" type="image/png" size="67674"/>
+			</attachments>
+		</test-case>
+		<test-case start="1498728899725" stop="1498728902143" status="passed">
+			<name>checks sidebar displayed</name>
+			<title>checks sidebar displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0c9f6a5b-9c80-4640-8f36-63ca9b393b9e-attachment.png" type="image/png" size="84906"/>
+			</attachments>
+		</test-case>
+		<test-case start="1498728902143" stop="1498728904521" status="passed">
+			<name>checks Profile Section</name>
+			<title>checks Profile Section</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="bc9f1fa3-7648-446a-9d7e-182e7f01885d-attachment.png" type="image/png" size="84791"/>
+			</attachments>
+		</test-case>
+		<test-case start="1498728904521" stop="1498728906919" status="passed">
+			<name>checks body container</name>
+			<title>checks body container</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9b19371a-8796-4246-9413-d2e991adf4a1-attachment.png" type="image/png" size="82926"/>
+			</attachments>
+		</test-case>
+		<test-case start="1498728906920" stop="1498728907318" status="passed">
+			<name>checks that doctor name is in page source</name>
+			<title>checks that doctor name is in page source</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d43a9744-11e4-4503-8b0b-ad5043b7549c-attachment.png" type="image/png" size="82926"/>
+			</attachments>
+		</test-case>
+		<test-case start="1498728907318" stop="1498728907710" status="passed">
+			<name>checks that clinic name is in page source</name>
+			<title>checks that clinic name is in page source</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="13e13fb8-6921-4b9f-87af-e5449414e818-attachment.png" type="image/png" size="82926"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
