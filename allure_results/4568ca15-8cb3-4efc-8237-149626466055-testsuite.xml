@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1499088865600" stop="1499088873193">
+	<name>Clinic Documents</name>
+	<title>Clinic Documents</title>
+	<test-cases>
+		<test-case start="1499088865601" stop="1499088868045" status="passed">
+			<name>clicks on Documents</name>
+			<title>clicks on Documents</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c9c88090-2820-4261-b97d-7ab97fbddaf5-attachment.png" type="image/png" size="79794"/>
+			</attachments>
+		</test-case>
+		<test-case start="1499088868045" stop="1499088870488" status="passed">
+			<name>gets first document details</name>
+			<title>gets first document details</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="572d2821-e77d-4b27-a699-6be7d10d55af-attachment.png" type="image/png" size="81804"/>
+			</attachments>
+		</test-case>
+		<test-case start="1499088870488" stop="1499088872911" status="passed">
+			<name>gets second document details</name>
+			<title>gets second document details</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="7140421d-179b-40e3-ae5d-ed628f09ed77-attachment.png" type="image/png" size="79836"/>
+			</attachments>
+		</test-case>
+		<test-case start="1499088872911" stop="1499088873192" status="failed">
+			<name>gets third document details</name>
+			<title>gets third document details</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4ece0d55-d6c5-450c-b9c6-296ca80e3100-attachment.png" type="image/png" size="79836"/>
+			</attachments>
+			<failure>
+				<message>Failed: arentUploadDiv is not defined</message>
+				<stack-trace>ReferenceError: arentUploadDiv is not defined
+    at ClinicDocuments.getThirdFileDetails (/Users/zac01/Documents/protractor/myswaastherp/Profile/verifyProfileDetails.js:209:10)
+    at Object.it (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:653:18)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2860:25)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
+From: Task: Run it(&quot;gets third document details&quot;) in control flow
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3872:10)
+    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:816:35)
+    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:473:10)
+    at Object.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4975:37)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3924:18
+From asynchronous test: 
+Error
+    at Suite.describe (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:652:5)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:994:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:961:7)
+    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4031:18)
+    at Object.&lt;anonymous&gt; (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:635:1)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

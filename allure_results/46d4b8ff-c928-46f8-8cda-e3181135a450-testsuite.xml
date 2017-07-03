@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1499076160537" stop="1499076171894">
+	<name>Selecting Clinic</name>
+	<title>Selecting Clinic</title>
+	<test-cases>
+		<test-case start="1499076160537" stop="1499076164238" status="passed">
+			<name>should select clinic</name>
+			<title>should select clinic</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="48708bdd-7742-46a6-b3d3-dfb488762759-attachment.png" type="image/png" size="28731"/>
+			</attachments>
+		</test-case>
+		<test-case start="1499076164238" stop="1499076171893" status="passed">
+			<name>clicks on Go To Clinic Btn</name>
+			<title>clicks on Go To Clinic Btn</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="15f9133f-482e-4ab3-ae50-c3387ddbef5d-attachment.png" type="image/png" size="339682"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

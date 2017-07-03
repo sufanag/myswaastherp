@@ -131,6 +131,7 @@ this.clickRegisterBtn = function(){
        //expect(this.registerbtn.isDisplayed()).toBe(true);
        expect(this.registerbtn.isEnabled()).toBe(true);
        this.registerbtn.click();
+       browser.sleep(5000);
     }
 };
 

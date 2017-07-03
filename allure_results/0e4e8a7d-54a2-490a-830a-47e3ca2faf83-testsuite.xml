@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1499088032060" stop="1499088035537">
+	<name>Setting the email</name>
+	<title>Setting the email</title>
+	<test-cases>
+		<test-case start="1499088032060" stop="1499088035537" status="passed">
+			<name>should set the email</name>
+			<title>should set the email</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="752fe216-5690-4734-8c4b-43f0ea76850c-attachment.png" type="image/png" size="79985"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

@@ -18,6 +18,11 @@
   ],
   "author": "Rahul Yadav <ydv.rahul09@gmail.com> (https://seleniumwithjavapython.wordpress.com/)",
   "license": "MIT",
+   "dependencies": {
+    "protractor": "^5.1.2",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  },
   "bugs": {
     "url": "https://github.com/zac11/myswaastherp/issues"
   },

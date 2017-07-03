@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1499088471149" stop="1499088474403">
+	<name>Add Procedure</name>
+	<title>Add Procedure</title>
+	<test-cases>
+		<test-case start="1499088471150" stop="1499088473785" status="failed">
+			<name>search a procedure by key</name>
+			<title>search a procedure by key</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="a3d9325e-fb88-49ef-9d67-089603efc9b8-attachment.png" type="image/png" size="49813"/>
+			</attachments>
+			<failure>
+				<message>Failed: invalid element state
+  (Session info: chrome=61.0.3141.7)
+  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;Rahuls-Air&apos;, ip: &apos;fe80:0:0:0:1c3b:e403:e3c0:63ff%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/cw/484mdg194s3_bs9d0hsxbgcm0000gn/T/.org.chromium.Chromium.o1UNdq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3141.7, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 769b20048b7639e263aa85e49d4dfdd9</message>
+				<stack-trace>InvalidElementStateError: invalid element state
+  (Session info: chrome=61.0.3141.7)
+  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;Rahuls-Air&apos;, ip: &apos;fe80:0:0:0:1c3b:e403:e3c0:63ff%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.5&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262), userDataDir=/var/folders/cw/484mdg194s3_bs9d0hsxbgcm0000gn/T/.org.chromium.Chromium.o1UNdq}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3141.7, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 769b20048b7639e263aa85e49d4dfdd9
+    at Object.checkLegacyResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/error.js:505:15)
+    at parseHttpResponse (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:509:13)
+    at doSend.then.response (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/http.js:440:13)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+From: Task: WebElement.sendKeys()
+    at thenableWebDriverProxy.schedule (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:816:17)
+    at WebElement.schedule_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1921:25)
+    at WebElement.sendKeys (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:2084:19)
+    at actionFn (/usr/local/lib/node_modules/protractor/lib/element.ts:94:34)
+    at Array.map (native)
+    at actionResults.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:484:67)
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)Error
+    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)
+    at ElementFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)
+    at AddProcedure.addProcedureKey (/Users/zac01/Documents/protractor/myswaastherp/AddProcedure/add_procedure.js:13:56)
+    at Object.it (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:536:16)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)Error
+    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)
+    at ElementArrayFinder.(anonymous function).args [as getId] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)
+    at ElementFinder.(anonymous function).args [as getId] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)
+    at ActionSequence.mouseMove (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/actions.js:151:44)
+    at AddProcedure.addProcedureKey (/Users/zac01/Documents/protractor/myswaastherp/AddProcedure/add_procedure.js:13:27)
+    at Object.it (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:536:16)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+From: Task: Run it(&quot;search a procedure by key&quot;) in control flow
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3872:10)
+    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:816:35)
+    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:473:10)
+    at Object.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4975:37)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3872:10)
+From asynchronous test: 
+Error
+    at Suite.describe (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:535:5)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:994:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:961:7)
+    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4031:18)
+    at Object.&lt;anonymous&gt; (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:533:1)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1499088473785" stop="1499088474105" status="failed">
+			<name>enter a price for procedure</name>
+			<title>enter a price for procedure</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e8a8af45-f60b-4ade-a3f6-2159aedc3117-attachment.png" type="image/png" size="49813"/>
+			</attachments>
+			<failure>
+				<message>Failed: No element found using locator: By(css selector, [formcontrolname=&quot;amount&quot;])</message>
+				<stack-trace>NoSuchElementError: No element found using locator: By(css selector, [formcontrolname=&quot;amount&quot;])
+    at elementArrayFinder.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:851:17)
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)Error
+    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)
+    at ElementFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)
+    at AddProcedure.addAmountForProcedure (/Users/zac01/Documents/protractor/myswaastherp/AddProcedure/add_procedure.js:23:21)
+    at Object.it (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:540:16)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+From: Task: Run it(&quot;enter a price for procedure&quot;) in control flow
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3872:10)
+    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:816:35)
+    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:473:10)
+    at Object.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4975:37)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3924:18
+From asynchronous test: 
+Error
+    at Suite.describe (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:539:5)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:994:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:961:7)
+    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4031:18)
+    at Object.&lt;anonymous&gt; (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:533:1)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)</stack-trace>
+			</failure>
+		</test-case>
+		<test-case start="1499088474105" stop="1499088474402" status="failed">
+			<name>click on Done button</name>
+			<title>click on Done button</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d13d0316-f0d2-47b6-bbf8-7b9a6cc883ec-attachment.png" type="image/png" size="49813"/>
+			</attachments>
+			<failure>
+				<message>Failed: No element found using locator: by.buttonText(&quot;DONE&quot;)</message>
+				<stack-trace>NoSuchElementError: No element found using locator: by.buttonText(&quot;DONE&quot;)
+    at elementArrayFinder.getWebElements.then (/usr/local/lib/node_modules/protractor/lib/element.ts:851:17)
+    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)
+    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)
+    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7
+    at process._tickCallback (internal/process/next_tick.js:109:7)Error
+    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/lib/element.ts:482:23)
+    at ElementArrayFinder.(anonymous function).args [as click] (/usr/local/lib/node_modules/protractor/lib/element.ts:96:21)
+    at ElementFinder.(anonymous function).args [as click] (/usr/local/lib/node_modules/protractor/lib/element.ts:873:14)
+    at AddProcedure.submitDone (/Users/zac01/Documents/protractor/myswaastherp/AddProcedure/add_procedure.js:30:24)
+    at Object.it (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:544:16)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1067:7)
+    at ControlFlow.promise (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2396:12)
+    at schedulerExecute (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)
+From: Task: Run it(&quot;click on Done button&quot;) in control flow
+    at Object.&lt;anonymous&gt; (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at QueueRunner.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3872:10)
+    at Spec.queueRunnerFactory (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:816:35)
+    at Spec.execute (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:473:10)
+    at Object.fn (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4975:37)
+    at attemptAsync (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3945:24)
+    at QueueRunner.run (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3884:9)
+    at /usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:3924:18
+From asynchronous test: 
+Error
+    at Suite.describe (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:543:5)
+    at addSpecsToSuite (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:994:25)
+    at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:961:7)
+    at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4031:18)
+    at Object.&lt;anonymous&gt; (/Users/zac01/Documents/protractor/myswaastherp/Specs/signup-success.spec.js:533:1)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)</stack-trace>
+			</failure>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

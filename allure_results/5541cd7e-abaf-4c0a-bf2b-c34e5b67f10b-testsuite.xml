@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1499085940563" stop="1499085950935">
+	<name>Document Verification</name>
+	<title>Document Verification</title>
+	<test-cases>
+		<test-case start="1499085940563" stop="1499085950935" status="passed">
+			<name>should go to mahaflox again, and click on Document Verified for the clinic created</name>
+			<title>should go to mahaflox again, and click on Document Verified for the clinic created</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="632efd55-15ad-42be-8884-c7e72b88a9b8-attachment.png" type="image/png" size="77683"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

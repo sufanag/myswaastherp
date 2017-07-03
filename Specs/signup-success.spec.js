@@ -7,6 +7,7 @@ var ClinicDetails = require('../Clinic_details/clinicdetails.js');
 var FileUpload = require('../FileUpload/fileupload.js');
 var Verification = require('../VerificationPage/verificationpage.js');
 var Login = require('../Login/login.js');
+var ClinicSelect = require('../SelectClinic/selectclinic.js')
 var TimeSet = require('../TimeSet/timeset.js')
 var AddStaff = require('../AddStaff/addStaff.js');
 var AddProcedure = require('../AddProcedure/add_procedure.js');
@@ -42,6 +43,8 @@ var Verification_Page = new Verification.verificationURL();
 var Logged_out = new Verification.loggingOut();
 
 var LoginModule1 = new Login.LoginVer1();
+
+var Select_Clinic = new ClinicSelect.SelectClinicOptions();
 
 var SettingTime = new TimeSet.HeadingText1();
 
@@ -245,7 +248,7 @@ describe('Go to Mahaflox', ()=> {
                 browser.sleep(2000);
                 
                 element(by.xpath('//th[@class="field-email"]/a')).click();
-                browser.sleep(2000);
+                browser.sleep(5000);
                 
               element(by.css('input#id_random.vIntegerField')).getAttribute('value').then(function(text){
                     otpNumber = text;
@@ -462,6 +465,20 @@ describe('Login back', ()=> {
 });
     
 
+describe('Selecting Clinic', ()=> {
+    
+    it('should select clinic', ()=> {
+        Select_Clinic.clinicToGetOptions();
+    });
+
+    
+    it('clicks on Go To Clinic Btn', ()=> {
+        Select_Clinic.clinicAcceptedBtn();
+    });
+             
+});
+    
+
 describe('Setting Time', ()=> {    
     it('should check the heading text on Time Page', ()=> {
         SettingTime.checkHeadingText();
@@ -620,6 +637,23 @@ describe('Clinic Documents', ()=> {
     it('clicks on Documents', ()=> {
         Profile6.navigateLink();
     });
+
+    
+    it('gets first document details', ()=> {
+        Profile6.getFirstFileDetails();
+    });
+
+    
+    it('gets second document details', ()=> {
+        Profile6.getSecondFileDetails();
+    });
+
+    
+    it('gets third document details', ()=> {
+        Profile6.getThirdFileDetails();
+    });
+        
+           
         
 });
     

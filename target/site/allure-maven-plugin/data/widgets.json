@@ -4,59 +4,101 @@
     "name" : "defects",
     "type" : "DEFECTS",
     "data" : [ {
-      "count" : 1,
-      "message" : "Failed: Got http.get error: connect ECONNREFUSED 127.0.0.1:80",
+      "count" : 2,
+      "message" : "Failed: No element found using locator: By(css selector, p.heading)",
       "status" : "FAILED"
     }, {
       "count" : 1,
-      "message" : "Failed: No element found using locator: By(css selector, [ng-reflect-name=\"email\"])",
+      "message" : "Failed: No element found using locator: By(css selector, div.ui-chkbox-box.ui-widget.ui-corner-all.ui-state-default)",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: By(css selector, [ng-reflect-name=\"mobile\"])",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, div#image1_container.card_img_container)",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: By(css selector, [placeholder=\"Your Address\"])",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: by.cssContainingText(\"a\", \"ZbzoSdwU\")",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: By(css selector, [ng-reflect-ng-class=\"ui-inputtext ui-widget ui-stat\"])",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: By(css selector, div.navbar)",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: By(css selector, nav.cd-side-nav.is-fixed)",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "Failed: No element found using locator: By(css selector, div.ui-g-12.ui-md-12.ui-lg-12.heading)",
       "status" : "FAILED"
     } ]
   }, {
     "name" : "xunit",
     "type" : "TITLE_STATISTICS",
     "data" : [ {
-      "title" : "Add Procedure",
-      "statistic" : {
-        "total" : 3,
-        "passed" : 3,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Content Heading",
-      "statistic" : {
-        "total" : 3,
-        "passed" : 3,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Continue",
+      "title" : "Add Staff Heading",
       "statistic" : {
         "total" : 1,
-        "passed" : 1,
+        "passed" : 0,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0
       }
     }, {
-      "title" : "Logout Button",
+      "title" : "Address",
       "statistic" : {
-        "total" : 2,
-        "passed" : 2,
+        "total" : 1,
+        "passed" : 0,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0
       }
     }, {
-      "title" : "Next Step",
+      "title" : "Clinic Phone",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Document Verification",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    }, {
+      "title" : "File Upload 1",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      }
+    }, {
+      "title" : "Logo",
       "statistic" : {
         "total" : 1,
         "passed" : 1,
@@ -76,17 +118,17 @@
         "broken" : 0
       }
     }, {
-      "title" : "Setting the Name",
+      "title" : "Set Doctors",
       "statistic" : {
         "total" : 1,
-        "passed" : 1,
+        "passed" : 0,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0
       }
     }, {
-      "title" : "Sign Back In",
+      "title" : "Setting the Name",
       "statistic" : {
         "total" : 1,
         "passed" : 1,
@@ -99,20 +141,10 @@
       "title" : "Specialisation",
       "statistic" : {
         "total" : 1,
-        "passed" : 1,
+        "passed" : 0,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 0,
-        "broken" : 0
-      }
-    }, {
-      "title" : "Tour Button",
-      "statistic" : {
-        "total" : 1,
-        "passed" : 1,
-        "pending" : 0,
-        "canceled" : 0,
-        "failed" : 0,
+        "failed" : 1,
         "broken" : 0
       }
     } ]
@@ -122,11 +154,11 @@
     "data" : [ {
       "title" : "Without feature",
       "statistic" : {
-        "total" : 58,
-        "passed" : 56,
+        "total" : 66,
+        "passed" : 24,
         "pending" : 0,
         "canceled" : 0,
-        "failed" : 2,
+        "failed" : 42,
         "broken" : 0
       }
     } ]

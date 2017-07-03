@@ -37,7 +37,7 @@ var CheckHeadingText = function(){
      this.clickNextBtn = function(){
          highlightElement.highlightElement(this.clickNext);
          this.clickNext.click();
-         browser.sleep(2000);
+         browser.sleep(5000);
      };
 };
 

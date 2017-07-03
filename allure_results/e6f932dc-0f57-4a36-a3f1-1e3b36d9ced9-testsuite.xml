@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1499087266285" stop="1499087268643">
+	<name>Privacy Section</name>
+	<title>Privacy Section</title>
+	<test-cases>
+		<test-case start="1499087266285" stop="1499087268640" status="passed">
+			<name>Privacy section is displayed</name>
+			<title>Privacy section is displayed</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="5b0d6b19-4c27-4a48-8db1-f54c53e1093c-attachment.png" type="image/png" size="81066"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

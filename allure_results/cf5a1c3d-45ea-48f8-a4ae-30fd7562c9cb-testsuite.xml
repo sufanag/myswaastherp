@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1499085479757" stop="1499085497631">
+	<name>Go to Mahaflox</name>
+	<title>Go to Mahaflox</title>
+	<test-cases>
+		<test-case start="1499085479757" stop="1499085497631" status="passed">
+			<name>opening a new window and get OTP</name>
+			<title>opening a new window and get OTP</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="0e0c0906-65fd-444b-9bf4-2b37c949b4bd-attachment.png" type="image/png" size="73405"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

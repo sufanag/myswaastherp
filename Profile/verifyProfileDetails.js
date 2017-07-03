@@ -182,6 +182,38 @@ var ClinicDocuments = function(){
         
     };
 
+    this.getFirstFileDetails = function(){
+         var parentUploadDiv = element(by.css('div.ui-g-3.ui-lg-3.ui-md-6.ui-sm-10.cards.left_cards'));
+         var getFileName = element(by.css('p.fileName'));
+         highlightElement.highlightElement(parentUploadDiv);
+          parentUploadDiv.element(getFileName.locator()).getText().then(function(text){
+              console.log('The file name is '+text);
+
+          });
+    };
+
+    this.getSecondFileDetails = function(){
+        var parentUploadDiv = element(by.css('div.ui-g-3.ui-md-6.ui-lg-3.ui-sm-10.cards.center_cards'));
+        var getFileName = element(by.css('p.fileName'))
+        highlightElement.highlightElement(parentUploadDiv);
+         parentUploadDiv.element(getFileName.locator()).getText().then(function(text){
+              console.log('The file name is '+text);
+
+          });
+    };
+
+    this.getThirdFileDetails = function(){
+        var parentUploadDiv = element(by.css('div.ui-g-3.ui-md-6.ui-lg-3.ui-sm-10.cards.right_cards'));
+        var getFileName = element(by.css('p.fileName'))
+        highlightElement.highlightElement(parentUploadDiv);
+         parentUploadDiv.element(getFileName.locator()).getText().then(function(text){
+              console.log('The file name is '+text);
+
+          });
+    };
+
+    
+
 };
 
 module.exports ={

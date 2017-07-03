@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1499088519879" stop="1499088530926">
+	<name>First Test For Page Visit</name>
+	<title>First Test For Page Visit</title>
+	<test-cases>
+		<test-case start="1499088519879" stop="1499088530925" status="passed">
+			<name>should go to the ERP Sign Up Page</name>
+			<title>should go to the ERP Sign Up Page</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="b2533173-37fa-4fb5-8499-529803500b11-attachment.png" type="image/png" size="91904"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

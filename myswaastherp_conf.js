@@ -27,6 +27,7 @@ exports.config={
     marionette: true,
   },*/
   onPrepare:function(){
+      global.EC = protractor.ExpectedConditions;
       browser.manage().window().setSize(1280,1024);
       jasmine.getEnv().addReporter(new SpecReporter({
           spec:{

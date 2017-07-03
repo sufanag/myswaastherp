@@ -50,7 +50,7 @@ var OTPInputBox = function(){
         this.otpinput.click();
         highlightElement.highlightElement(this.otpinput);
         this.otpinput.sendKeys(otpNumber);
-        browser.sleep(2000);
+        browser.sleep(5000);
     };
 };
 
@@ -69,7 +69,7 @@ var verifyBtn = function(){
     this.clickVerify = function(){
          highlightElement.highlightElement(this.registerBtn);
          this.registerBtn.click();
-         browser.sleep(2000);
+         browser.sleep(10000);
     };
 };
 
