@@ -210,9 +210,44 @@ var ClinicDocuments = function(){
               console.log('The file name is '+text);
 
           });
+    }; 
+
+};
+
+var LocationandPhotos = function(){
+    var parentDiv = element(by.css('ul.list'));
+
+    this.navigateLink = function(){
+        var childElement = element(by.css('[ng-reflect-router-link="location"]'));
+        parentDiv.element(childElement.locator()).click();
+        browser.sleep(2000);
+        expect(browser.getCurrentUrl()).toBe('https://myswaastherp.sia.co.in/#/home/profile/c/my-clinic/location');
     };
 
-    
+    this.getLocation = function(){
+        this.textArea = element(by.css('textarea#autocomplete'));
+        highlightElement.highlightElement(this.textArea);
+        this.textArea.getText().then(function(text){
+            console.log("Clinic's location is "+text);
+        });
+    };
+
+    this.getScreenshotOfLocation = function(){
+        this.googleMapAreaDiv = element(by.css('div.ui-g-12'));
+        highlightElement.highlightElement(this.googleMapAreaDiv);
+        
+    };
+
+    this.updateLocation = function(){
+        this.updateBtn = element(by.buttonText('UPDATE'));
+        highlightElement.highlightElement(this.updateBtn);
+        this.updateBtn.click();
+        browser.sleep(5000);
+    };
+
+    this.uploadClinicPhotos = function(){
+
+    };
 
 };
 
