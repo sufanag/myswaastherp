@@ -1,0 +1,44 @@
+{
+  "uid" : "5f4a4380dc8aed95",
+  "name" : "should click on Next Button",
+  "title" : "should click on Next Button",
+  "time" : {
+    "start" : 1499338921321,
+    "stop" : 1499338930791,
+    "duration" : 9470
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "76eb778308ed6789",
+    "name" : "Next",
+    "title" : "Next"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "21b5df7a-2fd0-4628-83b7-bf9266b1c28c-attachment.png",
+    "type" : "image/png",
+    "size" : 49288,
+    "uid" : "8c49505948c542"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Next"
+  }, {
+    "name" : "suite-title",
+    "value" : "Next"
+  } ],
+  "parameters" : [ ]
+}

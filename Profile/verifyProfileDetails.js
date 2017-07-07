@@ -239,6 +239,7 @@ var LocationandPhotos = function(){
     };
 
     this.updateLocation = function(){
+        browser.executeScript('window.scrollTo(0,10000);');
         this.updateBtn = element(by.buttonText('UPDATE'));
         highlightElement.highlightElement(this.updateBtn);
         this.updateBtn.click();
@@ -246,10 +247,98 @@ var LocationandPhotos = function(){
     };
 
     this.uploadClinicPhotos = function(){
-
+        this.uploadBtn = element(by.css('input#upload-photo'))
+        highlightElement.highlightElement(this.uploadBtn);
+        //change this file path for the linux or windows upload
+        var fileUpload = '/Users/zac01/Downloads/room-medanta.jpg';
+        absolutePath = path.resolve(__dirname,fileUpload);
+        console.log(absolutePath);
+        this.uploadBtn.sendKeys(absolutePath);
+        browser.actions().sendKeys(protractor.Key.ENTER).perform();
+        browser.sleep(20000);
     };
 
 };
+
+var DoctorList = function(){
+    var parentDiv = element(by.css('ul.list'));
+
+    this.navigateLink = function(){
+        var childElement = element(by.css('[ng-reflect-router-link="doctors"]'));
+        parentDiv.element(childElement.locator()).click();
+        browser.sleep(2000);
+        expect(browser.getCurrentUrl()).toBe('https://myswaastherp.sia.co.in/#/home/profile/c/my-clinic/doctors');
+    };
+
+    this.getDoctorsName = function(){
+        this.parentDiv = element(by.css('div.ui-g-12.scheduled'));
+        var childElements = this.parentDiv.all(by.css('span.left1'));
+
+             for(i=0;i<=childElements.length;i++){
+                   childElements.getText().then(function(childElementText){
+                        console.log(childElementText)
+            });  
+        }
+    };
+
+    this.setDoctorTime = function(index){
+        this.clickLabel = element(by.css('label.ui-dropdown-label.ui-inputtext.ui-corner-all'));
+        highlightElement.highlightElement(this.clickLabel);
+        console.log('The index determines which time duration is to be set ' +index);
+        switch (index) {
+            case 3:
+                browser.wait(EC.visibilityOf(this.clickLabel), 5000);
+                browser.actions().sendKeys(protractor.Key.DOWN).sendKeys(protractor.Key.DOWN).sendKeys(protractor.Key.ENTER).perform();
+                break;
+            case 2:
+                browser.wait(EC.visibilityOf(this.clickLabel), 5000);
+                browser.actions().sendKeys(protractor.Key.DOWN).sendKeys(protractor.Key.ENTER).perform();
+                break;
+
+            default:
+            browser.wait(EC.visibilityOf(this.clickLabel), 5000);
+            console.log('Default time selected is 15 minutes');
+                break;
+        }
+        
+    };
+
+    this.setCostOfConsultation = function(amount){
+        this.cost = element(by.css('[type="number"]'));
+        highlightElement.highlightElement(this.cost);
+        this.cost.clear();
+        this.cost.sendKeys(amount);
+        browser.sleep(5000);
+    };
+
+    this.updateBtn = function(){
+        this.updateButton = element(by.buttonText('update'));
+        highlightElement.highlightElement(this.updateButton);
+        this.updateButton.click();
+        browser.sleep(5000);
+    }
+
+};
+
+var setServices = function(){
+    var parentDiv = element(by.css('ul.list'));
+
+     this.navigateLink = function(){
+        var childElement = element(by.css('[ng-reflect-router-link="service"]'));
+        parentDiv.element(childElement.locator()).click();
+        browser.sleep(2000);
+        expect(browser.getCurrentUrl()).toBe('https://myswaastherp.sia.co.in/#/home/profile/c/my-clinic/service');
+    };
+
+    this.getClinicName = function(){
+        var parentElement = element(by.css('div.schedule.ui-g-12'));
+        var childElement = parentElement.all(by.xpath('//div[contains(@class,"ui-g-11")'));
+        console.log('There are '+childElement.length+' procedures in the clinic');
+
+    };
+};
+
+
 
 module.exports ={
     verfiProfilePage1: checkPageLoaded,
@@ -257,5 +346,8 @@ module.exports ={
     verifyProfilePage3: assertDataContain,
     verifyProfilePage4: assertProfilePercentage,
     updateClinic : UpdateClinicInfo,
-    updateClinicDocs:  ClinicDocuments
+    updateClinicDocs:  ClinicDocuments,
+    updateClinicLocation: LocationandPhotos,
+    getDoctorList : DoctorList,
+    getServicesList: setServices
 }

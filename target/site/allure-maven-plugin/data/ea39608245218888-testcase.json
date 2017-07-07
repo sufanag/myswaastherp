@@ -1,0 +1,44 @@
+{
+  "uid" : "ea39608245218888",
+  "name" : "gets Doctors name function",
+  "title" : "gets Doctors name function",
+  "time" : {
+    "start" : 1499339054530,
+    "stop" : 1499339054814,
+    "duration" : 284
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "bc131782cd55ffaa",
+    "name" : "Doctors",
+    "title" : "Doctors"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "b3a0ec2b-2002-4b1e-b11e-d93e0df53757-attachment.png",
+    "type" : "image/png",
+    "size" : 43019,
+    "uid" : "682499674c5fd103"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Doctors"
+  }, {
+    "name" : "suite-title",
+    "value" : "Doctors"
+  } ],
+  "parameters" : [ ]
+}

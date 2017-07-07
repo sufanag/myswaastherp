@@ -1,0 +1,44 @@
+{
+  "uid" : "dcb1c46552ca4b53",
+  "name" : "checks that doctor name is in page source",
+  "title" : "checks that doctor name is in page source",
+  "time" : {
+    "start" : 1499338979036,
+    "stop" : 1499338979421,
+    "duration" : 385
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "70bbd178cc49f43c",
+    "name" : "Profile UI Tests",
+    "title" : "Profile UI Tests"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "e41d3de2-fd6e-4cb5-b390-3ebb1bcfe4f7-attachment.png",
+    "type" : "image/png",
+    "size" : 79054,
+    "uid" : "24a17f6743bb30d7"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Profile UI Tests"
+  }, {
+    "name" : "suite-title",
+    "value" : "Profile UI Tests"
+  } ],
+  "parameters" : [ ]
+}

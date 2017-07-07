@@ -1,0 +1,44 @@
+{
+  "uid" : "c87ce5bfe37b1e73",
+  "name" : "navigates to Location tab",
+  "title" : "navigates to Location tab",
+  "time" : {
+    "start" : 1499349974486,
+    "stop" : 1499349977092,
+    "duration" : 2606
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "cce6875fd8dae91b",
+    "name" : "Location - Clinic",
+    "title" : "Location - Clinic"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "14126848-d256-4fb8-8e62-281ae3e0b9ff-attachment.png",
+    "type" : "image/png",
+    "size" : 318546,
+    "uid" : "2cf366dfbe04dec1"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Location - Clinic"
+  }, {
+    "name" : "suite-title",
+    "value" : "Location - Clinic"
+  } ],
+  "parameters" : [ ]
+}

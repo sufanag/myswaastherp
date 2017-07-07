@@ -1,0 +1,44 @@
+{
+  "uid" : "9f048bb7665ecf8a",
+  "name" : "checks Profile Section",
+  "title" : "checks Profile Section",
+  "time" : {
+    "start" : 1499344472027,
+    "stop" : 1499344474411,
+    "duration" : 2384
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "70bbd178cc49f43c",
+    "name" : "Profile UI Tests",
+    "title" : "Profile UI Tests"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "786613b6-7195-47bf-b745-de9b452ed612-attachment.png",
+    "type" : "image/png",
+    "size" : 82042,
+    "uid" : "acfffba392750aac"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Profile UI Tests"
+  }, {
+    "name" : "suite-title",
+    "value" : "Profile UI Tests"
+  } ],
+  "parameters" : [ ]
+}

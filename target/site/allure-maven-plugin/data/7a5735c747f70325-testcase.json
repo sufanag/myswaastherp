@@ -1,0 +1,44 @@
+{
+  "uid" : "7a5735c747f70325",
+  "name" : "clicks on Continue Btn",
+  "title" : "clicks on Continue Btn",
+  "time" : {
+    "start" : 1499344478250,
+    "stop" : 1499344480772,
+    "duration" : 2522
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3d0d9113d4ef30bb",
+    "name" : "Clinic Tests ",
+    "title" : "Clinic Tests "
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "7e8e03da-bce4-4899-b711-8b6e64b760e6-attachment.png",
+    "type" : "image/png",
+    "size" : 51907,
+    "uid" : "f0455f51b4ffecdf"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Clinic Tests "
+  }, {
+    "name" : "suite-title",
+    "value" : "Clinic Tests "
+  } ],
+  "parameters" : [ ]
+}

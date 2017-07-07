@@ -1,0 +1,44 @@
+{
+  "uid" : "a4b833692a510c2c",
+  "name" : "should set the mobile number",
+  "title" : "should set the mobile number",
+  "time" : {
+    "start" : 1499349653269,
+    "stop" : 1499349656752,
+    "duration" : 3483
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "91f9c8a035b76238",
+    "name" : "Setting the mobile",
+    "title" : "Setting the mobile"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "29f27a2f-2e8d-415e-9af9-6174219b6e0b-attachment.png",
+    "type" : "image/png",
+    "size" : 79849,
+    "uid" : "c63e71b78aa1c7c4"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Setting the mobile"
+  }, {
+    "name" : "suite-title",
+    "value" : "Setting the mobile"
+  } ],
+  "parameters" : [ ]
+}

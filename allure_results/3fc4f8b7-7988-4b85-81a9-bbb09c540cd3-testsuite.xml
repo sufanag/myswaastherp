@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1499349859720" stop="1499349873375">
+	<name>Login back</name>
+	<title>Login back</title>
+	<test-cases>
+		<test-case start="1499349859720" stop="1499349860005" status="passed">
+			<name>verify user is on the Login page</name>
+			<title>verify user is on the Login page</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="fea92161-b840-4bcf-b681-99df94ec97fb-attachment.png" type="image/png" size="77645"/>
+			</attachments>
+		</test-case>
+		<test-case start="1499349860005" stop="1499349864479" status="passed">
+			<name>sets the username for login</name>
+			<title>sets the username for login</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d1b1390d-4509-43f6-9b52-a0468f8afa8b-attachment.png" type="image/png" size="77260"/>
+			</attachments>
+		</test-case>
+		<test-case start="1499349864479" stop="1499349868970" status="passed">
+			<name>sets the password for login</name>
+			<title>sets the password for login</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="1799a4ce-7aa3-4f03-8ec7-18de14fa85d6-attachment.png" type="image/png" size="76599"/>
+			</attachments>
+		</test-case>
+		<test-case start="1499349868970" stop="1499349873375" status="passed">
+			<name>clicks on Sign In Button</name>
+			<title>clicks on Sign In Button</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f7e7f3e3-f42e-49e9-94e4-e1190973ea57-attachment.png" type="image/png" size="27507"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

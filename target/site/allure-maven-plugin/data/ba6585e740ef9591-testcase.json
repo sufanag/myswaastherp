@@ -1,0 +1,44 @@
+{
+  "uid" : "ba6585e740ef9591",
+  "name" : "gets the src for Clinic Image",
+  "title" : "gets the src for Clinic Image",
+  "time" : {
+    "start" : 1499349943524,
+    "stop" : 1499349947992,
+    "duration" : 4468
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a75f31bba95631a6",
+    "name" : "Profile - Clinic",
+    "title" : "Profile - Clinic"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "8263f009-771e-4a8c-9a6d-6352e5412062-attachment.png",
+    "type" : "image/png",
+    "size" : 54710,
+    "uid" : "c00a85173fcd1d1b"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Profile - Clinic"
+  }, {
+    "name" : "suite-title",
+    "value" : "Profile - Clinic"
+  } ],
+  "parameters" : [ ]
+}

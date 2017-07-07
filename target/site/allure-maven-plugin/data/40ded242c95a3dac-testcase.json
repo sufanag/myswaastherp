@@ -1,0 +1,44 @@
+{
+  "uid" : "40ded242c95a3dac",
+  "name" : "gets admin progress bar percentage",
+  "title" : "gets admin progress bar percentage",
+  "time" : {
+    "start" : 1499344477918,
+    "stop" : 1499344478250,
+    "duration" : 332
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3d0d9113d4ef30bb",
+    "name" : "Clinic Tests ",
+    "title" : "Clinic Tests "
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "cf7ccc55-bcc2-429e-af86-b1fd235811b1-attachment.png",
+    "type" : "image/png",
+    "size" : 79785,
+    "uid" : "6e21b603f0ada196"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Clinic Tests "
+  }, {
+    "name" : "suite-title",
+    "value" : "Clinic Tests "
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,44 @@
+{
+  "uid" : "eaa122d355249f31",
+  "name" : "sets clinic description",
+  "title" : "sets clinic description",
+  "time" : {
+    "start" : 1499349947992,
+    "stop" : 1499349952746,
+    "duration" : 4754
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a75f31bba95631a6",
+    "name" : "Profile - Clinic",
+    "title" : "Profile - Clinic"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "3ff02a24-e957-4ca6-88e1-5c186d835dbe-attachment.png",
+    "type" : "image/png",
+    "size" : 57106,
+    "uid" : "8f7746445261cc56"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Profile - Clinic"
+  }, {
+    "name" : "suite-title",
+    "value" : "Profile - Clinic"
+  } ],
+  "parameters" : [ ]
+}

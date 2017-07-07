@@ -1,0 +1,44 @@
+{
+  "uid" : "76064debc03e0240",
+  "name" : "sets clinic email",
+  "title" : "sets clinic email",
+  "time" : {
+    "start" : 1499338992884,
+    "stop" : 1499338997550,
+    "duration" : 4666
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3d0d9113d4ef30bb",
+    "name" : "Clinic Tests ",
+    "title" : "Clinic Tests "
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "46d1de0e-1496-4a35-9c70-711fb9fa8553-attachment.png",
+    "type" : "image/png",
+    "size" : 58816,
+    "uid" : "ba2bea0fc0b122f0"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Clinic Tests "
+  }, {
+    "name" : "suite-title",
+    "value" : "Clinic Tests "
+  } ],
+  "parameters" : [ ]
+}

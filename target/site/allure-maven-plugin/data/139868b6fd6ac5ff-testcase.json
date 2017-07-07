@@ -1,0 +1,44 @@
+{
+  "uid" : "139868b6fd6ac5ff",
+  "name" : "clicks on Documents",
+  "title" : "clicks on Documents",
+  "time" : {
+    "start" : 1499344502738,
+    "stop" : 1499344505222,
+    "duration" : 2484
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "308cfd310ca94c34",
+    "name" : "Clinic Documents",
+    "title" : "Clinic Documents"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "cd0e3e12-9a4a-4cb9-b2ba-567670b7b410-attachment.png",
+    "type" : "image/png",
+    "size" : 87042,
+    "uid" : "20f7d10f9a6ba373"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Clinic Documents"
+  }, {
+    "name" : "suite-title",
+    "value" : "Clinic Documents"
+  } ],
+  "parameters" : [ ]
+}

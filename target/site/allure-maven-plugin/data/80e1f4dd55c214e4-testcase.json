@@ -1,0 +1,44 @@
+{
+  "uid" : "80e1f4dd55c214e4",
+  "name" : "sets doctor consultation time",
+  "title" : "sets doctor consultation time",
+  "time" : {
+    "start" : 1499339054814,
+    "stop" : 1499339057272,
+    "duration" : 2458
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "bc131782cd55ffaa",
+    "name" : "Doctors",
+    "title" : "Doctors"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "925e413e-9152-4b89-bd9d-567ba5176de0-attachment.png",
+    "type" : "image/png",
+    "size" : 41868,
+    "uid" : "42401ba60cca0cf5"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Doctors"
+  }, {
+    "name" : "suite-title",
+    "value" : "Doctors"
+  } ],
+  "parameters" : [ ]
+}

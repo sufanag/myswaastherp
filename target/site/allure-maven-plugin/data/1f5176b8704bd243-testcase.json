@@ -1,0 +1,44 @@
+{
+  "uid" : "1f5176b8704bd243",
+  "name" : "gets Doctors name function",
+  "title" : "gets Doctors name function",
+  "time" : {
+    "start" : 1499350014468,
+    "stop" : 1499350014756,
+    "duration" : 288
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "47ff1bc30489b150",
+    "name" : "Doctors - Clinic",
+    "title" : "Doctors - Clinic"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "dca3e436-9fd7-4161-ae16-5987ed1fd265-attachment.png",
+    "type" : "image/png",
+    "size" : 43165,
+    "uid" : "42f878fa6e75749b"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Doctors - Clinic"
+  }, {
+    "name" : "suite-title",
+    "value" : "Doctors - Clinic"
+  } ],
+  "parameters" : [ ]
+}

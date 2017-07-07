@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1499349964787" stop="1499349974485">
+	<name>Documents - Clinic</name>
+	<title>Documents - Clinic</title>
+	<test-cases>
+		<test-case start="1499349964787" stop="1499349967265" status="passed">
+			<name>clicks on Documents</name>
+			<title>clicks on Documents</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="30877cd7-c52f-451c-859f-42b153a42720-attachment.png" type="image/png" size="86792"/>
+			</attachments>
+		</test-case>
+		<test-case start="1499349967265" stop="1499349969667" status="passed">
+			<name>gets first document details</name>
+			<title>gets first document details</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="acdef553-03aa-410f-8f8d-873f6a07bea3-attachment.png" type="image/png" size="89080"/>
+			</attachments>
+		</test-case>
+		<test-case start="1499349969667" stop="1499349972075" status="passed">
+			<name>gets second document details</name>
+			<title>gets second document details</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="736bea97-fdeb-4581-afad-19e8341cd636-attachment.png" type="image/png" size="87993"/>
+			</attachments>
+		</test-case>
+		<test-case start="1499349972075" stop="1499349974485" status="passed">
+			<name>gets third document details</name>
+			<title>gets third document details</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c9ce8372-f63a-4fad-9502-a2c485a7579b-attachment.png" type="image/png" size="82345"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

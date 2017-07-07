@@ -1,0 +1,44 @@
+{
+  "uid" : "5f13b1989f8fc6da",
+  "name" : "should highlight the header bar",
+  "title" : "should highlight the header bar",
+  "time" : {
+    "start" : 1499349627098,
+    "stop" : 1499349629493,
+    "duration" : 2395
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "c83eb326f274715f",
+    "name" : "Header Bar",
+    "title" : "Header Bar"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "7fd1e534-90b0-479a-9c40-98429a2a2c00-attachment.png",
+    "type" : "image/png",
+    "size" : 92083,
+    "uid" : "53cee7d40066181a"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Header Bar"
+  }, {
+    "name" : "suite-title",
+    "value" : "Header Bar"
+  } ],
+  "parameters" : [ ]
+}

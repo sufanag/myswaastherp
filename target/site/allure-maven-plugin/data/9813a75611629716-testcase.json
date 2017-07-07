@@ -1,0 +1,44 @@
+{
+  "uid" : "9813a75611629716",
+  "name" : "checks navbar displayed",
+  "title" : "checks navbar displayed",
+  "time" : {
+    "start" : 1499338969479,
+    "stop" : 1499338971869,
+    "duration" : 2390
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "70bbd178cc49f43c",
+    "name" : "Profile UI Tests",
+    "title" : "Profile UI Tests"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "01404e8c-30ec-4ec7-9e03-982ff67195a5-attachment.png",
+    "type" : "image/png",
+    "size" : 81476,
+    "uid" : "9ced81e677b995bd"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Profile UI Tests"
+  }, {
+    "name" : "suite-title",
+    "value" : "Profile UI Tests"
+  } ],
+  "parameters" : [ ]
+}

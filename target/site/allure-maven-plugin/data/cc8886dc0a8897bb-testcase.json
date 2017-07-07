@@ -1,0 +1,44 @@
+{
+  "uid" : "cc8886dc0a8897bb",
+  "name" : "takes screenshot of G-Map Integration",
+  "title" : "takes screenshot of G-Map Integration",
+  "time" : {
+    "start" : 1499349979581,
+    "stop" : 1499349981990,
+    "duration" : 2409
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "cce6875fd8dae91b",
+    "name" : "Location - Clinic",
+    "title" : "Location - Clinic"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "80140b62-1991-4b1f-9eee-ede6a81ab02d-attachment.png",
+    "type" : "image/png",
+    "size" : 357872,
+    "uid" : "37ff61d4877c3120"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Location - Clinic"
+  }, {
+    "name" : "suite-title",
+    "value" : "Location - Clinic"
+  } ],
+  "parameters" : [ ]
+}

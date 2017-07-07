@@ -1,0 +1,44 @@
+{
+  "uid" : "6aad99fd9122fece",
+  "name" : "Privacy section is displayed",
+  "title" : "Privacy section is displayed",
+  "time" : {
+    "start" : 1499349643830,
+    "stop" : 1499349646190,
+    "duration" : 2360
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "eb089ce47678cab0",
+    "name" : "Privacy Section",
+    "title" : "Privacy Section"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "bf73d1c9-2cc7-44b2-a6b2-0662d6a3c1d3-attachment.png",
+    "type" : "image/png",
+    "size" : 81196,
+    "uid" : "29df44fde06bba31"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Privacy Section"
+  }, {
+    "name" : "suite-title",
+    "value" : "Privacy Section"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1499338665556" stop="1499338669039">
+	<name>Setting the mobile</name>
+	<title>Setting the mobile</title>
+	<test-cases>
+		<test-case start="1499338665556" stop="1499338669038" status="passed">
+			<name>should set the mobile number</name>
+			<title>should set the mobile number</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d1503f9f-0d1c-4c42-bec7-ef8c3e5e2a5a-attachment.png" type="image/png" size="79833"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

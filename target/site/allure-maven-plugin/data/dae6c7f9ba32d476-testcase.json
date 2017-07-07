@@ -1,0 +1,44 @@
+{
+  "uid" : "dae6c7f9ba32d476",
+  "name" : "uploads a clinic photo",
+  "title" : "uploads a clinic photo",
+  "time" : {
+    "start" : 1499349989474,
+    "stop" : 1499350011956,
+    "duration" : 22482
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "cce6875fd8dae91b",
+    "name" : "Location - Clinic",
+    "title" : "Location - Clinic"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "2c739687-505e-4a61-933f-346186d92ca0-attachment.png",
+    "type" : "image/png",
+    "size" : 206758,
+    "uid" : "4733b7bf617bbae5"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Location - Clinic"
+  }, {
+    "name" : "suite-title",
+    "value" : "Location - Clinic"
+  } ],
+  "parameters" : [ ]
+}

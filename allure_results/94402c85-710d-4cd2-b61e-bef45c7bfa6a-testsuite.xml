@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1499359052004" stop="1499359055509">
+	<name>Correct Password</name>
+	<title>Correct Password</title>
+	<test-cases>
+		<test-case start="1499359052005" stop="1499359055508" status="passed">
+			<name>should be setting the password</name>
+			<title>should be setting the password</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="4753a6d4-54f0-4728-ab6b-c5f893c061ba-attachment.png" type="image/png" size="77180"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

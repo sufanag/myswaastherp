@@ -1,0 +1,44 @@
+{
+  "uid" : "83e8a010d75f7b26",
+  "name" : "click on Done button",
+  "title" : "click on Done button",
+  "time" : {
+    "start" : 1499338964374,
+    "stop" : 1499338968815,
+    "duration" : 4441
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3eff6d879e49f635",
+    "name" : "Add Procedure",
+    "title" : "Add Procedure"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "78c07d43-eb47-4e0a-b348-67b8b06ffb5b-attachment.png",
+    "type" : "image/png",
+    "size" : 81242,
+    "uid" : "af8bf2bb0e58126f"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Add Procedure"
+  }, {
+    "name" : "suite-title",
+    "value" : "Add Procedure"
+  } ],
+  "parameters" : [ ]
+}

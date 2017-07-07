@@ -1,0 +1,44 @@
+{
+  "uid" : "6d362a40a56698c",
+  "name" : "clicks on Logout Button",
+  "title" : "clicks on Logout Button",
+  "time" : {
+    "start" : 1499349842910,
+    "stop" : 1499349847351,
+    "duration" : 4441
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "42f577033d4d4b1d",
+    "name" : "Logout Button",
+    "title" : "Logout Button"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "13efcc4d-fad2-4b8e-9cb3-655e45388dfd-attachment.png",
+    "type" : "image/png",
+    "size" : 77645,
+    "uid" : "1769f626f676f022"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Logout Button"
+  }, {
+    "name" : "suite-title",
+    "value" : "Logout Button"
+  } ],
+  "parameters" : [ ]
+}

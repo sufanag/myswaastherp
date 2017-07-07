@@ -1,0 +1,44 @@
+{
+  "uid" : "6ccb365ee60154a3",
+  "name" : "should check if register button is displayed",
+  "title" : "should check if register button is displayed",
+  "time" : {
+    "start" : 1499349667691,
+    "stop" : 1499349679155,
+    "duration" : 11464
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a1dd6a1ff57dd784",
+    "name" : "OTP Input Box",
+    "title" : "OTP Input Box"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "1fa51384-6db6-41e9-8524-897b1436f349-attachment.png",
+    "type" : "image/png",
+    "size" : 73445,
+    "uid" : "92552a370c3074ee"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "OTP Input Box"
+  }, {
+    "name" : "suite-title",
+    "value" : "OTP Input Box"
+  } ],
+  "parameters" : [ ]
+}

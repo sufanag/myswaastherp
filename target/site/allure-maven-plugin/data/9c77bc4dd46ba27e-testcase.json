@@ -1,0 +1,44 @@
+{
+  "uid" : "9c77bc4dd46ba27e",
+  "name" : "enter a price for procedure",
+  "title" : "enter a price for procedure",
+  "time" : {
+    "start" : 1499349927852,
+    "stop" : 1499349932296,
+    "duration" : 4444
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3eff6d879e49f635",
+    "name" : "Add Procedure",
+    "title" : "Add Procedure"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "0ac40674-d86d-4705-94bc-4e659e16356a-attachment.png",
+    "type" : "image/png",
+    "size" : 38605,
+    "uid" : "1ec2d70177bf7a6f"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Add Procedure"
+  }, {
+    "name" : "suite-title",
+    "value" : "Add Procedure"
+  } ],
+  "parameters" : [ ]
+}

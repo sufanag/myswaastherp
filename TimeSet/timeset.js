@@ -35,6 +35,8 @@ var CheckHeadingText = function(){
      };
 
      this.clickNextBtn = function(){
+         browser.executeScript('window.scrollTo(0,10000);');
+         browser.sleep(2000);
          highlightElement.highlightElement(this.clickNext);
          this.clickNext.click();
          browser.sleep(5000);

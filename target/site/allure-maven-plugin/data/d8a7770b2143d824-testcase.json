@@ -1,0 +1,44 @@
+{
+  "uid" : "d8a7770b2143d824",
+  "name" : "goes to Doctors link",
+  "title" : "goes to Doctors link",
+  "time" : {
+    "start" : 1499344550292,
+    "stop" : 1499344552772,
+    "duration" : 2480
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "bc131782cd55ffaa",
+    "name" : "Doctors",
+    "title" : "Doctors"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "ba7fc40c-aad8-4f2f-9596-b5fbadac58c1-attachment.png",
+    "type" : "image/png",
+    "size" : 45302,
+    "uid" : "7e056962d5e1b02a"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Doctors"
+  }, {
+    "name" : "suite-title",
+    "value" : "Doctors"
+  } ],
+  "parameters" : [ ]
+}

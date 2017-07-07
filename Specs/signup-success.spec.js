@@ -61,6 +61,9 @@ var Profile3 = new ProfileDetails.verifyProfilePage3();
 var Profile4 = new ProfileDetails.verifyProfilePage4();
 var Profile5 = new ProfileDetails.updateClinic();
 var Profile6 = new ProfileDetails.updateClinicDocs();
+var Profile7 = new ProfileDetails.updateClinicLocation();
+var Profile8 = new ProfileDetails.getDoctorList();
+var Profile9 = new ProfileDetails.getServicesList();
 
 
 //==========================================Chance Details================================================
@@ -590,7 +593,7 @@ describe('Profile UI Tests', ()=> {
 });
 
 
-describe('Clinic Tests ',()=> {
+describe('Profile - Clinic',()=> {
     
     it('gets clinic progress bar percentage', ()=> {
         Profile4.clinicProgressPercentage();
@@ -632,7 +635,7 @@ describe('Clinic Tests ',()=> {
 });
 
 
-describe('Clinic Documents', ()=> {  
+describe('Documents - Clinic', ()=> {  
     
     it('clicks on Documents', ()=> {
         Profile6.navigateLink();
@@ -656,6 +659,83 @@ describe('Clinic Documents', ()=> {
            
         
 });
+    
+
+
+describe('Location - Clinic', ()=> {
+    
+    
+    it('navigates to Location tab', ()=> {
+        Profile7.navigateLink();
+    });
+
+    
+    it('gets location', ()=> {
+        Profile7.getLocation();
+    });
+        
+    
+    it('takes screenshot of G-Map Integration', ()=> {
+        Profile7.getScreenshotOfLocation();
+    });
+
+    
+    it('clicks to Update Location', ()=> {
+        Profile7.updateLocation();
+    });
+
+    
+    it('uploads a clinic photo', ()=> {
+        Profile7.uploadClinicPhotos();
+    });
+        
+        
+        
+        
+});
+
+
+describe('Doctors - Clinic', ()=> {
+      
+    it('goes to Doctors link', ()=> {
+        Profile8.navigateLink();
+    });
+            
+    it('gets Doctors name function',()=> {
+        Profile8.getDoctorsName();
+    });
+ 
+    it('sets doctor consultation time', ()=> {
+        Profile8.setDoctorTime(indexSearch);
+    });
+    
+    it('sets doctor consultation cost', ()=> {
+        Profile8.setCostOfConsultation(generate_amount);
+    });
+         
+    it('clicks on update button', ()=> {
+        Profile8.updateBtn();
+    });
+               
+            
+});
+
+
+describe('Services - Clinic', ()=> {
+    
+    it('navigates to Services route', ()=> {
+        Profile9.navigateLink();
+    });
+
+    
+    it('gets clinic services', ()=> {
+        Profile9.getClinicName();
+    });
+        
+        
+});
+    
+    
     
     
 

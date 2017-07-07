@@ -1,0 +1,44 @@
+{
+  "uid" : "bbc48293ddca384a",
+  "name" : "Entering the OTP",
+  "title" : "Entering the OTP",
+  "time" : {
+    "start" : 1499338728026,
+    "stop" : 1499338735526,
+    "duration" : 7500
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "9695e955ed9b3ded",
+    "name" : "OTP",
+    "title" : "OTP"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "fdc530ae-6c07-47aa-8ec8-19e3f959d08f-attachment.png",
+    "type" : "image/png",
+    "size" : 72713,
+    "uid" : "6f0d6326efa07bf2"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "OTP"
+  }, {
+    "name" : "suite-title",
+    "value" : "OTP"
+  } ],
+  "parameters" : [ ]
+}

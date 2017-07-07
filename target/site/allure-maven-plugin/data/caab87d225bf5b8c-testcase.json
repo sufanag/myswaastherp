@@ -1,0 +1,44 @@
+{
+  "uid" : "caab87d225bf5b8c",
+  "name" : "should check the heading text on Time Page",
+  "title" : "should check the heading text on Time Page",
+  "time" : {
+    "start" : 1499349884843,
+    "stop" : 1499349889400,
+    "duration" : 4557
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "cd52ddd0fab3a5a9",
+    "name" : "Setting Time",
+    "title" : "Setting Time"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "5cde5db2-b949-43a8-8c7c-df7a82ee4858-attachment.png",
+    "type" : "image/png",
+    "size" : 242123,
+    "uid" : "63e2e03273a5719f"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Setting Time"
+  }, {
+    "name" : "suite-title",
+    "value" : "Setting Time"
+  } ],
+  "parameters" : [ ]
+}

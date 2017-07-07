@@ -1,0 +1,44 @@
+{
+  "uid" : "b68655f7191dfde8",
+  "name" : "gets clinic services",
+  "title" : "gets clinic services",
+  "time" : {
+    "start" : 1499350034595,
+    "stop" : 1499350034887,
+    "duration" : 292
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "ff34a0229874751c",
+    "name" : "Services - Clinic",
+    "title" : "Services - Clinic"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "5782f5c8-9560-4eda-b081-5a34c634f037-attachment.png",
+    "type" : "image/png",
+    "size" : 40240,
+    "uid" : "e3f115116d133b96"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Services - Clinic"
+  }, {
+    "name" : "suite-title",
+    "value" : "Services - Clinic"
+  } ],
+  "parameters" : [ ]
+}

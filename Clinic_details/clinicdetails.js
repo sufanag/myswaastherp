@@ -27,7 +27,7 @@ var ClinicDetails = function(){
         .mouseMove(this.specialisation.sendKeys(specialisation)).perform().then(function(){
             browser.sleep(4000);
                 browser.actions().sendKeys(protractor.Key.DOWN).perform();
-                browser.sleep(500);              
+                browser.sleep(1000);              
             browser.actions().sendKeys(protractor.Key.ENTER).perform();          
         });
     };
@@ -40,7 +40,7 @@ var ClinicDetails = function(){
             browser.sleep(8000);
             for(i=0;i<indexOfSearch;i++){
                 browser.actions().sendKeys(protractor.Key.DOWN).perform();
-                browser.sleep(500);
+                browser.sleep(1000);
             } 
             browser.actions().sendKeys(protractor.Key.ENTER).perform();
         });
@@ -50,7 +50,7 @@ var ClinicDetails = function(){
     this.setClinicPhone = function(clinicNumber){
         highlightElement.highlightElement(this.clinicPhone);
         this.clinicPhone.sendKeys(clinicNumber);
-        browser.sleep(2000);
+        browser.sleep(5000);
     };
 };
 
@@ -62,7 +62,7 @@ var ContinueBtn = function(){
     this.clickContinueBtn = function(){
         highlightElement.highlightElement(this.continueBtn);
         this.continueBtn.click();
-        browser.sleep(2000);
+        browser.sleep(5000);
     };
 };
 

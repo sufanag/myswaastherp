@@ -1,0 +1,44 @@
+{
+  "uid" : "3cd2f13b3bdc048f",
+  "name" : "clicks on Go To Clinic Btn",
+  "title" : "clicks on Go To Clinic Btn",
+  "time" : {
+    "start" : 1499349877231,
+    "stop" : 1499349884841,
+    "duration" : 7610
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "6e35e208f296e493",
+    "name" : "Selecting Clinic",
+    "title" : "Selecting Clinic"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "cfa60b3e-24db-4812-9286-6cc3303d51b9-attachment.png",
+    "type" : "image/png",
+    "size" : 243182,
+    "uid" : "25a8c8a280a742cc"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Selecting Clinic"
+  }, {
+    "name" : "suite-title",
+    "value" : "Selecting Clinic"
+  } ],
+  "parameters" : [ ]
+}
