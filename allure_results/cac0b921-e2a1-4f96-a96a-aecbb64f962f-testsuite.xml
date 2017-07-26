@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1501004008077" stop="1501004032923">
+	<name>Profile - Clinic</name>
+	<title>Profile - Clinic</title>
+	<test-cases>
+		<test-case start="1501004008077" stop="1501004008410" status="passed">
+			<name>gets clinic progress bar percentage</name>
+			<title>gets clinic progress bar percentage</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="cc2e619c-8dcf-411c-a100-f58cd615b2ef-attachment.png" type="image/png" size="77053"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501004008410" stop="1501004008739" status="passed">
+			<name>gets admin progress bar percentage</name>
+			<title>gets admin progress bar percentage</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="ece3861f-9e6e-48c8-ba56-16c37818de09-attachment.png" type="image/png" size="77053"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501004008739" stop="1501004011275" status="passed">
+			<name>clicks on Continue Btn</name>
+			<title>clicks on Continue Btn</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c2d95cc8-774a-4672-9ca2-431431de2995-attachment.png" type="image/png" size="49905"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501004011275" stop="1501004011784" status="passed">
+			<name>gets all the sections to be filled</name>
+			<title>gets all the sections to be filled</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6a36b706-62de-488a-b09d-5672a26c9415-attachment.png" type="image/png" size="52886"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501004011784" stop="1501004016244" status="passed">
+			<name>gets the src for Clinic Image</name>
+			<title>gets the src for Clinic Image</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6d7302fa-18dd-4d83-95b3-f7c9ffc3e40b-attachment.png" type="image/png" size="52886"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501004016244" stop="1501004020930" status="passed">
+			<name>sets clinic description</name>
+			<title>sets clinic description</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="3c3d72e2-8924-4523-9cc2-ea35fb2ac5f3-attachment.png" type="image/png" size="55540"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501004020930" stop="1501004025515" status="passed">
+			<name>sets clinic email</name>
+			<title>sets clinic email</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="9af10906-1aae-4163-a3ae-1c70b3bb2c72-attachment.png" type="image/png" size="58822"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501004025515" stop="1501004032922" status="passed">
+			<name>clicks update button</name>
+			<title>clicks update button</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="743eed4d-973e-4851-881f-92e58af1cd35-attachment.png" type="image/png" size="58836"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

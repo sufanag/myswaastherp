@@ -72,7 +72,7 @@ var assertProfilePercentage = function(){
         clinicProgressParent.element(getProgressBar.locator()).getAttribute('ng-reflect-value').then(function(resultText){
             console.log('The Profile Completion Percentage for Clinic is '+resultText+'%');
             expect(typeof resultText).toBe("string");
-            console.log(typeof expect(resultText).toEqual("100"));
+            //console.log(typeof expect(resultText).toEqual("100"));
             if(resultText ==="100"){
                 console.log("Clinic Profile is complete")
             }else{
@@ -330,14 +330,45 @@ var setServices = function(){
         expect(browser.getCurrentUrl()).toBe('https://myswaastherp.sia.co.in/#/home/profile/c/my-clinic/service');
     };
 
-    this.getClinicName = function(){
-        var parentElement = element(by.css('div.schedule.ui-g-12'));
-        var childElement = parentElement.all(by.xpath('//div[contains(@class,"ui-g-11")'));
-        console.log('There are '+childElement.length+' procedures in the clinic');
+    this.getClinicServices = function(){
+        var services = element.all(by.css('div.ui-g-11.ng-untouched.ng-pristine.ng-valid'))
+        console.log('There are '+services.length+' procedures in the clinic');
+        browser.sleep(5000);
 
+    };
+
+    this.setNewProcedure = function(KeyToEnter){
+        this.clickBtn = element(by.css('[ng-reflect-label="+"]'));
+        this.clickBtn.click();
+        //enters a new Key
+        var parentDiv = element(by.css('[ng-reflect-name="1"]'));
+        var childElement = element(by.css('[placeholder="Sample Service"]'));
+        parentDiv.element(childElement.locator()).click().sendKeys(KeyToEnter);
+        parentDiv.element(childElement.locator()).sendKeys(protractor.Key.DOWN).sendKeys(protractor.Key.ENTER);
+        browser.sleep(5000);
+    };
+
+    this.setProcedureAmount = function(AmountToEnter){
+        var parentDiv = element(by.css('[ng-reflect-name="1"]'));
+        var childElement = element(by.css('[placeholder="₹"]'));
+        parentDiv.element(childElement.locator()).sendKeys(AmountToEnter);
+        browser.sleep(5000);
     };
 };
 
+var goToAdminProfile = function(){
+
+    this.goToProfile = function(){
+        this.modalWindow = element(by.css('div#logoutModal'));
+    this.modalWindow.click();
+    this.editProfileLink = element(by.css('p.link_name'));
+    browser.actions().mouseMove(this.editProfileLink).click().perform();
+    browser.sleep(5000);
+
+    };
+
+    
+};
 
 
 module.exports ={
@@ -349,5 +380,6 @@ module.exports ={
     updateClinicDocs:  ClinicDocuments,
     updateClinicLocation: LocationandPhotos,
     getDoctorList : DoctorList,
-    getServicesList: setServices
+    getServicesList: setServices,
+    goToAdmin: goToAdminProfile
 }

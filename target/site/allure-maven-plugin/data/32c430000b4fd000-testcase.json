@@ -1,0 +1,47 @@
+{
+  "uid" : "32c430000b4fd000",
+  "name" : "checks the Image loaded",
+  "title" : "checks the Image loaded",
+  "time" : {
+    "start" : 1500450420565,
+    "stop" : 1500450420845,
+    "duration" : 280
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Expected 1 to be 0.",
+    "stackTrace" : "Error: Failed expectation\n    at /Users/zac01/Documents/protractor/myswaastherp/BaseFunctionsPage/checkImageLoaded.js:18:34\n    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1366:14)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2970:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2953:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2813:27)\n    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:676:7\n    at process._tickCallback (internal/process/next_tick.js:109:7)"
+  },
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "1964acbc423c6dad",
+    "name" : "Profile Smoke Tests",
+    "title" : "Profile Smoke Tests"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "f375fb56-1c6e-4d6c-8172-d629f0fe7be3-attachment.png",
+    "type" : "image/png",
+    "size" : 22989,
+    "uid" : "151a3afa3a555c27"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Profile Smoke Tests"
+  }, {
+    "name" : "suite-title",
+    "value" : "Profile Smoke Tests"
+  } ],
+  "parameters" : [ ]
+}

@@ -64,6 +64,7 @@ var Profile6 = new ProfileDetails.updateClinicDocs();
 var Profile7 = new ProfileDetails.updateClinicLocation();
 var Profile8 = new ProfileDetails.getDoctorList();
 var Profile9 = new ProfileDetails.getServicesList();
+var Profile10 = new ProfileDetails.goToAdmin();
 
 
 //==========================================Chance Details================================================
@@ -727,13 +728,31 @@ describe('Services - Clinic', ()=> {
         Profile9.navigateLink();
     });
 
-    
     it('gets clinic services', ()=> {
-        Profile9.getClinicName();
+        Profile9.getClinicServices();
+    });
+ 
+    it('sets name of new procedure', ()=> {
+        Profile9.setNewProcedure(generate_procedure_key);
+    });
+        
+    
+    it('sets amount for new procedure', ()=> {
+        Profile9.setProcedureAmount(generate_amount);
     });
         
         
 });
+
+
+describe('Goes to Edit Profile', ()=> {
+    
+    it('goes to edit profile', ()=> {
+      Profile10.goToProfile ();
+    });
+        
+});
+    
     
     
     

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1500998067671" stop="1500998105084">
+	<name>Location - Clinic</name>
+	<title>Location - Clinic</title>
+	<test-cases>
+		<test-case start="1500998067671" stop="1500998070244" status="passed">
+			<name>navigates to Location tab</name>
+			<title>navigates to Location tab</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="73d8fe4e-8ea7-4c69-a510-a62fb96fa412-attachment.png" type="image/png" size="336470"/>
+			</attachments>
+		</test-case>
+		<test-case start="1500998070244" stop="1500998072664" status="passed">
+			<name>gets location</name>
+			<title>gets location</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e8067d8b-01b1-4372-84ad-84f2afc1bee6-attachment.png" type="image/png" size="336125"/>
+			</attachments>
+		</test-case>
+		<test-case start="1500998072664" stop="1500998075049" status="passed">
+			<name>takes screenshot of G-Map Integration</name>
+			<title>takes screenshot of G-Map Integration</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="e45945e4-a2d3-4e16-ab0a-bf8b6ca9dbf3-attachment.png" type="image/png" size="333629"/>
+			</attachments>
+		</test-case>
+		<test-case start="1500998075049" stop="1500998082585" status="passed">
+			<name>clicks to Update Location</name>
+			<title>clicks to Update Location</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="923b502c-a3e1-4471-b1be-80de47dbb654-attachment.png" type="image/png" size="370942"/>
+			</attachments>
+		</test-case>
+		<test-case start="1500998082585" stop="1500998105083" status="passed">
+			<name>uploads a clinic photo</name>
+			<title>uploads a clinic photo</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="85be95e4-6243-419f-9f03-19b785dbfee2-attachment.png" type="image/png" size="333795"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>
