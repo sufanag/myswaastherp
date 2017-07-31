@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1501484018277" stop="1501484038265">
+	<name>Doctors - Clinic</name>
+	<title>Doctors - Clinic</title>
+	<test-cases>
+		<test-case start="1501484018278" stop="1501484020712" status="passed">
+			<name>goes to Doctors link</name>
+			<title>goes to Doctors link</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="06ea7827-8f37-46b2-a2c2-7c7a6e3e9013-attachment.png" type="image/png" size="40725"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501484020712" stop="1501484020960" status="passed">
+			<name>gets Doctors name function</name>
+			<title>gets Doctors name function</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="6ebb6bb9-7b2a-4861-b01e-282da6452ded-attachment.png" type="image/png" size="40725"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501484020960" stop="1501484023381" status="passed">
+			<name>sets doctor consultation time</name>
+			<title>sets doctor consultation time</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="c383c87d-d8aa-43ad-82c9-f8799f7faf1f-attachment.png" type="image/png" size="39795"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501484023381" stop="1501484030864" status="passed">
+			<name>sets doctor consultation cost</name>
+			<title>sets doctor consultation cost</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="80067017-2a0d-461d-9507-3e74cad48b07-attachment.png" type="image/png" size="40284"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501484030864" stop="1501484038265" status="passed">
+			<name>clicks on update button</name>
+			<title>clicks on update button</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="cfd3bfd0-25e1-420e-a713-9e4734f944f9-attachment.png" type="image/png" size="40388"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

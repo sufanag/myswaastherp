@@ -1,0 +1,44 @@
+{
+  "uid" : "cf99d8e591c205c1",
+  "name" : "gets admin progress bar percentage",
+  "title" : "gets admin progress bar percentage",
+  "time" : {
+    "start" : 1501178512601,
+    "stop" : 1501178512928,
+    "duration" : 327
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "a2e857c7a6ebd83",
+    "name" : "Profile - Clinic",
+    "title" : "Profile - Clinic"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "29b61515-25d6-4e81-8e19-6fbefa3bca5c-attachment.png",
+    "type" : "image/png",
+    "size" : 61519,
+    "uid" : "7a9bff58f5af8eb"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Profile - Clinic"
+  }, {
+    "name" : "suite-title",
+    "value" : "Profile - Clinic"
+  } ],
+  "parameters" : [ ]
+}

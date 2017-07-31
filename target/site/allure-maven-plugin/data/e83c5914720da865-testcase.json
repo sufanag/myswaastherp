@@ -1,0 +1,44 @@
+{
+  "uid" : "e83c5914720da865",
+  "name" : "is logged out",
+  "title" : "is logged out",
+  "time" : {
+    "start" : 1501178414956,
+    "stop" : 1501178416227,
+    "duration" : 1271
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "7257050478d3cdc4",
+    "name" : "Logout Button",
+    "title" : "Logout Button"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "9cb06f83-f60a-46e4-aba3-4e81f0be70b0-attachment.png",
+    "type" : "image/png",
+    "size" : 70057,
+    "uid" : "c5e3d891760ab9a4"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Logout Button"
+  }, {
+    "name" : "suite-title",
+    "value" : "Logout Button"
+  } ],
+  "parameters" : [ ]
+}

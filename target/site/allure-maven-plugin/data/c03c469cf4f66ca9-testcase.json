@@ -1,0 +1,44 @@
+{
+  "uid" : "c03c469cf4f66ca9",
+  "name" : "goes to edit profile",
+  "title" : "goes to edit profile",
+  "time" : {
+    "start" : 1501178536325,
+    "stop" : 1501178541817,
+    "duration" : 5492
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "1045342d21c348d1",
+    "name" : "Goes to Edit Profile",
+    "title" : "Goes to Edit Profile"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "734ed834-12a3-44c2-8e3a-a829203d36a5-attachment.png",
+    "type" : "image/png",
+    "size" : 76726,
+    "uid" : "ca39b18631d8ed38"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Goes to Edit Profile"
+  }, {
+    "name" : "suite-title",
+    "value" : "Goes to Edit Profile"
+  } ],
+  "parameters" : [ ]
+}

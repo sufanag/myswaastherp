@@ -1,0 +1,44 @@
+{
+  "uid" : "147320201a8770a6",
+  "name" : "gets all the menu options",
+  "title" : "gets all the menu options",
+  "time" : {
+    "start" : 1501178544612,
+    "stop" : 1501178545087,
+    "duration" : 475
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3cafd8eb44227c7",
+    "name" : "Gets the doctor profile",
+    "title" : "Gets the doctor profile"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "7925e695-0280-4748-8bba-eab01c9cf7a7-attachment.png",
+    "type" : "image/png",
+    "size" : 62735,
+    "uid" : "497ca39ed81540c"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Gets the doctor profile"
+  }, {
+    "name" : "suite-title",
+    "value" : "Gets the doctor profile"
+  } ],
+  "parameters" : [ ]
+}

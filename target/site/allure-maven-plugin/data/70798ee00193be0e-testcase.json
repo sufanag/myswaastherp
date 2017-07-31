@@ -1,0 +1,44 @@
+{
+  "uid" : "70798ee00193be0e",
+  "name" : "should go to mahaflox again, and click on Document Verified for the clinic created",
+  "title" : "should go to mahaflox again, and click on Document Verified for the clinic created",
+  "time" : {
+    "start" : 1501178416228,
+    "stop" : 1501178426297,
+    "duration" : 10069
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "1296dcec0d8890a7",
+    "name" : "Document Verification",
+    "title" : "Document Verification"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "0c0b539b-3f33-48bd-8c29-a1a8bbccc908-attachment.png",
+    "type" : "image/png",
+    "size" : 70057,
+    "uid" : "bdcccf8a9ba391cb"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Document Verification"
+  }, {
+    "name" : "suite-title",
+    "value" : "Document Verification"
+  } ],
+  "parameters" : [ ]
+}

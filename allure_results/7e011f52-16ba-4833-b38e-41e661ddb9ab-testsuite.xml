@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1501483888342" stop="1501483892700">
+	<name>Add Staff Heading</name>
+	<title>Add Staff Heading</title>
+	<test-cases>
+		<test-case start="1501483888342" stop="1501483892688" status="passed">
+			<name>should verify the Add Staff heading text</name>
+			<title>should verify the Add Staff heading text</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="d4994572-b7f1-4139-bee5-5a0723cfff4f-attachment.png" type="image/png" size="44926"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

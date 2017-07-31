@@ -1,7 +1,7 @@
 const highlightElement =require('../BaseFunctionsPage/highlightelement.js');
 
 
-console.log("Start of the Sign Up============>");
+
 
 var signUpDetails = function(){
     this.username = element(by.css('[ng-reflect-name="name"]'));
@@ -13,7 +13,6 @@ var signUpDetails = function(){
     browser.get('http://myswaastherp.sia.co.in/#/signup');
     };
 
-    console.log("Start of Sign up fields ===========>");
     
 
     this.setUserName =function(username){
@@ -23,25 +22,22 @@ var signUpDetails = function(){
         browser.sleep(1000);
     };
 
-    console.log("Start of email==========>");
+    
 
     this.setemail =function(email){
 
-        console.log("Started with this block=======>");
         highlightElement.highlightElement(this.email);
         this.email.sendKeys(email);
         browser.sleep(1000);
     };
 
     this.setMobileNumber = function(mobileNumber){
-        console.log("Start of Number Block =========>");
         highlightElement.highlightElement(this.mobileNumber);
         this.mobileNumber.sendKeys(mobileNumber);
         browser.sleep(1000);
     };
 
     this.setShortPassword = function(){
-         console.log('Start of Password=========>');
         highlightElement.highlightElement(this.password);
         this.password.sendKeys(password);
         browser.sleep(1000);
@@ -50,7 +46,6 @@ var signUpDetails = function(){
 
 
     this.setPassword = function(password){
-        console.log('Start of Password=========>');
         highlightElement.highlightElement(this.password);
         this.password.sendKeys(password);
         browser.sleep(1000);

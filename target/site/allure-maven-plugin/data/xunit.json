@@ -1,17 +1,17 @@
 {
   "time" : {
-    "start" : 1500450140546,
-    "stop" : 1500450464505,
-    "duration" : 323959
+    "start" : 1501178184359,
+    "stop" : 1501178550502,
+    "duration" : 366143
   },
   "testSuites" : [ {
-    "uid" : "b461e19df1237a4d",
-    "name" : "second test for page maximization",
-    "title" : "second test for page maximization",
+    "uid" : "96eb75993efa4d42",
+    "name" : "Verification URL",
+    "title" : "Verification URL",
     "time" : {
-      "start" : 1500450152220,
-      "stop" : 1500450152489,
-      "duration" : 269
+      "start" : 1501178404513,
+      "stop" : 1501178405794,
+      "duration" : 1281
     },
     "statistic" : {
       "total" : 1,
@@ -23,25 +23,25 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "5e867cdcc652c82d",
-      "name" : "should maximize window",
-      "title" : "should maximize window",
+      "uid" : "364e5d0edba7ade6",
+      "name" : "will verify the URL of verification page",
+      "title" : "will verify the URL of verification page",
       "time" : {
-        "start" : 1500450152220,
-        "stop" : 1500450152489,
-        "duration" : 269
+        "start" : 1501178404513,
+        "stop" : 1501178405794,
+        "duration" : 1281
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "3607ae3b1ea71560",
-    "name" : "File Upload 3",
-    "title" : "File Upload 3",
+    "uid" : "9d462faddbe4301e",
+    "name" : "Next",
+    "title" : "Next",
     "time" : {
-      "start" : 1500450334339,
-      "stop" : 1500450356916,
-      "duration" : 22577
+      "start" : 1501178459556,
+      "stop" : 1501178468993,
+      "duration" : 9437
     },
     "statistic" : {
       "total" : 1,
@@ -53,25 +53,25 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "2afa8032ef474c1b",
-      "name" : "uploads third document",
-      "title" : "uploads third document",
+      "uid" : "a5d3282d58a1a42c",
+      "name" : "should click on Next Button",
+      "title" : "should click on Next Button",
       "time" : {
-        "start" : 1500450334339,
-        "stop" : 1500450356916,
-        "duration" : 22577
+        "start" : 1501178459556,
+        "stop" : 1501178468993,
+        "duration" : 9437
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "39ef4e74b75e5607",
-    "name" : "Setting the email",
-    "title" : "Setting the email",
+    "uid" : "295eaa11e78ef6aa",
+    "name" : "Continue",
+    "title" : "Continue",
     "time" : {
-      "start" : 1500450177402,
-      "stop" : 1500450180924,
-      "duration" : 3522
+      "start" : 1501178325435,
+      "stop" : 1501178332836,
+      "duration" : 7401
     },
     "statistic" : {
       "total" : 1,
@@ -83,25 +83,309 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "c7dc597c4f77cbe7",
-      "name" : "should set the email",
-      "title" : "should set the email",
+      "uid" : "501322cf3f94453",
+      "name" : "clicking on continue button",
+      "title" : "clicking on continue button",
       "time" : {
-        "start" : 1500450177402,
-        "stop" : 1500450180924,
-        "duration" : 3522
+        "start" : 1501178325435,
+        "stop" : 1501178332836,
+        "duration" : 7401
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "69dc0d2354fe3d7d",
+    "uid" : "48e9cb2b4a39bd21",
+    "name" : "Specialisation",
+    "title" : "Specialisation",
+    "time" : {
+      "start" : 1501178296866,
+      "stop" : 1501178304362,
+      "duration" : 7496
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "4fe6502a23361818",
+      "name" : "enter the specialisation",
+      "title" : "enter the specialisation",
+      "time" : {
+        "start" : 1501178296866,
+        "stop" : 1501178304362,
+        "duration" : 7496
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "4e62047041d6b76e",
+    "name" : "Starts setting doctor profile",
+    "title" : "Starts setting doctor profile",
+    "time" : {
+      "start" : 1501178545088,
+      "stop" : 1501178550502,
+      "duration" : 5414
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "73e7736a64891bf3",
+      "name" : "sets Prefix",
+      "title" : "sets Prefix",
+      "time" : {
+        "start" : 1501178545088,
+        "stop" : 1501178550502,
+        "duration" : 5414
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "7257050478d3cdc4",
+    "name" : "Logout Button",
+    "title" : "Logout Button",
+    "time" : {
+      "start" : 1501178410517,
+      "stop" : 1501178416227,
+      "duration" : 5710
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "d40b6ae1df71498f",
+      "name" : "clicks on Logout Button",
+      "title" : "clicks on Logout Button",
+      "time" : {
+        "start" : 1501178410517,
+        "stop" : 1501178414956,
+        "duration" : 4439
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e83c5914720da865",
+      "name" : "is logged out",
+      "title" : "is logged out",
+      "time" : {
+        "start" : 1501178414956,
+        "stop" : 1501178416227,
+        "duration" : 1271
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "8b7bf7657b595f42",
+    "name" : "Verification Heading",
+    "title" : "Verification Heading",
+    "time" : {
+      "start" : 1501178405796,
+      "stop" : 1501178408153,
+      "duration" : 2357
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "3a6d2fd0383be8b1",
+      "name" : "should match the verification heading text",
+      "title" : "should match the verification heading text",
+      "time" : {
+        "start" : 1501178405796,
+        "stop" : 1501178408153,
+        "duration" : 2357
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "6f1942a5b11f0b68",
+    "name" : "Clinic Name",
+    "title" : "Clinic Name",
+    "time" : {
+      "start" : 1501178293384,
+      "stop" : 1501178296865,
+      "duration" : 3481
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "a2e8e2ca8ff8e07e",
+      "name" : "enters the clinic name",
+      "title" : "enters the clinic name",
+      "time" : {
+        "start" : 1501178293384,
+        "stop" : 1501178296865,
+        "duration" : 3481
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "e7c739fb7dfe4355",
+    "name" : "Add Staff Heading",
+    "title" : "Add Staff Heading",
+    "time" : {
+      "start" : 1501178468994,
+      "stop" : 1501178473354,
+      "duration" : 4360
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "d16c5d919da75114",
+      "name" : "should verify the Add Staff heading text",
+      "title" : "should verify the Add Staff heading text",
+      "time" : {
+        "start" : 1501178468994,
+        "stop" : 1501178473354,
+        "duration" : 4360
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "93a97600ba33a673",
+    "name" : "Profile Smoke Tests",
+    "title" : "Profile Smoke Tests",
+    "time" : {
+      "start" : 1501178501524,
+      "stop" : 1501178502106,
+      "duration" : 582
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "b7b200537d74333b",
+      "name" : "checks the page url",
+      "title" : "checks the page url",
+      "time" : {
+        "start" : 1501178501524,
+        "stop" : 1501178501829,
+        "duration" : 305
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "550db489741742b1",
+      "name" : "checks the Image loaded",
+      "title" : "checks the Image loaded",
+      "time" : {
+        "start" : 1501178501829,
+        "stop" : 1501178502106,
+        "duration" : 277
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "3cafd8eb44227c7",
+    "name" : "Gets the doctor profile",
+    "title" : "Gets the doctor profile",
+    "time" : {
+      "start" : 1501178541818,
+      "stop" : 1501178545087,
+      "duration" : 3269
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "ae891fea0e2ea32e",
+      "name" : "verifies user is on profile page",
+      "title" : "verifies user is on profile page",
+      "time" : {
+        "start" : 1501178541818,
+        "stop" : 1501178542090,
+        "duration" : 272
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "90090f6a9fdf7ca3",
+      "name" : "clicks on Continue button",
+      "title" : "clicks on Continue button",
+      "time" : {
+        "start" : 1501178542091,
+        "stop" : 1501178544612,
+        "duration" : 2521
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "147320201a8770a6",
+      "name" : "gets all the menu options",
+      "title" : "gets all the menu options",
+      "time" : {
+        "start" : 1501178544612,
+        "stop" : 1501178545087,
+        "duration" : 475
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "c99c3b56b8b014d4",
     "name" : "Login back",
     "title" : "Login back",
     "time" : {
-      "start" : 1500450384687,
-      "stop" : 1500450398287,
-      "duration" : 13600
+      "start" : 1501178426298,
+      "stop" : 1501178439895,
+      "duration" : 13597
     },
     "statistic" : {
       "total" : 4,
@@ -113,58 +397,58 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "b2403e7272c33357",
+      "uid" : "d0cff13a1b4ea96f",
       "name" : "verify user is on the Login page",
       "title" : "verify user is on the Login page",
       "time" : {
-        "start" : 1500450384687,
-        "stop" : 1500450384959,
-        "duration" : 272
+        "start" : 1501178426298,
+        "stop" : 1501178426561,
+        "duration" : 263
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "56f74ab8d1e895e0",
+      "uid" : "7786b2756fcc22ad",
       "name" : "sets the username for login",
       "title" : "sets the username for login",
       "time" : {
-        "start" : 1500450384959,
-        "stop" : 1500450389425,
-        "duration" : 4466
+        "start" : 1501178426561,
+        "stop" : 1501178431070,
+        "duration" : 4509
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "5663e5edd7f8bd46",
+      "uid" : "df02c89c2993ce0f",
       "name" : "sets the password for login",
       "title" : "sets the password for login",
       "time" : {
-        "start" : 1500450389425,
-        "stop" : 1500450393881,
-        "duration" : 4456
+        "start" : 1501178431070,
+        "stop" : 1501178435519,
+        "duration" : 4449
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "4b90e8267cf54ee2",
+      "uid" : "81605f9a3386515e",
       "name" : "clicks on Sign In Button",
       "title" : "clicks on Sign In Button",
       "time" : {
-        "start" : 1500450393881,
-        "stop" : 1500450398287,
-        "duration" : 4406
+        "start" : 1501178435519,
+        "stop" : 1501178439895,
+        "duration" : 4376
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "ca0552277f254c49",
-    "name" : "Next Step",
-    "title" : "Next Step",
+    "uid" : "5b44c224863298e1",
+    "name" : "Setting the email",
+    "title" : "Setting the email",
     "time" : {
-      "start" : 1500450356917,
-      "stop" : 1500450361472,
-      "duration" : 4555
+      "start" : 1501178223062,
+      "stop" : 1501178226562,
+      "duration" : 3500
     },
     "statistic" : {
       "total" : 1,
@@ -176,137 +460,25 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "120524f9fab8282c",
-      "name" : "by clicking on continue button",
-      "title" : "by clicking on continue button",
+      "uid" : "4831b5a13dd69490",
+      "name" : "should set the email",
+      "title" : "should set the email",
       "time" : {
-        "start" : 1500450356917,
-        "stop" : 1500450361472,
-        "duration" : 4555
+        "start" : 1501178223062,
+        "stop" : 1501178226562,
+        "duration" : 3500
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "52f9863f73c2d62e",
-    "name" : "Add Procedure",
-    "title" : "Add Procedure",
+    "uid" : "b937a3dd2515a47",
+    "name" : "Go to Mahaflox",
+    "title" : "Go to Mahaflox",
     "time" : {
-      "start" : 1500450412622,
-      "stop" : 1500450420281,
-      "duration" : 7659
-    },
-    "statistic" : {
-      "total" : 3,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 2,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "f76ab78af2b2765c",
-      "name" : "search a procedure by key",
-      "title" : "search a procedure by key",
-      "time" : {
-        "start" : 1500450412622,
-        "stop" : 1500450419687,
-        "duration" : 7065
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "9af3dfb639f98bc",
-      "name" : "enter a price for procedure",
-      "title" : "enter a price for procedure",
-      "time" : {
-        "start" : 1500450419688,
-        "stop" : 1500450419992,
-        "duration" : 304
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "93d391b92e35dc05",
-      "name" : "click on Done button",
-      "title" : "click on Done button",
-      "time" : {
-        "start" : 1500450419992,
-        "stop" : 1500450420281,
-        "duration" : 289
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "1aa3efaca9237f21",
-    "name" : "Set Doctors",
-    "title" : "Set Doctors",
-    "time" : {
-      "start" : 1500450411707,
-      "stop" : 1500450412013,
-      "duration" : 306
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 1,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "5db71691fdb194e8",
-      "name" : "should select whether owner is a doctor or not and then add doctors based on that",
-      "title" : "should select whether owner is a doctor or not and then add doctors based on that",
-      "time" : {
-        "start" : 1500450411707,
-        "stop" : 1500450412013,
-        "duration" : 306
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "4ee3850a1891470",
-    "name" : "Next",
-    "title" : "Next",
-    "time" : {
-      "start" : 1500450409001,
-      "stop" : 1500450411409,
-      "duration" : 2408
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 1,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "493b3d1bec3b3937",
-      "name" : "should click on Next Button",
-      "title" : "should click on Next Button",
-      "time" : {
-        "start" : 1500450409001,
-        "stop" : 1500450411409,
-        "duration" : 2408
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "f6449dd7f07bf67a",
-    "name" : "File Upload 2",
-    "title" : "File Upload 2",
-    "time" : {
-      "start" : 1500450311743,
-      "stop" : 1500450334338,
-      "duration" : 22595
+      "start" : 1501178252435,
+      "stop" : 1501178269086,
+      "duration" : 16651
     },
     "statistic" : {
       "total" : 1,
@@ -318,132 +490,25 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "467c225cfdf376f1",
-      "name" : "second file upload",
-      "title" : "second file upload",
+      "uid" : "6982f413f1751ab2",
+      "name" : "opening a new window and get OTP",
+      "title" : "opening a new window and get OTP",
       "time" : {
-        "start" : 1500450311743,
-        "stop" : 1500450334338,
-        "duration" : 22595
+        "start" : 1501178252435,
+        "stop" : 1501178269086,
+        "duration" : 16651
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "a233675091c4a599",
-    "name" : "Profile - Clinic",
-    "title" : "Profile - Clinic",
-    "time" : {
-      "start" : 1500450427428,
-      "stop" : 1500450433012,
-      "duration" : 5584
-    },
-    "statistic" : {
-      "total" : 8,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 8,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "bd41cabfedf9c9a1",
-      "name" : "gets clinic progress bar percentage",
-      "title" : "gets clinic progress bar percentage",
-      "time" : {
-        "start" : 1500450427428,
-        "stop" : 1500450430855,
-        "duration" : 3427
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "2dec9707f4516b3c",
-      "name" : "gets admin progress bar percentage",
-      "title" : "gets admin progress bar percentage",
-      "time" : {
-        "start" : 1500450430855,
-        "stop" : 1500450431148,
-        "duration" : 293
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "b99b4e7caaa49296",
-      "name" : "clicks on Continue Btn",
-      "title" : "clicks on Continue Btn",
-      "time" : {
-        "start" : 1500450431148,
-        "stop" : 1500450431443,
-        "duration" : 295
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "bfc90033a5fc2671",
-      "name" : "gets all the sections to be filled",
-      "title" : "gets all the sections to be filled",
-      "time" : {
-        "start" : 1500450431443,
-        "stop" : 1500450431738,
-        "duration" : 295
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "4a8ddb77a36bcb6e",
-      "name" : "gets the src for Clinic Image",
-      "title" : "gets the src for Clinic Image",
-      "time" : {
-        "start" : 1500450431738,
-        "stop" : 1500450432117,
-        "duration" : 379
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "c3cae6e8fc6b7ed8",
-      "name" : "sets clinic description",
-      "title" : "sets clinic description",
-      "time" : {
-        "start" : 1500450432118,
-        "stop" : 1500450432419,
-        "duration" : 301
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "54932c77f6dd3dde",
-      "name" : "sets clinic email",
-      "title" : "sets clinic email",
-      "time" : {
-        "start" : 1500450432419,
-        "stop" : 1500450432724,
-        "duration" : 305
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "82cf18530878a21e",
-      "name" : "clicks update button",
-      "title" : "clicks update button",
-      "time" : {
-        "start" : 1500450432724,
-        "stop" : 1500450433012,
-        "duration" : 288
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "c0f2338f84760e33",
+    "uid" : "41ba1f9d800f54ac",
     "name" : "Correct Password",
     "title" : "Correct Password",
     "time" : {
-      "start" : 1500450184394,
-      "stop" : 1500450187888,
-      "duration" : 3494
+      "start" : 1501178230029,
+      "stop" : 1501178233501,
+      "duration" : 3472
     },
     "statistic" : {
       "total" : 1,
@@ -455,110 +520,25 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "a0d1b0ead5a61ec3",
+      "uid" : "a24e2c2636880802",
       "name" : "should be setting the password",
       "title" : "should be setting the password",
       "time" : {
-        "start" : 1500450184394,
-        "stop" : 1500450187888,
-        "duration" : 3494
+        "start" : 1501178230029,
+        "stop" : 1501178233501,
+        "duration" : 3472
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "b22887043681f53f",
-    "name" : "Profile UI Tests",
-    "title" : "Profile UI Tests",
+    "uid" : "6db3361d9ada14cb",
+    "name" : "Setting Time",
+    "title" : "Setting Time",
     "time" : {
-      "start" : 1500450420847,
-      "stop" : 1500450427357,
-      "duration" : 6510
-    },
-    "statistic" : {
-      "total" : 6,
-      "passed" : 2,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 4,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "16d7693f792c97ca",
-      "name" : "checks navbar displayed",
-      "title" : "checks navbar displayed",
-      "time" : {
-        "start" : 1500450420847,
-        "stop" : 1500450423189,
-        "duration" : 2342
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "810bd3e2d210378e",
-      "name" : "checks sidebar displayed",
-      "title" : "checks sidebar displayed",
-      "time" : {
-        "start" : 1500450423189,
-        "stop" : 1500450425545,
-        "duration" : 2356
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "9f3129c8ef2de209",
-      "name" : "checks Profile Section",
-      "title" : "checks Profile Section",
-      "time" : {
-        "start" : 1500450425545,
-        "stop" : 1500450425844,
-        "duration" : 299
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "a4a3acb5f3613cf1",
-      "name" : "checks body container",
-      "title" : "checks body container",
-      "time" : {
-        "start" : 1500450425844,
-        "stop" : 1500450426203,
-        "duration" : 359
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "97d6f86501e7cfb8",
-      "name" : "checks that doctor name is in page source",
-      "title" : "checks that doctor name is in page source",
-      "time" : {
-        "start" : 1500450426203,
-        "stop" : 1500450426802,
-        "duration" : 599
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "f551cfaa1cf00f97",
-      "name" : "checks that clinic name is in page source",
-      "title" : "checks that clinic name is in page source",
-      "time" : {
-        "start" : 1500450426802,
-        "stop" : 1500450427357,
-        "duration" : 555
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "e44696b1367eb189",
-    "name" : "Privacy Section",
-    "title" : "Privacy Section",
-    "time" : {
-      "start" : 1500450171477,
-      "stop" : 1500450173848,
-      "duration" : 2371
+      "start" : 1501178455198,
+      "stop" : 1501178459556,
+      "duration" : 4358
     },
     "statistic" : {
       "total" : 1,
@@ -570,25 +550,25 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "d3d6b53c068af568",
-      "name" : "Privacy section is displayed",
-      "title" : "Privacy section is displayed",
+      "uid" : "34e726284153aff3",
+      "name" : "should check the heading text on Time Page",
+      "title" : "should check the heading text on Time Page",
       "time" : {
-        "start" : 1500450171477,
-        "stop" : 1500450173848,
-        "duration" : 2371
+        "start" : 1501178455198,
+        "stop" : 1501178459556,
+        "duration" : 4358
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "46479584197f457",
-    "name" : "Register Button",
-    "title" : "Register Button",
+    "uid" : "335140dc54666e7f",
+    "name" : "Next Step",
+    "title" : "Next Step",
     "time" : {
-      "start" : 1500450187888,
-      "stop" : 1500450195307,
-      "duration" : 7419
+      "start" : 1501178400124,
+      "stop" : 1501178404512,
+      "duration" : 4388
     },
     "statistic" : {
       "total" : 1,
@@ -600,421 +580,25 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "df7ec54761c6b698",
-      "name" : "checks if Register Button is Displayed and Enabled",
-      "title" : "checks if Register Button is Displayed and Enabled",
+      "uid" : "d841f87e207b0cf6",
+      "name" : "by clicking on continue button",
+      "title" : "by clicking on continue button",
       "time" : {
-        "start" : 1500450187888,
-        "stop" : 1500450195307,
-        "duration" : 7419
+        "start" : 1501178400124,
+        "stop" : 1501178404512,
+        "duration" : 4388
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "da0643f36f02be75",
-    "name" : "Specialisation",
-    "title" : "Specialisation",
-    "time" : {
-      "start" : 1500450254647,
-      "stop" : 1500450262278,
-      "duration" : 7631
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "aae228e3123c80d9",
-      "name" : "enter the specialisation",
-      "title" : "enter the specialisation",
-      "time" : {
-        "start" : 1500450254647,
-        "stop" : 1500450262278,
-        "duration" : 7631
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "43d1ab47337ccd6a",
-    "name" : "Selecting Clinic",
-    "title" : "Selecting Clinic",
-    "time" : {
-      "start" : 1500450398290,
-      "stop" : 1500450408604,
-      "duration" : 10314
-    },
-    "statistic" : {
-      "total" : 2,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 1,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "773f153410c79bc1",
-      "name" : "should select clinic",
-      "title" : "should select clinic",
-      "time" : {
-        "start" : 1500450398290,
-        "stop" : 1500450401152,
-        "duration" : 2862
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "a69ede7d32ed73ad",
-      "name" : "clicks on Go To Clinic Btn",
-      "title" : "clicks on Go To Clinic Btn",
-      "time" : {
-        "start" : 1500450401152,
-        "stop" : 1500450408604,
-        "duration" : 7452
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "3eb50c7c9c2fc53f",
-    "name" : "File Upload 1",
-    "title" : "File Upload 1",
-    "time" : {
-      "start" : 1500450289174,
-      "stop" : 1500450311742,
-      "duration" : 22568
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "3cb932fc64fe789b",
-      "name" : "first file upload",
-      "title" : "first file upload",
-      "time" : {
-        "start" : 1500450289174,
-        "stop" : 1500450311742,
-        "duration" : 22568
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "58d2aedda08aa049",
-    "name" : "Clinic Phone",
-    "title" : "Clinic Phone",
-    "time" : {
-      "start" : 1500450273962,
-      "stop" : 1500450281599,
-      "duration" : 7637
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "26a78f50a490a5de",
-      "name" : "set clinic phone number",
-      "title" : "set clinic phone number",
-      "time" : {
-        "start" : 1500450273962,
-        "stop" : 1500450281599,
-        "duration" : 7637
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "efaaf46c8499e19f",
-    "name" : "OTP Input Box",
-    "title" : "OTP Input Box",
-    "time" : {
-      "start" : 1500450195309,
-      "stop" : 1500450206789,
-      "duration" : 11480
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "e669d3cfe004dde9",
-      "name" : "should check if register button is displayed",
-      "title" : "should check if register button is displayed",
-      "time" : {
-        "start" : 1500450195309,
-        "stop" : 1500450206789,
-        "duration" : 11480
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "44d9e8a629ce030b",
-    "name" : "Document Verification",
-    "title" : "Document Verification",
-    "time" : {
-      "start" : 1500450373629,
-      "stop" : 1500450384687,
-      "duration" : 11058
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "88e2ddc346900773",
-      "name" : "should go to mahaflox again, and click on Document Verified for the clinic created",
-      "title" : "should go to mahaflox again, and click on Document Verified for the clinic created",
-      "time" : {
-        "start" : 1500450373629,
-        "stop" : 1500450384687,
-        "duration" : 11058
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "5393f0d904576e0",
-    "name" : "Finish Entering OTP",
-    "title" : "Finish Entering OTP",
-    "time" : {
-      "start" : 1500450233775,
-      "stop" : 1500450246381,
-      "duration" : 12606
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "9866db29348a7d9",
-      "name" : "finishing entering the OTP",
-      "title" : "finishing entering the OTP",
-      "time" : {
-        "start" : 1500450233775,
-        "stop" : 1500450246381,
-        "duration" : 12606
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "1964acbc423c6dad",
-    "name" : "Profile Smoke Tests",
-    "title" : "Profile Smoke Tests",
-    "time" : {
-      "start" : 1500450420284,
-      "stop" : 1500450420845,
-      "duration" : 561
-    },
-    "statistic" : {
-      "total" : 2,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 2,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "e2355dfc482eec4a",
-      "name" : "checks the page url",
-      "title" : "checks the page url",
-      "time" : {
-        "start" : 1500450420284,
-        "stop" : 1500450420565,
-        "duration" : 281
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "32c430000b4fd000",
-      "name" : "checks the Image loaded",
-      "title" : "checks the Image loaded",
-      "time" : {
-        "start" : 1500450420565,
-        "stop" : 1500450420845,
-        "duration" : 280
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "82206d5ada7fcf63",
-    "name" : "Doctors - Clinic",
-    "title" : "Doctors - Clinic",
-    "time" : {
-      "start" : 1500450459798,
-      "stop" : 1500450463360,
-      "duration" : 3562
-    },
-    "statistic" : {
-      "total" : 5,
-      "passed" : 2,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 3,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "952e882adc6bfdef",
-      "name" : "goes to Doctors link",
-      "title" : "goes to Doctors link",
-      "time" : {
-        "start" : 1500450459798,
-        "stop" : 1500450460119,
-        "duration" : 321
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "bb12844614bec2bb",
-      "name" : "gets Doctors name function",
-      "title" : "gets Doctors name function",
-      "time" : {
-        "start" : 1500450460119,
-        "stop" : 1500450460385,
-        "duration" : 266
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "7ae065eed14dea2f",
-      "name" : "sets doctor consultation time",
-      "title" : "sets doctor consultation time",
-      "time" : {
-        "start" : 1500450460385,
-        "stop" : 1500450462770,
-        "duration" : 2385
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "a56492806e9acb91",
-      "name" : "sets doctor consultation cost",
-      "title" : "sets doctor consultation cost",
-      "time" : {
-        "start" : 1500450462770,
-        "stop" : 1500450463071,
-        "duration" : 301
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "20ed82eb13be0dae",
-      "name" : "clicks on update button",
-      "title" : "clicks on update button",
-      "time" : {
-        "start" : 1500450463071,
-        "stop" : 1500450463360,
-        "duration" : 289
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "efc585bde8be9d8b",
-    "name" : "Verification Content",
-    "title" : "Verification Content",
-    "time" : {
-      "start" : 1500450365445,
-      "stop" : 1500450367942,
-      "duration" : 2497
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "ad7504e6be2f8aeb",
-      "name" : "should print some stuff",
-      "title" : "should print some stuff",
-      "time" : {
-        "start" : 1500450365445,
-        "stop" : 1500450367942,
-        "duration" : 2497
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "def074876b1b8e74",
-    "name" : "Verification URL",
-    "title" : "Verification URL",
-    "time" : {
-      "start" : 1500450361473,
-      "stop" : 1500450362920,
-      "duration" : 1447
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "194ef7b7b7a75ffa",
-      "name" : "will verify the URL of verification page",
-      "title" : "will verify the URL of verification page",
-      "time" : {
-        "start" : 1500450361473,
-        "stop" : 1500450362920,
-        "duration" : 1447
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "733db161a7af74d7",
+    "uid" : "b2a20b60f295fe20",
     "name" : "Documents - Clinic",
     "title" : "Documents - Clinic",
     "time" : {
-      "start" : 1500450433014,
-      "stop" : 1500450434190,
-      "duration" : 1176
+      "start" : 1501178516845,
+      "stop" : 1501178518172,
+      "duration" : 1327
     },
     "statistic" : {
       "total" : 4,
@@ -1026,58 +610,58 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "eb0db5c4f212c3bf",
+      "uid" : "15209cd8cae1c5e2",
       "name" : "clicks on Documents",
       "title" : "clicks on Documents",
       "time" : {
-        "start" : 1500450433014,
-        "stop" : 1500450433283,
-        "duration" : 269
+        "start" : 1501178516845,
+        "stop" : 1501178517173,
+        "duration" : 328
       },
       "severity" : "NORMAL",
       "status" : "FAILED"
     }, {
-      "uid" : "e2bf8164694a33a9",
+      "uid" : "eeea336f0d519de3",
       "name" : "gets first document details",
       "title" : "gets first document details",
       "time" : {
-        "start" : 1500450433284,
-        "stop" : 1500450433583,
-        "duration" : 299
+        "start" : 1501178517173,
+        "stop" : 1501178517500,
+        "duration" : 327
       },
       "severity" : "NORMAL",
       "status" : "FAILED"
     }, {
-      "uid" : "1001fdbd26f00a48",
+      "uid" : "cde96a876acdac1",
       "name" : "gets second document details",
       "title" : "gets second document details",
       "time" : {
-        "start" : 1500450433583,
-        "stop" : 1500450433888,
-        "duration" : 305
+        "start" : 1501178517501,
+        "stop" : 1501178517842,
+        "duration" : 341
       },
       "severity" : "NORMAL",
       "status" : "FAILED"
     }, {
-      "uid" : "e7de59dcc2924c09",
+      "uid" : "88f6ff92999d7e40",
       "name" : "gets third document details",
       "title" : "gets third document details",
       "time" : {
-        "start" : 1500450433888,
-        "stop" : 1500450434190,
-        "duration" : 302
+        "start" : 1501178517842,
+        "stop" : 1501178518172,
+        "duration" : 330
       },
       "severity" : "NORMAL",
       "status" : "FAILED"
     } ]
   }, {
-    "uid" : "dc5041e8d1a19e19",
-    "name" : "Address",
-    "title" : "Address",
+    "uid" : "1ad1e773ced7d51d",
+    "name" : "OTP Input Box",
+    "title" : "OTP Input Box",
     "time" : {
-      "start" : 1500450262280,
-      "stop" : 1500450273961,
-      "duration" : 11681
+      "start" : 1501178240950,
+      "stop" : 1501178252434,
+      "duration" : 11484
     },
     "statistic" : {
       "total" : 1,
@@ -1089,29 +673,29 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "4f785c0951cc2053",
-      "name" : "enters an address",
-      "title" : "enters an address",
+      "uid" : "583670c288895ab6",
+      "name" : "should check if register button is displayed",
+      "title" : "should check if register button is displayed",
       "time" : {
-        "start" : 1500450262280,
-        "stop" : 1500450273961,
-        "duration" : 11681
+        "start" : 1501178240950,
+        "stop" : 1501178252434,
+        "duration" : 11484
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "de94bcb2cb2c2e71",
-    "name" : "Logout Button",
-    "title" : "Logout Button",
+    "uid" : "71d9c58b7d479b1b",
+    "name" : "Verification Content",
+    "title" : "Verification Content",
     "time" : {
-      "start" : 1500450367943,
-      "stop" : 1500450373627,
-      "duration" : 5684
+      "start" : 1501178408153,
+      "stop" : 1501178410516,
+      "duration" : 2363
     },
     "statistic" : {
-      "total" : 2,
-      "passed" : 2,
+      "total" : 1,
+      "passed" : 1,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 0,
@@ -1119,36 +703,137 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "b153119a16e68ba1",
-      "name" : "clicks on Logout Button",
-      "title" : "clicks on Logout Button",
+      "uid" : "b531c5b4fa5e32f0",
+      "name" : "should print some stuff",
+      "title" : "should print some stuff",
       "time" : {
-        "start" : 1500450367943,
-        "stop" : 1500450372355,
-        "duration" : 4412
+        "start" : 1501178408153,
+        "stop" : 1501178410516,
+        "duration" : 2363
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "abfb02dc962bf565",
+    "name" : "File Upload 2",
+    "title" : "File Upload 2",
+    "time" : {
+      "start" : 1501178355273,
+      "stop" : 1501178377705,
+      "duration" : 22432
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "11ecf8c855d1f077",
+      "name" : "second file upload",
+      "title" : "second file upload",
+      "time" : {
+        "start" : 1501178355273,
+        "stop" : 1501178377705,
+        "duration" : 22432
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "8810dc5cdbc9cafb",
+    "name" : "Clinic Phone",
+    "title" : "Clinic Phone",
+    "time" : {
+      "start" : 1501178317936,
+      "stop" : 1501178325433,
+      "duration" : 7497
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "c1862e6dbcf03946",
+      "name" : "set clinic phone number",
+      "title" : "set clinic phone number",
+      "time" : {
+        "start" : 1501178317936,
+        "stop" : 1501178325433,
+        "duration" : 7497
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "65c90e99d549b922",
+    "name" : "Add Procedure",
+    "title" : "Add Procedure",
+    "time" : {
+      "start" : 1501178485680,
+      "stop" : 1501178501521,
+      "duration" : 15841
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "e3be44ec2f3a16c2",
+      "name" : "search a procedure by key",
+      "title" : "search a procedure by key",
+      "time" : {
+        "start" : 1501178485680,
+        "stop" : 1501178492690,
+        "duration" : 7010
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "b32c997e580b81c2",
-      "name" : "is logged out",
-      "title" : "is logged out",
+      "uid" : "2043ade179318d0",
+      "name" : "enter a price for procedure",
+      "title" : "enter a price for procedure",
       "time" : {
-        "start" : 1500450372355,
-        "stop" : 1500450373627,
-        "duration" : 1272
+        "start" : 1501178492690,
+        "stop" : 1501178497095,
+        "duration" : 4405
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "64c4877f63443bbe",
+      "name" : "click on Done button",
+      "title" : "click on Done button",
+      "time" : {
+        "start" : 1501178497095,
+        "stop" : 1501178501521,
+        "duration" : 4426
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "818816e70851f409",
-    "name" : "OTP",
-    "title" : "OTP",
+    "uid" : "959118d75e3e2310",
+    "name" : "Privacy Section",
+    "title" : "Privacy Section",
     "time" : {
-      "start" : 1500450226287,
-      "stop" : 1500450233773,
-      "duration" : 7486
+      "start" : 1501178217132,
+      "stop" : 1501178219496,
+      "duration" : 2364
     },
     "statistic" : {
       "total" : 1,
@@ -1160,29 +845,59 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "ca2249af35b59108",
-      "name" : "Entering the OTP",
-      "title" : "Entering the OTP",
+      "uid" : "94ae4c202f0a476",
+      "name" : "Privacy section is displayed",
+      "title" : "Privacy section is displayed",
       "time" : {
-        "start" : 1500450226287,
-        "stop" : 1500450233773,
-        "duration" : 7486
+        "start" : 1501178217132,
+        "stop" : 1501178219496,
+        "duration" : 2364
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "ed1f7e5c1ee57d8b",
-    "name" : "Location - Clinic",
-    "title" : "Location - Clinic",
+    "uid" : "9177482cd4a33fe6",
+    "name" : "Finish Entering OTP",
+    "title" : "Finish Entering OTP",
     "time" : {
-      "start" : 1500450434192,
-      "stop" : 1500450459793,
-      "duration" : 25601
+      "start" : 1501178276560,
+      "stop" : 1501178288955,
+      "duration" : 12395
     },
     "statistic" : {
-      "total" : 5,
-      "passed" : 2,
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9b50fbc939b671aa",
+      "name" : "finishing entering the OTP",
+      "title" : "finishing entering the OTP",
+      "time" : {
+        "start" : 1501178276560,
+        "stop" : 1501178288955,
+        "duration" : 12395
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "820e1da1d2b4c3d9",
+    "name" : "Services - Clinic",
+    "title" : "Services - Clinic",
+    "time" : {
+      "start" : 1501178530189,
+      "stop" : 1501178536322,
+      "duration" : 6133
+    },
+    "statistic" : {
+      "total" : 4,
+      "passed" : 1,
       "pending" : 0,
       "canceled" : 0,
       "failed" : 3,
@@ -1190,68 +905,940 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "cafc3356120a811e",
-      "name" : "navigates to Location tab",
-      "title" : "navigates to Location tab",
+      "uid" : "e92455ee913dece6",
+      "name" : "navigates to Services route",
+      "title" : "navigates to Services route",
       "time" : {
-        "start" : 1500450434192,
-        "stop" : 1500450434458,
-        "duration" : 266
+        "start" : 1501178530189,
+        "stop" : 1501178530464,
+        "duration" : 275
       },
       "severity" : "NORMAL",
       "status" : "FAILED"
     }, {
-      "uid" : "576e228521d9a252",
-      "name" : "gets location",
-      "title" : "gets location",
+      "uid" : "4d6caf7d3f497919",
+      "name" : "gets clinic services",
+      "title" : "gets clinic services",
       "time" : {
-        "start" : 1500450434458,
-        "stop" : 1500450434753,
-        "duration" : 295
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "4e7fc1ea95a03df8",
-      "name" : "takes screenshot of G-Map Integration",
-      "title" : "takes screenshot of G-Map Integration",
-      "time" : {
-        "start" : 1500450434753,
-        "stop" : 1500450437064,
-        "duration" : 2311
+        "start" : 1501178530464,
+        "stop" : 1501178535736,
+        "duration" : 5272
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     }, {
-      "uid" : "58ece22f06dd45cb",
-      "name" : "clicks to Update Location",
-      "title" : "clicks to Update Location",
+      "uid" : "9060fcae92b7fe40",
+      "name" : "sets name of new procedure",
+      "title" : "sets name of new procedure",
       "time" : {
-        "start" : 1500450437064,
-        "stop" : 1500450437364,
-        "duration" : 300
+        "start" : 1501178535736,
+        "stop" : 1501178536019,
+        "duration" : 283
       },
       "severity" : "NORMAL",
       "status" : "FAILED"
     }, {
-      "uid" : "ad2c0e6474759d8a",
-      "name" : "uploads a clinic photo",
-      "title" : "uploads a clinic photo",
+      "uid" : "a9786a96b75b61ee",
+      "name" : "sets amount for new procedure",
+      "title" : "sets amount for new procedure",
       "time" : {
-        "start" : 1500450437364,
-        "stop" : 1500450459793,
-        "duration" : 22429
+        "start" : 1501178536019,
+        "stop" : 1501178536322,
+        "duration" : 303
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "ae0b24caa0488e99",
+    "name" : "Content Heading",
+    "title" : "Content Heading",
+    "time" : {
+      "start" : 1501178210027,
+      "stop" : 1501178217130,
+      "duration" : 7103
+    },
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9313be58a435aaeb",
+      "name" : "checks if content header is displayed",
+      "title" : "checks if content header is displayed",
+      "time" : {
+        "start" : 1501178210027,
+        "stop" : 1501178212407,
+        "duration" : 2380
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "553837385e2b3839",
+      "name" : "checks if the content header part 1 is displayed",
+      "title" : "checks if the content header part 1 is displayed",
+      "time" : {
+        "start" : 1501178212407,
+        "stop" : 1501178214772,
+        "duration" : 2365
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a96769818b7ff01c",
+      "name" : "checks if the content header part 2 is displayed",
+      "title" : "checks if the content header part 2 is displayed",
+      "time" : {
+        "start" : 1501178214772,
+        "stop" : 1501178217130,
+        "duration" : 2358
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "c9a40dcba28f9686",
+    "uid" : "7d486a27c0277cf6",
+    "name" : "OTP",
+    "title" : "OTP",
+    "time" : {
+      "start" : 1501178269086,
+      "stop" : 1501178276559,
+      "duration" : 7473
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "cbaaae122247d60",
+      "name" : "Entering the OTP",
+      "title" : "Entering the OTP",
+      "time" : {
+        "start" : 1501178269086,
+        "stop" : 1501178276559,
+        "duration" : 7473
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "582ac732fb42a29e",
+    "name" : "Setting the mobile",
+    "title" : "Setting the mobile",
+    "time" : {
+      "start" : 1501178226563,
+      "stop" : 1501178230027,
+      "duration" : 3464
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "8b4cde099261d363",
+      "name" : "should set the mobile number",
+      "title" : "should set the mobile number",
+      "time" : {
+        "start" : 1501178226563,
+        "stop" : 1501178230027,
+        "duration" : 3464
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "65fdf9d0329f7ddb",
+    "name" : "Paragraph 2",
+    "title" : "Paragraph 2",
+    "time" : {
+      "start" : 1501178205277,
+      "stop" : 1501178207667,
+      "duration" : 2390
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "83db784d1a7afab7",
+      "name" : "should check if paragraph heading part 2 is displayed ",
+      "title" : "should check if paragraph heading part 2 is displayed ",
+      "time" : {
+        "start" : 1501178205277,
+        "stop" : 1501178207667,
+        "duration" : 2390
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "a2e857c7a6ebd83",
+    "name" : "Profile - Clinic",
+    "title" : "Profile - Clinic",
+    "time" : {
+      "start" : 1501178512262,
+      "stop" : 1501178516842,
+      "duration" : 4580
+    },
+    "statistic" : {
+      "total" : 8,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 6,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "add8d255107ac269",
+      "name" : "gets clinic progress bar percentage",
+      "title" : "gets clinic progress bar percentage",
+      "time" : {
+        "start" : 1501178512262,
+        "stop" : 1501178512601,
+        "duration" : 339
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "cf99d8e591c205c1",
+      "name" : "gets admin progress bar percentage",
+      "title" : "gets admin progress bar percentage",
+      "time" : {
+        "start" : 1501178512601,
+        "stop" : 1501178512928,
+        "duration" : 327
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "2f9efdd46ccf0c72",
+      "name" : "clicks on Continue Btn",
+      "title" : "clicks on Continue Btn",
+      "time" : {
+        "start" : 1501178512928,
+        "stop" : 1501178515334,
+        "duration" : 2406
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "bf68030dd729b123",
+      "name" : "gets all the sections to be filled",
+      "title" : "gets all the sections to be filled",
+      "time" : {
+        "start" : 1501178515334,
+        "stop" : 1501178515622,
+        "duration" : 288
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "84ba577055679a82",
+      "name" : "gets the src for Clinic Image",
+      "title" : "gets the src for Clinic Image",
+      "time" : {
+        "start" : 1501178515622,
+        "stop" : 1501178515923,
+        "duration" : 301
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "1eb4a3240939914d",
+      "name" : "sets clinic description",
+      "title" : "sets clinic description",
+      "time" : {
+        "start" : 1501178515923,
+        "stop" : 1501178516240,
+        "duration" : 317
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "d7025790be47caed",
+      "name" : "sets clinic email",
+      "title" : "sets clinic email",
+      "time" : {
+        "start" : 1501178516240,
+        "stop" : 1501178516550,
+        "duration" : 310
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "2c23fd12b715234d",
+      "name" : "clicks update button",
+      "title" : "clicks update button",
+      "time" : {
+        "start" : 1501178516550,
+        "stop" : 1501178516842,
+        "duration" : 292
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "1296dcec0d8890a7",
+    "name" : "Document Verification",
+    "title" : "Document Verification",
+    "time" : {
+      "start" : 1501178416228,
+      "stop" : 1501178426297,
+      "duration" : 10069
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "70798ee00193be0e",
+      "name" : "should go to mahaflox again, and click on Document Verified for the clinic created",
+      "title" : "should go to mahaflox again, and click on Document Verified for the clinic created",
+      "time" : {
+        "start" : 1501178416228,
+        "stop" : 1501178426297,
+        "duration" : 10069
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "70df2cd428c6bc5a",
+    "name" : "Set Staff",
+    "title" : "Set Staff",
+    "time" : {
+      "start" : 1501178477951,
+      "stop" : 1501178485679,
+      "duration" : 7728
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "80c9c2f8b38f3e9b",
+      "name" : "setting staff details with name and other details",
+      "title" : "setting staff details with name and other details",
+      "time" : {
+        "start" : 1501178477951,
+        "stop" : 1501178478290,
+        "duration" : 339
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "1d0382f44c017297",
+      "name" : "should click on NEXT button",
+      "title" : "should click on NEXT button",
+      "time" : {
+        "start" : 1501178478290,
+        "stop" : 1501178485679,
+        "duration" : 7389
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "1045342d21c348d1",
+    "name" : "Goes to Edit Profile",
+    "title" : "Goes to Edit Profile",
+    "time" : {
+      "start" : 1501178536325,
+      "stop" : 1501178541817,
+      "duration" : 5492
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "c03c469cf4f66ca9",
+      "name" : "goes to edit profile",
+      "title" : "goes to edit profile",
+      "time" : {
+        "start" : 1501178536325,
+        "stop" : 1501178541817,
+        "duration" : 5492
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "6bbd16b0845d1447",
+    "name" : "Header Bar",
+    "title" : "Header Bar",
+    "time" : {
+      "start" : 1501178200521,
+      "stop" : 1501178202911,
+      "duration" : 2390
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "930ad45d38ffce34",
+      "name" : "should highlight the header bar",
+      "title" : "should highlight the header bar",
+      "time" : {
+        "start" : 1501178200521,
+        "stop" : 1501178202911,
+        "duration" : 2390
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "43efae684c6984be",
+    "name" : "Address",
+    "title" : "Address",
+    "time" : {
+      "start" : 1501178304363,
+      "stop" : 1501178317934,
+      "duration" : 13571
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "f198e227d5678574",
+      "name" : "enters an address",
+      "title" : "enters an address",
+      "time" : {
+        "start" : 1501178304363,
+        "stop" : 1501178317934,
+        "duration" : 13571
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "8af0480179d8bd80",
+    "name" : "File Upload 1",
+    "title" : "File Upload 1",
+    "time" : {
+      "start" : 1501178332841,
+      "stop" : 1501178355272,
+      "duration" : 22431
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "a8cb33d7d956f6e",
+      "name" : "first file upload",
+      "title" : "first file upload",
+      "time" : {
+        "start" : 1501178332841,
+        "stop" : 1501178355272,
+        "duration" : 22431
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "6fcf0f3c16235177",
+    "name" : "Sign Back In",
+    "title" : "Sign Back In",
+    "time" : {
+      "start" : 1501178288956,
+      "stop" : 1501178293379,
+      "duration" : 4423
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "96eb9178ac6d6311",
+      "name" : "should click on continue button",
+      "title" : "should click on continue button",
+      "time" : {
+        "start" : 1501178288956,
+        "stop" : 1501178293379,
+        "duration" : 4423
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "7f4be25159fbed3d",
+    "name" : "second test for page maximization",
+    "title" : "second test for page maximization",
+    "time" : {
+      "start" : 1501178197851,
+      "stop" : 1501178198130,
+      "duration" : 279
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "d389fc2aafdc519",
+      "name" : "should maximize window",
+      "title" : "should maximize window",
+      "time" : {
+        "start" : 1501178197851,
+        "stop" : 1501178198130,
+        "duration" : 279
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "4d2a0a557f098ab3",
+    "name" : "Location - Clinic",
+    "title" : "Location - Clinic",
+    "time" : {
+      "start" : 1501178518174,
+      "stop" : 1501178521743,
+      "duration" : 3569
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 4,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "d9cbbf32ff3c8e88",
+      "name" : "navigates to Location tab",
+      "title" : "navigates to Location tab",
+      "time" : {
+        "start" : 1501178518174,
+        "stop" : 1501178518488,
+        "duration" : 314
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "52b793e5231dcd5",
+      "name" : "gets location",
+      "title" : "gets location",
+      "time" : {
+        "start" : 1501178518488,
+        "stop" : 1501178518844,
+        "duration" : 356
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "cef374c225b88f76",
+      "name" : "takes screenshot of G-Map Integration",
+      "title" : "takes screenshot of G-Map Integration",
+      "time" : {
+        "start" : 1501178518844,
+        "stop" : 1501178521150,
+        "duration" : 2306
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "aeda3961f3f8cce7",
+      "name" : "clicks to Update Location",
+      "title" : "clicks to Update Location",
+      "time" : {
+        "start" : 1501178521150,
+        "stop" : 1501178521442,
+        "duration" : 292
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "ab2c6607765e02c5",
+      "name" : "uploads a clinic photo",
+      "title" : "uploads a clinic photo",
+      "time" : {
+        "start" : 1501178521443,
+        "stop" : 1501178521743,
+        "duration" : 300
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "77631d6052c47d13",
+    "name" : "First Test For Page Visit",
+    "title" : "First Test For Page Visit",
+    "time" : {
+      "start" : 1501178184359,
+      "stop" : 1501178197846,
+      "duration" : 13487
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "4bc86c2f7387568e",
+      "name" : "should go to the ERP Sign Up Page",
+      "title" : "should go to the ERP Sign Up Page",
+      "time" : {
+        "start" : 1501178184359,
+        "stop" : 1501178197846,
+        "duration" : 13487
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "6808bd4477ff07d2",
+    "name" : "Set Doctors",
+    "title" : "Set Doctors",
+    "time" : {
+      "start" : 1501178473355,
+      "stop" : 1501178477950,
+      "duration" : 4595
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "9c4ad151a5fe4dc0",
+      "name" : "should select whether owner is a doctor or not and then add doctors based on that",
+      "title" : "should select whether owner is a doctor or not and then add doctors based on that",
+      "time" : {
+        "start" : 1501178473355,
+        "stop" : 1501178477950,
+        "duration" : 4595
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "c1b86c5aa8a64f69",
+    "name" : "Paragraph text",
+    "title" : "Paragraph text",
+    "time" : {
+      "start" : 1501178202913,
+      "stop" : 1501178205275,
+      "duration" : 2362
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "ce056461c90d587e",
+      "name" : "should check if paragraph heading is displayed and print to console",
+      "title" : "should check if paragraph heading is displayed and print to console",
+      "time" : {
+        "start" : 1501178202913,
+        "stop" : 1501178205275,
+        "duration" : 2362
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "9b985d05a13353a7",
+    "name" : "Doctors - Clinic",
+    "title" : "Doctors - Clinic",
+    "time" : {
+      "start" : 1501178521745,
+      "stop" : 1501178530188,
+      "duration" : 8443
+    },
+    "statistic" : {
+      "total" : 5,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 4,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "51e9018d58afbbc3",
+      "name" : "goes to Doctors link",
+      "title" : "goes to Doctors link",
+      "time" : {
+        "start" : 1501178521745,
+        "stop" : 1501178522022,
+        "duration" : 277
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "2319c8da0061a0c8",
+      "name" : "gets Doctors name function",
+      "title" : "gets Doctors name function",
+      "time" : {
+        "start" : 1501178522022,
+        "stop" : 1501178522284,
+        "duration" : 262
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "19f321c3a2728dfd",
+      "name" : "sets doctor consultation time",
+      "title" : "sets doctor consultation time",
+      "time" : {
+        "start" : 1501178522284,
+        "stop" : 1501178529602,
+        "duration" : 7318
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "acb005d8d920965",
+      "name" : "sets doctor consultation cost",
+      "title" : "sets doctor consultation cost",
+      "time" : {
+        "start" : 1501178529602,
+        "stop" : 1501178529903,
+        "duration" : 301
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "c2672bf67793e306",
+      "name" : "clicks on update button",
+      "title" : "clicks on update button",
+      "time" : {
+        "start" : 1501178529903,
+        "stop" : 1501178530188,
+        "duration" : 285
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "uid" : "725473c16617643a",
+    "name" : "File Upload 3",
+    "title" : "File Upload 3",
+    "time" : {
+      "start" : 1501178377705,
+      "stop" : 1501178400123,
+      "duration" : 22418
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "c306982cbf5be4ad",
+      "name" : "uploads third document",
+      "title" : "uploads third document",
+      "time" : {
+        "start" : 1501178377705,
+        "stop" : 1501178400123,
+        "duration" : 22418
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "a26134cc39661ccf",
+    "name" : "Profile UI Tests",
+    "title" : "Profile UI Tests",
+    "time" : {
+      "start" : 1501178502106,
+      "stop" : 1501178512256,
+      "duration" : 10150
+    },
+    "statistic" : {
+      "total" : 6,
+      "passed" : 6,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "35039d651648d470",
+      "name" : "checks navbar displayed",
+      "title" : "checks navbar displayed",
+      "time" : {
+        "start" : 1501178502106,
+        "stop" : 1501178504459,
+        "duration" : 2353
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "23b746f486e4855a",
+      "name" : "checks sidebar displayed",
+      "title" : "checks sidebar displayed",
+      "time" : {
+        "start" : 1501178504459,
+        "stop" : 1501178506805,
+        "duration" : 2346
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "a14167dd22b63907",
+      "name" : "checks Profile Section",
+      "title" : "checks Profile Section",
+      "time" : {
+        "start" : 1501178506805,
+        "stop" : 1501178509152,
+        "duration" : 2347
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "ad770182381dfcf6",
+      "name" : "checks body container",
+      "title" : "checks body container",
+      "time" : {
+        "start" : 1501178509152,
+        "stop" : 1501178511501,
+        "duration" : 2349
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "d2a5c4d5a87b642c",
+      "name" : "checks that doctor name is in page source",
+      "title" : "checks that doctor name is in page source",
+      "time" : {
+        "start" : 1501178511501,
+        "stop" : 1501178511879,
+        "duration" : 378
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "77f2f18ebf3510ea",
+      "name" : "checks that clinic name is in page source",
+      "title" : "checks that clinic name is in page source",
+      "time" : {
+        "start" : 1501178511879,
+        "stop" : 1501178512256,
+        "duration" : 377
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "3dc70bec08a59c37",
+    "name" : "Setting the Name",
+    "title" : "Setting the Name",
+    "time" : {
+      "start" : 1501178219501,
+      "stop" : 1501178223061,
+      "duration" : 3560
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "cf723786b382a98b",
+      "name" : "should set the username",
+      "title" : "should set the username",
+      "time" : {
+        "start" : 1501178219501,
+        "stop" : 1501178223061,
+        "duration" : 3560
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  }, {
+    "uid" : "cef2898fbcf042f0",
     "name" : "Tour Button",
     "title" : "Tour Button",
     "time" : {
-      "start" : 1500450162025,
-      "stop" : 1500450164383,
+      "start" : 1501178207668,
+      "stop" : 1501178210026,
       "duration" : 2358
     },
     "statistic" : {
@@ -1264,118 +1851,66 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "92c105e318edff23",
+      "uid" : "94ef7ecfaf7b3333",
       "name" : "should check if tour button is displayed",
       "title" : "should check if tour button is displayed",
       "time" : {
-        "start" : 1500450162025,
-        "stop" : 1500450164383,
+        "start" : 1501178207668,
+        "stop" : 1501178210026,
         "duration" : 2358
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "6a8aa6360ab79bc5",
-    "name" : "Content Heading",
-    "title" : "Content Heading",
+    "uid" : "8bcef9010e75697b",
+    "name" : "Selecting Clinic",
+    "title" : "Selecting Clinic",
     "time" : {
-      "start" : 1500450164384,
-      "stop" : 1500450171476,
-      "duration" : 7092
-    },
-    "statistic" : {
-      "total" : 3,
-      "passed" : 3,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "1aef68e7e157a7ef",
-      "name" : "checks if content header is displayed",
-      "title" : "checks if content header is displayed",
-      "time" : {
-        "start" : 1500450164384,
-        "stop" : 1500450166766,
-        "duration" : 2382
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "22ef30e05b0c481d",
-      "name" : "checks if the content header part 1 is displayed",
-      "title" : "checks if the content header part 1 is displayed",
-      "time" : {
-        "start" : 1500450166766,
-        "stop" : 1500450169120,
-        "duration" : 2354
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    }, {
-      "uid" : "7c697d940da792df",
-      "name" : "checks if the content header part 2 is displayed",
-      "title" : "checks if the content header part 2 is displayed",
-      "time" : {
-        "start" : 1500450169120,
-        "stop" : 1500450171476,
-        "duration" : 2356
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "11c0d05c1a615ba",
-    "name" : "Set Staff",
-    "title" : "Set Staff",
-    "time" : {
-      "start" : 1500450412014,
-      "stop" : 1500450412621,
-      "duration" : 607
+      "start" : 1501178439897,
+      "stop" : 1501178455197,
+      "duration" : 15300
     },
     "statistic" : {
       "total" : 2,
-      "passed" : 0,
+      "passed" : 2,
       "pending" : 0,
       "canceled" : 0,
-      "failed" : 2,
+      "failed" : 0,
       "broken" : 0
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "55353d635b724e1c",
-      "name" : "setting staff details with name and other details",
-      "title" : "setting staff details with name and other details",
+      "uid" : "fb75c420719158a4",
+      "name" : "should select clinic",
+      "title" : "should select clinic",
       "time" : {
-        "start" : 1500450412014,
-        "stop" : 1500450412333,
-        "duration" : 319
+        "start" : 1501178439897,
+        "stop" : 1501178447721,
+        "duration" : 7824
       },
       "severity" : "NORMAL",
-      "status" : "FAILED"
+      "status" : "PASSED"
     }, {
-      "uid" : "215cc93badece3d5",
-      "name" : "should click on NEXT button",
-      "title" : "should click on NEXT button",
+      "uid" : "16c11a0881dfb9ba",
+      "name" : "clicks on Go To Clinic Btn",
+      "title" : "clicks on Go To Clinic Btn",
       "time" : {
-        "start" : 1500450412333,
-        "stop" : 1500450412621,
-        "duration" : 288
+        "start" : 1501178447721,
+        "stop" : 1501178455197,
+        "duration" : 7476
       },
       "severity" : "NORMAL",
-      "status" : "FAILED"
+      "status" : "PASSED"
     } ]
   }, {
-    "uid" : "554a8ef68e326517",
+    "uid" : "3a3424778f6418d9",
     "name" : "Logo",
     "title" : "Logo",
     "time" : {
-      "start" : 1500450152490,
-      "stop" : 1500450154885,
-      "duration" : 2395
+      "start" : 1501178198132,
+      "stop" : 1501178200520,
+      "duration" : 2388
     },
     "statistic" : {
       "total" : 1,
@@ -1387,88 +1922,25 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "f14a3472418ffc80",
+      "uid" : "23d290fd9bce7d6b",
       "name" : "MySwaasth Logo is displayed",
       "title" : "MySwaasth Logo is displayed",
       "time" : {
-        "start" : 1500450152490,
-        "stop" : 1500450154885,
-        "duration" : 2395
+        "start" : 1501178198132,
+        "stop" : 1501178200520,
+        "duration" : 2388
       },
       "severity" : "NORMAL",
       "status" : "PASSED"
     } ]
   }, {
-    "uid" : "455ea2dab7d0b1e4",
-    "name" : "Services - Clinic",
-    "title" : "Services - Clinic",
+    "uid" : "dbdea9e82739c8f0",
+    "name" : "Register Button",
+    "title" : "Register Button",
     "time" : {
-      "start" : 1500450463363,
-      "stop" : 1500450464505,
-      "duration" : 1142
-    },
-    "statistic" : {
-      "total" : 4,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 4,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "f81ee3225902a39",
-      "name" : "navigates to Services route",
-      "title" : "navigates to Services route",
-      "time" : {
-        "start" : 1500450463363,
-        "stop" : 1500450463632,
-        "duration" : 269
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "5807bf31646d716a",
-      "name" : "gets clinic services",
-      "title" : "gets clinic services",
-      "time" : {
-        "start" : 1500450463632,
-        "stop" : 1500450463886,
-        "duration" : 254
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "34dc406abc216a81",
-      "name" : "sets name of new procedure",
-      "title" : "sets name of new procedure",
-      "time" : {
-        "start" : 1500450463886,
-        "stop" : 1500450464192,
-        "duration" : 306
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    }, {
-      "uid" : "d7edd181fbadfa9",
-      "name" : "sets amount for new procedure",
-      "title" : "sets amount for new procedure",
-      "time" : {
-        "start" : 1500450464192,
-        "stop" : 1500450464505,
-        "duration" : 313
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "7c507cf7e02ca885",
-    "name" : "Setting the mobile",
-    "title" : "Setting the mobile",
-    "time" : {
-      "start" : 1500450180925,
-      "stop" : 1500450184392,
-      "duration" : 3467
+      "start" : 1501178233502,
+      "stop" : 1501178240948,
+      "duration" : 7446
     },
     "statistic" : {
       "total" : 1,
@@ -1480,373 +1952,13 @@
     },
     "description" : null,
     "testCases" : [ {
-      "uid" : "d08450790277dfd3",
-      "name" : "should set the mobile number",
-      "title" : "should set the mobile number",
+      "uid" : "251c129ebb4f6245",
+      "name" : "checks if Register Button is Displayed and Enabled",
+      "title" : "checks if Register Button is Displayed and Enabled",
       "time" : {
-        "start" : 1500450180925,
-        "stop" : 1500450184392,
-        "duration" : 3467
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "29c75d84260a8dd",
-    "name" : "Paragraph 2",
-    "title" : "Paragraph 2",
-    "time" : {
-      "start" : 1500450159656,
-      "stop" : 1500450162023,
-      "duration" : 2367
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "7d455761d6c5c090",
-      "name" : "should check if paragraph heading part 2 is displayed ",
-      "title" : "should check if paragraph heading part 2 is displayed ",
-      "time" : {
-        "start" : 1500450159656,
-        "stop" : 1500450162023,
-        "duration" : 2367
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "94ec5fd43db21fb5",
-    "name" : "Setting the Name",
-    "title" : "Setting the Name",
-    "time" : {
-      "start" : 1500450173851,
-      "stop" : 1500450177401,
-      "duration" : 3550
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "40318f20ec9977",
-      "name" : "should set the username",
-      "title" : "should set the username",
-      "time" : {
-        "start" : 1500450173851,
-        "stop" : 1500450177401,
-        "duration" : 3550
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "dd67000a7ae052a",
-    "name" : "Clinic Name",
-    "title" : "Clinic Name",
-    "time" : {
-      "start" : 1500450251009,
-      "stop" : 1500450254646,
-      "duration" : 3637
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "6c796697bcdefbcb",
-      "name" : "enters the clinic name",
-      "title" : "enters the clinic name",
-      "time" : {
-        "start" : 1500450251009,
-        "stop" : 1500450254646,
-        "duration" : 3637
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "8c7d01cea9d379a2",
-    "name" : "Setting Time",
-    "title" : "Setting Time",
-    "time" : {
-      "start" : 1500450408606,
-      "stop" : 1500450408999,
-      "duration" : 393
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 1,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "7a3000205faf50c1",
-      "name" : "should check the heading text on Time Page",
-      "title" : "should check the heading text on Time Page",
-      "time" : {
-        "start" : 1500450408606,
-        "stop" : 1500450408999,
-        "duration" : 393
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "10f3ef8ad47f0a60",
-    "name" : "Continue",
-    "title" : "Continue",
-    "time" : {
-      "start" : 1500450281600,
-      "stop" : 1500450289169,
-      "duration" : 7569
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "5bd5f57906ced17b",
-      "name" : "clicking on continue button",
-      "title" : "clicking on continue button",
-      "time" : {
-        "start" : 1500450281600,
-        "stop" : 1500450289169,
-        "duration" : 7569
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "9255001a9ae1f058",
-    "name" : "Verification Heading",
-    "title" : "Verification Heading",
-    "time" : {
-      "start" : 1500450362922,
-      "stop" : 1500450365444,
-      "duration" : 2522
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "6a0b3294d682b5cf",
-      "name" : "should match the verification heading text",
-      "title" : "should match the verification heading text",
-      "time" : {
-        "start" : 1500450362922,
-        "stop" : 1500450365444,
-        "duration" : 2522
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "bdf2f91cef999be2",
-    "name" : "Paragraph text",
-    "title" : "Paragraph text",
-    "time" : {
-      "start" : 1500450157253,
-      "stop" : 1500450159652,
-      "duration" : 2399
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "564f8473d4143b37",
-      "name" : "should check if paragraph heading is displayed and print to console",
-      "title" : "should check if paragraph heading is displayed and print to console",
-      "time" : {
-        "start" : 1500450157253,
-        "stop" : 1500450159652,
-        "duration" : 2399
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "290afb8d9c39f603",
-    "name" : "First Test For Page Visit",
-    "title" : "First Test For Page Visit",
-    "time" : {
-      "start" : 1500450140546,
-      "stop" : 1500450152216,
-      "duration" : 11670
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "f7585403c6b33327",
-      "name" : "should go to the ERP Sign Up Page",
-      "title" : "should go to the ERP Sign Up Page",
-      "time" : {
-        "start" : 1500450140546,
-        "stop" : 1500450152216,
-        "duration" : 11670
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "2bc03d14529258dc",
-    "name" : "Add Staff Heading",
-    "title" : "Add Staff Heading",
-    "time" : {
-      "start" : 1500450411410,
-      "stop" : 1500450411706,
-      "duration" : 296
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 0,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 1,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "d523f8371f58a4b3",
-      "name" : "should verify the Add Staff heading text",
-      "title" : "should verify the Add Staff heading text",
-      "time" : {
-        "start" : 1500450411410,
-        "stop" : 1500450411706,
-        "duration" : 296
-      },
-      "severity" : "NORMAL",
-      "status" : "FAILED"
-    } ]
-  }, {
-    "uid" : "33570123ffeb84c3",
-    "name" : "Sign Back In",
-    "title" : "Sign Back In",
-    "time" : {
-      "start" : 1500450246382,
-      "stop" : 1500450251007,
-      "duration" : 4625
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "947ec5607c803bc",
-      "name" : "should click on continue button",
-      "title" : "should click on continue button",
-      "time" : {
-        "start" : 1500450246382,
-        "stop" : 1500450251007,
-        "duration" : 4625
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "54023bd2f6dec184",
-    "name" : "Header Bar",
-    "title" : "Header Bar",
-    "time" : {
-      "start" : 1500450154886,
-      "stop" : 1500450157251,
-      "duration" : 2365
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "8f7bdf103e745c9e",
-      "name" : "should highlight the header bar",
-      "title" : "should highlight the header bar",
-      "time" : {
-        "start" : 1500450154886,
-        "stop" : 1500450157251,
-        "duration" : 2365
-      },
-      "severity" : "NORMAL",
-      "status" : "PASSED"
-    } ]
-  }, {
-    "uid" : "b7f2fafa90dd9c70",
-    "name" : "Go to Mahaflox",
-    "title" : "Go to Mahaflox",
-    "time" : {
-      "start" : 1500450206790,
-      "stop" : 1500450226286,
-      "duration" : 19496
-    },
-    "statistic" : {
-      "total" : 1,
-      "passed" : 1,
-      "pending" : 0,
-      "canceled" : 0,
-      "failed" : 0,
-      "broken" : 0
-    },
-    "description" : null,
-    "testCases" : [ {
-      "uid" : "11dcd77ceb4aaf56",
-      "name" : "opening a new window and get OTP",
-      "title" : "opening a new window and get OTP",
-      "time" : {
-        "start" : 1500450206790,
-        "stop" : 1500450226286,
-        "duration" : 19496
+        "start" : 1501178233502,
+        "stop" : 1501178240948,
+        "duration" : 7446
       },
       "severity" : "NORMAL",
       "status" : "PASSED"

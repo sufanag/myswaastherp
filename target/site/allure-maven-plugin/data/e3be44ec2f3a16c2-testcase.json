@@ -1,0 +1,44 @@
+{
+  "uid" : "e3be44ec2f3a16c2",
+  "name" : "search a procedure by key",
+  "title" : "search a procedure by key",
+  "time" : {
+    "start" : 1501178485680,
+    "stop" : 1501178492690,
+    "duration" : 7010
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "65c90e99d549b922",
+    "name" : "Add Procedure",
+    "title" : "Add Procedure"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "abca255a-1206-4219-95ef-6c8db0f68b8f-attachment.png",
+    "type" : "image/png",
+    "size" : 34712,
+    "uid" : "93303d607a413b9c"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Add Procedure"
+  }, {
+    "name" : "suite-title",
+    "value" : "Add Procedure"
+  } ],
+  "parameters" : [ ]
+}

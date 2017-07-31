@@ -1,0 +1,44 @@
+{
+  "uid" : "cf723786b382a98b",
+  "name" : "should set the username",
+  "title" : "should set the username",
+  "time" : {
+    "start" : 1501178219501,
+    "stop" : 1501178223061,
+    "duration" : 3560
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "3dc70bec08a59c37",
+    "name" : "Setting the Name",
+    "title" : "Setting the Name"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Screenshot",
+    "source" : "4274e3ca-efff-410c-b514-3d8843b5f618-attachment.png",
+    "type" : "image/png",
+    "size" : 76298,
+    "uid" : "2644decabcab1cd4"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Setting the Name"
+  }, {
+    "name" : "suite-title",
+    "value" : "Setting the Name"
+  } ],
+  "parameters" : [ ]
+}

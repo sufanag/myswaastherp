@@ -341,10 +341,9 @@ var setServices = function(){
         this.clickBtn = element(by.css('[ng-reflect-label="+"]'));
         this.clickBtn.click();
         //enters a new Key
-        var parentDiv = element(by.css('[ng-reflect-name="1"]'));
-        var childElement = element(by.css('[placeholder="Sample Service"]'));
-        parentDiv.element(childElement.locator()).click().sendKeys(KeyToEnter);
-        parentDiv.element(childElement.locator()).sendKeys(protractor.Key.DOWN).sendKeys(protractor.Key.ENTER);
+        this.some_element = element(by.css('div.ui-g-11.ng-pristine.ng-invalid.ng-touched > div:nth-child(1) > span > p-autocomplete > span > input'));
+        this.some_element.click().sendKeys(KeyToEnter);
+        this.some_element.sendKeys(protractor.Key.DOWN).sendKeys(protractor.Key.ENTER);
         browser.sleep(5000);
     };
 

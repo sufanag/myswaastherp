@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1501484089112" stop="1501484116750">
+	<name>Sets doctor education</name>
+	<title>Sets doctor education</title>
+	<test-cases>
+		<test-case start="1501484089112" stop="1501484094591" status="passed">
+			<name>navigates to education link</name>
+			<title>navigates to education link</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="2338b624-7ee9-469b-b9ac-6118f9c02a5f-attachment.png" type="image/png" size="54645"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501484094591" stop="1501484102157" status="passed">
+			<name>sets doctor degree</name>
+			<title>sets doctor degree</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="87df55d4-49b7-40da-aee0-f2559a613ab7-attachment.png" type="image/png" size="57121"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501484102157" stop="1501484106652" status="passed">
+			<name>sets doctor college</name>
+			<title>sets doctor college</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="8b6fed17-3191-426c-8d9b-884540df8d24-attachment.png" type="image/png" size="57754"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501484106652" stop="1501484109334" status="passed">
+			<name>sets doctor passout year</name>
+			<title>sets doctor passout year</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="f87085dc-106d-4872-a248-dcf6a5e10bcc-attachment.png" type="image/png" size="56984"/>
+			</attachments>
+		</test-case>
+		<test-case start="1501484109334" stop="1501484116749" status="passed">
+			<name>clicks on Save</name>
+			<title>clicks on Save</title>
+			<description></description>
+			<labels>
+			</labels>
+			<parameters>
+			</parameters>
+			<steps>
+			</steps>
+			<attachments>
+				<attachment title="Screenshot" source="61c5c77a-0dcf-44cd-9139-8d7f68dc8e0b-attachment.png" type="image/png" size="60328"/>
+			</attachments>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

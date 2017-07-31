@@ -12,6 +12,7 @@ var TimeSet = require('../TimeSet/timeset.js')
 var AddStaff = require('../AddStaff/addStaff.js');
 var AddProcedure = require('../AddProcedure/add_procedure.js');
 var ProfileDetails = require('../Profile/verifyProfileDetails.js');
+var DoctorDetails = require('../Doctor-Profile/verifyDoctorProfile.js');
 var Chance = require('chance');
 
 
@@ -66,45 +67,50 @@ var Profile8 = new ProfileDetails.getDoctorList();
 var Profile9 = new ProfileDetails.getServicesList();
 var Profile10 = new ProfileDetails.goToAdmin();
 
+var DoctorProfile1 = new DoctorDetails.checkProfileDoctor();
+var DoctorProfile2 = new DoctorDetails.PersonalDetails();
+var DoctorProfile3 = new DoctorDetails.Education();
+
 
 //==========================================Chance Details================================================
 var chance = new Chance();
 
 var email = (chance.email({domain:'gmail.com'}));
-console.log(email);
+console.log('Random email generated is '+email);
 exports.userEmail = email;
 
 var mobile = (chance.phone({formatted:false}));
-console.log(mobile);
+console.log('Random phone number generated is '+mobile);
 exports.phoneNumber = mobile;
 
 var specialisation = chance.string({length: 1, pool:'ACDEGHIMNOPRSTUV'});
-console.log(specialisation);
+console.log('Random Key for Specialisation is '+specialisation);
 
 var indexSearch = chance.integer({min: 1, max: 3});
-console.log(indexSearch);
+console.log('Random index for using in index is '+indexSearch);
 
 var addr_key = chance.string({length: 1, pool: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'});
-console.log(addr_key);
+console.log('Random alphabet for Address is '+addr_key);
 
 var generate_clinic_name = chance.string({length: 8, pool: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'});
-console.log(generate_clinic_name);
+console.log('Random key for clinic name is '+generate_clinic_name);
 
 var generate_procedure_key = chance.string({length:1, pool:'ABCDEFGHIJKLMNOPQRSTUVWXYZ'});
-console.log(generate_procedure_key);
+console.log('Random key for procedure is '+generate_procedure_key);
 
 var generate_amount = chance.integer({min:10,max:10000});
 var otpNumber;
 
 //===============================================Start of Specs=============================================
 
-console.log('This is for a successful sign up ==================>');
+console.log('This is start of spec section ==================>');
 
 describe('First Test For Page Visit', ()=> {
 
      browser.ignoreSynchronization = true;
 
     it('should go to the ERP Sign Up Page', ()=> {
+        console.log("Start of the Sign Up============>");
         page.visit();
     });
             
@@ -185,6 +191,7 @@ describe('Setting the Name', ()=> {
 
     
     it('should set the username', ()=> {
+        console.log("Start of Sign up fields ===========>");
         page.setUserName("Rahul Yadav");
     });
            
@@ -194,6 +201,7 @@ describe('Setting the email', ()=> {
     
     
     it('should set the email', ()=> {
+        console.log("Start of email==========>");
         page.setemail(email);
     });        
 });
@@ -201,6 +209,7 @@ describe('Setting the email', ()=> {
 describe('Setting the mobile', ()=> {
     
     it('should set the mobile number', ()=> {
+        console.log("Start of Number Block =========>");
         page.setMobileNumber(mobile);
     });
         
@@ -209,7 +218,7 @@ describe('Setting the mobile', ()=> {
 describe('Correct Password', ()=> {
     
     it('should be setting the password', ()=> {
-        
+        console.log('Start of Password=========>');
         page.setPassword("rahulyadav");
     });        
 });
@@ -552,7 +561,13 @@ describe('Add Procedure', ()=> {
 
 
 describe('Profile Smoke Tests', ()=> {
-       
+
+    
+    it('goes to correct clinic', ()=> {
+        Select_Clinic.clinicToGetOptions2();
+        Select_Clinic.clinicCompleteProfile();
+    });
+    
     it('checks the page url', ()=> {
         Profile1.checkPageURL();
     });
@@ -752,6 +767,91 @@ describe('Goes to Edit Profile', ()=> {
     });
         
 });
+
+
+describe('Gets the doctor profile', ()=> {
+    
+    it('verifies user is on profile page', ()=> {
+        DoctorProfile1.checkPageURL();
+    });
+   
+    it('clicks on Continue button', ()=> {
+        DoctorProfile1.clickContinueBtn();
+    });
+        
+   
+    it('gets all the menu options', function() {
+        DoctorProfile1.getSettingsOptionsForClinic();
+    });
+            
+});
+
+
+describe('Starts setting doctor profile', ()=> {
+    
+    it('sets Prefix', ()=> {
+        DoctorProfile2.setPersonPrefix(indexSearch);
+    });
+
+    
+    it('gets doctor name', ()=> {
+        DoctorProfile2.getPersonName('Rahul Yadav');
+    });
+
+    
+    it('sets the gender of doctor', ()=> {
+        DoctorProfile2.setGenderOfDoctor(indexSearch);
+    });
+    
+    
+    it('sets years of experience', ()=> {
+        DoctorProfile2.setExperience();
+    });
+
+    
+    it('sets doctor information', ()=> {
+        DoctorProfile2.aboutDoctor();
+    });
+
+  
+    it('clicks on UPDATE', ()=> {
+        DoctorProfile2.updateBtn();
+    });
+                
+        
+});
+
+
+describe('Sets doctor education', ()=> {
+    
+    it('navigates to education link', ()=> {
+        DoctorProfile3.navigateLink()
+    });
+
+    
+    it('sets doctor degree', ()=> {
+        DoctorProfile3.setDegreeOfDoctor(generate_procedure_key);
+    });
+
+    
+    it('sets doctor college', ()=> {
+        DoctorProfile3.setCollegeDoctor();
+    });
+        
+    
+    it('sets doctor passout year', ()=> {
+        DoctorProfile3.passoutYear(9);
+    });
+
+    
+    it('clicks on Save', ()=> {
+        DoctorProfile3.addEducation();
+    });
+        
+        
+});
+    
+    
     
     
     
