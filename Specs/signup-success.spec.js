@@ -1,4 +1,3 @@
-const highlightElement =require('../BaseFunctionsPage/highlightelement.js');
 var signUpDetails =require('../SignUp/signup.js');
 var signUpOthersHeaders =require('../SignUp/signup-other.js');
 var otp = require('../OTP/otp.js');

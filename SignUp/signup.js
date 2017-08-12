@@ -56,9 +56,9 @@ var signUpDetails = function(){
 
 var signUpError = function(){
 
-    this.email = element(by.css('[ng-reflect-name="email_id"]'));
-    this.mobileNumber = element(by.css('[ng-reflect-name="mobile"]'));
-    this.password = element(by.css('[ng-reflect-name="password"]'));
+    this.email = element(by.css('[formcontrolname="name"]'));
+    this.mobileNumber = element(by.css('[formcontrolname="mobile"]'));
+    this.password = element(by.css('[formcontrolname="password"]'));
 
     
 

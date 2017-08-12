@@ -18,7 +18,8 @@
   ],
   "author": "Rahul Yadav <ydv.rahul09@gmail.com> (https://seleniumwithjavapython.wordpress.com/)",
   "license": "MIT",
-   "dependencies": {
+  "dependencies": {
+    "eslint-plugin-protractor": "1.40.0",
     "protractor": "^5.1.2",
     "react": "^15.4.0",
     "react-dom": "^15.4.0"
