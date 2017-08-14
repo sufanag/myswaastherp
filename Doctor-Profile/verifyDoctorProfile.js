@@ -134,6 +134,54 @@ var setEducationAndSpecialisation = function(){
 
 };
 
+var registration_and_documents = function(){
+ var parentDiv = element(by.css('ul.list'));
+
+    this.navigateLink = function(){
+        var childElement = element(by.css('[ng-reflect-router-link="registration-document"]'));
+        parentDiv.element(childElement.locator()).click();
+        browser.sleep(5000);
+    };
+
+    this.setCouncilName = function(){
+        this.addCouncilName = element(by.css('[formcontrolname="name"]'));
+        highlightElement.highlightElement(this.addCouncilName);
+        this.addCouncilName.sendKeys('Indian Medical Council');
+        browser.sleep(5000);    
+        };
+
+    this.selectYear = function(indexToEnter){
+        this.councilYear = element(by.cssContainingText('.ui-corner-all','Select year'));
+        highlightElement.highlightElement(this.councilYear);
+        this.councilYear.click();
+        console.log(indexToEnter);
+        var desiredOption = this.councilYear.all(by.tagName('li')).get(indexToEnter);
+        browser.wait(EC.visibilityOf(desiredOption), 5000);
+        desiredOption.click();
+        
+    };
+
+    this.document_upload = function(){
+        var set_name =['Id_Proof','Registration_proof','College_marksheet','Passing_certificate'];
+        var item = items[Math.floor(Math.random()*set_name.length)];
+
+        this.documentName = element(by.css('input.ui-inputtext ui-corner-all ui-state-default ui-widget ng-valid ng-touched ng-dirty'));
+        this.documentName.sendKeys(item);
+
+        this.fileUploadBtn = element(by.css('ui-inputtext ui-corner-all ui-state-default ui-widget ng-pristine ng-valid ng-touched'))
+        this.fileUploadLink = element(by.xpath("//span[contains(text(),'+Add Document')]"));
+        highlightElement.highlightElement(this.fileUploadLink);
+
+        var fileUpload = '/Users/zac01/Downloads/Images/Screenshot 2017-02-04 21.52.15.png';
+
+        absolutePath = path.resolve(__dirname,fileUpload);
+        console.log(absolutePath);
+        this.fileUploadBtn.sendKeys(absolutePath);
+        this.fileUploadLink.click();
+        browser.sleep(20000);
+    };
+};
+
 module.exports={
     checkProfileDoctor: checkDoctorProfile,
     PersonalDetails:setPersonalDetails,

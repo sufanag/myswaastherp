@@ -18,6 +18,7 @@ exports.config={
     useAllAngular2AppRoots:true,
    capabilities: {
     browserName: 'chrome',
+    //marionette: true,  
     'chromeOptions': {
       args: ['--test-type']
     }
